@@ -1,0 +1,27 @@
+# PURL configuration for http://purl.obolibrary.org/obo/exmo
+
+idspace: EXMO
+base_url: /obo/exmo
+
+products:
+- exmo.owl: https://raw.githubusercontent.com/DarkKnight0-0/exmo/main/exmo.owl
+- exmo.obo: https://raw.githubusercontent.com/DarkKnight0-0/exmo/main/exmo.obo
+
+term_browser: ontobee
+example_terms:
+- EXMO_0000000
+
+entries:
+
+- prefix: /releases/
+  replacement: https://raw.githubusercontent.com/DarkKnight0-0/exmo/v
+
+- prefix: /tracker/
+  replacement: https://github.com/DarkKnight0-0/exmo/issues
+
+- prefix: /about/
+  replacement: http://www.ontobee.org/ontology/EXMO?iri=http://purl.obolibrary.org/obo/
+
+## generic fall-through, serve direct from github by default
+- prefix: /
+  replacement: https://raw.githubusercontent.com/DarkKnight0-0/exmo/main/
