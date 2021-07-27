@@ -1,0 +1,665 @@
+<<<<<<< HEAD
+exercise,body part,equipment,difficulty
+Triceps Pressdown,Arms,Resistance Bands/Cables,Biginner
+Chest Press,"Arms, Chest, Shoulders","Barbell, Bench",Biginner
+Deadlift,Full Body/Integrated,Barbell,Advanced
+Supine Pelvic Tilts,Abs,No Equipment,Biginner
+Forward Lunge,"Butt/Hips, Legs - Thighs",Barbell,Intermediate
+Supermans,"Back, Butt/Hips, Shoulders",No Equipment,Biginner
+Hammer Curl,Arms,Dumbbells,Intermediate
+Back Squat,"Butt/Hips, Legs - Thighs",Barbell,Advanced
+Bent-over Row,"Arms, Back, Shoulders",Barbell,Advanced
+Bent Knee Push-up,"Arms, Chest, Shoulders",No Equipment,Biginner
+Bird-dog,"Abs, Back, Butt/Hips",No Equipment,Intermediate
+Cat-Cow,"Back, Chest",No Equipment,Biginner
+Cobra Exercise,"Abs, Back",No Equipment,Biginner
+Downward-facing Dog,"Arms, Back, Butt/Hips, Full Body/Integrated, Legs - Calves and Shins, Legs - Thighs",No Equipment,Intermediate
+Chest Press,"Arms, Chest, Shoulders","Bench, Dumbbells",Intermediate
+Lying Chest Fly,"Chest, Shoulders","Bench, Dumbbells",Intermediate
+Front Squat,"Back, Butt/Hips, Full Body/Integrated, Legs - Thighs",Dumbbells,Intermediate
+Ankle Flexion ,Legs - Calves and Shins,Resistance Bands/Cables,Biginner
+Push Press,Full Body/Integrated,Barbell,Advanced
+Incline Chest Press,"Chest, Shoulders","Bench, Dumbbells",Biginner
+Lateral Raise,Shoulders,Dumbbells,Biginner
+Step-up,"Butt/Hips, Legs - Thighs","Dumbbells, Raised Platform/Box",Biginner
+Wrist Curl - Extension,Arms,"Bench, Dumbbells",Biginner
+Wrist Curl - Flexion,Arms,"Bench, Dumbbells",Biginner
+Wrist Supination & Pronation Exercises,Arms,"Bench, Dumbbells",Biginner
+Front Plank,"Abs, Back",No Equipment,Intermediate
+Hip Hinge,"Butt/Hips, Legs - Thighs",Barbell,Biginner
+Incline Reverse Fly,"Back, Shoulders","Bench, Dumbbells",Biginner
+Kneeling Lat Pulldown,Back,Resistance Bands/Cables,Intermediate
+Lying Barbell Triceps Extensions ,Arms,"Barbell, Bench",Intermediate
+Lying Pullovers,Chest,"Bench, Dumbbells",Intermediate
+Side Lying Hip Abduction,Butt/Hips,No Equipment,Biginner
+Side Lying Hip Adduction,"Butt/Hips, Legs - Thighs",No Equipment,Biginner
+Medicine Ball Push-ups,"Abs, Chest, Shoulders",Medicine Ball,Advanced
+Push-up,"Arms, Chest, Shoulders",No Equipment,Intermediate
+Push-up with Single-leg Raise,"Arms, Butt/Hips, Chest, Full Body/Integrated, Shoulders",No Equipment,Advanced
+Seated Shoulder Press,"Arms, Shoulders","Barbell, Bench",Intermediate
+Seated Biceps Curl,Arms,"Bench, Dumbbells",Biginner
+Seated Overhead Press,"Arms, Shoulders","Bench, Dumbbells",Intermediate
+Seated High Back Row ,"Arms, Back, Shoulders","Bench, Resistance Bands/Cables",Biginner
+Seated Medicine Ball Trunk Rotations,Abs,Medicine Ball,Biginner
+Seated Row ,"Arms, Back",Resistance Bands/Cables,Biginner
+Glute Bridge Exercise,"Abs, Butt/Hips",No Equipment,Biginner
+Side Lunge,"Butt/Hips, Legs - Thighs",No Equipment,Intermediate
+Calf Raises,Legs - Calves and Shins,Barbell,Intermediate
+Crunch,Abs,No Equipment,Biginner
+Contralateral Limb Raises,"Back, Butt/Hips, Shoulders",No Equipment,Biginner
+Front Raise,Shoulders,Dumbbells,Biginner
+Triceps Kickback,Arms,Dumbbells,Biginner
+Stability Ball Hamstring Curl,"Butt/Hips, Legs - Thighs",Stability Ball,Intermediate
+Stability Ball Knee Tucks,"Abs, Legs - Calves and Shins",Stability Ball,Advanced
+Stability Ball Pikes,"Abs, Shoulders",Stability Ball,Advanced
+Stability Ball Prone Walkout,"Abs, Back",Stability Ball,Intermediate
+Stability Ball Push-Up,"Chest, Shoulders",Stability Ball,Intermediate
+Stability Ball Reverse Extensions,"Back, Butt/Hips",Stability Ball,Advanced
+Russian Twist,"Abs, Butt/Hips, Legs - Thighs",Stability Ball,Advanced
+Glute Bridge ,"Abs, Butt/Hips, Legs - Thighs",Stability Ball,Intermediate
+Stability Ball Shoulder Stabilization,"Back, Shoulders",Stability Ball,Intermediate
+Stability Ball Sit-ups / Crunches,Abs,Stability Ball,Biginner
+Stability Ball Wall Squats,"Butt/Hips, Legs - Thighs",Stability Ball,Biginner
+Bicep Curl,Arms,Barbell,Intermediate
+Standing Shoulder Press,"Arms, Shoulders",Barbell,Advanced
+Shrug,Back,Barbell,Intermediate
+Standing Calf Raises - Wall,Legs - Calves and Shins,No Equipment,Biginner
+Triceps Extension,Arms,Dumbbells,Intermediate
+Standing Shrug,Back,Dumbbells,Intermediate
+Reverse Ab Crunch,Abs,No Equipment,Intermediate
+TRX ® Atomic Push-up,"Abs, Arms, Chest, Shoulders",TRX,Advanced
+TRX ® Biceps Curl,"Abs, Arms",TRX,Advanced
+TRX ® Front Rollout,Abs,TRX,Advanced
+TRX ® Overhead Triceps Extension,Arms,TRX,Advanced
+TRX ® Side-straddle Golf Swings ,"Back, Chest, Shoulders",TRX,Advanced
+TRX ® Assisted Cross-over Lunge with Arm Raise,"Back, Butt/Hips, Shoulders",TRX,Intermediate
+TRX ® Assisted Side Lunge with Arm Raise,"Back, Butt/Hips, Full Body/Integrated, Legs - Calves and Shins, Shoulders",TRX,Intermediate
+TRX ® Back Row,"Abs, Arms, Back",TRX,Advanced
+TRX ® Chest Press,"Abs, Arms, Chest",TRX,Advanced
+TRX ® Hamstrings Curl ,"Butt/Hips, Legs - Thighs",TRX,Advanced
+TRX ® Suspended Knee Tucks,"Abs, Chest",TRX,Advanced
+TRX ® Suspended Pike,"Abs, Shoulders",TRX,Advanced
+TRX ® Suspended Push-up,"Arms, Chest, Shoulders",TRX,Advanced
+TRX ® Hip Press,"Back, Butt/Hips, Legs - Thighs",TRX,Advanced
+TRX ® Single-arm Chest Press,"Abs, Arms, Chest",TRX,Advanced
+TRX ® Single-arm Row,"Abs, Arms, Back",TRX,Advanced
+TRX ® Suspended Lunge,"Abs, Butt/Hips, Legs - Thighs",TRX,Advanced
+Forward Lunge,"Abs, Butt/Hips, Legs - Thighs",No Equipment,Intermediate
+Forward Lunge with Arm Drivers,"Abs, Butt/Hips, Legs - Thighs",No Equipment,Advanced
+Glute Activation Lunges,"Abs, Butt/Hips, Legs - Thighs",No Equipment,Advanced
+Half-kneeling Hay Baler,Abs,Medicine Ball,Biginner
+Side Plank (Modified),"Abs, Butt/Hips",No Equipment,Advanced
+Side Plank - modified,"Abs, Butt/Hips",No Equipment,Biginner
+Side Plank with Straight Leg,"Abs, Butt/Hips",No Equipment,Intermediate
+Standing Trunk Rotation,Abs,Resistance Bands/Cables,Intermediate
+Standing Hip Adduction,"Abs, Butt/Hips, Legs - Thighs",Resistance Bands/Cables,Intermediate
+Standing Hay Baler,Abs,Medicine Ball,Advanced
+Standing Trunk Rotation,Abs,Medicine Ball,Intermediate
+Standing Single-leg Cable Rotation,Abs,Resistance Bands/Cables,Advanced
+Standing Wood Chop,Abs,Medicine Ball,Advanced
+Dirty Dog,"Abs, Butt/Hips",No Equipment,Biginner
+Hip Rotations (Push-up Position),"Abs, Butt/Hips, Legs - Thighs",No Equipment,Intermediate
+Forward Stepping over Cones ,"Abs, Butt/Hips",Cones,Biginner
+Single Leg Stand,Abs,No Equipment,Biginner
+Single-leg Stand with Reaches,Abs,Medicine Ball,Advanced
+Box Jumps,"Butt/Hips, Legs - Calves and Shins, Legs - Thighs",Raised Platform/Box,Intermediate
+Squat Jumps,"Butt/Hips, Legs - Thighs",No Equipment,Biginner
+BOSU® Squat Jumps,"Abs, Butt/Hips, Legs - Thighs",BOSU Trainer,Intermediate
+Forward Cone Jumps,"Butt/Hips, Legs - Thighs",Cones,Intermediate
+BOSU® Lateral Jumps,"Abs, Butt/Hips, Legs - Thighs",BOSU Trainer,Advanced
+Lateral Cone Jumps,"Butt/Hips, Legs - Calves and Shins, Legs - Thighs",Cones,Intermediate
+Supine Hollowing with Lower Extremity Movements,Abs,No Equipment,Biginner
+Supine Rotator Cuff ,"Abs, Shoulders",No Equipment,Biginner
+Supine Shoulder Flexion ,Shoulders,No Equipment,Biginner
+Supine Snow Angel (Wipers) Exercise,"Abs, Chest, Shoulders",No Equipment,Biginner
+Power Clean,Full Body/Integrated,Barbell,Advanced
+Single-arm Row,Back,"Bench, Dumbbells",Intermediate
+"Single-arm, Single-leg Romanian Dead Lift ","Back, Butt/Hips",Dumbbells,Advanced
+Kneeling Reverse Fly,"Back, Shoulders",Resistance Bands/Cables,Intermediate
+Sumo Rotational Squats,"Butt/Hips, Legs - Thighs",No Equipment,Intermediate
+Prone (Lying) Hamstrings Curl,Legs - Thighs,Resistance Bands/Cables,Biginner
+Standing Hamstrings Curl,"Abs, Legs - Thighs",Resistance Bands/Cables,Intermediate
+Standing Leg Extension,"Abs, Legs - Thighs",Resistance Bands/Cables,Intermediate
+Single-arm Medicine Ball Push-up,"Abs, Arms, Chest, Shoulders",Medicine Ball,Advanced
+Bodyweight Squat,"Abs, Butt/Hips, Legs - Calves and Shins, Legs - Thighs",No Equipment,Biginner
+Single Leg Squat,"Butt/Hips, Legs - Calves and Shins, Legs - Thighs",No Equipment,Intermediate
+Standing Lunge Stretch,"Butt/Hips, Legs - Thighs",No Equipment,Biginner
+Walking Lunges with Twists,"Abs, Butt/Hips, Legs - Thighs",Medicine Ball,Intermediate
+Lunge with Elbow Instep,"Abs, Butt/Hips, Full Body/Integrated, Legs - Thighs",No Equipment,Intermediate
+Kneeling Lat Stretch (w/bench),Back,Bench,Biginner
+Kneeling Hip-flexor Stretch ,"Butt/Hips, Legs - Thighs",No Equipment,Biginner
+Lunge with Overhead Press,"Abs, Butt/Hips, Full Body/Integrated, Legs - Thighs, Shoulders",Medicine Ball,Advanced
+Inverted Flyers,"Abs, Butt/Hips, Full Body/Integrated, Legs - Thighs",No Equipment,Advanced
+Glute Bridge Single Leg Progression,"Back, Butt/Hips, Legs - Thighs",No Equipment,Intermediate
+Supine Hip Flexor Stretch,"Butt/Hips, Legs - Thighs",No Equipment,Biginner
+Supine Dead Bug,Abs,No Equipment,Biginner
+Supine 90-90 Hip Rotator Stretch,"Butt/Hips, Legs - Thighs",No Equipment,Biginner
+Side Lying Quadriceps Stretch ,Legs - Thighs,No Equipment,Biginner
+Bear Crawl Exercise,Full Body/Integrated,No Equipment,Intermediate
+Standing Dorsi-Flexion (Calf Stretch),Legs - Calves and Shins,No Equipment,Biginner
+Lying Hamstrings Curl,Butt/Hips,Weight Machines / Selectorized,Biginner
+Seated Leg Press Exercise,"Butt/Hips, Legs - Thighs",Weight Machines / Selectorized,Biginner
+Standing Hip Abduction,"Abs, Butt/Hips, Full Body/Integrated","Resistance Bands/Cables, Weight Machines / Selectorized",Intermediate
+Seated Lat Pulldown,Back,Weight Machines / Selectorized,Biginner
+Standing Chest Fly,Chest,Resistance Bands/Cables,Intermediate
+Standing Decline Cable Flyes,Chest,Weight Machines / Selectorized,Intermediate
+Standing Incline Cable Flyes,Chest,Weight Machines / Selectorized,Intermediate
+Seated Cable Press,Chest,"Resistance Bands/Cables, Weight Machines / Selectorized",Biginner
+Seated Decline Cable Press ,Chest,"Resistance Bands/Cables, Weight Machines / Selectorized",Biginner
+Seated Incline Cable Press,Chest,"Resistance Bands/Cables, Weight Machines / Selectorized",Biginner
+Seated Row ,"Arms, Back",Weight Machines / Selectorized,Biginner
+Seated High Back Rows,"Arms, Back",Weight Machines / Selectorized,Biginner
+Agility Ladder: Lateral Shuffle,"Butt/Hips, Full Body/Integrated, Legs - Calves and Shins, Legs - Thighs",Ladder,Advanced
+T Drill ,Full Body/Integrated,Cones,Advanced
+Multidirectional Ladder Drill,Full Body/Integrated,Ladder,Advanced
+Overhead Triceps Stretch,Arms,No Equipment,Biginner
+Forward Linear Ladder Drill,Full Body/Integrated,Ladder,Intermediate
+Jump and Reach,"Butt/Hips, Legs - Calves and Shins, Legs - Thighs",No Equipment,Intermediate
+Forward Linear Jumps,"Butt/Hips, Full Body/Integrated, Legs - Calves and Shins, Legs - Thighs",No Equipment,Biginner
+Overhead Medicine Ball Throws,"Butt/Hips, Full Body/Integrated, Shoulders",Medicine Ball,Intermediate
+Tuck Jump,Butt/Hips,No Equipment,Intermediate
+Lateral Shuffles,"Butt/Hips, Legs - Thighs",Cones,Biginner
+Overhead Slams,"Back, Butt/Hips, Full Body/Integrated, Legs - Thighs, Shoulders",Medicine Ball,Intermediate
+Seated Leg Extension ,Legs - Thighs,Weight Machines / Selectorized,Biginner
+Seated Biceps Curl,Arms,Weight Machines / Selectorized,Biginner
+Triceps Pushdowns ,Arms,Weight Machines / Selectorized,Biginner
+Seated Shoulder Press ,"Arms, Shoulders",Weight Machines / Selectorized,Biginner
+Seated Machine Close-Grip Shoulder Press,"Arms, Shoulders",Weight Machines / Selectorized,Biginner
+Seated Chest Press  ,Chest,Weight Machines / Selectorized,Biginner
+Seated Close-Grip Chest Press,"Arms, Chest",Weight Machines / Selectorized,Biginner
+Chin-ups ,"Arms, Back",Pull up bar,Intermediate
+Pull-ups,"Arms, Back",Pull up bar,Intermediate
+Thomas Stretch,"Butt/Hips, Legs - Thighs",No Equipment,Biginner
+Kneeling TA Stretch,"Butt/Hips, Legs - Thighs",No Equipment,Biginner
+90 Lat Stretch,Back,No Equipment,Biginner
+Standing Shoulder Extension,Arms,No Equipment,Biginner
+Standing Gate Openers (Frankensteins),"Abs, Butt/Hips, Legs - Thighs",No Equipment,Intermediate
+Lateral Neck Flexion,Neck,No Equipment,Biginner
+Neck Flexion and Extension,Neck,No Equipment,Biginner
+Shoulder Packing,"Back, Shoulders",No Equipment,Biginner
+Lateral Over Unders,"Abs, Butt/Hips, Legs - Thighs","No Equipment, Raised Platform/Box",Intermediate
+Hexagon Drill,"Abs, Butt/Hips, Full Body/Integrated, Legs - Thighs",Cones,Advanced
+Seated Bent-Knee Biceps Stretch,Arms,No Equipment,Biginner
+Standing Chest Stretch,Chest,No Equipment,Biginner
+Seated Straddle Stretch ,"Back, Legs - Thighs",No Equipment,Biginner
+Step Stretch,Legs - Calves and Shins,Raised Platform/Box,Intermediate
+Seated Side-Straddle Stretch ,"Abs, Back, Legs - Thighs",No Equipment,Biginner
+Seated Toe Touches ,"Legs - Calves and Shins, Legs - Thighs",No Equipment,Biginner
+Seated Calf Stretch,Legs - Calves and Shins,No Equipment,Biginner
+Seated Straddle with Side Reaches ,"Abs, Back, Legs - Thighs",No Equipment,Intermediate
+Seated Butterfly Stretch ,Legs - Thighs,No Equipment,Biginner
+Reverse Slam,"Butt/Hips, Full Body/Integrated, Legs - Thighs, Shoulders",Medicine Ball,Intermediate
+Spinal Twist with a Push-Pull Movement,"Back, Chest, Shoulders",No Equipment,Advanced
+Forward Hurdle Run,"Butt/Hips, Legs - Calves and Shins",Hurdles,Biginner
+Squat Jump,"Butt/Hips, Legs - Thighs",No Equipment,Biginner
+Side-lying Arm Rolls,"Abs, Shoulders","Dumbbells, No Equipment",Advanced
+Standing Ankle Mobilization,Legs - Calves and Shins,No Equipment,Intermediate
+Standing Triangle Straddle Bends,"Back, Butt/Hips, Legs - Thighs",No Equipment,Intermediate
+Lateral Hurdle Run,"Full Body/Integrated, Legs - Calves and Shins, Legs - Thighs",Hurdles,Intermediate
+Childs Pose,"Abs, Back, Butt/Hips, Legs - Thighs",No Equipment,Biginner
+Warrior I,"Butt/Hips, Full Body/Integrated, Legs - Thighs",No Equipment,Biginner
+Supine Spinal Twist with Rib Grab and Progressions,"Abs, Back, Chest, Shoulders",No Equipment,Intermediate
+Single Leg Push-off,"Butt/Hips, Legs - Calves and Shins, Legs - Thighs",Raised Platform/Box,Biginner
+Leg Crossover Stretch ,"Butt/Hips, Legs - Thighs",No Equipment,Biginner
+Supine IT Band Stretch,Legs - Thighs,No Equipment,Intermediate
+Cycled Split-Squat Jump,"Butt/Hips, Legs - Calves and Shins, Legs - Thighs",No Equipment,Intermediate
+Supine Hamstrings Stretch,"Legs - Calves and Shins, Legs - Thighs",No Equipment,Biginner
+Barbell Jammers,"Abs, Butt/Hips, Full Body/Integrated, Legs - Calves and Shins, Legs - Thighs, Shoulders",Barbell,Advanced
+"Shoulder Stability-Mobility Series - I, Y, T, W Formations ",Shoulders,No Equipment,Intermediate
+Supine Reverse Marches,Abs,No Equipment,Biginner
+Supine Bicycle Crunches,Abs,No Equipment,Intermediate
+V-ups,Abs,No Equipment,Intermediate
+Vertical Toe Touches,Abs,No Equipment,Intermediate
+Upward Facing Dog,"Abs, Back",No Equipment,Biginner
+Alternate Leg Push-off ,"Butt/Hips, Legs - Calves and Shins, Legs - Thighs",Raised Platform/Box,Advanced
+Spider Walks,"Arms, Full Body/Integrated",No Equipment,Intermediate
+"Prone Scapular (Shoulder) Stabilization Series - I, Y, T, W, O Formation","Back, Shoulders",No Equipment,Intermediate
+Sprinter Pulls,Full Body/Integrated,No Equipment,Intermediate
+Inchworms,"Abs, Arms, Back, Chest, Full Body/Integrated, Shoulders",No Equipment,Advanced
+Plank with Knee Drag,"Butt/Hips, Legs - Thighs",No Equipment,Intermediate
+Mountain Climbers,"Butt/Hips, Full Body/Integrated, Legs - Thighs",No Equipment,Advanced
+CKC Parascapular Exercises,"Chest, Shoulders",No Equipment,Intermediate
+V Sit Partner Rotations,Abs,Medicine Ball,Biginner
+Medicine Ball Lunge to Chest Pass,"Abs, Back, Butt/Hips, Chest, Full Body/Integrated, Shoulders",Medicine Ball,Advanced
+Partner Assisted Bodyweight Squats,"Abs, Butt/Hips, Legs - Thighs",No Equipment,Biginner
+Partner Standing Row with Resistance Tubing ,"Arms, Back, Butt/Hips",Resistance Bands/Cables,Intermediate
+Partner Tricep Extension,"Abs, Arms, Butt/Hips",Resistance Bands/Cables,Biginner
+Quadruped Bent-knee Hip Extensions,"Abs, Butt/Hips",No Equipment,Biginner
+Lateral Zig Zags,"Legs - Calves and Shins, Legs - Thighs",Cones,Advanced
+Modified Hurdler's Stretch,Legs - Thighs,No Equipment,Biginner
+Power Push Down,"Arms, Chest",Medicine Ball,Advanced
+Rotational Slam,Full Body/Integrated,Medicine Ball,Advanced
+Squat,Butt/Hips,Medicine Ball,Intermediate
+High-low Partner See-saw,Full Body/Integrated,Resistance Bands/Cables,Intermediate
+Walking Abduction,Butt/Hips,Resistance Bands/Cables,Biginner
+Seated Crunch,Abs,Weight Machines / Selectorized,Biginner
+Tricep Extension,Arms,Weight Machines / Selectorized,Biginner
+Glute Press,Butt/Hips,Weight Machines / Selectorized,Biginner
+Calf Raise,Legs - Calves and Shins,Weight Machines / Selectorized,Biginner
+Lateral Shoulder Raise,Shoulders,Weight Machines / Selectorized,Biginner
+Supine Shoulder Roll,"Abs, Butt/Hips",Stability Ball,Intermediate
+Supine Suitcase Pass,Abs,Stability Ball,Advanced
+Prone Runner,Full Body/Integrated,Stability Ball,Advanced
+Kneeling ABC's,Abs,Stability Ball,Biginner
+Prone ABC's,Abs,Stability Ball,Advanced
+Single Leg Hamstring Curl,"Butt/Hips, Legs - Thighs",Stability Ball,Advanced
+Side Plank,Abs,BOSU Trainer,Intermediate
+Decline Plank,Abs,BOSU Trainer,Biginner
+V-twist,Abs,BOSU Trainer,Intermediate
+Burpee,Full Body/Integrated,BOSU Trainer,Advanced
+Toe Taps,Full Body/Integrated,BOSU Trainer,Intermediate
+Pistol Squat Workout,Butt/Hips,BOSU Trainer,Advanced
+Roll Out,Abs,Barbell,Advanced
+Reverse Bicep Curl,Arms,Barbell,Intermediate
+Close-grip Bench Press,"Arms, Chest",Barbell,Intermediate
+Hang Clean,Full Body/Integrated,Barbell,Advanced
+Push Jerk,Full Body/Integrated,Barbell,Advanced
+Snatch,Full Body/Integrated,Barbell,Advanced
+Front Squat to Overhead Press,Full Body/Integrated,Barbell,Advanced
+Romanian Deadlift,"Back, Butt/Hips, Legs - Thighs",Barbell,Intermediate
+Hip Bridge,Butt/Hips,Barbell,Intermediate
+Reverse Lunge,"Butt/Hips, Legs - Thighs",Barbell,Intermediate
+Plank-ups,"Abs, Arms, Chest",No Equipment,Intermediate
+Single Arm Plank,Abs,No Equipment,Intermediate
+Standing Bicep Curl,Arms,Resistance Bands/Cables,Biginner
+"Single Arm, Single Leg Plank",Full Body/Integrated,No Equipment,Advanced
+Push-up with Staggered Hands,"Arms, Chest",No Equipment,Advanced
+Lateral Crawls,Full Body/Integrated,No Equipment,Intermediate
+Single-leg Romanian Deadlift,Butt/Hips,No Equipment,Advanced
+High Plank T-spine Rotation,"Abs, Shoulders",No Equipment,Advanced
+Standing Crunch,Abs,Resistance Bands/Cables,Biginner
+Standing Anti-rotation Press,"Abs, Arms, Chest",Resistance Bands/Cables,Intermediate
+Tricep Pressdown Exercise,Arms,Resistance Bands/Cables,Biginner
+Straight Arm Pressdown,Back,Resistance Bands/Cables,Intermediate
+Standing Row,Back,Resistance Bands/Cables,Intermediate
+High Row,Back,Resistance Bands/Cables,Intermediate
+Single Arm Row,Back,Resistance Bands/Cables,Intermediate
+Single-arm Chest Press,Chest,Resistance Bands/Cables,Intermediate
+Single-arm Rotational Press,Chest,Resistance Bands/Cables,Advanced
+Kneeling Wood Chop,Full Body/Integrated,Resistance Bands/Cables,Advanced
+Kneeling Hay Baler,Full Body/Integrated,Resistance Bands/Cables,Intermediate
+Pull to Press,Full Body/Integrated,Resistance Bands/Cables,Advanced
+Side Plank Row,Full Body/Integrated,Resistance Bands/Cables,Advanced
+Squat to Row,Full Body/Integrated,Resistance Bands/Cables,Intermediate
+Lunge to Single Arm Row,Full Body/Integrated,Resistance Bands/Cables,Advanced
+Transverse Lunge to Single Arm Row,Full Body/Integrated,Resistance Bands/Cables,Advanced
+Lateral Lunge Wood Chop,Full Body/Integrated,Resistance Bands/Cables,Advanced
+Anti-rotation Reverse Lunge,Full Body/Integrated,Resistance Bands/Cables,Biginner
+Standing Rotational Chop,Full Body/Integrated,Resistance Bands/Cables,Advanced
+Single Leg Romanian Dead Lift,Butt/Hips,Resistance Bands/Cables,Advanced
+Rotator Cuff Internal Rotation,Shoulders,Resistance Bands/Cables,Biginner
+Rotator Cuff External Rotation,Shoulders,Resistance Bands/Cables,Biginner
+Reverse Fly,"Back, Shoulders",Resistance Bands/Cables,Intermediate
+Single-arm Lateral Raise,Shoulders,Resistance Bands/Cables,Biginner
+Renegade Row,Full Body/Integrated,Dumbbells,Advanced
+Offset Single-arm Chest Press,"Chest, Full Body/Integrated","Bench, Dumbbells",Advanced
+Squat to Overhead Press,Full Body/Integrated,Dumbbells,Advanced
+Suitcase Carry,Full Body/Integrated,Dumbbells,Intermediate
+Farmer's Carry,Full Body/Integrated,Dumbbells,Intermediate
+Reverse Lunge with Rotation,"Abs, Full Body/Integrated, Legs - Thighs",Dumbbells,Advanced
+Squat to Overhead Raise,"Abs, Full Body/Integrated, Legs - Thighs, Shoulders",Dumbbells,Intermediate
+Goblet Squat,"Butt/Hips, Legs - Thighs",Dumbbells,Intermediate
+Lunge,"Butt/Hips, Legs - Thighs",Dumbbells,Intermediate
+Lateral Lunge,"Butt/Hips, Legs - Thighs",Dumbbells,Intermediate
+Transverse Lunge,Butt/Hips,Dumbbells,Advanced
+Bulgarian Split Squat,Butt/Hips,"Bench, Dumbbells",Advanced
+Elevated Glute Bridge,Butt/Hips,"Bench, Dumbbells",Intermediate
+Rotational Overhead Press,Shoulders,Dumbbells,Advanced
+Rotational Uppercut,"Arms, Full Body/Integrated, Shoulders",Dumbbells,Intermediate
+V-raise,Shoulders,Dumbbells,Biginner
+Diagonal Raise,Shoulders,Dumbbells,Intermediate
+Simultaneous Waves,Full Body/Integrated,Heavy Ropes,Advanced
+Simultaneous Wave with Reverse Lunges,Full Body/Integrated,Heavy Ropes,Advanced
+Asynchronous Waves,Full Body/Integrated,Heavy Ropes,Advanced
+Lateral Waves,Full Body/Integrated,Heavy Ropes,Advanced
+Double Rotation Waves,Full Body/Integrated,Heavy Ropes,Advanced
+Pull-over Crunch,Abs,Kettlebells,Intermediate
+Half Turkish Get-up,Full Body/Integrated,Kettlebells,Intermediate
+Figure Eight,Full Body/Integrated,Kettlebells,Intermediate
+Clean and Press,Full Body/Integrated,Kettlebells,Advanced
+Double Push-press,Full Body/Integrated,Kettlebells,Advanced
+Push-jerk,Full Body/Integrated,Kettlebells,Advanced
+High Windmill,Full Body/Integrated,Kettlebells,Advanced
+Low Windmill,Full Body/Integrated,Kettlebells,Advanced
+Turkish Get-up,Full Body/Integrated,Kettlebells,Advanced
+Suitcase Carry,Full Body/Integrated,Kettlebells,Intermediate
+Waiter's Carry,Full Body/Integrated,Kettlebells,Advanced
+Swing,Full Body/Integrated,Kettlebells,Intermediate
+Single Arm Swing,Full Body/Integrated,Kettlebells,Advanced
+Single Arm Overhead Squat,"Back, Full Body/Integrated, Legs - Thighs, Shoulders",Kettlebells,Advanced
+Halo,"Back, Butt/Hips, Chest, Full Body/Integrated, Legs - Thighs, Shoulders",Kettlebells,Advanced
+Single Arm Overhead Press,"Full Body/Integrated, Shoulders",Kettlebells,Intermediate
+Bottom-up Press,"Chest, Full Body/Integrated, Shoulders",Kettlebells,Advanced
+=======
+exercise,body part,equipment,difficulty
+Triceps Pressdown,Arms,Resistance Bands/Cables,Biginner
+Chest Press,"Arms, Chest, Shoulders","Barbell, Bench",Biginner
+Deadlift,Full Body/Integrated,Barbell,Advanced
+Supine Pelvic Tilts,Abs,No Equipment,Biginner
+Forward Lunge,"Butt/Hips, Legs - Thighs",Barbell,Intermediate
+Supermans,"Back, Butt/Hips, Shoulders",No Equipment,Biginner
+Hammer Curl,Arms,Dumbbells,Intermediate
+Back Squat,"Butt/Hips, Legs - Thighs",Barbell,Advanced
+Bent-over Row,"Arms, Back, Shoulders",Barbell,Advanced
+Bent Knee Push-up,"Arms, Chest, Shoulders",No Equipment,Biginner
+Bird-dog,"Abs, Back, Butt/Hips",No Equipment,Intermediate
+Cat-Cow,"Back, Chest",No Equipment,Biginner
+Cobra Exercise,"Abs, Back",No Equipment,Biginner
+Downward-facing Dog,"Arms, Back, Butt/Hips, Full Body/Integrated, Legs - Calves and Shins, Legs - Thighs",No Equipment,Intermediate
+Chest Press,"Arms, Chest, Shoulders","Bench, Dumbbells",Intermediate
+Lying Chest Fly,"Chest, Shoulders","Bench, Dumbbells",Intermediate
+Front Squat,"Back, Butt/Hips, Full Body/Integrated, Legs - Thighs",Dumbbells,Intermediate
+Ankle Flexion ,Legs - Calves and Shins,Resistance Bands/Cables,Biginner
+Push Press,Full Body/Integrated,Barbell,Advanced
+Incline Chest Press,"Chest, Shoulders","Bench, Dumbbells",Biginner
+Lateral Raise,Shoulders,Dumbbells,Biginner
+Step-up,"Butt/Hips, Legs - Thighs","Dumbbells, Raised Platform/Box",Biginner
+Wrist Curl - Extension,Arms,"Bench, Dumbbells",Biginner
+Wrist Curl - Flexion,Arms,"Bench, Dumbbells",Biginner
+Wrist Supination & Pronation Exercises,Arms,"Bench, Dumbbells",Biginner
+Front Plank,"Abs, Back",No Equipment,Intermediate
+Hip Hinge,"Butt/Hips, Legs - Thighs",Barbell,Biginner
+Incline Reverse Fly,"Back, Shoulders","Bench, Dumbbells",Biginner
+Kneeling Lat Pulldown,Back,Resistance Bands/Cables,Intermediate
+Lying Barbell Triceps Extensions ,Arms,"Barbell, Bench",Intermediate
+Lying Pullovers,Chest,"Bench, Dumbbells",Intermediate
+Side Lying Hip Abduction,Butt/Hips,No Equipment,Biginner
+Side Lying Hip Adduction,"Butt/Hips, Legs - Thighs",No Equipment,Biginner
+Medicine Ball Push-ups,"Abs, Chest, Shoulders",Medicine Ball,Advanced
+Push-up,"Arms, Chest, Shoulders",No Equipment,Intermediate
+Push-up with Single-leg Raise,"Arms, Butt/Hips, Chest, Full Body/Integrated, Shoulders",No Equipment,Advanced
+Seated Shoulder Press,"Arms, Shoulders","Barbell, Bench",Intermediate
+Seated Biceps Curl,Arms,"Bench, Dumbbells",Biginner
+Seated Overhead Press,"Arms, Shoulders","Bench, Dumbbells",Intermediate
+Seated High Back Row ,"Arms, Back, Shoulders","Bench, Resistance Bands/Cables",Biginner
+Seated Medicine Ball Trunk Rotations,Abs,Medicine Ball,Biginner
+Seated Row ,"Arms, Back",Resistance Bands/Cables,Biginner
+Glute Bridge Exercise,"Abs, Butt/Hips",No Equipment,Biginner
+Side Lunge,"Butt/Hips, Legs - Thighs",No Equipment,Intermediate
+Calf Raises,Legs - Calves and Shins,Barbell,Intermediate
+Crunch,Abs,No Equipment,Biginner
+Contralateral Limb Raises,"Back, Butt/Hips, Shoulders",No Equipment,Biginner
+Front Raise,Shoulders,Dumbbells,Biginner
+Triceps Kickback,Arms,Dumbbells,Biginner
+Stability Ball Hamstring Curl,"Butt/Hips, Legs - Thighs",Stability Ball,Intermediate
+Stability Ball Knee Tucks,"Abs, Legs - Calves and Shins",Stability Ball,Advanced
+Stability Ball Pikes,"Abs, Shoulders",Stability Ball,Advanced
+Stability Ball Prone Walkout,"Abs, Back",Stability Ball,Intermediate
+Stability Ball Push-Up,"Chest, Shoulders",Stability Ball,Intermediate
+Stability Ball Reverse Extensions,"Back, Butt/Hips",Stability Ball,Advanced
+Russian Twist,"Abs, Butt/Hips, Legs - Thighs",Stability Ball,Advanced
+Glute Bridge ,"Abs, Butt/Hips, Legs - Thighs",Stability Ball,Intermediate
+Stability Ball Shoulder Stabilization,"Back, Shoulders",Stability Ball,Intermediate
+Stability Ball Sit-ups / Crunches,Abs,Stability Ball,Biginner
+Stability Ball Wall Squats,"Butt/Hips, Legs - Thighs",Stability Ball,Biginner
+Bicep Curl,Arms,Barbell,Intermediate
+Standing Shoulder Press,"Arms, Shoulders",Barbell,Advanced
+Shrug,Back,Barbell,Intermediate
+Standing Calf Raises - Wall,Legs - Calves and Shins,No Equipment,Biginner
+Triceps Extension,Arms,Dumbbells,Intermediate
+Standing Shrug,Back,Dumbbells,Intermediate
+Reverse Ab Crunch,Abs,No Equipment,Intermediate
+TRX ® Atomic Push-up,"Abs, Arms, Chest, Shoulders",TRX,Advanced
+TRX ® Biceps Curl,"Abs, Arms",TRX,Advanced
+TRX ® Front Rollout,Abs,TRX,Advanced
+TRX ® Overhead Triceps Extension,Arms,TRX,Advanced
+TRX ® Side-straddle Golf Swings ,"Back, Chest, Shoulders",TRX,Advanced
+TRX ® Assisted Cross-over Lunge with Arm Raise,"Back, Butt/Hips, Shoulders",TRX,Intermediate
+TRX ® Assisted Side Lunge with Arm Raise,"Back, Butt/Hips, Full Body/Integrated, Legs - Calves and Shins, Shoulders",TRX,Intermediate
+TRX ® Back Row,"Abs, Arms, Back",TRX,Advanced
+TRX ® Chest Press,"Abs, Arms, Chest",TRX,Advanced
+TRX ® Hamstrings Curl ,"Butt/Hips, Legs - Thighs",TRX,Advanced
+TRX ® Suspended Knee Tucks,"Abs, Chest",TRX,Advanced
+TRX ® Suspended Pike,"Abs, Shoulders",TRX,Advanced
+TRX ® Suspended Push-up,"Arms, Chest, Shoulders",TRX,Advanced
+TRX ® Hip Press,"Back, Butt/Hips, Legs - Thighs",TRX,Advanced
+TRX ® Single-arm Chest Press,"Abs, Arms, Chest",TRX,Advanced
+TRX ® Single-arm Row,"Abs, Arms, Back",TRX,Advanced
+TRX ® Suspended Lunge,"Abs, Butt/Hips, Legs - Thighs",TRX,Advanced
+Forward Lunge,"Abs, Butt/Hips, Legs - Thighs",No Equipment,Intermediate
+Forward Lunge with Arm Drivers,"Abs, Butt/Hips, Legs - Thighs",No Equipment,Advanced
+Glute Activation Lunges,"Abs, Butt/Hips, Legs - Thighs",No Equipment,Advanced
+Half-kneeling Hay Baler,Abs,Medicine Ball,Biginner
+Side Plank (Modified),"Abs, Butt/Hips",No Equipment,Advanced
+Side Plank - modified,"Abs, Butt/Hips",No Equipment,Biginner
+Side Plank with Straight Leg,"Abs, Butt/Hips",No Equipment,Intermediate
+Standing Trunk Rotation,Abs,Resistance Bands/Cables,Intermediate
+Standing Hip Adduction,"Abs, Butt/Hips, Legs - Thighs",Resistance Bands/Cables,Intermediate
+Standing Hay Baler,Abs,Medicine Ball,Advanced
+Standing Trunk Rotation,Abs,Medicine Ball,Intermediate
+Standing Single-leg Cable Rotation,Abs,Resistance Bands/Cables,Advanced
+Standing Wood Chop,Abs,Medicine Ball,Advanced
+Dirty Dog,"Abs, Butt/Hips",No Equipment,Biginner
+Hip Rotations (Push-up Position),"Abs, Butt/Hips, Legs - Thighs",No Equipment,Intermediate
+Forward Stepping over Cones ,"Abs, Butt/Hips",Cones,Biginner
+Single Leg Stand,Abs,No Equipment,Biginner
+Single-leg Stand with Reaches,Abs,Medicine Ball,Advanced
+Box Jumps,"Butt/Hips, Legs - Calves and Shins, Legs - Thighs",Raised Platform/Box,Intermediate
+Squat Jumps,"Butt/Hips, Legs - Thighs",No Equipment,Biginner
+BOSU® Squat Jumps,"Abs, Butt/Hips, Legs - Thighs",BOSU Trainer,Intermediate
+Forward Cone Jumps,"Butt/Hips, Legs - Thighs",Cones,Intermediate
+BOSU® Lateral Jumps,"Abs, Butt/Hips, Legs - Thighs",BOSU Trainer,Advanced
+Lateral Cone Jumps,"Butt/Hips, Legs - Calves and Shins, Legs - Thighs",Cones,Intermediate
+Supine Hollowing with Lower Extremity Movements,Abs,No Equipment,Biginner
+Supine Rotator Cuff ,"Abs, Shoulders",No Equipment,Biginner
+Supine Shoulder Flexion ,Shoulders,No Equipment,Biginner
+Supine Snow Angel (Wipers) Exercise,"Abs, Chest, Shoulders",No Equipment,Biginner
+Power Clean,Full Body/Integrated,Barbell,Advanced
+Single-arm Row,Back,"Bench, Dumbbells",Intermediate
+"Single-arm, Single-leg Romanian Dead Lift ","Back, Butt/Hips",Dumbbells,Advanced
+Kneeling Reverse Fly,"Back, Shoulders",Resistance Bands/Cables,Intermediate
+Sumo Rotational Squats,"Butt/Hips, Legs - Thighs",No Equipment,Intermediate
+Prone (Lying) Hamstrings Curl,Legs - Thighs,Resistance Bands/Cables,Biginner
+Standing Hamstrings Curl,"Abs, Legs - Thighs",Resistance Bands/Cables,Intermediate
+Standing Leg Extension,"Abs, Legs - Thighs",Resistance Bands/Cables,Intermediate
+Single-arm Medicine Ball Push-up,"Abs, Arms, Chest, Shoulders",Medicine Ball,Advanced
+Bodyweight Squat,"Abs, Butt/Hips, Legs - Calves and Shins, Legs - Thighs",No Equipment,Biginner
+Single Leg Squat,"Butt/Hips, Legs - Calves and Shins, Legs - Thighs",No Equipment,Intermediate
+Standing Lunge Stretch,"Butt/Hips, Legs - Thighs",No Equipment,Biginner
+Walking Lunges with Twists,"Abs, Butt/Hips, Legs - Thighs",Medicine Ball,Intermediate
+Lunge with Elbow Instep,"Abs, Butt/Hips, Full Body/Integrated, Legs - Thighs",No Equipment,Intermediate
+Kneeling Lat Stretch (w/bench),Back,Bench,Biginner
+Kneeling Hip-flexor Stretch ,"Butt/Hips, Legs - Thighs",No Equipment,Biginner
+Lunge with Overhead Press,"Abs, Butt/Hips, Full Body/Integrated, Legs - Thighs, Shoulders",Medicine Ball,Advanced
+Inverted Flyers,"Abs, Butt/Hips, Full Body/Integrated, Legs - Thighs",No Equipment,Advanced
+Glute Bridge Single Leg Progression,"Back, Butt/Hips, Legs - Thighs",No Equipment,Intermediate
+Supine Hip Flexor Stretch,"Butt/Hips, Legs - Thighs",No Equipment,Biginner
+Supine Dead Bug,Abs,No Equipment,Biginner
+Supine 90-90 Hip Rotator Stretch,"Butt/Hips, Legs - Thighs",No Equipment,Biginner
+Side Lying Quadriceps Stretch ,Legs - Thighs,No Equipment,Biginner
+Bear Crawl Exercise,Full Body/Integrated,No Equipment,Intermediate
+Standing Dorsi-Flexion (Calf Stretch),Legs - Calves and Shins,No Equipment,Biginner
+Lying Hamstrings Curl,Butt/Hips,Weight Machines / Selectorized,Biginner
+Seated Leg Press Exercise,"Butt/Hips, Legs - Thighs",Weight Machines / Selectorized,Biginner
+Standing Hip Abduction,"Abs, Butt/Hips, Full Body/Integrated","Resistance Bands/Cables, Weight Machines / Selectorized",Intermediate
+Seated Lat Pulldown,Back,Weight Machines / Selectorized,Biginner
+Standing Chest Fly,Chest,Resistance Bands/Cables,Intermediate
+Standing Decline Cable Flyes,Chest,Weight Machines / Selectorized,Intermediate
+Standing Incline Cable Flyes,Chest,Weight Machines / Selectorized,Intermediate
+Seated Cable Press,Chest,"Resistance Bands/Cables, Weight Machines / Selectorized",Biginner
+Seated Decline Cable Press ,Chest,"Resistance Bands/Cables, Weight Machines / Selectorized",Biginner
+Seated Incline Cable Press,Chest,"Resistance Bands/Cables, Weight Machines / Selectorized",Biginner
+Seated Row ,"Arms, Back",Weight Machines / Selectorized,Biginner
+Seated High Back Rows,"Arms, Back",Weight Machines / Selectorized,Biginner
+Agility Ladder: Lateral Shuffle,"Butt/Hips, Full Body/Integrated, Legs - Calves and Shins, Legs - Thighs",Ladder,Advanced
+T Drill ,Full Body/Integrated,Cones,Advanced
+Multidirectional Ladder Drill,Full Body/Integrated,Ladder,Advanced
+Overhead Triceps Stretch,Arms,No Equipment,Biginner
+Forward Linear Ladder Drill,Full Body/Integrated,Ladder,Intermediate
+Jump and Reach,"Butt/Hips, Legs - Calves and Shins, Legs - Thighs",No Equipment,Intermediate
+Forward Linear Jumps,"Butt/Hips, Full Body/Integrated, Legs - Calves and Shins, Legs - Thighs",No Equipment,Biginner
+Overhead Medicine Ball Throws,"Butt/Hips, Full Body/Integrated, Shoulders",Medicine Ball,Intermediate
+Tuck Jump,Butt/Hips,No Equipment,Intermediate
+Lateral Shuffles,"Butt/Hips, Legs - Thighs",Cones,Biginner
+Overhead Slams,"Back, Butt/Hips, Full Body/Integrated, Legs - Thighs, Shoulders",Medicine Ball,Intermediate
+Seated Leg Extension ,Legs - Thighs,Weight Machines / Selectorized,Biginner
+Seated Biceps Curl,Arms,Weight Machines / Selectorized,Biginner
+Triceps Pushdowns ,Arms,Weight Machines / Selectorized,Biginner
+Seated Shoulder Press ,"Arms, Shoulders",Weight Machines / Selectorized,Biginner
+Seated Machine Close-Grip Shoulder Press,"Arms, Shoulders",Weight Machines / Selectorized,Biginner
+Seated Chest Press  ,Chest,Weight Machines / Selectorized,Biginner
+Seated Close-Grip Chest Press,"Arms, Chest",Weight Machines / Selectorized,Biginner
+Chin-ups ,"Arms, Back",Pull up bar,Intermediate
+Pull-ups,"Arms, Back",Pull up bar,Intermediate
+Thomas Stretch,"Butt/Hips, Legs - Thighs",No Equipment,Biginner
+Kneeling TA Stretch,"Butt/Hips, Legs - Thighs",No Equipment,Biginner
+90 Lat Stretch,Back,No Equipment,Biginner
+Standing Shoulder Extension,Arms,No Equipment,Biginner
+Standing Gate Openers (Frankensteins),"Abs, Butt/Hips, Legs - Thighs",No Equipment,Intermediate
+Lateral Neck Flexion,Neck,No Equipment,Biginner
+Neck Flexion and Extension,Neck,No Equipment,Biginner
+Shoulder Packing,"Back, Shoulders",No Equipment,Biginner
+Lateral Over Unders,"Abs, Butt/Hips, Legs - Thighs","No Equipment, Raised Platform/Box",Intermediate
+Hexagon Drill,"Abs, Butt/Hips, Full Body/Integrated, Legs - Thighs",Cones,Advanced
+Seated Bent-Knee Biceps Stretch,Arms,No Equipment,Biginner
+Standing Chest Stretch,Chest,No Equipment,Biginner
+Seated Straddle Stretch ,"Back, Legs - Thighs",No Equipment,Biginner
+Step Stretch,Legs - Calves and Shins,Raised Platform/Box,Intermediate
+Seated Side-Straddle Stretch ,"Abs, Back, Legs - Thighs",No Equipment,Biginner
+Seated Toe Touches ,"Legs - Calves and Shins, Legs - Thighs",No Equipment,Biginner
+Seated Calf Stretch,Legs - Calves and Shins,No Equipment,Biginner
+Seated Straddle with Side Reaches ,"Abs, Back, Legs - Thighs",No Equipment,Intermediate
+Seated Butterfly Stretch ,Legs - Thighs,No Equipment,Biginner
+Reverse Slam,"Butt/Hips, Full Body/Integrated, Legs - Thighs, Shoulders",Medicine Ball,Intermediate
+Spinal Twist with a Push-Pull Movement,"Back, Chest, Shoulders",No Equipment,Advanced
+Forward Hurdle Run,"Butt/Hips, Legs - Calves and Shins",Hurdles,Biginner
+Squat Jump,"Butt/Hips, Legs - Thighs",No Equipment,Biginner
+Side-lying Arm Rolls,"Abs, Shoulders","Dumbbells, No Equipment",Advanced
+Standing Ankle Mobilization,Legs - Calves and Shins,No Equipment,Intermediate
+Standing Triangle Straddle Bends,"Back, Butt/Hips, Legs - Thighs",No Equipment,Intermediate
+Lateral Hurdle Run,"Full Body/Integrated, Legs - Calves and Shins, Legs - Thighs",Hurdles,Intermediate
+Childs Pose,"Abs, Back, Butt/Hips, Legs - Thighs",No Equipment,Biginner
+Warrior I,"Butt/Hips, Full Body/Integrated, Legs - Thighs",No Equipment,Biginner
+Supine Spinal Twist with Rib Grab and Progressions,"Abs, Back, Chest, Shoulders",No Equipment,Intermediate
+Single Leg Push-off,"Butt/Hips, Legs - Calves and Shins, Legs - Thighs",Raised Platform/Box,Biginner
+Leg Crossover Stretch ,"Butt/Hips, Legs - Thighs",No Equipment,Biginner
+Supine IT Band Stretch,Legs - Thighs,No Equipment,Intermediate
+Cycled Split-Squat Jump,"Butt/Hips, Legs - Calves and Shins, Legs - Thighs",No Equipment,Intermediate
+Supine Hamstrings Stretch,"Legs - Calves and Shins, Legs - Thighs",No Equipment,Biginner
+Barbell Jammers,"Abs, Butt/Hips, Full Body/Integrated, Legs - Calves and Shins, Legs - Thighs, Shoulders",Barbell,Advanced
+"Shoulder Stability-Mobility Series - I, Y, T, W Formations ",Shoulders,No Equipment,Intermediate
+Supine Reverse Marches,Abs,No Equipment,Biginner
+Supine Bicycle Crunches,Abs,No Equipment,Intermediate
+V-ups,Abs,No Equipment,Intermediate
+Vertical Toe Touches,Abs,No Equipment,Intermediate
+Upward Facing Dog,"Abs, Back",No Equipment,Biginner
+Alternate Leg Push-off ,"Butt/Hips, Legs - Calves and Shins, Legs - Thighs",Raised Platform/Box,Advanced
+Spider Walks,"Arms, Full Body/Integrated",No Equipment,Intermediate
+"Prone Scapular (Shoulder) Stabilization Series - I, Y, T, W, O Formation","Back, Shoulders",No Equipment,Intermediate
+Sprinter Pulls,Full Body/Integrated,No Equipment,Intermediate
+Inchworms,"Abs, Arms, Back, Chest, Full Body/Integrated, Shoulders",No Equipment,Advanced
+Plank with Knee Drag,"Butt/Hips, Legs - Thighs",No Equipment,Intermediate
+Mountain Climbers,"Butt/Hips, Full Body/Integrated, Legs - Thighs",No Equipment,Advanced
+CKC Parascapular Exercises,"Chest, Shoulders",No Equipment,Intermediate
+V Sit Partner Rotations,Abs,Medicine Ball,Biginner
+Medicine Ball Lunge to Chest Pass,"Abs, Back, Butt/Hips, Chest, Full Body/Integrated, Shoulders",Medicine Ball,Advanced
+Partner Assisted Bodyweight Squats,"Abs, Butt/Hips, Legs - Thighs",No Equipment,Biginner
+Partner Standing Row with Resistance Tubing ,"Arms, Back, Butt/Hips",Resistance Bands/Cables,Intermediate
+Partner Tricep Extension,"Abs, Arms, Butt/Hips",Resistance Bands/Cables,Biginner
+Quadruped Bent-knee Hip Extensions,"Abs, Butt/Hips",No Equipment,Biginner
+Lateral Zig Zags,"Legs - Calves and Shins, Legs - Thighs",Cones,Advanced
+Modified Hurdler's Stretch,Legs - Thighs,No Equipment,Biginner
+Power Push Down,"Arms, Chest",Medicine Ball,Advanced
+Rotational Slam,Full Body/Integrated,Medicine Ball,Advanced
+Squat,Butt/Hips,Medicine Ball,Intermediate
+High-low Partner See-saw,Full Body/Integrated,Resistance Bands/Cables,Intermediate
+Walking Abduction,Butt/Hips,Resistance Bands/Cables,Biginner
+Seated Crunch,Abs,Weight Machines / Selectorized,Biginner
+Tricep Extension,Arms,Weight Machines / Selectorized,Biginner
+Glute Press,Butt/Hips,Weight Machines / Selectorized,Biginner
+Calf Raise,Legs - Calves and Shins,Weight Machines / Selectorized,Biginner
+Lateral Shoulder Raise,Shoulders,Weight Machines / Selectorized,Biginner
+Supine Shoulder Roll,"Abs, Butt/Hips",Stability Ball,Intermediate
+Supine Suitcase Pass,Abs,Stability Ball,Advanced
+Prone Runner,Full Body/Integrated,Stability Ball,Advanced
+Kneeling ABC's,Abs,Stability Ball,Biginner
+Prone ABC's,Abs,Stability Ball,Advanced
+Single Leg Hamstring Curl,"Butt/Hips, Legs - Thighs",Stability Ball,Advanced
+Side Plank,Abs,BOSU Trainer,Intermediate
+Decline Plank,Abs,BOSU Trainer,Biginner
+V-twist,Abs,BOSU Trainer,Intermediate
+Burpee,Full Body/Integrated,BOSU Trainer,Advanced
+Toe Taps,Full Body/Integrated,BOSU Trainer,Intermediate
+Pistol Squat Workout,Butt/Hips,BOSU Trainer,Advanced
+Roll Out,Abs,Barbell,Advanced
+Reverse Bicep Curl,Arms,Barbell,Intermediate
+Close-grip Bench Press,"Arms, Chest",Barbell,Intermediate
+Hang Clean,Full Body/Integrated,Barbell,Advanced
+Push Jerk,Full Body/Integrated,Barbell,Advanced
+Snatch,Full Body/Integrated,Barbell,Advanced
+Front Squat to Overhead Press,Full Body/Integrated,Barbell,Advanced
+Romanian Deadlift,"Back, Butt/Hips, Legs - Thighs",Barbell,Intermediate
+Hip Bridge,Butt/Hips,Barbell,Intermediate
+Reverse Lunge,"Butt/Hips, Legs - Thighs",Barbell,Intermediate
+Plank-ups,"Abs, Arms, Chest",No Equipment,Intermediate
+Single Arm Plank,Abs,No Equipment,Intermediate
+Standing Bicep Curl,Arms,Resistance Bands/Cables,Biginner
+"Single Arm, Single Leg Plank",Full Body/Integrated,No Equipment,Advanced
+Push-up with Staggered Hands,"Arms, Chest",No Equipment,Advanced
+Lateral Crawls,Full Body/Integrated,No Equipment,Intermediate
+Single-leg Romanian Deadlift,Butt/Hips,No Equipment,Advanced
+High Plank T-spine Rotation,"Abs, Shoulders",No Equipment,Advanced
+Standing Crunch,Abs,Resistance Bands/Cables,Biginner
+Standing Anti-rotation Press,"Abs, Arms, Chest",Resistance Bands/Cables,Intermediate
+Tricep Pressdown Exercise,Arms,Resistance Bands/Cables,Biginner
+Straight Arm Pressdown,Back,Resistance Bands/Cables,Intermediate
+Standing Row,Back,Resistance Bands/Cables,Intermediate
+High Row,Back,Resistance Bands/Cables,Intermediate
+Single Arm Row,Back,Resistance Bands/Cables,Intermediate
+Single-arm Chest Press,Chest,Resistance Bands/Cables,Intermediate
+Single-arm Rotational Press,Chest,Resistance Bands/Cables,Advanced
+Kneeling Wood Chop,Full Body/Integrated,Resistance Bands/Cables,Advanced
+Kneeling Hay Baler,Full Body/Integrated,Resistance Bands/Cables,Intermediate
+Pull to Press,Full Body/Integrated,Resistance Bands/Cables,Advanced
+Side Plank Row,Full Body/Integrated,Resistance Bands/Cables,Advanced
+Squat to Row,Full Body/Integrated,Resistance Bands/Cables,Intermediate
+Lunge to Single Arm Row,Full Body/Integrated,Resistance Bands/Cables,Advanced
+Transverse Lunge to Single Arm Row,Full Body/Integrated,Resistance Bands/Cables,Advanced
+Lateral Lunge Wood Chop,Full Body/Integrated,Resistance Bands/Cables,Advanced
+Anti-rotation Reverse Lunge,Full Body/Integrated,Resistance Bands/Cables,Biginner
+Standing Rotational Chop,Full Body/Integrated,Resistance Bands/Cables,Advanced
+Single Leg Romanian Dead Lift,Butt/Hips,Resistance Bands/Cables,Advanced
+Rotator Cuff Internal Rotation,Shoulders,Resistance Bands/Cables,Biginner
+Rotator Cuff External Rotation,Shoulders,Resistance Bands/Cables,Biginner
+Reverse Fly,"Back, Shoulders",Resistance Bands/Cables,Intermediate
+Single-arm Lateral Raise,Shoulders,Resistance Bands/Cables,Biginner
+Renegade Row,Full Body/Integrated,Dumbbells,Advanced
+Offset Single-arm Chest Press,"Chest, Full Body/Integrated","Bench, Dumbbells",Advanced
+Squat to Overhead Press,Full Body/Integrated,Dumbbells,Advanced
+Suitcase Carry,Full Body/Integrated,Dumbbells,Intermediate
+Farmer's Carry,Full Body/Integrated,Dumbbells,Intermediate
+Reverse Lunge with Rotation,"Abs, Full Body/Integrated, Legs - Thighs",Dumbbells,Advanced
+Squat to Overhead Raise,"Abs, Full Body/Integrated, Legs - Thighs, Shoulders",Dumbbells,Intermediate
+Goblet Squat,"Butt/Hips, Legs - Thighs",Dumbbells,Intermediate
+Lunge,"Butt/Hips, Legs - Thighs",Dumbbells,Intermediate
+Lateral Lunge,"Butt/Hips, Legs - Thighs",Dumbbells,Intermediate
+Transverse Lunge,Butt/Hips,Dumbbells,Advanced
+Bulgarian Split Squat,Butt/Hips,"Bench, Dumbbells",Advanced
+Elevated Glute Bridge,Butt/Hips,"Bench, Dumbbells",Intermediate
+Rotational Overhead Press,Shoulders,Dumbbells,Advanced
+Rotational Uppercut,"Arms, Full Body/Integrated, Shoulders",Dumbbells,Intermediate
+V-raise,Shoulders,Dumbbells,Biginner
+Diagonal Raise,Shoulders,Dumbbells,Intermediate
+Simultaneous Waves,Full Body/Integrated,Heavy Ropes,Advanced
+Simultaneous Wave with Reverse Lunges,Full Body/Integrated,Heavy Ropes,Advanced
+Asynchronous Waves,Full Body/Integrated,Heavy Ropes,Advanced
+Lateral Waves,Full Body/Integrated,Heavy Ropes,Advanced
+Double Rotation Waves,Full Body/Integrated,Heavy Ropes,Advanced
+Pull-over Crunch,Abs,Kettlebells,Intermediate
+Half Turkish Get-up,Full Body/Integrated,Kettlebells,Intermediate
+Figure Eight,Full Body/Integrated,Kettlebells,Intermediate
+Clean and Press,Full Body/Integrated,Kettlebells,Advanced
+Double Push-press,Full Body/Integrated,Kettlebells,Advanced
+Push-jerk,Full Body/Integrated,Kettlebells,Advanced
+High Windmill,Full Body/Integrated,Kettlebells,Advanced
+Low Windmill,Full Body/Integrated,Kettlebells,Advanced
+Turkish Get-up,Full Body/Integrated,Kettlebells,Advanced
+Suitcase Carry,Full Body/Integrated,Kettlebells,Intermediate
+Waiter's Carry,Full Body/Integrated,Kettlebells,Advanced
+Swing,Full Body/Integrated,Kettlebells,Intermediate
+Single Arm Swing,Full Body/Integrated,Kettlebells,Advanced
+Single Arm Overhead Squat,"Back, Full Body/Integrated, Legs - Thighs, Shoulders",Kettlebells,Advanced
+Halo,"Back, Butt/Hips, Chest, Full Body/Integrated, Legs - Thighs, Shoulders",Kettlebells,Advanced
+Single Arm Overhead Press,"Full Body/Integrated, Shoulders",Kettlebells,Intermediate
+Bottom-up Press,"Chest, Full Body/Integrated, Shoulders",Kettlebells,Advanced
+>>>>>>> 32e8272b4d5b0468f0760ee02e47ac567794c291

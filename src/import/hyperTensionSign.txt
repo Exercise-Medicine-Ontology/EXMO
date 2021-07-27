@@ -1,0 +1,64 @@
+<<<<<<< HEAD
+OGMS:0000024 #sign 
+OGMS:0000029 #vital sign 
+VSO:0000004 #blood pressure 
+VSO:0000015 #diastolic blood pressure 
+VSO:0000016 #diastolic central venous pressure 
+VSO:0000017 #diastolic left ventricular pressure 
+VSO:0000018 #diastolic pulmonary artery pressure 
+VSO:0000019 #diastolic right ventricular pressure 
+VSO:0000038 #systolic blood pressure 
+VSO:0000039 #systolic central venous pressure 
+VSO:0000040 #systolic left ventricular pressure 
+VSO:0000041 #systolic pulmonary artery pressure 
+VSO:0000042 #systolic right ventricular pressure 
+VSO:0000007 #body temperature 
+VSO:0000003 #axillary temperature 
+VSO:0000013 #core body temperature 
+VSO:0000025 #oral temperature 
+VSO:0000033 #rectal temperature 
+VSO:0000045 #tympanic temperature 
+VSO:0000047 #vaginal temperature 
+VSO:0000029 #pulse rate 
+VSO:0000010 #brachial pulse rate 
+VSO:0000012 #carotid pulse rate 
+VSO:0000020 #dorsalis pedis pulse rate 
+VSO:0000021 #facial pulse rate 
+VSO:0000022 #femoral pulse rate 
+VSO:0000028 #popliteal pulse rate 
+VSO:0000032 #radial pulse rate 
+VSO:0000043 #temporal pulse rate 
+VSO:0000046 #ulnar pulse rate 
+=======
+OGMS:0000024 #sign 
+OGMS:0000029 #vital sign 
+VSO:0000004 #blood pressure 
+VSO:0000015 #diastolic blood pressure 
+VSO:0000016 #diastolic central venous pressure 
+VSO:0000017 #diastolic left ventricular pressure 
+VSO:0000018 #diastolic pulmonary artery pressure 
+VSO:0000019 #diastolic right ventricular pressure 
+VSO:0000038 #systolic blood pressure 
+VSO:0000039 #systolic central venous pressure 
+VSO:0000040 #systolic left ventricular pressure 
+VSO:0000041 #systolic pulmonary artery pressure 
+VSO:0000042 #systolic right ventricular pressure 
+VSO:0000007 #body temperature 
+VSO:0000003 #axillary temperature 
+VSO:0000013 #core body temperature 
+VSO:0000025 #oral temperature 
+VSO:0000033 #rectal temperature 
+VSO:0000045 #tympanic temperature 
+VSO:0000047 #vaginal temperature 
+VSO:0000029 #pulse rate 
+VSO:0000010 #brachial pulse rate 
+VSO:0000012 #carotid pulse rate 
+VSO:0000020 #dorsalis pedis pulse rate 
+VSO:0000021 #facial pulse rate 
+VSO:0000022 #femoral pulse rate 
+VSO:0000028 #popliteal pulse rate 
+VSO:0000032 #radial pulse rate 
+VSO:0000043 #temporal pulse rate 
+VSO:0000046 #ulnar pulse rate 
+>>>>>>> 32e8272b4d5b0468f0760ee02e47ac567794c291
+VSO:0000034 #respiratory rate 

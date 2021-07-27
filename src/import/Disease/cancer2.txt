@@ -1,0 +1,309 @@
+<<<<<<< HEAD
+DOID:14566 #disease of cellular proliferation 
+DOID:0060071 #pre-malignant neoplasm 
+DOID:8719 #in situ carcinoma 
+DOID:0050610 #oral cavity carcinoma in situ 
+DOID:0050611 #pharynx carcinoma in situ 
+DOID:0050612 #gallbladder carcinoma in situ 
+DOID:0050613 #bile duct carcinoma in situ 
+DOID:4943 #adenocarcinoma in situ 
+DOID:5172 #endometrium carcinoma in situ 
+DOID:6148 #nasal cavity carcinoma in situ 
+DOID:8634 #prostate carcinoma in situ 
+DOID:8687 #skin carcinoma in situ 
+DOID:8791 #breast carcinoma in situ 
+DOID:8792 #eye carcinoma in situ 
+DOID:8800 #lung carcinoma in situ 
+DOID:9024 #intestine carcinoma in situ 
+DOID:8826 #colon carcinoma in situ 
+DOID:9053 #bladder carcinoma in situ 
+DOID:9087 #anal carcinoma in situ 
+DOID:9095 #esophagus carcinoma in situ 
+DOID:9108 #uterus carcinoma in situ 
+DOID:9132 #liver carcinoma in situ 
+DOID:9138 #stomach carcinoma in situ 
+DOID:9174 #rectum carcinoma in situ 
+DOID:9234 #kidney carcinoma in situ 
+DOID:0060072 #benign neoplasm 
+DOID:0060084 #cell type benign neoplasm 
+DOID:0080829 #low grade glioma 
+DOID:3168 #squamous cell neoplasm 
+DOID:657 #adenoma 
+DOID:0060085 #organ system benign neoplasm 
+DOID:0050621 #respiratory system benign neoplasm 
+DOID:3683 #lung benign neoplasm 
+DOID:6059 #nasal vestibule papilloma 
+DOID:9310 #nasal cavity benign neoplasm 
+DOID:0050622 #reproductive organ benign neoplasm 
+DOID:0060086 #female reproductive organ benign neoplasm 
+DOID:0060088 #vestibular gland benign neoplasm 
+DOID:0060095 #uterine benign neoplasm 
+DOID:0060110 #cervical benign neoplasm 
+DOID:0060112 #ovarian benign neoplasm 
+DOID:0060087 #male reproductive organ benign neoplasm 
+DOID:2883 #prostatic adenoma 
+DOID:2885 #benign prostate phyllodes tumor 
+DOID:2887 #prostate leiomyoma 
+DOID:0050624 #gastrointestinal system benign neoplasm 
+DOID:10087 #gastric leiomyoma 
+DOID:10187 #esophageal lipoma 
+DOID:275 #gastric hemangioma 
+DOID:3117 #hepatobiliary benign neoplasm 
+DOID:0050625 #biliary tract benign neoplasm 
+DOID:916 #liver benign neoplasm 
+DOID:3918 #pancreatic cystadenoma 
+DOID:4147 #gastrointestinal adenoma 
+DOID:4148 #gastrointestinal neuroendocrine benign tumor 
+DOID:4610 #intestinal benign neoplasm 
+DOID:0050860 #colorectal adenoma 
+DOID:1984 #rectal benign neoplasm 
+DOID:235 #colonic benign neoplasm 
+DOID:4551 #anus benign neoplasm 
+DOID:5125 #extrahepatic bile duct leiomyoma 
+DOID:5134 #anus leiomyoma 
+DOID:7532 #squamous papillomatosis 
+DOID:0060089 #endocrine organ benign neoplasm 
+DOID:2891 #thyroid adenoma 
+DOID:60008 #parathyroid gland benign neoplasm 
+DOID:0060092 #immune system organ benign neoplasm 
+DOID:0080617 #lymph node benign neoplasm 
+DOID:0060097 #thoracic benign neoplasm 
+DOID:0060082 #breast benign neoplasm 
+DOID:0060099 #musculoskeletal system benign neoplasm 
+DOID:0060123 #connective tissue benign neoplasm 
+DOID:0060094 #bone benign neoplasm 
+DOID:461 #muscle benign neoplasm 
+DOID:0060121 #integumentary system benign neoplasm 
+DOID:3165 #skin benign neoplasm 
+DOID:731 #urinary system benign neoplasm 
+DOID:0050623 #bladder benign neoplasm 
+DOID:2697 #renal adenoma 
+DOID:3116 #kidney benign neoplasm 
+DOID:162 #cancer 
+DOID:0050686 #organ system cancer 
+DOID:0050615 #respiratory system cancer 
+DOID:1324 #lung cancer 
+DOID:2784 #lung sarcoma 
+DOID:3905 #lung carcinoma 
+DOID:3908 #lung non-small cell carcinoma 
+DOID:5409 #lung small cell carcinoma 
+DOID:7267 #lung clear cell carcinoma 
+DOID:2596 #larynx cancer 
+DOID:0060083 #immune system cancer 
+DOID:0060073 #lymphatic system cancer 
+DOID:10619 #lymph node cancer 
+DOID:0060100 #musculoskeletal system cancer 
+DOID:201 #connective tissue cancer 
+DOID:184 #bone cancer 
+DOID:0080639 #bone sarcoma 
+DOID:3347 #osteosarcoma 
+DOID:2762 #bone carcinoma 
+DOID:8632 #Kaposi's sarcoma 
+DOID:4045 #muscle cancer 
+DOID:0060122 #integumentary system cancer 
+DOID:4159 #skin cancer 
+DOID:11934 #head and neck cancer 
+DOID:170 #endocrine gland cancer 
+DOID:1540 #parathyroid carcinoma 
+DOID:1781 #thyroid gland cancer 
+DOID:176 #cardiovascular cancer 
+DOID:117 #heart cancer 
+DOID:175 #vascular cancer 
+DOID:193 #reproductive organ cancer 
+DOID:120 #female reproductive organ cancer 
+DOID:2394 #ovarian cancer 
+DOID:363 #uterine cancer 
+DOID:4362 #cervical cancer 
+DOID:3856 #male reproductive organ cancer 
+DOID:10283 #prostate cancer 
+DOID:2531 #hematologic cancer 
+DOID:0060058 #lymphoma 
+DOID:1240 #leukemia 
+DOID:3093 #nervous system cancer 
+DOID:0060116 #sensory system cancer 
+DOID:2174 #ocular cancer 
+DOID:295 #eye carcinoma 
+DOID:4645 #retinal cancer 
+DOID:833 #auditory system cancer 
+DOID:5101 #ear cancer 
+DOID:3119 #gastrointestinal system cancer 
+DOID:0080355 #hepatobiliary system cancer 
+DOID:3571 #liver cancer 
+DOID:4607 #biliary tract cancer 
+DOID:10155 #intestinal cancer 
+DOID:5672 #large intestine cancer 
+DOID:14110 #anus cancer 
+DOID:9256 #colorectal cancer 
+DOID:0080199 #colorectal carcinoma 
+DOID:1993 #rectum cancer 
+DOID:219 #colon cancer 
+DOID:10534 #stomach cancer 
+DOID:5041 #esophageal cancer 
+DOID:8618 #oral cavity cancer 
+DOID:0050866 #oral squamous cell carcinoma 
+DOID:8564 #lip cancer 
+DOID:8649 #tongue cancer 
+DOID:3996 #urinary system cancer 
+DOID:11054 #urinary bladder cancer 
+DOID:263 #kidney cancer 
+DOID:5093 #thoracic cancer 
+DOID:1612 #breast cancer 
+DOID:0050687 #cell type cancer 
+DOID:1115 #sarcoma 
+DOID:1909 #melanoma 
+DOID:3070 #high grade glioma 
+=======
+DOID:14566 #disease of cellular proliferation 
+DOID:0060071 #pre-malignant neoplasm 
+DOID:8719 #in situ carcinoma 
+DOID:0050610 #oral cavity carcinoma in situ 
+DOID:0050611 #pharynx carcinoma in situ 
+DOID:0050612 #gallbladder carcinoma in situ 
+DOID:0050613 #bile duct carcinoma in situ 
+DOID:4943 #adenocarcinoma in situ 
+DOID:5172 #endometrium carcinoma in situ 
+DOID:6148 #nasal cavity carcinoma in situ 
+DOID:8634 #prostate carcinoma in situ 
+DOID:8687 #skin carcinoma in situ 
+DOID:8791 #breast carcinoma in situ 
+DOID:8792 #eye carcinoma in situ 
+DOID:8800 #lung carcinoma in situ 
+DOID:9024 #intestine carcinoma in situ 
+DOID:8826 #colon carcinoma in situ 
+DOID:9053 #bladder carcinoma in situ 
+DOID:9087 #anal carcinoma in situ 
+DOID:9095 #esophagus carcinoma in situ 
+DOID:9108 #uterus carcinoma in situ 
+DOID:9132 #liver carcinoma in situ 
+DOID:9138 #stomach carcinoma in situ 
+DOID:9174 #rectum carcinoma in situ 
+DOID:9234 #kidney carcinoma in situ 
+DOID:0060072 #benign neoplasm 
+DOID:0060084 #cell type benign neoplasm 
+DOID:0080829 #low grade glioma 
+DOID:3168 #squamous cell neoplasm 
+DOID:657 #adenoma 
+DOID:0060085 #organ system benign neoplasm 
+DOID:0050621 #respiratory system benign neoplasm 
+DOID:3683 #lung benign neoplasm 
+DOID:6059 #nasal vestibule papilloma 
+DOID:9310 #nasal cavity benign neoplasm 
+DOID:0050622 #reproductive organ benign neoplasm 
+DOID:0060086 #female reproductive organ benign neoplasm 
+DOID:0060088 #vestibular gland benign neoplasm 
+DOID:0060095 #uterine benign neoplasm 
+DOID:0060110 #cervical benign neoplasm 
+DOID:0060112 #ovarian benign neoplasm 
+DOID:0060087 #male reproductive organ benign neoplasm 
+DOID:2883 #prostatic adenoma 
+DOID:2885 #benign prostate phyllodes tumor 
+DOID:2887 #prostate leiomyoma 
+DOID:0050624 #gastrointestinal system benign neoplasm 
+DOID:10087 #gastric leiomyoma 
+DOID:10187 #esophageal lipoma 
+DOID:275 #gastric hemangioma 
+DOID:3117 #hepatobiliary benign neoplasm 
+DOID:0050625 #biliary tract benign neoplasm 
+DOID:916 #liver benign neoplasm 
+DOID:3918 #pancreatic cystadenoma 
+DOID:4147 #gastrointestinal adenoma 
+DOID:4148 #gastrointestinal neuroendocrine benign tumor 
+DOID:4610 #intestinal benign neoplasm 
+DOID:0050860 #colorectal adenoma 
+DOID:1984 #rectal benign neoplasm 
+DOID:235 #colonic benign neoplasm 
+DOID:4551 #anus benign neoplasm 
+DOID:5125 #extrahepatic bile duct leiomyoma 
+DOID:5134 #anus leiomyoma 
+DOID:7532 #squamous papillomatosis 
+DOID:0060089 #endocrine organ benign neoplasm 
+DOID:2891 #thyroid adenoma 
+DOID:60008 #parathyroid gland benign neoplasm 
+DOID:0060092 #immune system organ benign neoplasm 
+DOID:0080617 #lymph node benign neoplasm 
+DOID:0060097 #thoracic benign neoplasm 
+DOID:0060082 #breast benign neoplasm 
+DOID:0060099 #musculoskeletal system benign neoplasm 
+DOID:0060123 #connective tissue benign neoplasm 
+DOID:0060094 #bone benign neoplasm 
+DOID:461 #muscle benign neoplasm 
+DOID:0060121 #integumentary system benign neoplasm 
+DOID:3165 #skin benign neoplasm 
+DOID:731 #urinary system benign neoplasm 
+DOID:0050623 #bladder benign neoplasm 
+DOID:2697 #renal adenoma 
+DOID:3116 #kidney benign neoplasm 
+DOID:162 #cancer 
+DOID:0050686 #organ system cancer 
+DOID:0050615 #respiratory system cancer 
+DOID:1324 #lung cancer 
+DOID:2784 #lung sarcoma 
+DOID:3905 #lung carcinoma 
+DOID:3908 #lung non-small cell carcinoma 
+DOID:5409 #lung small cell carcinoma 
+DOID:7267 #lung clear cell carcinoma 
+DOID:2596 #larynx cancer 
+DOID:0060083 #immune system cancer 
+DOID:0060073 #lymphatic system cancer 
+DOID:10619 #lymph node cancer 
+DOID:0060100 #musculoskeletal system cancer 
+DOID:201 #connective tissue cancer 
+DOID:184 #bone cancer 
+DOID:0080639 #bone sarcoma 
+DOID:3347 #osteosarcoma 
+DOID:2762 #bone carcinoma 
+DOID:8632 #Kaposi's sarcoma 
+DOID:4045 #muscle cancer 
+DOID:0060122 #integumentary system cancer 
+DOID:4159 #skin cancer 
+DOID:11934 #head and neck cancer 
+DOID:170 #endocrine gland cancer 
+DOID:1540 #parathyroid carcinoma 
+DOID:1781 #thyroid gland cancer 
+DOID:176 #cardiovascular cancer 
+DOID:117 #heart cancer 
+DOID:175 #vascular cancer 
+DOID:193 #reproductive organ cancer 
+DOID:120 #female reproductive organ cancer 
+DOID:2394 #ovarian cancer 
+DOID:363 #uterine cancer 
+DOID:4362 #cervical cancer 
+DOID:3856 #male reproductive organ cancer 
+DOID:10283 #prostate cancer 
+DOID:2531 #hematologic cancer 
+DOID:0060058 #lymphoma 
+DOID:1240 #leukemia 
+DOID:3093 #nervous system cancer 
+DOID:0060116 #sensory system cancer 
+DOID:2174 #ocular cancer 
+DOID:295 #eye carcinoma 
+DOID:4645 #retinal cancer 
+DOID:833 #auditory system cancer 
+DOID:5101 #ear cancer 
+DOID:3119 #gastrointestinal system cancer 
+DOID:0080355 #hepatobiliary system cancer 
+DOID:3571 #liver cancer 
+DOID:4607 #biliary tract cancer 
+DOID:10155 #intestinal cancer 
+DOID:5672 #large intestine cancer 
+DOID:14110 #anus cancer 
+DOID:9256 #colorectal cancer 
+DOID:0080199 #colorectal carcinoma 
+DOID:1993 #rectum cancer 
+DOID:219 #colon cancer 
+DOID:10534 #stomach cancer 
+DOID:5041 #esophageal cancer 
+DOID:8618 #oral cavity cancer 
+DOID:0050866 #oral squamous cell carcinoma 
+DOID:8564 #lip cancer 
+DOID:8649 #tongue cancer 
+DOID:3996 #urinary system cancer 
+DOID:11054 #urinary bladder cancer 
+DOID:263 #kidney cancer 
+DOID:5093 #thoracic cancer 
+DOID:1612 #breast cancer 
+DOID:0050687 #cell type cancer 
+DOID:1115 #sarcoma 
+DOID:1909 #melanoma 
+DOID:3070 #high grade glioma 
+>>>>>>> 32e8272b4d5b0468f0760ee02e47ac567794c291

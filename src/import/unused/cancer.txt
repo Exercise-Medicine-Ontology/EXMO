@@ -1,0 +1,743 @@
+<<<<<<< HEAD
+DOID:14566 #disease of cellular proliferation 
+DOID:0060071 #pre-malignant neoplasm 
+DOID:5465 #conjunctival intraepithelial neoplasm 
+DOID:6198 #corneal intraepithelial neoplasm 
+DOID:8719 #in situ carcinoma 
+DOID:0050610 #oral cavity carcinoma in situ 
+DOID:0050611 #pharynx carcinoma in situ 
+DOID:0050612 #gallbladder carcinoma in situ 
+DOID:0050613 #bile duct carcinoma in situ 
+DOID:0050614 #bronchus carcinoma in situ 
+DOID:4943 #adenocarcinoma in situ 
+DOID:5172 #endometrium carcinoma in situ 
+DOID:6148 #nasal cavity carcinoma in situ 
+DOID:8634 #prostate carcinoma in situ 
+DOID:8687 #skin carcinoma in situ 
+DOID:8791 #breast carcinoma in situ 
+DOID:8792 #eye carcinoma in situ 
+DOID:8800 #lung carcinoma in situ 
+DOID:8802 #trachea carcinoma in situ 
+DOID:8872 #penis carcinoma in situ 
+DOID:9011 #larynx carcinoma in situ 
+DOID:9024 #intestine carcinoma in situ 
+DOID:8826 #colon carcinoma in situ 
+DOID:9053 #bladder carcinoma in situ 
+DOID:9087 #anal carcinoma in situ 
+DOID:9095 #esophagus carcinoma in situ 
+DOID:9108 #uterus carcinoma in situ 
+DOID:9132 #liver carcinoma in situ 
+DOID:9138 #stomach carcinoma in situ 
+DOID:9174 #rectum carcinoma in situ 
+DOID:9234 #kidney carcinoma in situ 
+DOID:8866 #actinic keratosis 
+DOID:0060072 #benign neoplasm 
+DOID:0060084 #cell type benign neoplasm 
+DOID:0050894 #ameloblastoma 
+DOID:0080601 #germ cell benign neoplasm 
+DOID:0080829 #low grade glioma 
+DOID:127 #leiomyoma 
+DOID:2602 #chondroma 
+DOID:2609 #adenomyoma 
+DOID:2615 #papilloma 
+DOID:2645 #benign mesothelioma 
+DOID:2683 #adenofibroma 
+DOID:3168 #squamous cell neoplasm 
+DOID:3301 #gonadoblastoma 
+DOID:3314 #angiomyolipoma 
+DOID:3315 #lipoma 
+DOID:4658 #benign mastocytoma 
+DOID:5078 #ganglioglioma 
+DOID:657 #adenoma 
+DOID:0060085 #organ system benign neoplasm 
+DOID:0050621 #respiratory system benign neoplasm 
+DOID:10195 #pleural lipoma 
+DOID:1350 #paranasal sinus benign neoplasm 
+DOID:248 #trachea leiomyoma 
+DOID:2598 #laryngeal benign neoplasm 
+DOID:3683 #lung benign neoplasm 
+DOID:3906 #bronchial benign neoplasm 
+DOID:472 #subglottic angioma 
+DOID:5157 #benign pleural mesothelioma 
+DOID:6059 #nasal vestibule papilloma 
+DOID:9310 #nasal cavity benign neoplasm 
+DOID:0050622 #reproductive organ benign neoplasm 
+DOID:0060086 #female reproductive organ benign neoplasm 
+DOID:0060088 #vestibular gland benign neoplasm 
+DOID:0060095 #uterine benign neoplasm 
+DOID:0060109 #vulvar benign neoplasm 
+DOID:0060110 #cervical benign neoplasm 
+DOID:0060111 #fallopian tube benign neoplasm 
+DOID:0060112 #ovarian benign neoplasm 
+DOID:0060114 #vaginal benign neoplasm 
+DOID:4895 #rete ovarii benign neoplasm 
+DOID:0060087 #male reproductive organ benign neoplasm 
+DOID:11624 #penile benign neoplasm 
+DOID:2883 #prostatic adenoma 
+DOID:2885 #benign prostate phyllodes tumor 
+DOID:2887 #prostate leiomyoma 
+DOID:3579 #testicular gonadoblastoma 
+DOID:3855 #seminal vesicle tumor 
+DOID:6483 #rete testis adenoma 
+DOID:745 #epididymis adenomatoid tumor 
+DOID:7675 #testicular fibroma 
+DOID:7676 #testicular thecoma 
+DOID:0080368 #sex cord-stromal benign neoplasm 
+DOID:0080370 #ovarian sex cord-stromal benign neoplasm 
+DOID:0080371 #testicular sex cord-stromal benign neoplasm 
+DOID:10207 #paratesticular lipoma 
+DOID:2616 #Wolffian duct adenoma 
+DOID:5147 #dartoic leiomyoma 
+DOID:0050624 #gastrointestinal system benign neoplasm 
+DOID:10087 #gastric leiomyoma 
+DOID:10187 #esophageal lipoma 
+DOID:275 #gastric hemangioma 
+DOID:3117 #hepatobiliary benign neoplasm 
+DOID:0050625 #biliary tract benign neoplasm 
+DOID:916 #liver benign neoplasm 
+DOID:3918 #pancreatic cystadenoma 
+DOID:4147 #gastrointestinal adenoma 
+DOID:4148 #gastrointestinal neuroendocrine benign tumor 
+DOID:452 #pleomorphic adenoma 
+DOID:4610 #intestinal benign neoplasm 
+DOID:0050860 #colorectal adenoma 
+DOID:0050914 #large intestine adenoma 
+DOID:11240 #appendiceal neoplasm 
+DOID:1517 #cecal benign neoplasm 
+DOID:1984 #rectal benign neoplasm 
+DOID:235 #colonic benign neoplasm 
+DOID:4119 #intestinal neuroendocrine benign tumor 
+DOID:4551 #anus benign neoplasm 
+DOID:5143 #large bowel leiomyoma 
+DOID:6460 #large intestine lipoma 
+DOID:7505 #small intestine benign neoplasm 
+DOID:5125 #extrahepatic bile duct leiomyoma 
+DOID:5134 #anus leiomyoma 
+DOID:5146 #appendix leiomyoma 
+DOID:7532 #squamous papillomatosis 
+DOID:7851 #pancreatic intraductal papillary-mucinous adenoma 
+DOID:959 #esophagus squamous cell papilloma 
+DOID:960 #esophagus leiomyoma 
+DOID:0060089 #endocrine organ benign neoplasm 
+DOID:0050771 #pheochromocytoma 
+DOID:0080781 #benign exocrine pancreas neoplasm 
+DOID:1786 #adrenal rest tumor 
+DOID:2891 #thyroid adenoma 
+DOID:5389 #oxyphilic adenoma 
+DOID:60008 #parathyroid gland benign neoplasm 
+DOID:656 #adrenal adenoma 
+DOID:0060091 #cardiovascular organ benign neoplasm 
+DOID:255 #hemangioma 
+DOID:467 #venous hemangioma 
+DOID:5044 #cardiac granular cell neoplasm 
+DOID:5137 #pericardium leiomyoma 
+DOID:5238 #benign perivascular tumor 
+DOID:60006 #benign vascular tumor 
+DOID:60007 #cerebrovascular benign neoplasm 
+DOID:6285 #heart lipoma 
+DOID:8012 #benign pericardial teratoma 
+DOID:0060092 #immune system organ benign neoplasm 
+DOID:0080617 #lymph node benign neoplasm 
+DOID:1975 #thymus lipoma 
+DOID:4419 #benign deep fibrous histiocytoma 
+DOID:0060097 #thoracic benign neoplasm 
+DOID:0060082 #breast benign neoplasm 
+DOID:10200 #chest wall lipoma 
+DOID:10205 #axillary lipoma 
+DOID:5123 #mediastinum leiomyoma 
+DOID:0060099 #musculoskeletal system benign neoplasm 
+DOID:0060123 #connective tissue benign neoplasm 
+DOID:0050871 #fibroma 
+DOID:0060094 #bone benign neoplasm 
+DOID:0080109 #infantile myofibromatosis 
+DOID:0080366 #desmoid tumor 
+DOID:2649 #chondroblastoma 
+DOID:2701 #nodular tenosynovitis 
+DOID:315 #synovium neoplasm 
+DOID:3814 #extraskeletal chondroma 
+DOID:4231 #histiocytoma 
+DOID:4386 #myofibroma 
+DOID:8274 #synovial angioma 
+DOID:461 #muscle benign neoplasm 
+DOID:0060115 #nervous system benign neoplasm 
+DOID:0060090 #central nervous system benign neoplasm 
+DOID:0060096 #sensory organ benign neoplasm 
+DOID:2001 #neuroma 
+DOID:0060117 #peritoneal benign neoplasm 
+DOID:0060121 #integumentary system benign neoplasm 
+DOID:3165 #skin benign neoplasm 
+DOID:731 #urinary system benign neoplasm 
+DOID:0050623 #bladder benign neoplasm 
+DOID:11885 #ureteral benign neoplasm 
+DOID:2697 #renal adenoma 
+DOID:3116 #kidney benign neoplasm 
+DOID:5433 #urinary tract papillary transitional cell benign neoplasm 
+DOID:730 #urethral benign neoplasm 
+DOID:162 #cancer 
+DOID:0050686 #organ system cancer 
+DOID:0050615 #respiratory system cancer 
+DOID:0050619 #paranasal sinus cancer 
+DOID:10811 #nasal cavity cancer 
+DOID:11920 #tracheal cancer 
+DOID:1324 #lung cancer 
+DOID:2784 #lung sarcoma 
+DOID:3905 #lung carcinoma 
+DOID:0050932 #lung mucoepidermoid carcinoma 
+DOID:0080777 #lung sarcomatoid carcinoma 
+DOID:3908 #lung non-small cell carcinoma 
+DOID:4872 #lung adenoid cystic carcinoma 
+DOID:5409 #lung small cell carcinoma 
+DOID:7267 #lung clear cell carcinoma 
+DOID:7596 #asbestos-related lung carcinoma 
+DOID:8207 #hilar lung carcinoma 
+DOID:3924 #main bronchus cancer 
+DOID:4765 #pulmonary blastoma 
+DOID:4829 #adenosquamous lung carcinoma 
+DOID:5410 #pulmonary neuroendocrine tumor 
+DOID:5764 #lung meningioma 
+DOID:6760 #lung lymphoma 
+DOID:7696 #lung hilum cancer 
+DOID:8007 #Pancoast tumor 
+DOID:1325 #bronchus cancer 
+DOID:2596 #larynx cancer 
+DOID:0060083 #immune system cancer 
+DOID:0060073 #lymphatic system cancer 
+DOID:10619 #lymph node cancer 
+DOID:2689 #lymphangiosarcoma 
+DOID:672 #spleen cancer 
+DOID:8538 #reticulosarcoma 
+DOID:3277 #thymus cancer 
+DOID:0060100 #musculoskeletal system cancer 
+DOID:201 #connective tissue cancer 
+DOID:0060102 #cartilage cancer 
+DOID:0080894 #lipofibromatosis-like neural tumor 
+DOID:0080897 #solitary fibrous tumor/hemangiopericytoma 
+DOID:184 #bone cancer 
+DOID:0080639 #bone sarcoma 
+DOID:3347 #osteosarcoma 
+DOID:3351 #bone angioendothelial sarcoma 
+DOID:3354 #fibrosarcoma of bone 
+DOID:3360 #multifocal osteogenic sarcoma 
+DOID:3371 #chondrosarcoma 
+DOID:10149 #long bones of lower limb cancer 
+DOID:10151 #malignant neoplasm of short bones of lower limb 
+DOID:1862 #jaw cancer 
+DOID:1863 #skull cancer 
+DOID:2762 #bone carcinoma 
+DOID:2776 #adamantinoma 
+DOID:3303 #notochordal cancer 
+DOID:3356 #localized osteosarcoma 
+DOID:3381 #liposarcoma of bone 
+DOID:4143 #orbital cancer 
+DOID:5090 #sternum cancer 
+DOID:5546 #femoral cancer 
+DOID:6579 #chest wall bone cancer 
+DOID:6759 #bone lymphoma 
+DOID:2668 #mesenchymoma 
+DOID:2705 #malignant giant cell tumor 
+DOID:2706 #synovium cancer 
+DOID:3098 #small cell sarcoma 
+DOID:3352 #malignant fibrous histiocytoma of bone 
+DOID:3355 #fibrosarcoma 
+DOID:3357 #extraosseous osteosarcoma 
+DOID:3369 #Ewing sarcoma 
+DOID:3382 #liposarcoma 
+DOID:4136 #myxosarcoma 
+DOID:5158 #pleural cancer 
+DOID:6193 #epithelioid sarcoma 
+DOID:6333 #adult intracranial malignant hemangiopericytoma 
+DOID:8632 #Kaposi's sarcoma 
+DOID:4045 #muscle cancer 
+DOID:0060122 #integumentary system cancer 
+DOID:4159 #skin cancer 
+DOID:11934 #head and neck cancer 
+DOID:170 #endocrine gland cancer 
+DOID:1540 #parathyroid carcinoma 
+DOID:169 #neuroendocrine tumor 
+DOID:1781 #thyroid gland cancer 
+DOID:1785 #pituitary cancer 
+DOID:1793 #pancreatic cancer 
+DOID:3953 #adrenal gland cancer 
+DOID:5032 #pineal gland cancer 
+DOID:1725 #peritoneum cancer 
+DOID:176 #cardiovascular cancer 
+DOID:117 #heart cancer 
+DOID:175 #vascular cancer 
+DOID:193 #reproductive organ cancer 
+DOID:120 #female reproductive organ cancer 
+DOID:119 #vaginal cancer 
+DOID:1245 #vulva cancer 
+DOID:14059 #paraurethral gland cancer 
+DOID:1964 #fallopian tube cancer 
+DOID:2021 #placenta cancer 
+DOID:2394 #ovarian cancer 
+DOID:3001 #female reproductive endometrioid cancer 
+DOID:363 #uterine cancer 
+DOID:4362 #cervical cancer 
+DOID:192 #sex cord-gonadal stromal tumor 
+DOID:3856 #male reproductive organ cancer 
+DOID:10283 #prostate cancer 
+DOID:10366 #epididymis cancer 
+DOID:11615 #penile cancer 
+DOID:13169 #spermatic cord cancer 
+DOID:14545 #seminal vesicle adenocarcinoma 
+DOID:2998 #testicular cancer 
+DOID:518 #scrotum neoplasm 
+DOID:5639 #rete testis neoplasm 
+DOID:6721 #Littre gland carcinoma 
+DOID:7632 #Cowper gland carcinoma 
+DOID:2531 #hematologic cancer 
+DOID:0060058 #lymphoma 
+DOID:1240 #leukemia 
+DOID:3664 #mast cell neoplasm 
+DOID:4960 #bone marrow cancer 
+DOID:5621 #histiocytic and dendritic cell cancer 
+DOID:712 #refractory hematologic cancer 
+DOID:8683 #myeloid sarcoma 
+DOID:3093 #nervous system cancer 
+DOID:0060116 #sensory system cancer 
+DOID:2174 #ocular cancer 
+DOID:1752 #ocular melanoma 
+DOID:292 #lacrimal system cancer 
+DOID:295 #eye carcinoma 
+DOID:3479 #uveal cancer 
+DOID:4645 #retinal cancer 
+DOID:5467 #conjunctival cancer 
+DOID:6199 #cornea cancer 
+DOID:6903 #eye lymphoma 
+DOID:833 #auditory system cancer 
+DOID:5101 #ear cancer 
+DOID:1192 #peripheral nervous system neoplasm 
+DOID:171 #neuroectodermal tumor 
+DOID:3620 #central nervous system cancer 
+DOID:3119 #gastrointestinal system cancer 
+DOID:0050626 #gastrointestinal neuroendocrine tumor 
+DOID:0050922 #gastrointestinal carcinoma 
+DOID:0060119 #pharynx cancer 
+DOID:0080355 #hepatobiliary system cancer 
+DOID:3571 #liver cancer 
+DOID:4607 #biliary tract cancer 
+DOID:0080374 #gastroesophageal cancer 
+DOID:10155 #intestinal cancer 
+DOID:10154 #small intestine cancer 
+DOID:11239 #appendix cancer 
+DOID:5672 #large intestine cancer 
+DOID:0050688 #anal canal cancer 
+DOID:0050913 #large intestine adenocarcinoma 
+DOID:14110 #anus cancer 
+DOID:1521 #cecum cancer 
+DOID:9256 #colorectal cancer 
+DOID:0080199 #colorectal carcinoma 
+DOID:1993 #rectum cancer 
+DOID:219 #colon cancer 
+DOID:10534 #stomach cancer 
+DOID:1791 #peritoneal carcinoma 
+DOID:5041 #esophageal cancer 
+DOID:8618 #oral cavity cancer 
+DOID:0050866 #oral squamous cell carcinoma 
+DOID:8564 #lip cancer 
+DOID:8578 #soft palate cancer 
+DOID:8602 #gum cancer 
+DOID:8649 #tongue cancer 
+DOID:8702 #cheek mucosa cancer 
+DOID:8850 #salivary gland cancer 
+DOID:8930 #retromolar area cancer 
+DOID:9149 #hard palate cancer 
+DOID:9188 #vestibule of mouth cancer 
+DOID:903 #gastrointestinal lymphoma 
+DOID:9253 #gastrointestinal stromal tumor 
+DOID:3996 #urinary system cancer 
+DOID:11054 #urinary bladder cancer 
+DOID:11819 #ureter cancer 
+DOID:263 #kidney cancer 
+DOID:734 #urethra cancer 
+DOID:5093 #thoracic cancer 
+DOID:0080532 #Smarca4-deficient sarcoma of thorax 
+DOID:1612 #breast cancer 
+DOID:5559 #mediastinal cancer 
+DOID:6758 #chest wall lymphoma 
+DOID:5875 #retroperitoneal cancer 
+DOID:0050687 #cell type cancer 
+DOID:0070003 #blastoma 
+DOID:0080189 #malignant hemangioma 
+DOID:0080364 #malignant adenoma 
+DOID:1115 #sarcoma 
+DOID:154 #mixed cell type cancer 
+DOID:1790 #malignant mesothelioma 
+DOID:1909 #melanoma 
+DOID:2994 #germ cell cancer 
+DOID:305 #carcinoma 
+DOID:3070 #high grade glioma 
+DOID:3350 #mesenchymal cell neoplasm 
+=======
+DOID:14566 #disease of cellular proliferation 
+DOID:0060071 #pre-malignant neoplasm 
+DOID:5465 #conjunctival intraepithelial neoplasm 
+DOID:6198 #corneal intraepithelial neoplasm 
+DOID:8719 #in situ carcinoma 
+DOID:0050610 #oral cavity carcinoma in situ 
+DOID:0050611 #pharynx carcinoma in situ 
+DOID:0050612 #gallbladder carcinoma in situ 
+DOID:0050613 #bile duct carcinoma in situ 
+DOID:0050614 #bronchus carcinoma in situ 
+DOID:4943 #adenocarcinoma in situ 
+DOID:5172 #endometrium carcinoma in situ 
+DOID:6148 #nasal cavity carcinoma in situ 
+DOID:8634 #prostate carcinoma in situ 
+DOID:8687 #skin carcinoma in situ 
+DOID:8791 #breast carcinoma in situ 
+DOID:8792 #eye carcinoma in situ 
+DOID:8800 #lung carcinoma in situ 
+DOID:8802 #trachea carcinoma in situ 
+DOID:8872 #penis carcinoma in situ 
+DOID:9011 #larynx carcinoma in situ 
+DOID:9024 #intestine carcinoma in situ 
+DOID:8826 #colon carcinoma in situ 
+DOID:9053 #bladder carcinoma in situ 
+DOID:9087 #anal carcinoma in situ 
+DOID:9095 #esophagus carcinoma in situ 
+DOID:9108 #uterus carcinoma in situ 
+DOID:9132 #liver carcinoma in situ 
+DOID:9138 #stomach carcinoma in situ 
+DOID:9174 #rectum carcinoma in situ 
+DOID:9234 #kidney carcinoma in situ 
+DOID:8866 #actinic keratosis 
+DOID:0060072 #benign neoplasm 
+DOID:0060084 #cell type benign neoplasm 
+DOID:0050894 #ameloblastoma 
+DOID:0080601 #germ cell benign neoplasm 
+DOID:0080829 #low grade glioma 
+DOID:127 #leiomyoma 
+DOID:2602 #chondroma 
+DOID:2609 #adenomyoma 
+DOID:2615 #papilloma 
+DOID:2645 #benign mesothelioma 
+DOID:2683 #adenofibroma 
+DOID:3168 #squamous cell neoplasm 
+DOID:3301 #gonadoblastoma 
+DOID:3314 #angiomyolipoma 
+DOID:3315 #lipoma 
+DOID:4658 #benign mastocytoma 
+DOID:5078 #ganglioglioma 
+DOID:657 #adenoma 
+DOID:0060085 #organ system benign neoplasm 
+DOID:0050621 #respiratory system benign neoplasm 
+DOID:10195 #pleural lipoma 
+DOID:1350 #paranasal sinus benign neoplasm 
+DOID:248 #trachea leiomyoma 
+DOID:2598 #laryngeal benign neoplasm 
+DOID:3683 #lung benign neoplasm 
+DOID:3906 #bronchial benign neoplasm 
+DOID:472 #subglottic angioma 
+DOID:5157 #benign pleural mesothelioma 
+DOID:6059 #nasal vestibule papilloma 
+DOID:9310 #nasal cavity benign neoplasm 
+DOID:0050622 #reproductive organ benign neoplasm 
+DOID:0060086 #female reproductive organ benign neoplasm 
+DOID:0060088 #vestibular gland benign neoplasm 
+DOID:0060095 #uterine benign neoplasm 
+DOID:0060109 #vulvar benign neoplasm 
+DOID:0060110 #cervical benign neoplasm 
+DOID:0060111 #fallopian tube benign neoplasm 
+DOID:0060112 #ovarian benign neoplasm 
+DOID:0060114 #vaginal benign neoplasm 
+DOID:4895 #rete ovarii benign neoplasm 
+DOID:0060087 #male reproductive organ benign neoplasm 
+DOID:11624 #penile benign neoplasm 
+DOID:2883 #prostatic adenoma 
+DOID:2885 #benign prostate phyllodes tumor 
+DOID:2887 #prostate leiomyoma 
+DOID:3579 #testicular gonadoblastoma 
+DOID:3855 #seminal vesicle tumor 
+DOID:6483 #rete testis adenoma 
+DOID:745 #epididymis adenomatoid tumor 
+DOID:7675 #testicular fibroma 
+DOID:7676 #testicular thecoma 
+DOID:0080368 #sex cord-stromal benign neoplasm 
+DOID:0080370 #ovarian sex cord-stromal benign neoplasm 
+DOID:0080371 #testicular sex cord-stromal benign neoplasm 
+DOID:10207 #paratesticular lipoma 
+DOID:2616 #Wolffian duct adenoma 
+DOID:5147 #dartoic leiomyoma 
+DOID:0050624 #gastrointestinal system benign neoplasm 
+DOID:10087 #gastric leiomyoma 
+DOID:10187 #esophageal lipoma 
+DOID:275 #gastric hemangioma 
+DOID:3117 #hepatobiliary benign neoplasm 
+DOID:0050625 #biliary tract benign neoplasm 
+DOID:916 #liver benign neoplasm 
+DOID:3918 #pancreatic cystadenoma 
+DOID:4147 #gastrointestinal adenoma 
+DOID:4148 #gastrointestinal neuroendocrine benign tumor 
+DOID:452 #pleomorphic adenoma 
+DOID:4610 #intestinal benign neoplasm 
+DOID:0050860 #colorectal adenoma 
+DOID:0050914 #large intestine adenoma 
+DOID:11240 #appendiceal neoplasm 
+DOID:1517 #cecal benign neoplasm 
+DOID:1984 #rectal benign neoplasm 
+DOID:235 #colonic benign neoplasm 
+DOID:4119 #intestinal neuroendocrine benign tumor 
+DOID:4551 #anus benign neoplasm 
+DOID:5143 #large bowel leiomyoma 
+DOID:6460 #large intestine lipoma 
+DOID:7505 #small intestine benign neoplasm 
+DOID:5125 #extrahepatic bile duct leiomyoma 
+DOID:5134 #anus leiomyoma 
+DOID:5146 #appendix leiomyoma 
+DOID:7532 #squamous papillomatosis 
+DOID:7851 #pancreatic intraductal papillary-mucinous adenoma 
+DOID:959 #esophagus squamous cell papilloma 
+DOID:960 #esophagus leiomyoma 
+DOID:0060089 #endocrine organ benign neoplasm 
+DOID:0050771 #pheochromocytoma 
+DOID:0080781 #benign exocrine pancreas neoplasm 
+DOID:1786 #adrenal rest tumor 
+DOID:2891 #thyroid adenoma 
+DOID:5389 #oxyphilic adenoma 
+DOID:60008 #parathyroid gland benign neoplasm 
+DOID:656 #adrenal adenoma 
+DOID:0060091 #cardiovascular organ benign neoplasm 
+DOID:255 #hemangioma 
+DOID:467 #venous hemangioma 
+DOID:5044 #cardiac granular cell neoplasm 
+DOID:5137 #pericardium leiomyoma 
+DOID:5238 #benign perivascular tumor 
+DOID:60006 #benign vascular tumor 
+DOID:60007 #cerebrovascular benign neoplasm 
+DOID:6285 #heart lipoma 
+DOID:8012 #benign pericardial teratoma 
+DOID:0060092 #immune system organ benign neoplasm 
+DOID:0080617 #lymph node benign neoplasm 
+DOID:1975 #thymus lipoma 
+DOID:4419 #benign deep fibrous histiocytoma 
+DOID:0060097 #thoracic benign neoplasm 
+DOID:0060082 #breast benign neoplasm 
+DOID:10200 #chest wall lipoma 
+DOID:10205 #axillary lipoma 
+DOID:5123 #mediastinum leiomyoma 
+DOID:0060099 #musculoskeletal system benign neoplasm 
+DOID:0060123 #connective tissue benign neoplasm 
+DOID:0050871 #fibroma 
+DOID:0060094 #bone benign neoplasm 
+DOID:0080109 #infantile myofibromatosis 
+DOID:0080366 #desmoid tumor 
+DOID:2649 #chondroblastoma 
+DOID:2701 #nodular tenosynovitis 
+DOID:315 #synovium neoplasm 
+DOID:3814 #extraskeletal chondroma 
+DOID:4231 #histiocytoma 
+DOID:4386 #myofibroma 
+DOID:8274 #synovial angioma 
+DOID:461 #muscle benign neoplasm 
+DOID:0060115 #nervous system benign neoplasm 
+DOID:0060090 #central nervous system benign neoplasm 
+DOID:0060096 #sensory organ benign neoplasm 
+DOID:2001 #neuroma 
+DOID:0060117 #peritoneal benign neoplasm 
+DOID:0060121 #integumentary system benign neoplasm 
+DOID:3165 #skin benign neoplasm 
+DOID:731 #urinary system benign neoplasm 
+DOID:0050623 #bladder benign neoplasm 
+DOID:11885 #ureteral benign neoplasm 
+DOID:2697 #renal adenoma 
+DOID:3116 #kidney benign neoplasm 
+DOID:5433 #urinary tract papillary transitional cell benign neoplasm 
+DOID:730 #urethral benign neoplasm 
+DOID:162 #cancer 
+DOID:0050686 #organ system cancer 
+DOID:0050615 #respiratory system cancer 
+DOID:0050619 #paranasal sinus cancer 
+DOID:10811 #nasal cavity cancer 
+DOID:11920 #tracheal cancer 
+DOID:1324 #lung cancer 
+DOID:2784 #lung sarcoma 
+DOID:3905 #lung carcinoma 
+DOID:0050932 #lung mucoepidermoid carcinoma 
+DOID:0080777 #lung sarcomatoid carcinoma 
+DOID:3908 #lung non-small cell carcinoma 
+DOID:4872 #lung adenoid cystic carcinoma 
+DOID:5409 #lung small cell carcinoma 
+DOID:7267 #lung clear cell carcinoma 
+DOID:7596 #asbestos-related lung carcinoma 
+DOID:8207 #hilar lung carcinoma 
+DOID:3924 #main bronchus cancer 
+DOID:4765 #pulmonary blastoma 
+DOID:4829 #adenosquamous lung carcinoma 
+DOID:5410 #pulmonary neuroendocrine tumor 
+DOID:5764 #lung meningioma 
+DOID:6760 #lung lymphoma 
+DOID:7696 #lung hilum cancer 
+DOID:8007 #Pancoast tumor 
+DOID:1325 #bronchus cancer 
+DOID:2596 #larynx cancer 
+DOID:0060083 #immune system cancer 
+DOID:0060073 #lymphatic system cancer 
+DOID:10619 #lymph node cancer 
+DOID:2689 #lymphangiosarcoma 
+DOID:672 #spleen cancer 
+DOID:8538 #reticulosarcoma 
+DOID:3277 #thymus cancer 
+DOID:0060100 #musculoskeletal system cancer 
+DOID:201 #connective tissue cancer 
+DOID:0060102 #cartilage cancer 
+DOID:0080894 #lipofibromatosis-like neural tumor 
+DOID:0080897 #solitary fibrous tumor/hemangiopericytoma 
+DOID:184 #bone cancer 
+DOID:0080639 #bone sarcoma 
+DOID:3347 #osteosarcoma 
+DOID:3351 #bone angioendothelial sarcoma 
+DOID:3354 #fibrosarcoma of bone 
+DOID:3360 #multifocal osteogenic sarcoma 
+DOID:3371 #chondrosarcoma 
+DOID:10149 #long bones of lower limb cancer 
+DOID:10151 #malignant neoplasm of short bones of lower limb 
+DOID:1862 #jaw cancer 
+DOID:1863 #skull cancer 
+DOID:2762 #bone carcinoma 
+DOID:2776 #adamantinoma 
+DOID:3303 #notochordal cancer 
+DOID:3356 #localized osteosarcoma 
+DOID:3381 #liposarcoma of bone 
+DOID:4143 #orbital cancer 
+DOID:5090 #sternum cancer 
+DOID:5546 #femoral cancer 
+DOID:6579 #chest wall bone cancer 
+DOID:6759 #bone lymphoma 
+DOID:2668 #mesenchymoma 
+DOID:2705 #malignant giant cell tumor 
+DOID:2706 #synovium cancer 
+DOID:3098 #small cell sarcoma 
+DOID:3352 #malignant fibrous histiocytoma of bone 
+DOID:3355 #fibrosarcoma 
+DOID:3357 #extraosseous osteosarcoma 
+DOID:3369 #Ewing sarcoma 
+DOID:3382 #liposarcoma 
+DOID:4136 #myxosarcoma 
+DOID:5158 #pleural cancer 
+DOID:6193 #epithelioid sarcoma 
+DOID:6333 #adult intracranial malignant hemangiopericytoma 
+DOID:8632 #Kaposi's sarcoma 
+DOID:4045 #muscle cancer 
+DOID:0060122 #integumentary system cancer 
+DOID:4159 #skin cancer 
+DOID:11934 #head and neck cancer 
+DOID:170 #endocrine gland cancer 
+DOID:1540 #parathyroid carcinoma 
+DOID:169 #neuroendocrine tumor 
+DOID:1781 #thyroid gland cancer 
+DOID:1785 #pituitary cancer 
+DOID:1793 #pancreatic cancer 
+DOID:3953 #adrenal gland cancer 
+DOID:5032 #pineal gland cancer 
+DOID:1725 #peritoneum cancer 
+DOID:176 #cardiovascular cancer 
+DOID:117 #heart cancer 
+DOID:175 #vascular cancer 
+DOID:193 #reproductive organ cancer 
+DOID:120 #female reproductive organ cancer 
+DOID:119 #vaginal cancer 
+DOID:1245 #vulva cancer 
+DOID:14059 #paraurethral gland cancer 
+DOID:1964 #fallopian tube cancer 
+DOID:2021 #placenta cancer 
+DOID:2394 #ovarian cancer 
+DOID:3001 #female reproductive endometrioid cancer 
+DOID:363 #uterine cancer 
+DOID:4362 #cervical cancer 
+DOID:192 #sex cord-gonadal stromal tumor 
+DOID:3856 #male reproductive organ cancer 
+DOID:10283 #prostate cancer 
+DOID:10366 #epididymis cancer 
+DOID:11615 #penile cancer 
+DOID:13169 #spermatic cord cancer 
+DOID:14545 #seminal vesicle adenocarcinoma 
+DOID:2998 #testicular cancer 
+DOID:518 #scrotum neoplasm 
+DOID:5639 #rete testis neoplasm 
+DOID:6721 #Littre gland carcinoma 
+DOID:7632 #Cowper gland carcinoma 
+DOID:2531 #hematologic cancer 
+DOID:0060058 #lymphoma 
+DOID:1240 #leukemia 
+DOID:3664 #mast cell neoplasm 
+DOID:4960 #bone marrow cancer 
+DOID:5621 #histiocytic and dendritic cell cancer 
+DOID:712 #refractory hematologic cancer 
+DOID:8683 #myeloid sarcoma 
+DOID:3093 #nervous system cancer 
+DOID:0060116 #sensory system cancer 
+DOID:2174 #ocular cancer 
+DOID:1752 #ocular melanoma 
+DOID:292 #lacrimal system cancer 
+DOID:295 #eye carcinoma 
+DOID:3479 #uveal cancer 
+DOID:4645 #retinal cancer 
+DOID:5467 #conjunctival cancer 
+DOID:6199 #cornea cancer 
+DOID:6903 #eye lymphoma 
+DOID:833 #auditory system cancer 
+DOID:5101 #ear cancer 
+DOID:1192 #peripheral nervous system neoplasm 
+DOID:171 #neuroectodermal tumor 
+DOID:3620 #central nervous system cancer 
+DOID:3119 #gastrointestinal system cancer 
+DOID:0050626 #gastrointestinal neuroendocrine tumor 
+DOID:0050922 #gastrointestinal carcinoma 
+DOID:0060119 #pharynx cancer 
+DOID:0080355 #hepatobiliary system cancer 
+DOID:3571 #liver cancer 
+DOID:4607 #biliary tract cancer 
+DOID:0080374 #gastroesophageal cancer 
+DOID:10155 #intestinal cancer 
+DOID:10154 #small intestine cancer 
+DOID:11239 #appendix cancer 
+DOID:5672 #large intestine cancer 
+DOID:0050688 #anal canal cancer 
+DOID:0050913 #large intestine adenocarcinoma 
+DOID:14110 #anus cancer 
+DOID:1521 #cecum cancer 
+DOID:9256 #colorectal cancer 
+DOID:0080199 #colorectal carcinoma 
+DOID:1993 #rectum cancer 
+DOID:219 #colon cancer 
+DOID:10534 #stomach cancer 
+DOID:1791 #peritoneal carcinoma 
+DOID:5041 #esophageal cancer 
+DOID:8618 #oral cavity cancer 
+DOID:0050866 #oral squamous cell carcinoma 
+DOID:8564 #lip cancer 
+DOID:8578 #soft palate cancer 
+DOID:8602 #gum cancer 
+DOID:8649 #tongue cancer 
+DOID:8702 #cheek mucosa cancer 
+DOID:8850 #salivary gland cancer 
+DOID:8930 #retromolar area cancer 
+DOID:9149 #hard palate cancer 
+DOID:9188 #vestibule of mouth cancer 
+DOID:903 #gastrointestinal lymphoma 
+DOID:9253 #gastrointestinal stromal tumor 
+DOID:3996 #urinary system cancer 
+DOID:11054 #urinary bladder cancer 
+DOID:11819 #ureter cancer 
+DOID:263 #kidney cancer 
+DOID:734 #urethra cancer 
+DOID:5093 #thoracic cancer 
+DOID:0080532 #Smarca4-deficient sarcoma of thorax 
+DOID:1612 #breast cancer 
+DOID:5559 #mediastinal cancer 
+DOID:6758 #chest wall lymphoma 
+DOID:5875 #retroperitoneal cancer 
+DOID:0050687 #cell type cancer 
+DOID:0070003 #blastoma 
+DOID:0080189 #malignant hemangioma 
+DOID:0080364 #malignant adenoma 
+DOID:1115 #sarcoma 
+DOID:154 #mixed cell type cancer 
+DOID:1790 #malignant mesothelioma 
+DOID:1909 #melanoma 
+DOID:2994 #germ cell cancer 
+DOID:305 #carcinoma 
+DOID:3070 #high grade glioma 
+DOID:3350 #mesenchymal cell neoplasm 
+>>>>>>> 32e8272b4d5b0468f0760ee02e47ac567794c291
