@@ -1,0 +1,13 @@
+format-version: 1.2
+data-version: exmo/releases/2021-07-27/exmo-base.owl
+ontology: exmo/exmo-base
+property_value: http://purl.org/dc/elements/1.1/description "None" xsd:string
+property_value: http://purl.org/dc/elements/1.1/title "Exercise Medicine Ontology" xsd:string
+property_value: http://purl.org/dc/elements/1.1/type IAO:8000001
+property_value: http://purl.org/dc/terms/license https://creativecommons.org/licenses/unspecified
+property_value: owl:versionInfo "2021-07-27" xsd:string
+
+[Term]
+id: EXMO:00000000
+name: root node
+
