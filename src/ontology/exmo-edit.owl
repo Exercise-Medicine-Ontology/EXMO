@@ -2,6 +2,7 @@
 <rdf:RDF xmlns="http://purl.obolibrary.org/obo/bfo.owl#"
      xml:base="http://purl.obolibrary.org/obo/bfo.owl"
      xmlns:dc="http://purl.org/dc/elements/1.1/"
+     xmlns:ro="http://www.ifomis.org/obo/ro/1.0#"
      xmlns:exm="http://purl.obolibrary.org/obo/exm.owl/"
      xmlns:obo="http://purl.obolibrary.org/obo/"
      xmlns:owl="http://www.w3.org/2002/07/owl#"
@@ -9,7 +10,8 @@
      xmlns:xml="http://www.w3.org/XML/1998/namespace"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:foaf="http://xmlns.com/foaf/0.1/"
-     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:owl2xml="http://www.w3.org/2006/12/owl2-xml#">
     <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/exm.owl">
         <obo:IAO_0000116>BFO 2 Reference: BFO does not claim to be a complete coverage of all entities. It seeks only to provide coverage of those entities studied by empirical science together with those entities which affect or are involved in human activities such as data processing and planning – coverage that is sufficiently broad to provide assistance to those engaged in building domain ontologies for purposes of data annotation [17</obo:IAO_0000116>
         <obo:IAO_0000116>BFO 2 Reference: BFO’s treatment of continuants and occurrents – as also its treatment of regions, rests on a dichotomy between space and time, and on the view that there are two perspectives on reality – earlier called the ‘SNAP’ and ‘SPAN’ perspectives, both of which are essential to the non-reductionist representation of reality as we understand it from the best available science [30</obo:IAO_0000116>
@@ -278,6 +280,259 @@ See the BFO 2 release notes for further information about BFO 2. Please note tha
     <!-- http://xmlns.com/foaf/0.1/mbox -->
 
     <owl:AnnotationProperty rdf:about="http://xmlns.com/foaf/0.1/mbox"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/bfo.owl#adjacentTo -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/bfo.owl#adjacentTo">
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Relation of proximity between disjoint continuants. Adjacent_to satisfies some of the axioms governing the relation referred to in the literature of qualitative topology as &apos;external connectedness&apos; . Analogs of other mereotopological relations (qualitative relations between spatial regions involving parthood, boundary and connectedness) can also be defined, and these too can be applied to the material and immaterial continuants which occupy such regions on the instance level.</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">adjacent_to</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/bfo.owl#agentIn -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/bfo.owl#agentIn">
+        <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/bfo.owl#participatesIn"/>
+        <owl:inverseOf rdf:resource="http://purl.obolibrary.org/obo/bfo.owl#hasAgent"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">agent_in</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/bfo.owl#containedIn -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/bfo.owl#containedIn">
+        <owl:inverseOf rdf:resource="http://purl.obolibrary.org/obo/bfo.owl#contains"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Containment obtains in each case between material and immaterial continuants, for instance: lung containedIn thoracic cavity; bladder containedIn pelvic cavity. Hence containment is not a transitive relation. If c partOf c1 at t then we have also, by our definition and by the axioms of mereology applied to spatial regions, c locatedIn c1 at t. Thus, many examples of instance-level location relations for continuants are in fact cases of instance-level parthood. For material continuants location and parthood coincide. Containment is location not involving parthood, and arises only where some immaterial continuant is involved. To understand this relation, we first define overlap for continuants as follows: c1 overlap c2 at t =def for some c, c partOf c1 at t and c partOf c2 at t.</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">contained_in</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/bfo.owl#contains -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/bfo.owl#contains">
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">contains</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/bfo.owl#derivedInto -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/bfo.owl#derivedInto">
+        <owl:inverseOf rdf:resource="http://purl.obolibrary.org/obo/bfo.owl#derivesFrom"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#TransitiveProperty"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">derived_into</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/bfo.owl#derivesFrom -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/bfo.owl#derivesFrom">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#TransitiveProperty"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Derivation is a relation holding between non-identicals. More precisely, it holds between distinct material continuants when one succeeds the other across a temporal divide in such a way that at least a biologically significant portion of the matter of the earlier continuant is inherited by the later. Thus we will have axioms to the effect that from c derivesFrom c1 we can infer that c and c1 are not identical and that there is some instant of time t such that c1 exists only prior to and c only subsequent to t. We will also be able to infer that the spatial region occupied by c as it begins to exist at t overlaps with the spatial region occupied by c1 as it ceases to exist in the same instant.</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">derives_from</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/bfo.owl#hasAgent -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/bfo.owl#hasAgent">
+        <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/bfo.owl#hasParticipant"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">As for hasParticipant, but with the additional condition that the component instance is causally active in the relevant process</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has_agent</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/bfo.owl#hasImproperPart -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/bfo.owl#hasImproperPart">
+        <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/bfo.owl#hasPart"/>
+        <owl:inverseOf rdf:resource="http://purl.obolibrary.org/obo/bfo.owl#improperPartOf"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#TransitiveProperty"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has_improper_part</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/bfo.owl#hasIntegralPart -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/bfo.owl#hasIntegralPart">
+        <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/bfo.owl#hasPart"/>
+        <owl:inverseOf rdf:resource="http://purl.obolibrary.org/obo/bfo.owl#integralPartOf"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#TransitiveProperty"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has_integral_part</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/bfo.owl#hasPart -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/bfo.owl#hasPart">
+        <owl:inverseOf rdf:resource="http://purl.obolibrary.org/obo/bfo.owl#partOf"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#TransitiveProperty"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has_part</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/bfo.owl#hasParticipant -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/bfo.owl#hasParticipant">
+        <owl:inverseOf rdf:resource="http://purl.obolibrary.org/obo/bfo.owl#participatesIn"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HasParticipant is a primitive instance-level relation between a process, a continuant, and a time at which the continuant participates in some way in the process. The relation obtains, for example, when this particular process of oxygen exchange across this particular alveolar membrane hasParticipant this particular sample of hemoglobin at this particular time.</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has_participant</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/bfo.owl#hasProperPart -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/bfo.owl#hasProperPart">
+        <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/bfo.owl#hasPart"/>
+        <owl:inverseOf rdf:resource="http://purl.obolibrary.org/obo/bfo.owl#properPartOf"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#TransitiveProperty"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has_proper_part</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/bfo.owl#improperPartOf -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/bfo.owl#improperPartOf">
+        <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/bfo.owl#partOf"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#TransitiveProperty"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">As for partOf, with the additional constraint that subject and object may be identical</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">improper_part_of</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/bfo.owl#integralPartOf -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/bfo.owl#integralPartOf">
+        <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/bfo.owl#partOf"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#TransitiveProperty"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C integralPartOf C&apos; if and only if: C partOf C&apos; AND C&apos; hasPart C</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">integral_part_of</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/bfo.owl#locatedIn -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/bfo.owl#locatedIn">
+        <owl:inverseOf rdf:resource="http://purl.obolibrary.org/obo/bfo.owl#locationOf"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#TransitiveProperty"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The primitive instance-level relation c locatedIn r at t reflects the fact that each continuant is at any given time associated with exactly one spatial region, namely its exact location. Following we can use this relation to define a further instance-level location relation - not between a continuant and the region which it exactly occupies, but rather between one continuant and another. c is located in c1, in this sense, whenever the spatial region occupied by c is partOf the spatial region occupied by c1. Note that this relation comprehends both the relation of exact location between one continuant and another which obtains when r and r1 are identical (for example, when a portion of fluid exactly fills a cavity), as well as those sorts of inexact location relations which obtain, for example, between brain and head or between ovum and uterus</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">located_in</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/bfo.owl#locationOf -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/bfo.owl#locationOf">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#TransitiveProperty"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">location_of</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/bfo.owl#partOf -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/bfo.owl#partOf">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#TransitiveProperty"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The primitive instance-level relation p partOf p1 is illustrated in assertions such as: this instance of rhodopsin mediated phototransduction partOf this instance of visual perception. This relation satisfies at least the following standard axioms of mereology: reflexivity (for all p, p partOf p); anti-symmetry (for all p, p1, if p partOf p1 and p1 partOf p then p and p1 are identical); and transitivity (for all p, p1, p2, if p partOf p1 and p1 partOf p2, then p partOf p2). Analogous axioms hold also for parthood as a relation between spatial regions. For parthood as a relation between continuants, these axioms need to be modified to take account of the incorporation of a temporal argument. Thus for example the axiom of transitivity for continuants will assert that if c partOf c1 at t and c1 partOf c2 at t, then also c partOf c2 at t.</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">part_of</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/bfo.owl#participatesIn -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/bfo.owl#participatesIn">
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">participates_in</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/bfo.owl#precededBy -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/bfo.owl#precededBy">
+        <owl:inverseOf rdf:resource="http://purl.obolibrary.org/obo/bfo.owl#precedes"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#TransitiveProperty"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">p precededBy p&apos; if and only if: given any process p at a time t, there is some process p&apos; at time t&apos;, and t&apos; is earlier than t.</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">preceded_by</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/bfo.owl#precedes -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/bfo.owl#precedes">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#TransitiveProperty"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">precedes</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/bfo.owl#properPartOf -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/bfo.owl#properPartOf">
+        <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/bfo.owl#partOf"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#TransitiveProperty"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">As for partOf, with the additional constraint that subject and object are distinct</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">proper_part_of</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/bfo.owl#transformationOf -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/bfo.owl#transformationOf">
+        <owl:inverseOf rdf:resource="http://purl.obolibrary.org/obo/bfo.owl#transformedInto"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#TransitiveProperty"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Relation between two classes, in which instances retain their identity yet change their classification by virtue of some kind of transformation. Formally: C transformationOf C&apos; if and only if given any c and any t, if c instantiates C at time t, then for some t&apos;, c instantiates C&apos; at t&apos; and t&apos; earlier t, and there is no t2 such that c instantiates C at t2 and c instantiates C&apos; at t2.</rdfs:comment>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">When an embryonic oenocyte (a type of insect cell) is transformed into a larval oenocyte, one and the same continuant entity preserves its identity while instantiating distinct classes at distinct times. The class-level relation transformationOf obtains between continuant classes C and C1 wherever each instance of the class C is such as to have existed at some earlier time as an instance of the distinct class C1 (see Figure 2 in paper). This relation is illustrated first of all at the molecular level of granularity by the relation between mature RNA and the pre-RNA from which it is processed, or between (UV-induced) thymine-dimer and thymine dinucleotide. At coarser levels of granularity it is illustrated by the transformations involved in the creation of red blood cells, for example, from reticulocyte to erythrocyte, and by processes of development, for example, from larva to pupa, or from (post-gastrular) embryo to fetus or from child to adult. It is also manifest in pathological transformations, for example, of normal colon into carcinomatous colon. In each such case, one and the same continuant entity instantiates distinct classes at different times in virtue of phenotypic changes.</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">transformation_of</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/bfo.owl#transformedInto -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/bfo.owl#transformedInto">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#TransitiveProperty"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">transformed_into</rdfs:label>
+    </owl:ObjectProperty>
     
 
 
@@ -1908,6 +2163,315 @@ See the BFO 2 release notes for further information about BFO 2. Please note tha
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Exercise prescription commonly refers to the specific plan of fitness-related activities that are designed for a specified purpose, which is often developed by a fitness or rehabilitation specialist for the client or patient.</obo:IAO_0000115>
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://en.wikipedia.org/wiki/Exercise_prescription</obo:IAO_0000119>
         <rdfs:label xml:lang="zh">exercise prescription</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/exm.owl/EXM_000000000016 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/exm.owl/EXM_000000000016">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000019"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Concept used to describe exercise</obo:IAO_0000115>
+        <rdfs:label xml:lang="zh">characteristic of exercise</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/exm.owl/EXM_000000000017 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/exm.owl/EXM_000000000017">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/exm.owl/EXM_000000000016"/>
+        <rdfs:label xml:lang="zh">type of exercise</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/exm.owl/EXM_000000000018 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/exm.owl/EXM_000000000018">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/exm.owl/EXM_000000000016"/>
+        <rdfs:label xml:lang="zh">exercise frequence</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/exm.owl/EXM_000000000019 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/exm.owl/EXM_000000000019">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/exm.owl/EXM_000000000016"/>
+        <rdfs:label xml:lang="zh">exercise intensity</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/exm.owl/EXM_000000000020 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/exm.owl/EXM_000000000020">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/exm.owl/EXM_000000000016"/>
+        <rdfs:label xml:lang="zh">exercise time</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/exm.owl/EXM_000000000021 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/exm.owl/EXM_000000000021">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/emo.owl/EXM_000000000001"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An exercise that involves the movement of a constant weight or load through a specified range of motion.</obo:IAO_0000115>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://ncit.nci.nih.gov/ncitbrowser/ConceptReport.jsp?dictionary=NCI_Thesaurus&amp;ns=ncit&amp;code=C21058</obo:IAO_0000119>
+        <exm:EXM_000000000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCI: C21058</exm:EXM_000000000003>
+        <exm:EXM_000000000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SCTID: 16709005</exm:EXM_000000000003>
+        <exm:EXM_000000000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UMLS CUI: C0454287</exm:EXM_000000000003>
+        <rdfs:label xml:lang="zh">isokinetic exercise</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/exm.owl/EXM_000000000022 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/exm.owl/EXM_000000000022">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/emo.owl/EXM_000000000001"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An exercise that is performed by exerting force against an immovable object or by holding an object in a static position.</obo:IAO_0000115>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">URL:https://ncit.nci.nih.gov/ncitbrowser/ConceptReport.jsp?dictionary=NCI_Thesaurus&amp;ns=ncit&amp;code=C21057</obo:IAO_0000119>
+        <exm:EXM_000000000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MSH: D015444</exm:EXM_000000000003>
+        <exm:EXM_000000000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCI: C21057</exm:EXM_000000000003>
+        <exm:EXM_000000000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SCTID: 64838004</exm:EXM_000000000003>
+        <exm:EXM_000000000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UMLS CUI: C0022206</exm:EXM_000000000003>
+        <rdfs:label xml:lang="zh">isometric exercise</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/exm.owl/EXM_000000000023 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/exm.owl/EXM_000000000023">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/emo.owl/EXM_000000000001"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An exercise that involves the movement of a constant weight or load through a specified range of motion.</obo:IAO_0000115>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">URL:https://ncit.nci.nih.gov/ncitbrowser/ConceptReport.jsp?dictionary=NCI_Thesaurus&amp;ns=ncit&amp;code=C21058</obo:IAO_0000119>
+        <exm:EXM_000000000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCI: C21059</exm:EXM_000000000003>
+        <exm:EXM_000000000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SCTID: 16709005</exm:EXM_000000000003>
+        <exm:EXM_000000000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UMLS CUI: C0454287</exm:EXM_000000000003>
+        <rdfs:label xml:lang="zh">isotonic exercise</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/exm.owl/EXM_000000000024 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/exm.owl/EXM_000000000024">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/exm.owl/EXM_000000000004"/>
+        <owl:disjointWith rdf:resource="http://purl.obolibrary.org/obo/exm.owl/EXM_000000000025"/>
+        <owl:disjointWith rdf:resource="http://purl.obolibrary.org/obo/exm.owl/EXM_000000000026"/>
+        <owl:disjointWith rdf:resource="http://purl.obolibrary.org/obo/exm.owl/EXM_000000000027"/>
+        <owl:disjointUnionOf rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/exm.owl/EXM_000000000025"/>
+            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/exm.owl/EXM_000000000026"/>
+            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/exm.owl/EXM_000000000027"/>
+        </owl:disjointUnionOf>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">20-60 minutes of exercise which elevates your heart rate to 35-60% of your maximum heart rate performed at least 3-4 times per week.</obo:IAO_0000115>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://ncit.nci.nih.gov/ncitbrowser/ConceptReport.jsp?dictionary=NCI_Thesaurus&amp;ns=ncit&amp;code=C39771</obo:IAO_0000119>
+        <exm:EXM_000000000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCI: C39771</exm:EXM_000000000003>
+        <exm:EXM_000000000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UMLS CUI: C1517883</exm:EXM_000000000003>
+        <exm:EXM_000000000005 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">light activity</exm:EXM_000000000005>
+        <rdfs:label xml:lang="zh">light exercise</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/exm.owl/EXM_000000000025 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/exm.owl/EXM_000000000025">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/exm.owl/EXM_000000000004"/>
+        <owl:disjointWith rdf:resource="http://purl.obolibrary.org/obo/exm.owl/EXM_000000000026"/>
+        <owl:disjointWith rdf:resource="http://purl.obolibrary.org/obo/exm.owl/EXM_000000000027"/>
+        <owl:disjointUnionOf rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/exm.owl/EXM_000000000024"/>
+            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/exm.owl/EXM_000000000026"/>
+            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/exm.owl/EXM_000000000027"/>
+        </owl:disjointUnionOf>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Light exercise for less than 20 minutes, 20-60 minutes of exercise which elevates your heart rate to less than 35% of your maximum heart rate, or light exercise less than 3 times per week.</obo:IAO_0000115>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://ncit.nci.nih.gov/ncitbrowser/ConceptReport.jsp?dictionary=NCI_Thesaurus&amp;ns=ncit&amp;code=C39777</obo:IAO_0000119>
+        <exm:EXM_000000000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCI: C39777</exm:EXM_000000000003>
+        <exm:EXM_000000000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UMLS CUI: C1519977</exm:EXM_000000000003>
+        <exm:EXM_000000000005 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">sedentary exercise</exm:EXM_000000000005>
+        <exm:EXM_000000000005 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">very light activity</exm:EXM_000000000005>
+        <rdfs:label xml:lang="zh">very light exercise</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/exm.owl/EXM_000000000026 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/exm.owl/EXM_000000000026">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/exm.owl/EXM_000000000004"/>
+        <owl:disjointWith rdf:resource="http://purl.obolibrary.org/obo/exm.owl/EXM_000000000027"/>
+        <owl:disjointUnionOf rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/exm.owl/EXM_000000000024"/>
+            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/exm.owl/EXM_000000000025"/>
+            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/exm.owl/EXM_000000000027"/>
+        </owl:disjointUnionOf>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">20-60 minutes of exercise which elevates your heart rate to 60-80% of your maximum heart rate performed at least 3-4 times per week.</obo:IAO_0000115>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://ncit.nci.nih.gov/ncitbrowser/ConceptReport.jsp?dictionary=NCI_Thesaurus&amp;ns=ncit&amp;code=C39772</obo:IAO_0000119>
+        <exm:EXM_000000000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCI: C39772</exm:EXM_000000000003>
+        <exm:EXM_000000000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UMLS CUI: C1513375</exm:EXM_000000000003>
+        <exm:EXM_000000000005 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">moderate activity</exm:EXM_000000000005>
+        <rdfs:label xml:lang="zh">moderate exercise</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/exm.owl/EXM_000000000027 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/exm.owl/EXM_000000000027">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/exm.owl/EXM_000000000004"/>
+        <owl:disjointUnionOf rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/exm.owl/EXM_000000000024"/>
+            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/exm.owl/EXM_000000000025"/>
+            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/exm.owl/EXM_000000000026"/>
+        </owl:disjointUnionOf>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">20-60 minutes of exercise which elevates your heart rate to 80-90% of your maximum heart rate performed at least 3-4 times per week.</obo:IAO_0000115>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://ncit.nci.nih.gov/ncitbrowser/ConceptReport.jsp?dictionary=NCI_Thesaurus&amp;ns=ncit&amp;code=C39773</obo:IAO_0000119>
+        <exm:EXM_000000000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SCTID: C39773</exm:EXM_000000000003>
+        <exm:EXM_000000000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UMLS CUI: C1514989</exm:EXM_000000000003>
+        <exm:EXM_000000000005 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">strenuous activity</exm:EXM_000000000005>
+        <rdfs:label xml:lang="zh">strenuous exercise</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/exm.owl/EXM_000000000028 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/exm.owl/EXM_000000000028">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000019"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Characteristics of people that are socially constructed, including norms, behaviors, and roles based on sex. As a social construct, gender varies from society to society and can change over time.</obo:IAO_0000115>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://ncit.nci.nih.gov/ncitbrowser/ConceptReport.jsp?dictionary=NCI_Thesaurus&amp;ns=ncit&amp;code=C17357</obo:IAO_0000119>
+        <exm:EXM_000000000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MSH: D005783</exm:EXM_000000000003>
+        <exm:EXM_000000000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCI: C17357</exm:EXM_000000000003>
+        <exm:EXM_000000000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SCTID: 263495000</exm:EXM_000000000003>
+        <exm:EXM_000000000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UMLS CUI: C0079399</exm:EXM_000000000003>
+        <rdfs:label xml:lang="zh">gender</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/exm.owl/EXM_000000000029 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/exm.owl/EXM_000000000029">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000019"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The assemblage of physical properties or qualities by which male is distinguished from female; the physical difference between male and female; the distinguishing peculiarity of male or female.</obo:IAO_0000115>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://ncit.nci.nih.gov/ncitbrowser/ConceptReport.jsp?dictionary=NCI_Thesaurus&amp;ns=ncit&amp;code=C28421</obo:IAO_0000119>
+        <exm:EXM_000000000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MSH: D012723</exm:EXM_000000000003>
+        <exm:EXM_000000000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCI: C28421</exm:EXM_000000000003>
+        <exm:EXM_000000000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SCTID: 57312000</exm:EXM_000000000003>
+        <exm:EXM_000000000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UMLS CUI: C1522384</exm:EXM_000000000003>
+        <exm:EXM_000000000005 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">biological sex</exm:EXM_000000000005>
+        <rdfs:label xml:lang="zh">sex</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/exm.owl/EXM_000000000030 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/exm.owl/EXM_000000000030">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/exm.owl/EXM_000000000029"/>
+        <owl:disjointWith rdf:resource="http://purl.obolibrary.org/obo/exm.owl/EXM_000000000031"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An animal who is observed by researcher or clinician to be male, the sex that ordinarily produces sperm.</obo:IAO_0000115>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://ncit.nci.nih.gov/ncitbrowser/ConceptReport.jsp?dictionary=NCI_Thesaurus&amp;ns=ncit&amp;code=C46112</obo:IAO_0000119>
+        <exm:EXM_000000000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C46112</exm:EXM_000000000003>
+        <exm:EXM_000000000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UMLS CUI: C1706428</exm:EXM_000000000003>
+        <rdfs:label xml:lang="zh">male phenotype</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/exm.owl/EXM_000000000031 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/exm.owl/EXM_000000000031">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/exm.owl/EXM_000000000029"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An animal who is observed by researcher or clinician to be female, the sex that ordinarily produces ova.</obo:IAO_0000115>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://ncit.nci.nih.gov/ncitbrowser/ConceptReport.jsp?dictionary=NCI_Thesaurus&amp;ns=ncit&amp;code=C46113</obo:IAO_0000119>
+        <exm:EXM_000000000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCI: C46113</exm:EXM_000000000003>
+        <exm:EXM_000000000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UMLS CUI: C1705498</exm:EXM_000000000003>
+        <exm:EXM_000000000005 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">female</exm:EXM_000000000005>
+        <rdfs:label xml:lang="zh">female phenotype</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/exm.owl/EXM_000000000032 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/exm.owl/EXM_000000000032">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/exm.owl/EXM_000000000028"/>
+        <owl:disjointWith rdf:resource="http://purl.obolibrary.org/obo/exm.owl/EXM_000000000033"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An individual who reports belonging to the cultural gender role distinction of male.</obo:IAO_0000115>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://ncit.nci.nih.gov/ncitbrowser/ConceptReport.jsp?dictionary=NCI_Thesaurus&amp;ns=ncit&amp;code=C46109</obo:IAO_0000119>
+        <exm:EXM_000000000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCI: C46109</exm:EXM_000000000003>
+        <exm:EXM_000000000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UMLS CUI: C1706180</exm:EXM_000000000003>
+        <exm:EXM_000000000005 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">male</exm:EXM_000000000005>
+        <rdfs:label xml:lang="zh">male gender</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/exm.owl/EXM_000000000033 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/exm.owl/EXM_000000000033">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/exm.owl/EXM_000000000028"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An individual who reports belonging to the cultural gender role distinction of female.</obo:IAO_0000115>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://ncit.nci.nih.gov/ncitbrowser/ConceptReport.jsp?dictionary=NCI_Thesaurus&amp;ns=ncit&amp;code=C46110</obo:IAO_0000119>
+        <exm:EXM_000000000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCI: C46110</exm:EXM_000000000003>
+        <exm:EXM_000000000005 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">female</exm:EXM_000000000005>
+        <rdfs:label xml:lang="zh">female gender</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/exm.owl/EXM_000000000034 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/exm.owl/EXM_000000000034">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000019"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A record of a patient&apos;s background regarding health and disease events of blood relatives. A patient&apos;s family medical history may be important in diagnosing existing conditions.</obo:IAO_0000115>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://ncit.nci.nih.gov/ncitbrowser/ConceptReport.jsp?dictionary=NCI_Thesaurus&amp;ns=ncit&amp;code=C17726</obo:IAO_0000119>
+        <exm:EXM_000000000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MSH: D008487</exm:EXM_000000000003>
+        <exm:EXM_000000000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCI: C17726</exm:EXM_000000000003>
+        <exm:EXM_000000000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SCTID: 57177007</exm:EXM_000000000003>
+        <exm:EXM_000000000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UMLS CUI: C0241889</exm:EXM_000000000003>
+        <exm:EXM_000000000005 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">family health history</exm:EXM_000000000005>
+        <exm:EXM_000000000005 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">family medical history</exm:EXM_000000000005>
+        <exm:EXM_000000000006 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FH</exm:EXM_000000000006>
+        <rdfs:label xml:lang="zh">family history</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/exm.owl/EXM_000000000035 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/exm.owl/EXM_000000000035">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000019"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A record of a patient&apos;s background regarding health and the occurrence of disease events of the individual. In addition, personal medical history may be a variable in epidemiologic studies.</obo:IAO_0000115>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://ncit.nci.nih.gov/ncitbrowser/ConceptReport.jsp?dictionary=NCI_Thesaurus&amp;ns=ncit&amp;code=C18772</obo:IAO_0000119>
+        <exm:EXM_000000000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCI: C18772</exm:EXM_000000000003>
+        <exm:EXM_000000000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SCTID: 392521001</exm:EXM_000000000003>
+        <exm:EXM_000000000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UMLS CUI: C0262926</exm:EXM_000000000003>
+        <exm:EXM_000000000005 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">medical history</exm:EXM_000000000005>
+        <exm:EXM_000000000005 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">personal medical history</exm:EXM_000000000005>
+        <rdfs:label xml:lang="zh">medical history</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/exm.owl/EXM_000000000036 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/exm.owl/EXM_000000000036">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000019"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A geographic ancestral origin category that is assigned to a population group based mainly on physical characteristics that are thought to be distinct and inherent.</obo:IAO_0000115>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MSH: D044469</obo:IAO_0000119>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCI: C17049</obo:IAO_0000119>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://ncit.nci.nih.gov/ncitbrowser/ConceptReport.jsp?dictionary=NCI_Thesaurus&amp;ns=ncit&amp;code=C17049</obo:IAO_0000119>
+        <exm:EXM_000000000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SCTID: 415229000</exm:EXM_000000000003>
+        <exm:EXM_000000000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UMLS CUI: C0034510</exm:EXM_000000000003>
+        <exm:EXM_000000000005 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">racial group</exm:EXM_000000000005>
+        <rdfs:label xml:lang="zh">race</rdfs:label>
     </owl:Class>
     
 
