@@ -11,7 +11,8 @@
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:foaf="http://xmlns.com/foaf/0.1/"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-     xmlns:owl2xml="http://www.w3.org/2006/12/owl2-xml#">
+     xmlns:owl2xml="http://www.w3.org/2006/12/owl2-xml#"
+     xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#">
     <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/exm.owl">
         <obo:IAO_0000116>BFO 2 Reference: BFO does not claim to be a complete coverage of all entities. It seeks only to provide coverage of those entities studied by empirical science together with those entities which affect or are involved in human activities such as data processing and planning – coverage that is sufficiently broad to provide assistance to those engaged in building domain ontologies for purposes of data annotation [17</obo:IAO_0000116>
         <obo:IAO_0000116>BFO 2 Reference: BFO’s treatment of continuants and occurrents – as also its treatment of regions, rests on a dichotomy between space and time, and on the view that there are two perspectives on reality – earlier called the ‘SNAP’ and ‘SPAN’ perspectives, both of which are essential to the non-reductionist representation of reality as we understand it from the best available science [30</obo:IAO_0000116>
@@ -92,7 +93,6 @@ See the BFO 2 release notes for further information about BFO 2. Please note tha
 
     <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/BFO_0000180">
         <obo:IAO_0000115 xml:lang="en">Relates an entity in the ontology to the term that is used to represent it in the the CLIF specification of BFO2</obo:IAO_0000115>
-        <obo:IAO_0000119>Person:Alan Ruttenberg</obo:IAO_0000119>
         <obo:IAO_0000232 xml:lang="en">Really of interest to developers only</obo:IAO_0000232>
         <rdfs:label xml:lang="en">BFO CLIF specification label</rdfs:label>
         <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#label"/>
@@ -154,15 +154,6 @@ See the BFO 2 release notes for further information about BFO 2. Please note tha
     
 
 
-    <!-- http://purl.obolibrary.org/obo/IAO_0000119 -->
-
-    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000119">
-        <rdfs:isDefinedBy rdf:resource="http://purl.obolibrary.org/obo/iao.owl"/>
-        <rdfs:label xml:lang="en">definition source</rdfs:label>
-    </owl:AnnotationProperty>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/IAO_0000232 -->
 
     <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000232">
@@ -217,22 +208,6 @@ See the BFO 2 release notes for further information about BFO 2. Please note tha
     
 
 
-    <!-- http://purl.obolibrary.org/obo/exm.owl/EXM_000000000003 -->
-
-    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/exm.owl/EXM_000000000003">
-        <rdfs:label xml:lang="zh">database cross reference</rdfs:label>
-    </owl:AnnotationProperty>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/exm.owl/EXM_000000000005 -->
-
-    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/exm.owl/EXM_000000000005">
-        <rdfs:label xml:lang="zh">synonyms</rdfs:label>
-    </owl:AnnotationProperty>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/exm.owl/EXM_000000000006 -->
 
     <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/exm.owl/EXM_000000000006">
@@ -256,6 +231,48 @@ See the BFO 2 release notes for further information about BFO 2. Please note tha
     <!-- http://purl.org/dc/elements/1.1/member -->
 
     <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/member"/>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#hasAlternativeId -->
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasAlternativeId"/>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym -->
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym"/>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#hasDbXref -->
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#hasExactSynonym -->
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym -->
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym"/>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym -->
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#inSubset -->
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#inSubset"/>
     
 
 
@@ -1378,7 +1395,6 @@ See the BFO 2 release notes for further information about BFO 2. Please note tha
         <obo:IAO_0000112 xml:lang="en">your collection of Meissen ceramic plates.</obo:IAO_0000112>
         <obo:IAO_0000116>An entity a is an object aggregate if and only if there is a mutually exhaustive and pairwise disjoint partition of a into objects </obo:IAO_0000116>
         <obo:IAO_0000116 xml:lang="en">BFO 2 Reference: object aggregates may gain and lose parts while remaining numerically identical (one and the same individual) over time. This holds both for aggregates whose membership is determined naturally (the aggregate of cells in your body) and aggregates determined by fiat (a baseball team, a congressional committee).</obo:IAO_0000116>
-        <obo:IAO_0000119>ISBN:978-3-938793-98-5pp124-158#Thomas Bittner and Barry Smith, &apos;A Theory of Granular Partitions&apos;, in K. Munn and B. Smith (eds.), Applied Ontology: An Introduction, Frankfurt/Lancaster: ontos, 2008, 125-158.</obo:IAO_0000119>
         <obo:IAO_0000600 xml:lang="en">b is an object aggregate means: b is a material entity consisting exactly of a plurality of objects as member_parts at all times at which b exists. (axiom label in BFO2 Reference: [025-004])</obo:IAO_0000600>
         <obo:IAO_0000602>(forall (x) (if (ObjectAggregate x) (and (MaterialEntity x) (forall (t) (if (existsAt x t) (exists (y z) (and (Object y) (Object z) (memberPartOfAt y x t) (memberPartOfAt z x t) (not (= y z)))))) (not (exists (w t_1) (and (memberPartOfAt w x t_1) (not (Object w)))))))) // axiom label in BFO2 CLIF: [025-004] </obo:IAO_0000602>
         <rdfs:isDefinedBy rdf:resource="http://purl.obolibrary.org/obo/bfo.owl"/>
@@ -1395,12 +1411,6 @@ See the BFO 2 release notes for further information about BFO 2. Please note tha
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000116"/>
         <owl:annotatedTarget>An entity a is an object aggregate if and only if there is a mutually exhaustive and pairwise disjoint partition of a into objects </owl:annotatedTarget>
         <obo:IAO_0010000 rdf:resource="http://purl.obolibrary.org/obo/bfo/axiom/0000301"/>
-    </owl:Axiom>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/BFO_0000027"/>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000119"/>
-        <owl:annotatedTarget>ISBN:978-3-938793-98-5pp124-158#Thomas Bittner and Barry Smith, &apos;A Theory of Granular Partitions&apos;, in K. Munn and B. Smith (eds.), Applied Ontology: An Introduction, Frankfurt/Lancaster: ontos, 2008, 125-158.</owl:annotatedTarget>
-        <obo:IAO_0010000 rdf:resource="http://purl.obolibrary.org/obo/bfo/axiom/0000300"/>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/BFO_0000027"/>
@@ -1737,12 +1747,6 @@ See the BFO 2 release notes for further information about BFO 2. Please note tha
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/BFO_0000140"/>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget xml:lang="en">b is a continuant fiat boundary = Def. b is an immaterial entity that is of zero, one or two dimensions and does not include a spatial region as part. (axiom label in BFO2 Reference: [029-001])</owl:annotatedTarget>
-        <obo:IAO_0010000 rdf:resource="http://purl.obolibrary.org/obo/bfo/axiom/029-001"/>
-    </owl:Axiom>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/BFO_0000140"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000116"/>
         <owl:annotatedTarget xml:lang="en">Continuant fiat boundary doesn&apos;t have a closure axiom because the subclasses don&apos;t necessarily exhaust all possibilites. An example would be the mereological sum of two-dimensional continuant fiat boundary and a one dimensional continuant fiat boundary that doesn&apos;t overlap it. The situation is analogous to temporal and spatial regions.</owl:annotatedTarget>
         <obo:IAO_0010000 rdf:resource="http://purl.obolibrary.org/obo/bfo/axiom/0000008"/>
@@ -1751,6 +1755,12 @@ See the BFO 2 release notes for further information about BFO 2. Please note tha
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/BFO_0000140"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000602"/>
         <owl:annotatedTarget>(iff (ContinuantFiatBoundary a) (and (ImmaterialEntity a) (exists (b) (and (or (ZeroDimensionalSpatialRegion b) (OneDimensionalSpatialRegion b) (TwoDimensionalSpatialRegion b)) (forall (t) (locatedInAt a b t)))) (not (exists (c t) (and (SpatialRegion c) (continuantPartOfAt c a t)))))) // axiom label in BFO2 CLIF: [029-001] </owl:annotatedTarget>
+        <obo:IAO_0010000 rdf:resource="http://purl.obolibrary.org/obo/bfo/axiom/029-001"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/BFO_0000140"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">b is a continuant fiat boundary = Def. b is an immaterial entity that is of zero, one or two dimensions and does not include a spatial region as part. (axiom label in BFO2 Reference: [029-001])</owl:annotatedTarget>
         <obo:IAO_0010000 rdf:resource="http://purl.obolibrary.org/obo/bfo/axiom/029-001"/>
     </owl:Axiom>
     
@@ -1994,15 +2004,26 @@ See the BFO 2 release notes for further information about BFO 2. Please note tha
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/emo.owl/EXM_000000000001">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/exm.owl/EXM_000000000014"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Physical activity which is usually regular and done with the intention of improving or maintaining physical fitness or health.</obo:IAO_0000115>
-        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.ncbi.nlm.nih.gov/mesh/68015444</obo:IAO_0000119>
-        <exm:EXM_000000000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MSH: D015444</exm:EXM_000000000003>
-        <exm:EXM_000000000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCI: C16567</exm:EXM_000000000003>
-        <exm:EXM_000000000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SCTID: 256235009</exm:EXM_000000000003>
-        <exm:EXM_000000000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SCTID: 61686008</exm:EXM_000000000003>
-        <exm:EXM_000000000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UMLS CUI: C0015259</exm:EXM_000000000003>
-        <exm:EXM_000000000005 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">physical exercise</exm:EXM_000000000005>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MSH: D015444</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCI: C16567</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SCTID: 256235009</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SCTID: 61686008</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UMLS CUI: C0015259</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">physical exercise</oboInOwl:hasExactSynonym>
         <rdfs:label xml:lang="en">exercise</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/emo.owl/EXM_000000000001"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Physical activity which is usually regular and done with the intention of improving or maintaining physical fitness or health.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MSH: D015444</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/emo.owl/EXM_000000000001"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">physical exercise</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MSH: D015444</oboInOwl:hasDbXref>
+    </owl:Axiom>
     
 
 
@@ -2011,10 +2032,15 @@ See the BFO 2 release notes for further information about BFO 2. Please note tha
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/exm.owl/EXM_000000000001">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/emo.owl/EXM_000000000001"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Anaerobic exercise is a type of exercise that breaks down glucose in the body without using oxygen.</obo:IAO_0000115>
-        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://en.wikipedia.org/wiki/Anaerobic_exercise</obo:IAO_0000119>
-        <exm:EXM_000000000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UMLS CUI: C3841233</exm:EXM_000000000003>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UMLS CUI: C3841233</oboInOwl:hasDbXref>
         <rdfs:label xml:lang="zh">anaerobic exercise</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/exm.owl/EXM_000000000001"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Anaerobic exercise is a type of exercise that breaks down glucose in the body without using oxygen.</owl:annotatedTarget>
+        <rdfs:isDefinedBy rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://en.wikipedia.org/wiki/Anaerobic_exercise</rdfs:isDefinedBy>
+    </owl:Axiom>
     
 
 
@@ -2023,14 +2049,49 @@ See the BFO 2 release notes for further information about BFO 2. Please note tha
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/exm.owl/EXM_000000000002">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/exm.owl/EXM_000000000001"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A cardiovascular exercise strategy with alternating short periods of intense anaerobic exercise with less-intense recovery periods.</obo:IAO_0000115>
-        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.ncbi.nlm.nih.gov/mesh/?term=D000072696</obo:IAO_0000119>
-        <exm:EXM_000000000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MSH: D000072696</exm:EXM_000000000003>
-        <exm:EXM_000000000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UMLS CUI: C4277545</exm:EXM_000000000003>
-        <exm:EXM_000000000005 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">high intensity interval training</exm:EXM_000000000005>
-        <exm:EXM_000000000005 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">high-intensity intermittent exercise</exm:EXM_000000000005>
         <exm:EXM_000000000006 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HIIT</exm:EXM_000000000006>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MSH: D000072696</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UMLS CUI: C4277545</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">high intensity interval training</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">high-intensity intermittent exercise</oboInOwl:hasExactSynonym>
         <rdfs:label xml:lang="zh">high-intensity interval training</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/exm.owl/EXM_000000000002"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A cardiovascular exercise strategy with alternating short periods of intense anaerobic exercise with less-intense recovery periods.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MSH: D000072696</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/exm.owl/EXM_000000000002"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">high intensity interval training</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MSH: D000072696</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/exm.owl/EXM_000000000002"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">high-intensity intermittent exercise</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MSH: D000072696</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/exm.owl/EXM_000000000003 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/exm.owl/EXM_000000000003">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/exm.owl/EXM_000000000048"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The percentage of the end-diastolic volume pumped out of the heart during SYSTOLE.</obo:IAO_0000115>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MSH: D013318</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UMLS CUI: C0042508</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="zh">ventricular ejection fraction</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/exm.owl/EXM_000000000003"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The percentage of the end-diastolic volume pumped out of the heart during SYSTOLE.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UMLS CUI: C0042508</oboInOwl:hasDbXref>
+    </owl:Axiom>
     
 
 
@@ -2039,12 +2100,44 @@ See the BFO 2 release notes for further information about BFO 2. Please note tha
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/exm.owl/EXM_000000000004">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/emo.owl/EXM_000000000001"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sustained exercise that places an increased oxygen demand on the cardiovascular system and promotes an increased efficiency of the body&apos;s use of oxygen.</obo:IAO_0000115>
-        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://ncit.nci.nih.gov/ncitbrowser/ConceptReport.jsp?dictionary=NCI_Thesaurus&amp;ns=ncit&amp;code=C39774</obo:IAO_0000119>
-        <exm:EXM_000000000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCI: C39774</exm:EXM_000000000003>
-        <exm:EXM_000000000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SCTID: 229072005</exm:EXM_000000000003>
-        <exm:EXM_000000000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UMLS CUI: C0001701</exm:EXM_000000000003>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCI: C39774</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SCTID: 229072005</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UMLS CUI: C0001701</oboInOwl:hasDbXref>
         <rdfs:label xml:lang="zh">aerobic exercise</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/exm.owl/EXM_000000000004"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sustained exercise that places an increased oxygen demand on the cardiovascular system and promotes an increased efficiency of the body&apos;s use of oxygen.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCI: C39774</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/exm.owl/EXM_000000000005 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/exm.owl/EXM_000000000005">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/exm.owl/EXM_000000000003"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The fraction of the left ventricular end diastolic volume ejected with each beat. The left ventricular ejection fraction is equal to the left ventricular stroke volume divided by the left ventricular end diastolic volume.</obo:IAO_0000115>
+        <exm:EXM_000000000006 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LVEF</exm:EXM_000000000006>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCI: C99524</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SCTID: 250908004</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UMLS CUI: C0428772</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="zh">left ventricular ejection fraction</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/exm.owl/EXM_000000000005"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The fraction of the left ventricular end diastolic volume ejected with each beat. The left ventricular ejection fraction is equal to the left ventricular stroke volume divided by the left ventricular end diastolic volume.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCI: C99524</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/exm.owl/EXM_000000000005"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/exm.owl/EXM_000000000006"/>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LVEF</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCI: C99524</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SCTID: 250908004</oboInOwl:hasDbXref>
+    </owl:Axiom>
     
 
 
@@ -2053,15 +2146,32 @@ See the BFO 2 release notes for further information about BFO 2. Please note tha
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/exm.owl/EXM_000000000007">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000019"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The level of health of the individual, group, or population as subjectively assessed by the individual or by more objective measures.</obo:IAO_0000115>
-        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.ncbi.nlm.nih.gov/mesh/68006304</obo:IAO_0000119>
-        <exm:EXM_000000000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MSH: D006304</exm:EXM_000000000003>
-        <exm:EXM_000000000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCI: C16669</exm:EXM_000000000003>
-        <exm:EXM_000000000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SCTID: 406221003</exm:EXM_000000000003>
-        <exm:EXM_000000000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UMLS CUI: C0018759</exm:EXM_000000000003>
-        <exm:EXM_000000000005 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">health level</exm:EXM_000000000005>
-        <exm:EXM_000000000005 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">level of health</exm:EXM_000000000005>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MSH: D006304</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCI: C16669</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SCTID: 406221003</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UMLS CUI: C0018759</oboInOwl:hasDbXref>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">health level</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">level of health</oboInOwl:hasRelatedSynonym>
         <rdfs:label xml:lang="zh">health status</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/exm.owl/EXM_000000000007"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The level of health of the individual, group, or population as subjectively assessed by the individual or by more objective measures.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MSH: D006304</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/exm.owl/EXM_000000000007"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">health level</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MSH: D006304</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/exm.owl/EXM_000000000007"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">level of health</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MSH: D006304</oboInOwl:hasDbXref>
+    </owl:Axiom>
     
 
 
@@ -2070,12 +2180,17 @@ See the BFO 2 release notes for further information about BFO 2. Please note tha
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/exm.owl/EXM_000000000008">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/exm.owl/EXM_000000000007"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The relative amounts of various components in the body, such as percentage of body fat.</obo:IAO_0000115>
-        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.ncbi.nlm.nih.gov/mesh/68001823</obo:IAO_0000119>
-        <exm:EXM_000000000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MSH: D001823</exm:EXM_000000000003>
-        <exm:EXM_000000000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SCTID: 68592003</exm:EXM_000000000003>
-        <exm:EXM_000000000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UMLS CUI: C0005885</exm:EXM_000000000003>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MSH: D001823</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SCTID: 68592003</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UMLS CUI: C0005885</oboInOwl:hasDbXref>
         <rdfs:label xml:lang="zh">body composition</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/exm.owl/EXM_000000000008"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The relative amounts of various components in the body, such as percentage of body fat.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MSH: D001823</oboInOwl:hasDbXref>
+    </owl:Axiom>
     
 
 
@@ -2084,12 +2199,24 @@ See the BFO 2 release notes for further information about BFO 2. Please note tha
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/exm.owl/EXM_000000000009">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/exm.owl/EXM_000000000008"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The amount of an individual&apos;s total body mass that is fat, expressed as a percent.</obo:IAO_0000115>
-        <exm:EXM_000000000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCI: C139218</exm:EXM_000000000003>
-        <exm:EXM_000000000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UMLS CUI: C0518026</exm:EXM_000000000003>
-        <exm:EXM_000000000005 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">body fat</exm:EXM_000000000005>
-        <exm:EXM_000000000005 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">percentage of body fat</exm:EXM_000000000005>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCI: C139218</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UMLS CUI: C0518026</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">percentage of body fat</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">body fat</oboInOwl:hasRelatedSynonym>
         <rdfs:label xml:lang="zh">body fat percentage</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/exm.owl/EXM_000000000009"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">percentage of body fat</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCI: C139218</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/exm.owl/EXM_000000000009"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">body fat</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCI: C139218</oboInOwl:hasDbXref>
+    </owl:Axiom>
     
 
 
@@ -2098,7 +2225,7 @@ See the BFO 2 release notes for further information about BFO 2. Please note tha
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/exm.owl/EXM_000000000010">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/exm.owl/EXM_000000000008"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The amount of an individual&apos;s total body mass that is protein, expressed as a percent.</obo:IAO_0000115>
-        <exm:EXM_000000000005 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">percentage of body protein</exm:EXM_000000000005>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">percentage of body protein</oboInOwl:hasExactSynonym>
         <rdfs:label xml:lang="zh">body protein percentage</rdfs:label>
     </owl:Class>
     
@@ -2109,7 +2236,7 @@ See the BFO 2 release notes for further information about BFO 2. Please note tha
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/exm.owl/EXM_000000000011">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/exm.owl/EXM_000000000008"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The amount of an individual&apos;s total body mass that is mineral, expressed as a percent.</obo:IAO_0000115>
-        <exm:EXM_000000000005 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">percentage of body mineral</exm:EXM_000000000005>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">percentage of body mineral</oboInOwl:hasExactSynonym>
         <rdfs:label xml:lang="zh">body mineral percentage</rdfs:label>
     </owl:Class>
     
@@ -2120,7 +2247,7 @@ See the BFO 2 release notes for further information about BFO 2. Please note tha
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/exm.owl/EXM_000000000012">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/exm.owl/EXM_000000000008"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The amount of an individual&apos;s total body mass that is water, expressed as a percent.</obo:IAO_0000115>
-        <exm:EXM_000000000005 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">percentage of body water</exm:EXM_000000000005>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">percentage of body water</oboInOwl:hasExactSynonym>
         <rdfs:label xml:lang="zh">body water percentage</rdfs:label>
     </owl:Class>
     
@@ -2131,11 +2258,17 @@ See the BFO 2 release notes for further information about BFO 2. Please note tha
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/exm.owl/EXM_000000000013">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000030"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">equipment used in exercise</obo:IAO_0000115>
-        <exm:EXM_000000000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SCTID: 708542002</exm:EXM_000000000003>
-        <exm:EXM_000000000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UMLS CUI: C0497977</exm:EXM_000000000003>
-        <exm:EXM_000000000005 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">exercise device</exm:EXM_000000000005>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SCTID: 708542002</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UMLS CUI: C0497977</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">exercise device</oboInOwl:hasExactSynonym>
         <rdfs:label xml:lang="zh">exercise equipment</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/exm.owl/EXM_000000000013"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">exercise device</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SCTID: 708542002</oboInOwl:hasDbXref>
+    </owl:Axiom>
     
 
 
@@ -2144,15 +2277,32 @@ See the BFO 2 release notes for further information about BFO 2. Please note tha
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/exm.owl/EXM_000000000014">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000015"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">any bodily movement produced by skeletal muscles that requires energy expenditure.</obo:IAO_0000115>
-        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.who.int/news-room/fact-sheets/detail/physical-activity</obo:IAO_0000119>
-        <exm:EXM_000000000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MSH: D009043</exm:EXM_000000000003>
-        <exm:EXM_000000000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SCTID: 48761009</exm:EXM_000000000003>
-        <exm:EXM_000000000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SCTID: 68130003</exm:EXM_000000000003>
-        <exm:EXM_000000000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UMLS CUI: C0026606</exm:EXM_000000000003>
-        <exm:EXM_000000000005 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">motor activity</exm:EXM_000000000005>
-        <exm:EXM_000000000005 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">motor behavior</exm:EXM_000000000005>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MSH: D009043</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SCTID: 48761009</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SCTID: 68130003</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UMLS CUI: C0026606</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">motor activity</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">motor behavior</oboInOwl:hasRelatedSynonym>
         <rdfs:label xml:lang="zh">physical activity</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/exm.owl/EXM_000000000014"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">any bodily movement produced by skeletal muscles that requires energy expenditure.</owl:annotatedTarget>
+        <rdfs:isDefinedBy rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.who.int/news-room/fact-sheets/detail/physical-activity</rdfs:isDefinedBy>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/exm.owl/EXM_000000000014"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">motor activity</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MSH: D009043</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/exm.owl/EXM_000000000014"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">motor behavior</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UMLS CUI: C0026606</oboInOwl:hasDbXref>
+    </owl:Axiom>
     
 
 
@@ -2161,7 +2311,6 @@ See the BFO 2 release notes for further information about BFO 2. Please note tha
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/exm.owl/EXM_000000000015">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000040"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Exercise prescription commonly refers to the specific plan of fitness-related activities that are designed for a specified purpose, which is often developed by a fitness or rehabilitation specialist for the client or patient.</obo:IAO_0000115>
-        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://en.wikipedia.org/wiki/Exercise_prescription</obo:IAO_0000119>
         <rdfs:label xml:lang="zh">exercise prescription</rdfs:label>
     </owl:Class>
     
@@ -2218,12 +2367,17 @@ See the BFO 2 release notes for further information about BFO 2. Please note tha
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/exm.owl/EXM_000000000021">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/emo.owl/EXM_000000000001"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An exercise that involves the movement of a constant weight or load through a specified range of motion.</obo:IAO_0000115>
-        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://ncit.nci.nih.gov/ncitbrowser/ConceptReport.jsp?dictionary=NCI_Thesaurus&amp;ns=ncit&amp;code=C21058</obo:IAO_0000119>
-        <exm:EXM_000000000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCI: C21058</exm:EXM_000000000003>
-        <exm:EXM_000000000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SCTID: 16709005</exm:EXM_000000000003>
-        <exm:EXM_000000000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UMLS CUI: C0454287</exm:EXM_000000000003>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCI: C21058</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SCTID: 16709005</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UMLS CUI: C0454287</oboInOwl:hasDbXref>
         <rdfs:label xml:lang="zh">isokinetic exercise</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/exm.owl/EXM_000000000021"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An exercise that involves the movement of a constant weight or load through a specified range of motion.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCI: C21058</oboInOwl:hasDbXref>
+    </owl:Axiom>
     
 
 
@@ -2232,13 +2386,18 @@ See the BFO 2 release notes for further information about BFO 2. Please note tha
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/exm.owl/EXM_000000000022">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/emo.owl/EXM_000000000001"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An exercise that is performed by exerting force against an immovable object or by holding an object in a static position.</obo:IAO_0000115>
-        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">URL:https://ncit.nci.nih.gov/ncitbrowser/ConceptReport.jsp?dictionary=NCI_Thesaurus&amp;ns=ncit&amp;code=C21057</obo:IAO_0000119>
-        <exm:EXM_000000000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MSH: D015444</exm:EXM_000000000003>
-        <exm:EXM_000000000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCI: C21057</exm:EXM_000000000003>
-        <exm:EXM_000000000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SCTID: 64838004</exm:EXM_000000000003>
-        <exm:EXM_000000000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UMLS CUI: C0022206</exm:EXM_000000000003>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MSH: D015444</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCI: C21057</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SCTID: 64838004</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UMLS CUI: C0022206</oboInOwl:hasDbXref>
         <rdfs:label xml:lang="zh">isometric exercise</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/exm.owl/EXM_000000000022"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An exercise that is performed by exerting force against an immovable object or by holding an object in a static position.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCI: C21057</oboInOwl:hasDbXref>
+    </owl:Axiom>
     
 
 
@@ -2247,12 +2406,17 @@ See the BFO 2 release notes for further information about BFO 2. Please note tha
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/exm.owl/EXM_000000000023">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/emo.owl/EXM_000000000001"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An exercise that involves the movement of a constant weight or load through a specified range of motion.</obo:IAO_0000115>
-        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">URL:https://ncit.nci.nih.gov/ncitbrowser/ConceptReport.jsp?dictionary=NCI_Thesaurus&amp;ns=ncit&amp;code=C21058</obo:IAO_0000119>
-        <exm:EXM_000000000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCI: C21059</exm:EXM_000000000003>
-        <exm:EXM_000000000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SCTID: 16709005</exm:EXM_000000000003>
-        <exm:EXM_000000000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UMLS CUI: C0454287</exm:EXM_000000000003>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCI: C21059</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SCTID: 16709005</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UMLS CUI: C0454287</oboInOwl:hasDbXref>
         <rdfs:label xml:lang="zh">isotonic exercise</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/exm.owl/EXM_000000000023"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An exercise that involves the movement of a constant weight or load through a specified range of motion.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCI: C21059</oboInOwl:hasDbXref>
+    </owl:Axiom>
     
 
 
@@ -2269,12 +2433,23 @@ See the BFO 2 release notes for further information about BFO 2. Please note tha
             <rdf:Description rdf:about="http://purl.obolibrary.org/obo/exm.owl/EXM_000000000027"/>
         </owl:disjointUnionOf>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">20-60 minutes of exercise which elevates your heart rate to 35-60% of your maximum heart rate performed at least 3-4 times per week.</obo:IAO_0000115>
-        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://ncit.nci.nih.gov/ncitbrowser/ConceptReport.jsp?dictionary=NCI_Thesaurus&amp;ns=ncit&amp;code=C39771</obo:IAO_0000119>
-        <exm:EXM_000000000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCI: C39771</exm:EXM_000000000003>
-        <exm:EXM_000000000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UMLS CUI: C1517883</exm:EXM_000000000003>
-        <exm:EXM_000000000005 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">light activity</exm:EXM_000000000005>
+        <oboInOwl:hasBroadSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">light activity</oboInOwl:hasBroadSynonym>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCI: C39771</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UMLS CUI: C1517883</oboInOwl:hasDbXref>
         <rdfs:label xml:lang="zh">light exercise</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/exm.owl/EXM_000000000024"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">20-60 minutes of exercise which elevates your heart rate to 35-60% of your maximum heart rate performed at least 3-4 times per week.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCI: C39771</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/exm.owl/EXM_000000000024"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym"/>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">light activity</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCI: C39771</oboInOwl:hasDbXref>
+    </owl:Axiom>
     
 
 
@@ -2290,13 +2465,30 @@ See the BFO 2 release notes for further information about BFO 2. Please note tha
             <rdf:Description rdf:about="http://purl.obolibrary.org/obo/exm.owl/EXM_000000000027"/>
         </owl:disjointUnionOf>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Light exercise for less than 20 minutes, 20-60 minutes of exercise which elevates your heart rate to less than 35% of your maximum heart rate, or light exercise less than 3 times per week.</obo:IAO_0000115>
-        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://ncit.nci.nih.gov/ncitbrowser/ConceptReport.jsp?dictionary=NCI_Thesaurus&amp;ns=ncit&amp;code=C39777</obo:IAO_0000119>
-        <exm:EXM_000000000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCI: C39777</exm:EXM_000000000003>
-        <exm:EXM_000000000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UMLS CUI: C1519977</exm:EXM_000000000003>
-        <exm:EXM_000000000005 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">sedentary exercise</exm:EXM_000000000005>
-        <exm:EXM_000000000005 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">very light activity</exm:EXM_000000000005>
+        <oboInOwl:hasBroadSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">very light activity</oboInOwl:hasBroadSynonym>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCI: C39777</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UMLS CUI: C1519977</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">sedentary exercise</oboInOwl:hasExactSynonym>
         <rdfs:label xml:lang="zh">very light exercise</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/exm.owl/EXM_000000000025"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Light exercise for less than 20 minutes, 20-60 minutes of exercise which elevates your heart rate to less than 35% of your maximum heart rate, or light exercise less than 3 times per week.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCI: C39777</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/exm.owl/EXM_000000000025"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym"/>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">very light activity</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCI: C39777</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/exm.owl/EXM_000000000025"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">sedentary exercise</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCI: C39777</oboInOwl:hasDbXref>
+    </owl:Axiom>
     
 
 
@@ -2311,12 +2503,23 @@ See the BFO 2 release notes for further information about BFO 2. Please note tha
             <rdf:Description rdf:about="http://purl.obolibrary.org/obo/exm.owl/EXM_000000000027"/>
         </owl:disjointUnionOf>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">20-60 minutes of exercise which elevates your heart rate to 60-80% of your maximum heart rate performed at least 3-4 times per week.</obo:IAO_0000115>
-        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://ncit.nci.nih.gov/ncitbrowser/ConceptReport.jsp?dictionary=NCI_Thesaurus&amp;ns=ncit&amp;code=C39772</obo:IAO_0000119>
-        <exm:EXM_000000000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCI: C39772</exm:EXM_000000000003>
-        <exm:EXM_000000000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UMLS CUI: C1513375</exm:EXM_000000000003>
-        <exm:EXM_000000000005 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">moderate activity</exm:EXM_000000000005>
+        <oboInOwl:hasBroadSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">moderate activity</oboInOwl:hasBroadSynonym>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCI: C39772</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UMLS CUI: C1513375</oboInOwl:hasDbXref>
         <rdfs:label xml:lang="zh">moderate exercise</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/exm.owl/EXM_000000000026"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">20-60 minutes of exercise which elevates your heart rate to 60-80% of your maximum heart rate performed at least 3-4 times per week.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCI: C39772</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/exm.owl/EXM_000000000026"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym"/>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">moderate activity</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCI: C39772</oboInOwl:hasDbXref>
+    </owl:Axiom>
     
 
 
@@ -2330,12 +2533,23 @@ See the BFO 2 release notes for further information about BFO 2. Please note tha
             <rdf:Description rdf:about="http://purl.obolibrary.org/obo/exm.owl/EXM_000000000026"/>
         </owl:disjointUnionOf>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">20-60 minutes of exercise which elevates your heart rate to 80-90% of your maximum heart rate performed at least 3-4 times per week.</obo:IAO_0000115>
-        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://ncit.nci.nih.gov/ncitbrowser/ConceptReport.jsp?dictionary=NCI_Thesaurus&amp;ns=ncit&amp;code=C39773</obo:IAO_0000119>
-        <exm:EXM_000000000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SCTID: C39773</exm:EXM_000000000003>
-        <exm:EXM_000000000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UMLS CUI: C1514989</exm:EXM_000000000003>
-        <exm:EXM_000000000005 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">strenuous activity</exm:EXM_000000000005>
+        <oboInOwl:hasBroadSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">strenuous activity</oboInOwl:hasBroadSynonym>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCI: C39773</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UMLS CUI: C1514989</oboInOwl:hasDbXref>
         <rdfs:label xml:lang="zh">strenuous exercise</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/exm.owl/EXM_000000000027"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">20-60 minutes of exercise which elevates your heart rate to 80-90% of your maximum heart rate performed at least 3-4 times per week.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCI: C39773</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/exm.owl/EXM_000000000027"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym"/>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">strenuous activity</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCI: C39773</oboInOwl:hasDbXref>
+    </owl:Axiom>
     
 
 
@@ -2344,13 +2558,19 @@ See the BFO 2 release notes for further information about BFO 2. Please note tha
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/exm.owl/EXM_000000000028">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000019"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Characteristics of people that are socially constructed, including norms, behaviors, and roles based on sex. As a social construct, gender varies from society to society and can change over time.</obo:IAO_0000115>
-        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://ncit.nci.nih.gov/ncitbrowser/ConceptReport.jsp?dictionary=NCI_Thesaurus&amp;ns=ncit&amp;code=C17357</obo:IAO_0000119>
-        <exm:EXM_000000000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MSH: D005783</exm:EXM_000000000003>
-        <exm:EXM_000000000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCI: C17357</exm:EXM_000000000003>
-        <exm:EXM_000000000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SCTID: 263495000</exm:EXM_000000000003>
-        <exm:EXM_000000000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UMLS CUI: C0079399</exm:EXM_000000000003>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MSH: D005783</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCI: C17357</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SCTID: 263495000</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UMLS CUI: C0079399</oboInOwl:hasDbXref>
         <rdfs:label xml:lang="zh">gender</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/exm.owl/EXM_000000000028"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Characteristics of people that are socially constructed, including norms, behaviors, and roles based on sex. As a social construct, gender varies from society to society and can change over time.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCI: C17357</oboInOwl:hasDbXref>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Do not use this term for non-human animals.</rdfs:comment>
+    </owl:Axiom>
     
 
 
@@ -2359,14 +2579,25 @@ See the BFO 2 release notes for further information about BFO 2. Please note tha
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/exm.owl/EXM_000000000029">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000019"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The assemblage of physical properties or qualities by which male is distinguished from female; the physical difference between male and female; the distinguishing peculiarity of male or female.</obo:IAO_0000115>
-        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://ncit.nci.nih.gov/ncitbrowser/ConceptReport.jsp?dictionary=NCI_Thesaurus&amp;ns=ncit&amp;code=C28421</obo:IAO_0000119>
-        <exm:EXM_000000000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MSH: D012723</exm:EXM_000000000003>
-        <exm:EXM_000000000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCI: C28421</exm:EXM_000000000003>
-        <exm:EXM_000000000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SCTID: 57312000</exm:EXM_000000000003>
-        <exm:EXM_000000000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UMLS CUI: C1522384</exm:EXM_000000000003>
-        <exm:EXM_000000000005 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">biological sex</exm:EXM_000000000005>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MSH: D012723</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCI: C28421</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SCTID: 57312000</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UMLS CUI: C1522384</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">biological sex</oboInOwl:hasExactSynonym>
         <rdfs:label xml:lang="zh">sex</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/exm.owl/EXM_000000000029"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The assemblage of physical properties or qualities by which male is distinguished from female; the physical difference between male and female; the distinguishing peculiarity of male or female.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCI: C28421</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/exm.owl/EXM_000000000029"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">biological sex</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCI: C28421</oboInOwl:hasDbXref>
+    </owl:Axiom>
     
 
 
@@ -2376,11 +2607,23 @@ See the BFO 2 release notes for further information about BFO 2. Please note tha
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/exm.owl/EXM_000000000029"/>
         <owl:disjointWith rdf:resource="http://purl.obolibrary.org/obo/exm.owl/EXM_000000000031"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An animal who is observed by researcher or clinician to be male, the sex that ordinarily produces sperm.</obo:IAO_0000115>
-        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://ncit.nci.nih.gov/ncitbrowser/ConceptReport.jsp?dictionary=NCI_Thesaurus&amp;ns=ncit&amp;code=C46112</obo:IAO_0000119>
-        <exm:EXM_000000000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C46112</exm:EXM_000000000003>
-        <exm:EXM_000000000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UMLS CUI: C1706428</exm:EXM_000000000003>
+        <oboInOwl:hasBroadSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">male</oboInOwl:hasBroadSynonym>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCI: C46112</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UMLS CUI: C1706428</oboInOwl:hasDbXref>
         <rdfs:label xml:lang="zh">male phenotype</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/exm.owl/EXM_000000000030"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An animal who is observed by researcher or clinician to be male, the sex that ordinarily produces sperm.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCI: C46112</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/exm.owl/EXM_000000000030"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym"/>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">male</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCI: C46112</oboInOwl:hasDbXref>
+    </owl:Axiom>
     
 
 
@@ -2389,12 +2632,23 @@ See the BFO 2 release notes for further information about BFO 2. Please note tha
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/exm.owl/EXM_000000000031">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/exm.owl/EXM_000000000029"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An animal who is observed by researcher or clinician to be female, the sex that ordinarily produces ova.</obo:IAO_0000115>
-        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://ncit.nci.nih.gov/ncitbrowser/ConceptReport.jsp?dictionary=NCI_Thesaurus&amp;ns=ncit&amp;code=C46113</obo:IAO_0000119>
-        <exm:EXM_000000000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCI: C46113</exm:EXM_000000000003>
-        <exm:EXM_000000000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UMLS CUI: C1705498</exm:EXM_000000000003>
-        <exm:EXM_000000000005 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">female</exm:EXM_000000000005>
+        <oboInOwl:hasBroadSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">female</oboInOwl:hasBroadSynonym>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCI: C46113</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UMLS CUI: C1705498</oboInOwl:hasDbXref>
         <rdfs:label xml:lang="zh">female phenotype</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/exm.owl/EXM_000000000031"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An animal who is observed by researcher or clinician to be female, the sex that ordinarily produces ova.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCI: C46113</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/exm.owl/EXM_000000000031"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym"/>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">female</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCI: C46113</oboInOwl:hasDbXref>
+    </owl:Axiom>
     
 
 
@@ -2404,12 +2658,24 @@ See the BFO 2 release notes for further information about BFO 2. Please note tha
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/exm.owl/EXM_000000000028"/>
         <owl:disjointWith rdf:resource="http://purl.obolibrary.org/obo/exm.owl/EXM_000000000033"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An individual who reports belonging to the cultural gender role distinction of male.</obo:IAO_0000115>
-        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://ncit.nci.nih.gov/ncitbrowser/ConceptReport.jsp?dictionary=NCI_Thesaurus&amp;ns=ncit&amp;code=C46109</obo:IAO_0000119>
-        <exm:EXM_000000000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCI: C46109</exm:EXM_000000000003>
-        <exm:EXM_000000000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UMLS CUI: C1706180</exm:EXM_000000000003>
-        <exm:EXM_000000000005 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">male</exm:EXM_000000000005>
+        <oboInOwl:hasBroadSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">male</oboInOwl:hasBroadSynonym>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCI: C46109</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UMLS CUI: C1706180</oboInOwl:hasDbXref>
         <rdfs:label xml:lang="zh">male gender</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/exm.owl/EXM_000000000032"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An individual who reports belonging to the cultural gender role distinction of male.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCI: C46109</oboInOwl:hasDbXref>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Do not use this term for non-human animals.</rdfs:comment>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/exm.owl/EXM_000000000032"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym"/>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">male</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCI: C46109</oboInOwl:hasDbXref>
+    </owl:Axiom>
     
 
 
@@ -2418,11 +2684,23 @@ See the BFO 2 release notes for further information about BFO 2. Please note tha
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/exm.owl/EXM_000000000033">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/exm.owl/EXM_000000000028"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An individual who reports belonging to the cultural gender role distinction of female.</obo:IAO_0000115>
-        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://ncit.nci.nih.gov/ncitbrowser/ConceptReport.jsp?dictionary=NCI_Thesaurus&amp;ns=ncit&amp;code=C46110</obo:IAO_0000119>
-        <exm:EXM_000000000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCI: C46110</exm:EXM_000000000003>
-        <exm:EXM_000000000005 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">female</exm:EXM_000000000005>
+        <oboInOwl:hasBroadSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">female</oboInOwl:hasBroadSynonym>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCI: C46110</oboInOwl:hasDbXref>
         <rdfs:label xml:lang="zh">female gender</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/exm.owl/EXM_000000000033"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An individual who reports belonging to the cultural gender role distinction of female.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCI: C46110</oboInOwl:hasDbXref>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Do not use this term for non-human animals.</rdfs:comment>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/exm.owl/EXM_000000000033"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym"/>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">female</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCI: C46110</oboInOwl:hasDbXref>
+    </owl:Axiom>
     
 
 
@@ -2431,16 +2709,35 @@ See the BFO 2 release notes for further information about BFO 2. Please note tha
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/exm.owl/EXM_000000000034">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000019"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A record of a patient&apos;s background regarding health and disease events of blood relatives. A patient&apos;s family medical history may be important in diagnosing existing conditions.</obo:IAO_0000115>
-        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://ncit.nci.nih.gov/ncitbrowser/ConceptReport.jsp?dictionary=NCI_Thesaurus&amp;ns=ncit&amp;code=C17726</obo:IAO_0000119>
-        <exm:EXM_000000000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MSH: D008487</exm:EXM_000000000003>
-        <exm:EXM_000000000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCI: C17726</exm:EXM_000000000003>
-        <exm:EXM_000000000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SCTID: 57177007</exm:EXM_000000000003>
-        <exm:EXM_000000000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UMLS CUI: C0241889</exm:EXM_000000000003>
-        <exm:EXM_000000000005 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">family health history</exm:EXM_000000000005>
-        <exm:EXM_000000000005 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">family medical history</exm:EXM_000000000005>
         <exm:EXM_000000000006 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FH</exm:EXM_000000000006>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MSH: D008487</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCI: C17726</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SCTID: 57177007</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UMLS CUI: C0241889</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">family health history</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">family medical history</oboInOwl:hasExactSynonym>
         <rdfs:label xml:lang="zh">family history</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/exm.owl/EXM_000000000034"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A record of a patient&apos;s background regarding health and disease events of blood relatives. A patient&apos;s family medical history may be important in diagnosing existing conditions.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCI: C17726</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/exm.owl/EXM_000000000034"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">family health history</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MSH: D008487</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/exm.owl/EXM_000000000034"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">family medical history</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MSH: D008487</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCI: C17726</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SCTID: 57177007</oboInOwl:hasDbXref>
+    </owl:Axiom>
     
 
 
@@ -2449,14 +2746,31 @@ See the BFO 2 release notes for further information about BFO 2. Please note tha
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/exm.owl/EXM_000000000035">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000019"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A record of a patient&apos;s background regarding health and the occurrence of disease events of the individual. In addition, personal medical history may be a variable in epidemiologic studies.</obo:IAO_0000115>
-        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://ncit.nci.nih.gov/ncitbrowser/ConceptReport.jsp?dictionary=NCI_Thesaurus&amp;ns=ncit&amp;code=C18772</obo:IAO_0000119>
-        <exm:EXM_000000000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCI: C18772</exm:EXM_000000000003>
-        <exm:EXM_000000000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SCTID: 392521001</exm:EXM_000000000003>
-        <exm:EXM_000000000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UMLS CUI: C0262926</exm:EXM_000000000003>
-        <exm:EXM_000000000005 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">medical history</exm:EXM_000000000005>
-        <exm:EXM_000000000005 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">personal medical history</exm:EXM_000000000005>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCI: C18772</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SCTID: 392521001</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UMLS CUI: C0262926</oboInOwl:hasDbXref>
+        <oboInOwl:hasNarrowSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">personal medical history</oboInOwl:hasNarrowSynonym>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">personal history</oboInOwl:hasRelatedSynonym>
         <rdfs:label xml:lang="zh">medical history</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/exm.owl/EXM_000000000035"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A record of a patient&apos;s background regarding health and the occurrence of disease events of the individual. In addition, personal medical history may be a variable in epidemiologic studies.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCI: C18772</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/exm.owl/EXM_000000000035"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym"/>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">personal medical history</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCI: C18772</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/exm.owl/EXM_000000000035"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">personal history</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCI: C18772</oboInOwl:hasDbXref>
+    </owl:Axiom>
     
 
 
@@ -2465,14 +2779,517 @@ See the BFO 2 release notes for further information about BFO 2. Please note tha
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/exm.owl/EXM_000000000036">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000019"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A geographic ancestral origin category that is assigned to a population group based mainly on physical characteristics that are thought to be distinct and inherent.</obo:IAO_0000115>
-        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MSH: D044469</obo:IAO_0000119>
-        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCI: C17049</obo:IAO_0000119>
-        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://ncit.nci.nih.gov/ncitbrowser/ConceptReport.jsp?dictionary=NCI_Thesaurus&amp;ns=ncit&amp;code=C17049</obo:IAO_0000119>
-        <exm:EXM_000000000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SCTID: 415229000</exm:EXM_000000000003>
-        <exm:EXM_000000000003 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UMLS CUI: C0034510</exm:EXM_000000000003>
-        <exm:EXM_000000000005 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">racial group</exm:EXM_000000000005>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MSH: D044469</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCI: C17049</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SCTID: 415229000</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UMLS CUI: C0034510</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">racial group</oboInOwl:hasExactSynonym>
         <rdfs:label xml:lang="zh">race</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/exm.owl/EXM_000000000036"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A geographic ancestral origin category that is assigned to a population group based mainly on physical characteristics that are thought to be distinct and inherent.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCI: C17049</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/exm.owl/EXM_000000000036"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">racial group</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SCTID: 415229000</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/exm.owl/EXM_000000000037 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/exm.owl/EXM_000000000037">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/exm.owl/EXM_000000000007"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The mass or quantity of heaviness of an individual. It is expressed by units of pounds or kilograms.</obo:IAO_0000115>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MSH: D001835</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCI: C81328</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SCTID: 27113001</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UMLS CUI: C0005910</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="zh">body weight</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/exm.owl/EXM_000000000037"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The mass or quantity of heaviness of an individual. It is expressed by units of pounds or kilograms.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MSH: D001835</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/exm.owl/EXM_000000000038 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/exm.owl/EXM_000000000038">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/exm.owl/EXM_000000000007"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Total mass of skeletal muscle.</obo:IAO_0000115>
+        <rdfs:label xml:lang="zh">skeletal muscle mass</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/exm.owl/EXM_000000000039 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/exm.owl/EXM_000000000039">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000030"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A subtype of striated muscle, attached by TENDONS to the SKELETON. Skeletal muscles are innervated and their movement can be consciously controlled. They are also called voluntary muscles.</obo:IAO_0000115>
+        <oboInOwl:hasBroadSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">skeletal muscle structure</oboInOwl:hasBroadSynonym>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MSH: D018482</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCI: C13050</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SCTID: 127954009</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UMLS CUI: C0242692</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">skeletal muscle tissue</oboInOwl:hasExactSynonym>
+        <rdfs:label xml:lang="zh">skeletal muscle</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/exm.owl/EXM_000000000039"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A subtype of striated muscle, attached by TENDONS to the SKELETON. Skeletal muscles are innervated and their movement can be consciously controlled. They are also called voluntary muscles.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MSH: D018482</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/exm.owl/EXM_000000000039"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym"/>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">skeletal muscle structure</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SCTID: 127954009</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UMLS CUI: C0242692</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/exm.owl/EXM_000000000039"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">skeletal muscle tissue</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCI: C13050</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/exm.owl/EXM_000000000040 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/exm.owl/EXM_000000000040">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/exm.owl/EXM_000000000007"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The mass or quantity of heaviness of an individual‘s fat</obo:IAO_0000115>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UMLS CUI: C3656665</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="zh">body fat mass</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/exm.owl/EXM_000000000041 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/exm.owl/EXM_000000000041">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/exm.owl/EXM_000000000007"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An individual&apos;s weight in kilograms divided by the square of the height in meters.</obo:IAO_0000115>
+        <exm:EXM_000000000006 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BMI</exm:EXM_000000000006>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MSH: D015992</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCI: C16358</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SCTID: 60621009</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UMLS CUI: C1305855</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="zh">body mass index</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/exm.owl/EXM_000000000041"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An individual&apos;s weight in kilograms divided by the square of the height in meters.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCI: C16358</oboInOwl:hasDbXref>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BMI = body mass / height ²</rdfs:comment>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/exm.owl/EXM_000000000041"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/exm.owl/EXM_000000000006"/>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BMI</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCI: C16358</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SCTID: 60621009</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/exm.owl/EXM_000000000042 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/exm.owl/EXM_000000000042">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/exm.owl/EXM_000000000007"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The ratio of the abdominal circumference at the navel to maximum hip and buttocks circumference; looks at the proportion of fat stored on the body around the waist and hip. Carrying extra weight around the waist is a greater health risk than carrying extra weight around the hips or thighs.</obo:IAO_0000115>
+        <exm:EXM_000000000006 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">WHR</exm:EXM_000000000006>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MSH: D049629</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCI: C17651</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SCTID: 248367009</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UMLS CUI: C0205682</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">waist hip ratio</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">waist to hip ratio</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">waist-to-hip ratio</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">waist/hip ratio</oboInOwl:hasExactSynonym>
+        <rdfs:label xml:lang="zh">waist–hip ratio</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/exm.owl/EXM_000000000042"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The ratio of the abdominal circumference at the navel to maximum hip and buttocks circumference; looks at the proportion of fat stored on the body around the waist and hip. Carrying extra weight around the waist is a greater health risk than carrying extra weight around the hips or thighs.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCI: C17651</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/exm.owl/EXM_000000000042"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">waist hip ratio</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MSH: D049629</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/exm.owl/EXM_000000000042"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">waist to hip ratio</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MSH: D049629</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/exm.owl/EXM_000000000042"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">waist-to-hip ratio</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MSH: D049629</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/exm.owl/EXM_000000000042"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">waist/hip ratio</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SCTID: 248367009</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/exm.owl/EXM_000000000043 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/exm.owl/EXM_000000000043">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/exm.owl/EXM_000000000007"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The measurement of a subject&apos;s energy expenditure when at rest.</obo:IAO_0000115>
+        <exm:EXM_000000000006 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BMR</exm:EXM_000000000006>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MSH: D001481</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCI: C126083</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SCTID: 165109007</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UMLS CUI: C0678121</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="zh">basal metabolic rate</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/exm.owl/EXM_000000000043"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The measurement of a subject&apos;s energy expenditure when at rest.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCI: C126083</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/exm.owl/EXM_000000000044 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/exm.owl/EXM_000000000044">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/exm.owl/EXM_000000000007"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fasting plasma glucose (FPG) levels are determined by taking a blood sample from participants who have fasted for at least 8 hours. It can be measured in mmol/L or in mg/dL. For comparability, these values are converted in mmol/L. Other related biomarkers, such as haemoglobin A1c (HbA1c), can be used to help calculate national estimates.</obo:IAO_0000115>
+        <exm:EXM_000000000006 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FPG</exm:EXM_000000000006>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://en.wikipedia.org/wiki/Glucose_test</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.who.int/data/gho/indicator-metadata-registry/imr-details/2380</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">fasting blood sugar</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">fasting glucose</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">fasting plasma glucose</oboInOwl:hasExactSynonym>
+        <rdfs:label xml:lang="zh">fasting blood glucose</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/exm.owl/EXM_000000000044"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fasting plasma glucose (FPG) levels are determined by taking a blood sample from participants who have fasted for at least 8 hours. It can be measured in mmol/L or in mg/dL. For comparability, these values are converted in mmol/L. Other related biomarkers, such as haemoglobin A1c (HbA1c), can be used to help calculate national estimates.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.who.int/data/gho/indicator-metadata-registry/imr-details/2380</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/exm.owl/EXM_000000000044"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/exm.owl/EXM_000000000006"/>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FPG</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.who.int/data/gho/indicator-metadata-registry/imr-details/2380</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/exm.owl/EXM_000000000044"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">fasting blood sugar</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://en.wikipedia.org/wiki/Glucose_test</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/exm.owl/EXM_000000000044"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">fasting plasma glucose</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.who.int/data/gho/indicator-metadata-registry/imr-details/2380</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/exm.owl/EXM_000000000045 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/exm.owl/EXM_000000000045">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/exm.owl/EXM_000000000007"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Oxygen uptake is a measure of a person’s ability to take in oxygen via the respiratory system and deliver it to the working tissues via the cardiovascular system, and the ability of working tissues (predominantly skeletal muscle) to use oxygen.</obo:IAO_0000115>
+        <exm:EXM_000000000006 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VO2</exm:EXM_000000000006>
+        <exm:EXM_000000000006 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">V̇O2</exm:EXM_000000000006>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MSH: D010101</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SCTID: 251832002</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SCTID: 7928001</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UMLS CUI: C0030055</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UMLS CUI: C0429627</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">O2 uptake</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">oxygen consumption</oboInOwl:hasExactSynonym>
+        <rdfs:label xml:lang="zh">oxygen uptake</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/exm.owl/EXM_000000000045"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Oxygen uptake is a measure of a person’s ability to take in oxygen via the respiratory system and deliver it to the working tissues via the cardiovascular system, and the ability of working tissues (predominantly skeletal muscle) to use oxygen.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.nsca.com/education/articles/kinetic-select/oxygen-uptake-and-the-aerobic-and-anaerobic-contributions-to-exercise/</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/exm.owl/EXM_000000000045"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/exm.owl/EXM_000000000006"/>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VO2</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SCTID: 251832002</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/exm.owl/EXM_000000000045"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">O2 uptake</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SCTID: 251832002</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/exm.owl/EXM_000000000045"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">oxygen consumption</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.nsca.com/education/articles/kinetic-select/oxygen-uptake-and-the-aerobic-and-anaerobic-contributions-to-exercise/</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/exm.owl/EXM_000000000046 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/exm.owl/EXM_000000000046">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/exm.owl/EXM_000000000003"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Right ventricular ejection fraction (RVEF), is a measure of the efficiency of pumping into the pulmonary circulation.</obo:IAO_0000115>
+        <exm:EXM_000000000006 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RVEF</exm:EXM_000000000006>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SCTID: 250939002</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UMLS CUI: C0428781</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="zh">right ventricular ejection fraction</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/exm.owl/EXM_000000000046"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Right ventricular ejection fraction (RVEF), is a measure of the efficiency of pumping into the pulmonary circulation.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://en.wikipedia.org/wiki/Ejection_fraction</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/exm.owl/EXM_000000000046"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/exm.owl/EXM_000000000006"/>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RVEF</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SCTID: 250939002</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/exm.owl/EXM_000000000047 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/exm.owl/EXM_000000000047">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/exm.owl/EXM_000000000045"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The highest rate of oxygen consumption a subject reaches during an aerobic capacity test.</obo:IAO_0000115>
+        <exm:EXM_000000000006 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VO2 max</exm:EXM_000000000006>
+        <exm:EXM_000000000006 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VO2 peak</exm:EXM_000000000006>
+        <exm:EXM_000000000006 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">V̇O2 max</exm:EXM_000000000006>
+        <exm:EXM_000000000006 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">V̇O2 peak</exm:EXM_000000000006>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SCTID: 251898000</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UMLS CUI: C0429693</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UMLS CUI: C4727347</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">maximal aerobic capacity</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">maximal oxygen consumption</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">peak oxygen consumption</oboInOwl:hasExactSynonym>
+        <rdfs:label xml:lang="zh">maximum oxygen uptake</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/exm.owl/EXM_000000000047"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The highest rate of oxygen consumption a subject reaches during an aerobic capacity test.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCI:C153553</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/exm.owl/EXM_000000000047"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/exm.owl/EXM_000000000006"/>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VO2 max</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://en.wikipedia.org/wiki/VO2_max</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/exm.owl/EXM_000000000047"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/exm.owl/EXM_000000000006"/>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VO2 peak</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCI:C153553</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/exm.owl/EXM_000000000047"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/exm.owl/EXM_000000000006"/>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">V̇O2 max</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://en.wikipedia.org/wiki/VO2_max</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/exm.owl/EXM_000000000047"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/exm.owl/EXM_000000000006"/>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">V̇O2 peak</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCI:C153553</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/exm.owl/EXM_000000000047"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">maximal aerobic capacity</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://en.wikipedia.org/wiki/VO2_max</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/exm.owl/EXM_000000000047"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">maximal oxygen consumption</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://en.wikipedia.org/wiki/VO2_max</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/exm.owl/EXM_000000000047"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">peak oxygen consumption</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCI:C153553</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/exm.owl/EXM_000000000048 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/exm.owl/EXM_000000000048">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/exm.owl/EXM_000000000007"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Functions of pumping the blood in adequate or required amounts and pressure throughout the body.</obo:IAO_0000115>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SCTID: 106053004</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UMLS CUI: C0232164</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">heart function</oboInOwl:hasExactSynonym>
+        <rdfs:label xml:lang="zh">cardiac function</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/exm.owl/EXM_000000000048"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Functions of pumping the blood in adequate or required amounts and pressure throughout the body.</owl:annotatedTarget>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ICF: b410</rdfs:comment>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/exm.owl/EXM_000000000048"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">heart function</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ICF: b410</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/exm.owl/EXM_000000000049 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/exm.owl/EXM_000000000049">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/exm.owl/EXM_000000000007"/>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SCTID: 106053004</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UMLS CUI: C0231921</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lung function</oboInOwl:hasExactSynonym>
+        <rdfs:label xml:lang="zh">pulmonary function</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/exm.owl/EXM_000000000050 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/exm.owl/EXM_000000000050">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/exm.owl/EXM_000000000048"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The total volume of blood pumped by the heart over a set period of time, conventionally one minute; it is calculated as heart rate times stroke volume (CO= HR x SV), and is additionally dependent on preload and afterload for functional output.</obo:IAO_0000115>
+        <exm:EXM_000000000006 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CO</exm:EXM_000000000006>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MSH: D002302</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCI: C119246</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SCTID: 82799009</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UMLS CUI: C0007165</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="zh">cardiac output</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/exm.owl/EXM_000000000050"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The total volume of blood pumped by the heart over a set period of time, conventionally one minute; it is calculated as heart rate times stroke volume (CO= HR x SV), and is additionally dependent on preload and afterload for functional output.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCI: C119246</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/exm.owl/EXM_000000000050"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/exm.owl/EXM_000000000006"/>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CO</owl:annotatedTarget>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SCTID: 82799009</rdfs:comment>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/exm.owl/EXM_000000000051 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/exm.owl/EXM_000000000051">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/exm.owl/EXM_000000000048"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The measure of an individual&apos;s cardiac output as divided by their body surface area (CI= CO/BSA). This calculation is a useful function to determine an individual&apos;s cardiac performance in relation to their body size, providing an overview of global cardiovascular function.</obo:IAO_0000115>
+        <exm:EXM_000000000006 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CI</exm:EXM_000000000006>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCI: C119245</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SCTID: 54993008</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UMLS CUI: C0428776</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="zh">cardiac index</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/exm.owl/EXM_000000000051"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The measure of an individual&apos;s cardiac output as divided by their body surface area (CI= CO/BSA). This calculation is a useful function to determine an individual&apos;s cardiac performance in relation to their body size, providing an overview of global cardiovascular function.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCI: C119245</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/exm.owl/EXM_000000000051"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/exm.owl/EXM_000000000006"/>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CI</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SCTID: 54993008</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/exm.owl/EXM_000000000052 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/exm.owl/EXM_000000000052">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/exm.owl/EXM_000000000048"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The amount of BLOOD pumped out of the HEART per beat, not to be confused with cardiac output (volume/time). It is calculated as the difference between the end-diastolic volume and the end-systolic volume.</obo:IAO_0000115>
+        <exm:EXM_000000000006 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SV</exm:EXM_000000000006>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MSH: D013318</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCI: C94989</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SCTID: 90096001</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UMLS CUI: C0038455</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="zh">stroke volume</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/exm.owl/EXM_000000000052"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The amount of BLOOD pumped out of the HEART per beat, not to be confused with cardiac output (volume/time). It is calculated as the difference between the end-diastolic volume and the end-systolic volume.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MSH: D013318</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/exm.owl/EXM_000000000052"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/exm.owl/EXM_000000000006"/>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SV</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SCTID: 90096001</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/exm.owl/EXM_000000000053 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/exm.owl/EXM_000000000053">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/exm.owl/EXM_000000000048"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Peak filling rate (PFR) defined as the maximum dV/dt divided by LV end-diastolic volume was obtained as the index of LV diastolic function.</obo:IAO_0000115>
+        <exm:EXM_000000000006 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PFR</exm:EXM_000000000006>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID: 30650017</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="zh">peak filling rate</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/exm.owl/EXM_000000000053"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Peak filling rate (PFR) defined as the maximum dV/dt divided by LV end-diastolic volume was obtained as the index of LV diastolic function.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID: 30650017</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/exm.owl/EXM_000000000053"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/exm.owl/EXM_000000000006"/>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PFR</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID: 30650017</oboInOwl:hasDbXref>
+    </owl:Axiom>
     
 
 
@@ -2484,9 +3301,6 @@ See the BFO 2 release notes for further information about BFO 2. Please note tha
     ///////////////////////////////////////////////////////////////////////////////////////
      -->
 
-    <rdf:Description rdf:about="http://example.com/bfo-spec-label">
-        <obo:IAO_0000119>Person:Alan Ruttenberg</obo:IAO_0000119>
-    </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/BFO_0000134">
         <obo:IAO_0000600 xml:lang="en">To say that each spatiotemporal region s temporally_projects_onto some temporal region t is to say that t is the temporal extension of s. (axiom label in BFO2 Reference: [080-003])</obo:IAO_0000600>
         <obo:IAO_0000600 xml:lang="en">To say that spatiotemporal region s spatially_projects_onto spatial region r at t is to say that r is the spatial extent of s at t. (axiom label in BFO2 Reference: [081-003])</obo:IAO_0000600>
