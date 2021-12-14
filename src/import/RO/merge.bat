@@ -1,0 +1,1 @@
+robot merge --input exmo-edit.owl --input ro_import.owl --output merged.owl
