@@ -1,0 +1,1 @@
+robot extract --method STAR --input HumanDO.owl --term-file disease.txt --output disease.owl
