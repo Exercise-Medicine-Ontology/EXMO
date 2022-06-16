@@ -1,0 +1,1 @@
+robot reason --reasoner ELK --input exmo-edit.owl --output exmo-reasoned.owl

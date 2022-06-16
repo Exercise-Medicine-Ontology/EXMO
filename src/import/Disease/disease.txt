@@ -1,5 +1,0 @@
-DOID:1289 #neurodegenerative disease 
-DOID:162 #cancer
-DOID:1287 #cardiovascular system disease
-DOID:17 #'musculoskeletal system disease'
-DOID:9351 #'diabetes mellitus'

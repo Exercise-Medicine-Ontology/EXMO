@@ -1,10 +1,8 @@
 
-![Build Status](https://github.com/DarkKnight0-0/exmo/workflows/CI/badge.svg)
 # Exercise Medicine Ontology
 
-This ontology... YOUR DESCRIPTION HERE
+A core reference ontology built upon BFO about exercise medicine. This ontology contains the related terms for healthy people, people with chronic conditions and people living with diability to exercise.
 
-More information can be found at http://obofoundry.org/ontology/exmo
 
 ## Versions
 
@@ -12,9 +10,7 @@ More information can be found at http://obofoundry.org/ontology/exmo
 
 The latest version of the ontology can always be found at:
 
-http://purl.obolibrary.org/obo/exmo.owl
-
-(note this will not show up until the request has been approved by obofoundry.org)
+[exmo.owl](exmo.owl) or [exmo.obo](exmo.obo)
 
 ### Editors' version
 
@@ -27,6 +23,7 @@ Please use this GitHub repository's [Issue tracker](https://github.com/DarkKnigh
 ## Reference
 
 ### Cross database reference (DbXref)
+Abbreviation of the IDs
 
 ICF: International Classification of Functioning, Disability and Health
 

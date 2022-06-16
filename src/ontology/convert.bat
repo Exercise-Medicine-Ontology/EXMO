@@ -1,0 +1,1 @@
+robot convert --input exmo-reasoned.owl --format obo --output exmo.obo
