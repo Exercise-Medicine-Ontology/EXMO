@@ -1,0 +1,58 @@
+[URI of the OWL(RDF/XML) output file]
+
+
+[Source ontology]
+CMO
+
+[Low level source term URIs]
+http://purl.obolibrary.org/obo/CMO_0003955 #'basal metabolic rate'
+http://purl.obolibrary.org/obo/CMO_0000046 #'blood glucose level'
+http://purl.obolibrary.org/obo/CMO_0000050 #'blood lipid measurement'
+http://purl.obolibrary.org/obo/CMO_0000052 #'blood high density lipoprotein cholesterol level'
+http://purl.obolibrary.org/obo/CMO_0000053 #'blood low density lipoprotein cholesterol level'
+http://purl.obolibrary.org/obo/CMO_0000051 #'blood total cholesterol level'
+http://purl.obolibrary.org/obo/CMO_0000118 #'blood triglyceride level'
+http://purl.obolibrary.org/obo/CMO_0000305 #'total body fat mass'
+http://purl.obolibrary.org/obo/CMO_0000015 #'body temperature'
+http://purl.obolibrary.org/obo/CMO_0001036 #'core body temperature'
+http://purl.obolibrary.org/obo/CMO_0001035 #'head temperature'
+http://purl.obolibrary.org/obo/CMO_0001561 #'bone ultimate force'
+http://purl.obolibrary.org/obo/CMO_0002169 #'oxygen consumption'
+http://purl.obolibrary.org/obo/CMO_0000135 #'maximal oxygen consumption'
+http://purl.obolibrary.org/obo/CMO_0000003 #'blood pressure measurement'
+http://purl.obolibrary.org/obo/CMO_0000005 #'diastolic blood pressure'
+http://purl.obolibrary.org/obo/CMO_0000004 #'systolic blood pressure'
+http://purl.obolibrary.org/obo/CMO_0002881 #'cardiac index'
+http://purl.obolibrary.org/obo/CMO_0000197 #'cardiac output'
+http://purl.obolibrary.org/obo/CMO_0000002 #'heart rate'
+http://purl.obolibrary.org/obo/CMO_0000294 #pulse
+http://purl.obolibrary.org/obo/CMO_0001324 #'oxygen saturation'
+http://purl.obolibrary.org/obo/CMO_0000223 #'stroke volume'
+http://purl.obolibrary.org/obo/CMO_0000180 #'ejection fraction'
+http://purl.obolibrary.org/obo/CMO_0000254 #'forced expiratory volume'
+http://purl.obolibrary.org/obo/CMO_0000251 #'forced vital capacity (FVC)'
+http://purl.obolibrary.org/obo/CMO_0000255 #'maximal volume ventilation'
+http://purl.obolibrary.org/obo/CMO_0000132 #'minute ventilation'
+http://purl.obolibrary.org/obo/CMO_0000253 #'maximum mid-expiratory flow (MMEF)'
+http://purl.obolibrary.org/obo/CMO_0000307 #'residual lung volume'
+http://purl.obolibrary.org/obo/CMO_0000222 #'tidal volume'
+http://purl.obolibrary.org/obo/CMO_0000380 #'total lung capacity'
+http://purl.obolibrary.org/obo/CMO_0000251 #'forced vital capacity (FVC)'
+http://purl.obolibrary.org/obo/CMO_0000302 #'body fat percentage'
+http://purl.obolibrary.org/obo/CMO_0001556 #'bone mineral content to body weight ratio'
+http://purl.obolibrary.org/obo/CMO_0000089 #'body fat morphological measurement'
+http://purl.obolibrary.org/obo/CMO_0000106 #'body height'
+http://purl.obolibrary.org/obo/CMO_0001226 #'bone mineral density'
+http://purl.obolibrary.org/obo/CMO_0000020 #'waist to hip ratio (WHR)'
+http://purl.obolibrary.org/obo/CMO_0000242 #'waist circumference'
+
+[Top level source term URIs and target direct superclass URIs]
+http://purl.obolibrary.org/obo/CMO_0000000 #'clinical measurement'
+
+[Source term retrieval setting]
+includeNoIntermediates
+
+[Source annotation URIs]
+includeAllAnnotationProperties
+
+[Source annotation URIs to be excluded]

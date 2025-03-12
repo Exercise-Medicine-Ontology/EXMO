@@ -20,22 +20,6 @@ Editors of this ontology should use the edit version, [src/ontology/exmo-edit.ow
 
 Please use this GitHub repository's [Issue tracker](https://github.com/DarkKnight0-0/exmo/issues) to request new terms/classes or report errors or specific concerns related to the ontology.
 
-## Reference
-
-### Cross database reference (DbXref)
-Abbreviation of the IDs
-
-ICF: International Classification of Functioning, Disability and Health
-
-MSH: Medical Subject Headings (MeSH)
-
-NCI: National Cancer Institute Thesaurus (NCI Thesaurus)
-
-PMID: PubMed ID
-
-SCTID: Systematized Nomenclature of Medicine -- Clinical Terms (SNOMED CT) ID
-
-UMLS CUI: Unified Medical Language System CUI
 
 ## Acknowledgements
 

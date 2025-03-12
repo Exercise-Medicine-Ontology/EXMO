@@ -1,1 +1,1 @@
-robot convert --input exmo-edit.owl --format obo --output exmo.obo
+robot convert --input exmo.owl --format obo --output exmo.obo

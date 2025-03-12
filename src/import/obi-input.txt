@@ -1,0 +1,21 @@
+[URI of the OWL(RDF/XML) output file]
+
+
+[Source ontology]
+OBI
+
+[Low level source term URIs]
+http://purl.obolibrary.org/obo/OBI_0001000 #questionnaire
+http://purl.obolibrary.org/obo/OBI_0000093 #'patient role'
+
+[Top level source term URIs and target direct superclass URIs]
+http://purl.obolibrary.org/obo/BFO_0000031 #'generically dependent continuant'
+http://purl.obolibrary.org/obo/BFO_0000023 #role
+
+[Source term retrieval setting]
+includeNoIntermediates
+
+[Source annotation URIs]
+includeAllAnnotationProperties
+
+[Source annotation URIs to be excluded]

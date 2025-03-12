@@ -1,0 +1,239 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://ontofox.hegroup.org/krwysku4.owl#"
+     xml:base="http://ontofox.hegroup.org/krwysku4.owl"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#"
+     xmlns:hsapdv="http://purl.obolibrary.org/obo/hsapdv#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:obo="http://purl.obolibrary.org/obo/">
+    <owl:Ontology rdf:about="http://ontofox.hegroup.org/krwysku4.owl"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/hsapdv#start_ypb">
+        <rdfs:label>start, years post birth</rdfs:label>
+        <oboInOwl:is_metadata_tag rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</oboInOwl:is_metadata_tag>
+        <rdfs:comment>This is a shortcut annotation that can be expanded to an OWL axiom, or to a set of OWL axioms. The exact translation has yet to be determined, and may be application-dependent.</rdfs:comment>
+        <obo:IAO_0000115>Count of number of years intervening between the start of the stage and the time of birth according to a reference model. Note that the first year of post-birth development has the value of 0 for this property, and the period during which the child is one year old has the value 1.</obo:IAO_0000115>
+        <oboInOwl:id>start_ypb</oboInOwl:id>
+        <oboInOwl:hasOBONamespace>human_stages_ontology</oboInOwl:hasOBONamespace>
+        <hsapdv:has_unit rdf:resource="http://purl.obolibrary.org/obo/UO_0000036"/>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000412">
+        <rdfs:label xml:lang="en">imported from</rdfs:label>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000115">
+        <rdfs:label>definition</rdfs:label>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasDbXref">
+        <rdfs:label>database_cross_reference</rdfs:label>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym">
+        <rdfs:label>has_related_synonym</rdfs:label>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#id">
+        <rdfs:label>id</rdfs:label>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/hsapdv#has_unit">
+        <rdfs:label>has unit</rdfs:label>
+        <oboInOwl:is_metadata_tag rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</oboInOwl:is_metadata_tag>
+        <oboInOwl:id>has_unit</oboInOwl:id>
+        <oboInOwl:hasOBONamespace>human_stages_ontology</oboInOwl:hasOBONamespace>
+        <rdfs:comment>Used to associate a measurement property (e.g. days post fertilization) with a unit (e.g. days)</rdfs:comment>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2000/01/rdf-schema#comment"/>
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasOBONamespace">
+        <rdfs:label>has_obo_namespace</rdfs:label>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#is_metadata_tag"/>
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym">
+        <rdfs:label>has_exact_synonym</rdfs:label>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym">
+        <rdfs:label>has_narrow_synonym</rdfs:label>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2000/01/rdf-schema#label"/>
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/hsapdv#end_ypb">
+        <rdfs:label>end, years post birth</rdfs:label>
+        <oboInOwl:is_metadata_tag rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</oboInOwl:is_metadata_tag>
+        <rdfs:comment>This is a shortcut annotation that can be expanded to an OWL axiom, or to a set of OWL axioms. The exact translation has yet to be determined, and may be application-dependent.</rdfs:comment>
+        <oboInOwl:id>end_ypb</oboInOwl:id>
+        <obo:IAO_0000115>Count of number of years intervening between the end of the stage and the time of birth according to a reference model. Note that the first year of post-birth development has the value of 1 for this property, and the period during which the child is one year old has the value 2</obo:IAO_0000115>
+        <oboInOwl:hasOBONamespace>human_stages_ontology</oboInOwl:hasOBONamespace>
+        <hsapdv:has_unit rdf:resource="http://purl.obolibrary.org/obo/UO_0000036"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Datatypes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HsapDv_0000000 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HsapDv_0000000">
+        <rdfs:label>life cycle stage</rdfs:label>
+        <oboInOwl:hasExactSynonym>developmental stage</oboInOwl:hasExactSynonym>
+        <obo:IAO_0000115>A spatiotemporal region encompassing some part of the life cycle of an organism.</obo:IAO_0000115>
+        <oboInOwl:hasNarrowSynonym>stage</oboInOwl:hasNarrowSynonym>
+        <oboInOwl:id>HsapDv:0000000</oboInOwl:id>
+        <oboInOwl:hasOBONamespace>human_stages_ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasDbXref>UBERON:0000105</oboInOwl:hasDbXref>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/hsapdv.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HsapDv_0000226 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HsapDv_0000226">
+        <rdfs:label>prime adult stage</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HsapDv_0000000"/>
+        <hsapdv:start_ypb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">15.0</hsapdv:start_ypb>
+        <hsapdv:end_ypb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">60.0</hsapdv:end_ypb>
+        <rdfs:comment>We start this stage at 15 years to follow the Human Phenotype Ontology defintion of adult onset (HP:0003581), and we ends the stage at 60 years, the start of late onset in HPO (HP:0003584).</rdfs:comment>
+        <oboInOwl:hasDbXref>UBERON:0018241</oboInOwl:hasDbXref>
+        <obo:IAO_0000115>A life cycle stage that starts at sexual maturity of the human adult, and ends before senescence.</obo:IAO_0000115>
+        <oboInOwl:id>HsapDv:0000226</oboInOwl:id>
+        <oboInOwl:hasOBONamespace>human_developmental_stage</oboInOwl:hasOBONamespace>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/hsapdv.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HsapDv_0000227 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HsapDv_0000227">
+        <rdfs:label>late adult stage</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HsapDv_0000000"/>
+        <hsapdv:start_ypb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">60.0</hsapdv:start_ypb>
+        <oboInOwl:hasDbXref>UBERON:0007222</oboInOwl:hasDbXref>
+        <rdfs:comment>Age-related hearing loss (presbycusis) is one of the most common conditions affecting older and elderly adults(see https://www.nidcd.nih.gov/health/age-related-hearing-loss#1). We follow Human Phenotype Ontology (HPO) late onset definition (HP:0003584) to start this stage at 60 years.</rdfs:comment>
+        <oboInOwl:id>HsapDv:0000227</oboInOwl:id>
+        <oboInOwl:hasDbXref>HP:0003584</oboInOwl:hasDbXref>
+        <obo:IAO_0000115>Late adult stage that refers to an individu who is over 60 and starts to have some age-related impairments.</obo:IAO_0000115>
+        <oboInOwl:hasOBONamespace>human_developmental_stage</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasRelatedSynonym>elderly</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasExactSynonym>60+ years</oboInOwl:hasExactSynonym>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/hsapdv.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HsapDv_0000258 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HsapDv_0000258">
+        <rdfs:label>adult stage</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HsapDv_0000000"/>
+        <hsapdv:start_ypb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">15.0</hsapdv:start_ypb>
+        <oboInOwl:id>HsapDv:0000258</oboInOwl:id>
+        <oboInOwl:hasDbXref>UBERON:0000113</oboInOwl:hasDbXref>
+        <obo:IAO_0000115>Human developmental stage that refers to a sexually mature human.</obo:IAO_0000115>
+        <rdfs:comment>HPO (Human Phenotype Ontology) considers HP:0003581 (adult onset) as &#39;at the age of 16 years or later&#39;, but this adult stage directly follows the pediatric onset (HP:0410280) defined &#39;as before the age of 15 years&#39; (see https://github.com/obophenotype/human-phenotype-ontology/issues/6099). To be consistent, we consider adult stage as starting at 15 years.</rdfs:comment>
+        <oboInOwl:hasExactSynonym>mature stage</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasDbXref>HP:0003581</oboInOwl:hasDbXref>
+        <oboInOwl:hasOBONamespace>human_developmental_stage</oboInOwl:hasOBONamespace>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/hsapdv.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HsapDv_0000265 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HsapDv_0000265">
+        <rdfs:label>child stage (1-4 yo)</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HsapDv_0000000"/>
+        <hsapdv:start_ypb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.0</hsapdv:start_ypb>
+        <hsapdv:end_ypb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">5.0</hsapdv:end_ypb>
+        <oboInOwl:hasOBONamespace>human_developmental_stage</oboInOwl:hasOBONamespace>
+        <rdfs:comment>We follow HPO (Human Phenotype Ontology) definition for child period, see HP:0011463 (Childhood onset).</rdfs:comment>
+        <oboInOwl:hasRelatedSynonym>childhood stage</oboInOwl:hasRelatedSynonym>
+        <obo:IAO_0000115>Human stage that refers to a child who is over 12 months and under 5 years old.</obo:IAO_0000115>
+        <oboInOwl:hasDbXref>HP:0011463</oboInOwl:hasDbXref>
+        <oboInOwl:hasRelatedSynonym>preschool child</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:id>HsapDv:0000265</oboInOwl:id>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/hsapdv.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HsapDv_0000266 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HsapDv_0000266">
+        <rdfs:label>young adult stage</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HsapDv_0000000"/>
+        <hsapdv:start_ypb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">15.0</hsapdv:start_ypb>
+        <hsapdv:end_ypb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">40.0</hsapdv:end_ypb>
+        <oboInOwl:hasOBONamespace>human_developmental_stage</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>HsapDv:0000266</oboInOwl:id>
+        <obo:IAO_0000115>A prime adult stage that refers to an adult who is under 40 years old.</obo:IAO_0000115>
+        <oboInOwl:hasDbXref>HP:0011462</oboInOwl:hasDbXref>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/hsapdv.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HsapDv_0000267 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HsapDv_0000267">
+        <rdfs:label>middle aged stage</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HsapDv_0000000"/>
+        <hsapdv:start_ypb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">40.0</hsapdv:start_ypb>
+        <hsapdv:end_ypb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">60.0</hsapdv:end_ypb>
+        <oboInOwl:hasDbXref>HP:0003596</oboInOwl:hasDbXref>
+        <obo:IAO_0000115>Late adulthood that refers to an adult who is over 40 and under 60 years old.</obo:IAO_0000115>
+        <oboInOwl:id>HsapDv:0000267</oboInOwl:id>
+        <oboInOwl:hasOBONamespace>human_developmental_stage</oboInOwl:hasOBONamespace>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/hsapdv.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HsapDv_0000271 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HsapDv_0000271">
+        <rdfs:label>juvenile stage (5-14 yo)</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HsapDv_0000000"/>
+        <hsapdv:end_ypb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">15.0</hsapdv:end_ypb>
+        <hsapdv:start_ypb rdf:datatype="http://www.w3.org/2001/XMLSchema#float">5.0</hsapdv:start_ypb>
+        <oboInOwl:id>HsapDv:0000271</oboInOwl:id>
+        <obo:IAO_0000115>Pediatric stage that refers to a human who is over 5 and under 15 years old.</obo:IAO_0000115>
+        <oboInOwl:hasOBONamespace>human_developmental_stage</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasDbXref>UBERON:0034919</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>HP:0003621</oboInOwl:hasDbXref>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/hsapdv.owl"/>
+    </owl:Class>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 3.2.4.1806) http://owlapi.sourceforge.net -->
+

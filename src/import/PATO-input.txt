@@ -1,0 +1,30 @@
+[URI of the OWL(RDF/XML) output file]
+
+
+[Source ontology]
+PATO
+
+[Low level source term URIs]
+http://purl.obolibrary.org/obo/PATO_0000047 #'biological sex'
+http://purl.obolibrary.org/obo/PATO_0020000 #'genotypic sex'
+http://purl.obolibrary.org/obo/PATO_0020002 #'female genotypic sex'
+http://purl.obolibrary.org/obo/PATO_0020001 #'male genotypic sex'
+http://purl.obolibrary.org/obo/PATO_0001894 #'phenotypic sex'
+http://purl.obolibrary.org/obo/PATO_0000383 #female
+http://purl.obolibrary.org/obo/PATO_0000384 #male
+http://purl.obolibrary.org/obo/PATO_0000185 #balance
+http://purl.obolibrary.org/obo/PATO_0001543 #flexibility
+http://purl.obolibrary.org/obo/PATO_0000188 #coordination
+http://purl.obolibrary.org/obo/PATO_0001028 #acceleration
+http://purl.obolibrary.org/obo/PATO_0000185 #balance
+
+[Top level source term URIs and target direct superclass URIs]
+http://purl.obolibrary.org/obo/PATO_0000001 #quality
+
+[Source term retrieval setting]
+includeNoIntermediates
+
+[Source annotation URIs]
+includeAllAnnotationProperties
+
+[Source annotation URIs to be excluded]

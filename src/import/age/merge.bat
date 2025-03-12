@@ -1,1 +1,0 @@
-robot merge --input exmo-edit.owl --input age.owl --output merged.owl

@@ -1,0 +1,23 @@
+[URI of the OWL(RDF/XML) output file]
+
+
+[Source ontology]
+UBERON
+
+[Low level source term URIs]
+http://purl.obolibrary.org/obo/UBERON_0001134 #skeletal muscle tissue
+http://purl.obolibrary.org/obo/UBERON_0002385 #muscle tissue
+http://purl.obolibrary.org/obo/UBERON_0004288 #skeleton
+http://purl.obolibrary.org/obo/UBERON_0000211 #ligament
+http://purl.obolibrary.org/obo/UBERON_0001062 #'anatomical entity'
+
+[Top level source term URIs and target direct superclass URIs]
+http://purl.obolibrary.org/obo/BFO_0000004 #'independent continuant'
+
+[Source term retrieval setting]
+includeNoIntermediates
+
+[Source annotation URIs]
+includeAllAnnotationProperties
+
+[Source annotation URIs to be excluded]

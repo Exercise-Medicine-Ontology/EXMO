@@ -1,0 +1,23 @@
+[URI of the OWL(RDF/XML) output file]
+
+
+[Source ontology]
+DOID
+
+[Low level source term URIs]
+http://purl.obolibrary.org/obo/DOID_1287
+http://purl.obolibrary.org/obo/DOID_1289
+http://purl.obolibrary.org/obo/DOID_162
+http://purl.obolibrary.org/obo/DOID_17
+http://purl.obolibrary.org/obo/DOID_9351
+
+[Top level source term URIs and target direct superclass URIs]
+http://purl.obolibrary.org/obo/DOID_4 #disease
+
+[Source term retrieval setting]
+includeNoIntermediates
+
+[Source annotation URIs]
+includeAllAnnotationProperties
+
+[Source annotation URIs to be excluded]

@@ -1,0 +1,141 @@
+[URI of the OWL(RDF/XML) output file]
+
+
+[Source ontology]
+NCIT
+
+[Low level source term URIs]
+http://purl.obolibrary.org/obo/NCIT_C25190 #person
+http://purl.obolibrary.org/obo/NCIT_C27954 #Adolescent
+http://purl.obolibrary.org/obo/NCIT_C17600 #Adult
+http://purl.obolibrary.org/obo/NCIT_C16423 #Child
+http://purl.obolibrary.org/obo/NCIT_C16268 #Elderly
+http://purl.obolibrary.org/obo/NCIT_C49643 #Infant And Toddler
+http://purl.obolibrary.org/obo/NCIT_C89729 #Metabolic Equivalent of Task
+http://purl.obolibrary.org/obo/NCIT_C21007 #Disability
+http://purl.obolibrary.org/obo/NCIT_C17357 #Gender
+http://purl.obolibrary.org/obo/NCIT_C46110 #Female Gender
+http://purl.obolibrary.org/obo/NCIT_C46109 #Male Gender
+http://purl.obolibrary.org/obo/NCIT_C122028 #Rating of Perceived Exertion
+http://purl.obolibrary.org/obo/NCIT_C61256 #Monitoring
+http://purl.obolibrary.org/obo/NCIT_C73425 #Sleep
+http://purl.obolibrary.org/obo/NCIT_C38084 #Forced Expiratory Volume in 1 Second
+http://purl.obolibrary.org/obo/NCIT_C132453 #Forced Expiratory Volume in 3 Seconds
+http://purl.obolibrary.org/obo/NCIT_C62739 #Exercise Intervention
+http://purl.obolibrary.org/obo/NCIT_C43545 #Bioelectric Impedance Analysis
+http://purl.obolibrary.org/obo/NCIT_C116517 #Cardiopulmonary Exercise Testing
+http://purl.obolibrary.org/obo/NCIT_C168192 #Exercise Cardiac Stress Test
+http://purl.obolibrary.org/obo/NCIT_C15302 #Physical Therapy
+http://purl.obolibrary.org/obo/NCIT_C88166 #Accelerometer
+http://purl.obolibrary.org/obo/NCIT_C69317 #Sphygmomanometer
+http://purl.obolibrary.org/obo/NCIT_C129778 #2-Hour Postprandial Glucose
+http://purl.obolibrary.org/obo/NCIT_C139210 #Grip Strength
+http://purl.obolibrary.org/obo/NCIT_C94250 #Overweight
+http://purl.obolibrary.org/obo/NCIT_C3283 #Obesity
+http://purl.obolibrary.org/obo/NCIT_C88164 #Cardiorespiratory Fitness
+http://purl.obolibrary.org/obo/NCIT_C18772 #Personal Medical History
+http://purl.obolibrary.org/obo/NCIT_C17049 #Race
+http://purl.obolibrary.org/obo/NCIT_C19796  #'Smoking Status'
+http://purl.obolibrary.org/obo/NCIT_C150046 #Physical Function
+http://purl.obolibrary.org/obo/NCIT_C101234 #Cardiac Rehabilitation
+http://purl.obolibrary.org/obo/NCIT_C50750 #Spinal Cord Injury
+http://purl.obolibrary.org/obo/NCIT_C16567 #Exercise
+http://purl.obolibrary.org/obo/NCIT_C39774 #Aerobic Exercise
+http://purl.obolibrary.org/obo/NCIT_C85401 #Bicycling
+http://purl.obolibrary.org/obo/NCIT_C94739 #Calisthenics
+http://purl.obolibrary.org/obo/NCIT_C172269 #Dancing
+http://purl.obolibrary.org/obo/NCIT_C85398 #Jogging
+http://purl.obolibrary.org/obo/NCIT_C39771 #Light Exercise
+http://purl.obolibrary.org/obo/NCIT_C93097 #Mind/body Exercise
+http://purl.obolibrary.org/obo/NCIT_C93098 #Qigong
+http://purl.obolibrary.org/obo/NCIT_C93099 #Tai Chi
+http://purl.obolibrary.org/obo/NCIT_C64897 #Yoga
+http://purl.obolibrary.org/obo/NCIT_C39772 #Moderate Exercise
+http://purl.obolibrary.org/obo/NCIT_C39773 #Strenuous Exercise
+http://purl.obolibrary.org/obo/NCIT_C94738 #Swimming
+http://purl.obolibrary.org/obo/NCIT_C39777 #Very Light Exercise
+http://purl.obolibrary.org/obo/NCIT_C73554 #Walking
+http://purl.obolibrary.org/obo/NCIT_C122029 #Warm-Up 
+http://purl.obolibrary.org/obo/NCIT_C94748 #Yard Work
+http://purl.obolibrary.org/obo/NCIT_C154219 #Resistance Training
+http://purl.obolibrary.org/obo/NCIT_C21059 #Isokinetic Exercise
+http://purl.obolibrary.org/obo/NCIT_C21057 #Isometric Exercise
+http://purl.obolibrary.org/obo/NCIT_C21058 #Isotonic Exercise
+http://purl.obolibrary.org/obo/NCIT_C48058 #Energy
+http://purl.obolibrary.org/obo/NCIT_C28220 #Sensor
+http://purl.obolibrary.org/obo/NCIT_C17726 #Family Medical History
+http://purl.obolibrary.org/obo/NCIT_C154225 #Stretching
+http://purl.obolibrary.org/obo/NCIT_C181501 #Muscle Endurance Measurement
+http://purl.obolibrary.org/obo/NCIT_C192423 #Squatting
+
+[Top level source term URIs and target direct superclass URIs]
+http://purl.obolibrary.org/obo/NCIT_C25190 #person
+http://purl.obolibrary.org/obo/NCIT_C27954 #Adolescent
+http://purl.obolibrary.org/obo/NCIT_C17600 #Adult
+http://purl.obolibrary.org/obo/NCIT_C16423 #Child
+http://purl.obolibrary.org/obo/NCIT_C16268 #Elderly
+http://purl.obolibrary.org/obo/NCIT_C49643 #Infant And Toddler
+http://purl.obolibrary.org/obo/NCIT_C89729 #Metabolic Equivalent of Task
+http://purl.obolibrary.org/obo/NCIT_C21007 #Disability
+http://purl.obolibrary.org/obo/NCIT_C17357 #Gender
+http://purl.obolibrary.org/obo/NCIT_C46110 #Female Gender
+http://purl.obolibrary.org/obo/NCIT_C46109 #Male Gender
+http://purl.obolibrary.org/obo/NCIT_C122028 #Rating of Perceived Exertion
+http://purl.obolibrary.org/obo/NCIT_C61256 #Monitoring
+http://purl.obolibrary.org/obo/NCIT_C73425 #Sleep
+http://purl.obolibrary.org/obo/NCIT_C38084 #Forced Expiratory Volume in 1 Second
+http://purl.obolibrary.org/obo/NCIT_C132453 #Forced Expiratory Volume in 3 Seconds
+http://purl.obolibrary.org/obo/NCIT_C62739 #Exercise Intervention
+http://purl.obolibrary.org/obo/NCIT_C43545 #Bioelectric Impedance Analysis
+http://purl.obolibrary.org/obo/NCIT_C116517 #Cardiopulmonary Exercise Testing
+http://purl.obolibrary.org/obo/NCIT_C168192 #Exercise Cardiac Stress Test
+http://purl.obolibrary.org/obo/NCIT_C15302 #Physical Therapy
+http://purl.obolibrary.org/obo/NCIT_C88166 #Accelerometer
+http://purl.obolibrary.org/obo/NCIT_C69317 #Sphygmomanometer
+http://purl.obolibrary.org/obo/NCIT_C129778 #2-Hour Postprandial Glucose
+http://purl.obolibrary.org/obo/NCIT_C139210 #Grip Strength
+http://purl.obolibrary.org/obo/NCIT_C94250 #Overweight
+http://purl.obolibrary.org/obo/NCIT_C3283 #Obesity
+http://purl.obolibrary.org/obo/NCIT_C88164 #Cardiorespiratory Fitness
+http://purl.obolibrary.org/obo/NCIT_C18772 #Personal Medical History
+http://purl.obolibrary.org/obo/NCIT_C17049 #Race
+http://purl.obolibrary.org/obo/NCIT_C19796  #'Smoking Status'
+http://purl.obolibrary.org/obo/NCIT_C150046 #Physical Function
+http://purl.obolibrary.org/obo/NCIT_C101234 #Cardiac Rehabilitation
+http://purl.obolibrary.org/obo/NCIT_C50750 #Spinal Cord Injury
+http://purl.obolibrary.org/obo/NCIT_C16567 #Exercise
+http://purl.obolibrary.org/obo/NCIT_C39774 #Aerobic Exercise
+http://purl.obolibrary.org/obo/NCIT_C85401 #Bicycling
+http://purl.obolibrary.org/obo/NCIT_C94739 #Calisthenics
+http://purl.obolibrary.org/obo/NCIT_C172269 #Dancing
+http://purl.obolibrary.org/obo/NCIT_C85398 #Jogging
+http://purl.obolibrary.org/obo/NCIT_C39771 #Light Exercise
+http://purl.obolibrary.org/obo/NCIT_C93097 #Mind/body Exercise
+http://purl.obolibrary.org/obo/NCIT_C93098 #Qigong
+http://purl.obolibrary.org/obo/NCIT_C93099 #Tai Chi
+http://purl.obolibrary.org/obo/NCIT_C64897 #Yoga
+http://purl.obolibrary.org/obo/NCIT_C39772 #Moderate Exercise
+http://purl.obolibrary.org/obo/NCIT_C39773 #Strenuous Exercise
+http://purl.obolibrary.org/obo/NCIT_C94738 #Swimming
+http://purl.obolibrary.org/obo/NCIT_C39777 #Very Light Exercise
+http://purl.obolibrary.org/obo/NCIT_C73554 #Walking
+http://purl.obolibrary.org/obo/NCIT_C122029 #Warm-Up 
+http://purl.obolibrary.org/obo/NCIT_C94748 #Yard Work
+http://purl.obolibrary.org/obo/NCIT_C154219 #Resistance Training
+http://purl.obolibrary.org/obo/NCIT_C21059 #Isokinetic Exercise
+http://purl.obolibrary.org/obo/NCIT_C21057 #Isometric Exercise
+http://purl.obolibrary.org/obo/NCIT_C21058 #Isotonic Exercise
+http://purl.obolibrary.org/obo/NCIT_C48058 #Energy
+http://purl.obolibrary.org/obo/NCIT_C28220 #Sensor
+http://purl.obolibrary.org/obo/NCIT_C17726 #Family Medical History
+http://purl.obolibrary.org/obo/NCIT_C154225 #Stretching
+http://purl.obolibrary.org/obo/NCIT_C181501 #Muscle Endurance Measurement
+http://purl.obolibrary.org/obo/NCIT_C192423 #Squatting
+
+[Source term retrieval setting]
+includeNoIntermediates
+
+[Source annotation URIs]
+includeAllAnnotationProperties
+
+[Source annotation URIs to be excluded]

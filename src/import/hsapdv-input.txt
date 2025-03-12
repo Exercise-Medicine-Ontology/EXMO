@@ -1,0 +1,26 @@
+[URI of the OWL(RDF/XML) output file]
+
+
+[Source ontology]
+HsapDv
+
+[Low level source term URIs]
+http://purl.obolibrary.org/obo/HsapDv_0000265 #'child stage (1-4 yo)'
+http://purl.obolibrary.org/obo/HsapDv_0000271 #'juvenile stage (5-14 yo)'
+http://purl.obolibrary.org/obo/HsapDv_0000258 #'adult stage'
+http://purl.obolibrary.org/obo/HsapDv_0000226 #'prime adult stage'
+http://purl.obolibrary.org/obo/HsapDv_0000266 #'young adult stage'
+http://purl.obolibrary.org/obo/HsapDv_0000227 #'late adult stage'
+http://purl.obolibrary.org/obo/HsapDv_0000267 #'middle aged stage'
+
+[Top level source term URIs and target direct superclass URIs]
+http://purl.obolibrary.org/obo/HsapDv_0000000 #'human life cycle stage'
+
+[Source term retrieval setting]
+includeNoIntermediates
+
+[Source annotation URIs]
+includeAllAnnotationProperties
+
+[Source annotation URIs to be excluded]
+http://www.geneontology.org/formats/oboInOwl#is_metadata_tag
