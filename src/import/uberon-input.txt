@@ -21,3 +21,5 @@ includeNoIntermediates
 includeAllAnnotationProperties
 
 [Source annotation URIs to be excluded]
+http://purl.obolibrary.org/obo/IAO_0000232 #curator notes
+http://purl.obolibrary.org/obo/IAO_0000116 #editor note

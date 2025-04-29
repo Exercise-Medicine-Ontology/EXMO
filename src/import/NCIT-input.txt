@@ -67,6 +67,28 @@ http://purl.obolibrary.org/obo/NCIT_C17726 #Family Medical History
 http://purl.obolibrary.org/obo/NCIT_C154225 #Stretching
 http://purl.obolibrary.org/obo/NCIT_C181501 #Muscle Endurance Measurement
 http://purl.obolibrary.org/obo/NCIT_C192423 #Squatting
+http://purl.obolibrary.org/obo/NCIT_C185297 #High-Intensity Interval Training
+http://purl.obolibrary.org/obo/NCIT_C17708 #Physical Activity
+http://purl.obolibrary.org/obo/NCIT_C172473 #Exercise Intensity
+http://purl.obolibrary.org/obo/NCIT_C178017 #Skeletal Muscle Mass
+http://purl.obolibrary.org/obo/NCIT_C80400 #Fasting Blood Sugar Measurement
+http://purl.obolibrary.org/obo/NCIT_C89800 #Functional Residual Capacity
+http://purl.obolibrary.org/obo/NCIT_C34405 #Sports Injury
+http://purl.obolibrary.org/obo/NCIT_C64896 #CAM Exercise Therapy
+http://purl.obolibrary.org/obo/NCIT_C150523 #Physical Performance Testing
+http://purl.obolibrary.org/obo/NCIT_C40645 #Lipid Metabolism
+http://purl.obolibrary.org/obo/NCIT_C180667 #Hiking
+http://purl.obolibrary.org/obo/NCIT_C154219 #Resistance Training
+http://purl.obolibrary.org/obo/NCIT_C94741 #Weight Lifting
+http://purl.obolibrary.org/obo/NCIT_C49835 #Ball Device
+http://purl.obolibrary.org/obo/NCIT_C94742 #Baseball
+http://purl.obolibrary.org/obo/NCIT_C81011 #Stair
+http://purl.obolibrary.org/obo/NCIT_C88163 #Treadmill
+http://purl.obolibrary.org/obo/NCIT_C110943 #Musculoskeletal Injury
+http://purl.obolibrary.org/obo/NCIT_C63507 #Range of Motion
+http://purl.obolibrary.org/obo/NCIT_C87081 #Heart Rhythm
+http://purl.obolibrary.org/obo/NCIT_C93039 #Galvanic Skin Response
+http://purl.obolibrary.org/obo/NCIT_C49157 #Adjustment
 
 [Top level source term URIs and target direct superclass URIs]
 http://purl.obolibrary.org/obo/NCIT_C25190 #person
@@ -131,6 +153,28 @@ http://purl.obolibrary.org/obo/NCIT_C17726 #Family Medical History
 http://purl.obolibrary.org/obo/NCIT_C154225 #Stretching
 http://purl.obolibrary.org/obo/NCIT_C181501 #Muscle Endurance Measurement
 http://purl.obolibrary.org/obo/NCIT_C192423 #Squatting
+http://purl.obolibrary.org/obo/NCIT_C185297 #High-Intensity Interval Training
+http://purl.obolibrary.org/obo/NCIT_C17708 #Physical Activity
+http://purl.obolibrary.org/obo/NCIT_C172473 #Exercise Intensity
+http://purl.obolibrary.org/obo/NCIT_C178017 #Skeletal Muscle Mass
+http://purl.obolibrary.org/obo/NCIT_C80400 #Fasting Blood Sugar Measurement
+http://purl.obolibrary.org/obo/NCIT_C89800 #Functional Residual Capacity
+http://purl.obolibrary.org/obo/NCIT_C34405 #Sports Injury
+http://purl.obolibrary.org/obo/NCIT_C64896 #CAM Exercise Therapy
+http://purl.obolibrary.org/obo/NCIT_C150523 #Physical Performance Testing
+http://purl.obolibrary.org/obo/NCIT_C40645 #Lipid Metabolism
+http://purl.obolibrary.org/obo/NCIT_C180667 #Hiking
+http://purl.obolibrary.org/obo/NCIT_C154219 #Resistance Training
+http://purl.obolibrary.org/obo/NCIT_C94741 #Weight Lifting
+http://purl.obolibrary.org/obo/NCIT_C49835 #Ball Device
+http://purl.obolibrary.org/obo/NCIT_C94742 #Baseball
+http://purl.obolibrary.org/obo/NCIT_C81011 #Stair
+http://purl.obolibrary.org/obo/NCIT_C88163 #Treadmill
+http://purl.obolibrary.org/obo/NCIT_C110943 #Musculoskeletal Injury
+http://purl.obolibrary.org/obo/NCIT_C63507 #Range of Motion
+http://purl.obolibrary.org/obo/NCIT_C87081 #Heart Rhythm
+http://purl.obolibrary.org/obo/NCIT_C93039 #Galvanic Skin Response
+http://purl.obolibrary.org/obo/NCIT_C49157 #Adjustment
 
 [Source term retrieval setting]
 includeNoIntermediates

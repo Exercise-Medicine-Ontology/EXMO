@@ -10,6 +10,9 @@ http://purl.obolibrary.org/obo/DOID_1289
 http://purl.obolibrary.org/obo/DOID_162
 http://purl.obolibrary.org/obo/DOID_17
 http://purl.obolibrary.org/obo/DOID_9351
+http://purl.obolibrary.org/obo/DOID_1059 #intellectual disability
+http://purl.obolibrary.org/obo/DOID_12169 #carpal tunnel syndrome
+http://purl.obolibrary.org/obo/DOID_14087 #epicondylitis
 
 [Top level source term URIs and target direct superclass URIs]
 http://purl.obolibrary.org/obo/DOID_4 #disease

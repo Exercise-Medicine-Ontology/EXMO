@@ -37,8 +37,7 @@
         <dc:description>A core reference ontology built upon BFO about exercise medicine. This ontology contains the related terms for healthy people, people with chronic conditions and people living with diability to exercise.</dc:description>
         <dc:title>EXMO</dc:title>
         <dc:title>Exercise Medicine Ontology</dc:title>
-        <terms:license>Exercise Medicine Ontology is licensed under CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/).</terms:license>
-        <terms:license>Exercise Meidicine Ontology is licensed under CC BY 4.0. You are free to share (copy and redistribute the material in any medium or format) and adapt (remix, transform, and build upon the material) for any purpose, even commercially. for any purpose, even commercially. The licensor cannot revoke these freedoms as long as you follow the license terms. You must give appropriate credit (by using the original ontology IRI for the whole ontology and original term IRIs for individual terms), provide a link to the license, and indicate if any changes were made. You may do so in any reasonable manner, but not in any way that suggests the licensor endorses you or your use.</terms:license>
+        <terms:license rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://creativecommons.org/licenses/by/4.0/</terms:license>
     </owl:Ontology>
     
 
@@ -14148,45 +14147,6 @@ A chemical with no chiral centers can not have an enantiomer. A chemical with mu
     
 
 
-    <!-- http://purl.obolibrary.org/obo/EXMO_0000002 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EXMO_0000002">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EXMO_0000215"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EXMO_0000350"/>
-        <obo:IAO_0000115>A cardiovascular exercise strategy with alternating short periods of intense anaerobic exercise with less-intense recovery periods.</obo:IAO_0000115>
-        <oboInOwl:hasDbXref>mesh:D000072696</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>umls:C4277545</oboInOwl:hasDbXref>
-        <oboInOwl:hasExactSynonym>high intensity interval training</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym>high-intensity intermittent exercise</oboInOwl:hasExactSynonym>
-        <rdfs:label xml:lang="en">high-intensity interval training</rdfs:label>
-    </owl:Class>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/EXMO_0000002"/>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>A cardiovascular exercise strategy with alternating short periods of intense anaerobic exercise with less-intense recovery periods.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>mesh:D000072696</oboInOwl:hasDbXref>
-    </owl:Axiom>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/EXMO_0000002"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
-        <owl:annotatedTarget>high intensity interval training</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>mesh:D000072696</oboInOwl:hasDbXref>
-    </owl:Axiom>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/EXMO_0000002"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
-        <owl:annotatedTarget>high-intensity intermittent exercise</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>mesh:D000072696</oboInOwl:hasDbXref>
-    </owl:Axiom>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/EXMO_0000002"/>
-        <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#label"/>
-        <owl:annotatedTarget xml:lang="en">high-intensity interval training</owl:annotatedTarget>
-        <oboInOwl:hasExactSynonym>HIIT</oboInOwl:hasExactSynonym>
-    </owl:Axiom>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/EXMO_0000008 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EXMO_0000008">
@@ -14247,45 +14207,6 @@ A chemical with no chiral centers can not have an enantiomer. A chemical with mu
     
 
 
-    <!-- http://purl.obolibrary.org/obo/EXMO_0000014 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EXMO_0000014">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000015"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002304"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/EXMO_0000216"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <oboInOwl:hasDbXref>mesh:D009043</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>snomedct:48761009</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>snomedct:68130003</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>umls:C0026606</oboInOwl:hasDbXref>
-        <oboInOwl:hasExactSynonym>motor activity</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasRelatedSynonym>motor behavior</oboInOwl:hasRelatedSynonym>
-        <rdfs:label xml:lang="en">physical activity</rdfs:label>
-    </owl:Class>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/EXMO_0000014"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
-        <owl:annotatedTarget>motor activity</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>mesh:D009043</oboInOwl:hasDbXref>
-    </owl:Axiom>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/EXMO_0000014"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
-        <owl:annotatedTarget>motor behavior</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>umls:C0026606</oboInOwl:hasDbXref>
-    </owl:Axiom>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/EXMO_0000014"/>
-        <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#label"/>
-        <owl:annotatedTarget xml:lang="en">physical activity</owl:annotatedTarget>
-        <oboInOwl:hasExactSynonym>PA</oboInOwl:hasExactSynonym>
-    </owl:Axiom>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/EXMO_0000015 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EXMO_0000015">
@@ -14300,12 +14221,6 @@ A chemical with no chiral centers can not have an enantiomer. A chemical with mu
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/bfo.owl#contains"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/EXMO_0000018"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/bfo.owl#contains"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/EXMO_0000019"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -14336,12 +14251,6 @@ A chemical with no chiral centers can not have an enantiomer. A chemical with mu
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/bfo.owl#contains"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/EXMO_0000379"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/bfo.owl#contains"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/EXMO_0000381"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -14390,57 +14299,12 @@ A chemical with no chiral centers can not have an enantiomer. A chemical with mu
     
 
 
-    <!-- http://purl.obolibrary.org/obo/EXMO_0000019 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EXMO_0000019">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EXMO_0000016"/>
-        <rdfs:label xml:lang="en">exercise intensity</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/EXMO_0000020 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EXMO_0000020">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EXMO_0000016"/>
         <rdfs:label xml:lang="en">exercise time</rdfs:label>
     </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/EXMO_0000038 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EXMO_0000038">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000019"/>
-        <obo:IAO_0000115>Total mass of skeletal muscle.</obo:IAO_0000115>
-        <rdfs:label xml:lang="en">skeletal muscle mass</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/EXMO_0000044 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EXMO_0000044">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000019"/>
-        <oboInOwl:hasBroadSynonym>fasting glucose</oboInOwl:hasBroadSynonym>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://en.wikipedia.org/wiki/Glucose_test</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.who.int/data/gho/indicator-metadata-registry/imr-details/2380</oboInOwl:hasDbXref>
-        <oboInOwl:hasExactSynonym>fasting blood sugar</oboInOwl:hasExactSynonym>
-        <rdfs:label xml:lang="en">fasting blood glucose</rdfs:label>
-    </owl:Class>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/EXMO_0000044"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
-        <owl:annotatedTarget>fasting blood sugar</owl:annotatedTarget>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://en.wikipedia.org/wiki/Glucose_test</oboInOwl:hasDbXref>
-        <oboInOwl:hasExactSynonym>FBS</oboInOwl:hasExactSynonym>
-    </owl:Axiom>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/EXMO_0000044"/>
-        <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#label"/>
-        <owl:annotatedTarget xml:lang="en">fasting blood glucose</owl:annotatedTarget>
-        <oboInOwl:hasExactSynonym>FBG</oboInOwl:hasExactSynonym>
-    </owl:Axiom>
     
 
 
@@ -14595,32 +14459,6 @@ A chemical with no chiral centers can not have an enantiomer. A chemical with mu
         <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#label"/>
         <owl:annotatedTarget xml:lang="en">closing volume</owl:annotatedTarget>
         <oboInOwl:hasExactSynonym>CV</oboInOwl:hasExactSynonym>
-    </owl:Axiom>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/EXMO_0000067 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EXMO_0000067">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EXMO_0000049"/>
-        <obo:IAO_0000115>The volume of air remaining in the LUNGS at the end of a normal, quiet expiration.</obo:IAO_0000115>
-        <oboInOwl:hasDbXref>mesh:D005652</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>snomedct:65825000</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>umls:C0016815</oboInOwl:hasDbXref>
-        <rdfs:label xml:lang="en">functional residual capacity</rdfs:label>
-    </owl:Class>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/EXMO_0000067"/>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>The volume of air remaining in the LUNGS at the end of a normal, quiet expiration.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>mesh:D005652</oboInOwl:hasDbXref>
-        <rdfs:comment>It is the sum of the RESIDUAL VOLUME and the EXPIRATORY RESERVE VOLUME.</rdfs:comment>
-    </owl:Axiom>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/EXMO_0000067"/>
-        <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#label"/>
-        <owl:annotatedTarget xml:lang="en">functional residual capacity</owl:annotatedTarget>
-        <oboInOwl:hasExactSynonym>FRC</oboInOwl:hasExactSynonym>
     </owl:Axiom>
     
 
@@ -14815,92 +14653,10 @@ A chemical with no chiral centers can not have an enantiomer. A chemical with mu
     <!-- http://purl.obolibrary.org/obo/EXMO_0000091 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EXMO_0000091">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EXMO_0000014"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000015"/>
         <obo:IAO_0000115>exercise at home</obo:IAO_0000115>
         <rdfs:label xml:lang="en">home exercise</rdfs:label>
     </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/EXMO_0000092 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EXMO_0000092">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000040"/>
-        <obo:IAO_0000115>Injuries incurred during participation in competitive or non-competitive sports.</obo:IAO_0000115>
-        <oboInOwl:hasDbXref>mesh:D001265</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>umls:C0004161</oboInOwl:hasDbXref>
-        <oboInOwl:hasExactSynonym>athletics injury</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym>sports injury</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasRelatedSynonym>sports-related Injury</oboInOwl:hasRelatedSynonym>
-        <rdfs:label xml:lang="en">athletic injury</rdfs:label>
-    </owl:Class>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/EXMO_0000092"/>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>Injuries incurred during participation in competitive or non-competitive sports.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>mesh:D001265</oboInOwl:hasDbXref>
-    </owl:Axiom>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/EXMO_0000092"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
-        <owl:annotatedTarget>athletics injury</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>umls:C0004161</oboInOwl:hasDbXref>
-    </owl:Axiom>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/EXMO_0000092"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
-        <owl:annotatedTarget>sports injury</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>mesh:D001265</oboInOwl:hasDbXref>
-    </owl:Axiom>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/EXMO_0000093 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EXMO_0000093">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EXMO_0000014"/>
-        <obo:IAO_0000115>A regimen or plan of physical activities designed and prescribed for specific therapeutic goals. Its purpose is to restore normal musculoskeletal function or to reduce pain caused by diseases or injuries.</obo:IAO_0000115>
-        <oboInOwl:hasDbXref>mesh:D005081</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>snomedct:229065009</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>snomedct:51998003</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>umls:C0452240</oboInOwl:hasDbXref>
-        <oboInOwl:hasExactSynonym>exercise therapy</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym>rehabilitation exercise</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym>remedial exercise</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym>therapeutic exercise</oboInOwl:hasExactSynonym>
-        <rdfs:label xml:lang="en">physical therapy exercise</rdfs:label>
-    </owl:Class>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/EXMO_0000093"/>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>A regimen or plan of physical activities designed and prescribed for specific therapeutic goals. Its purpose is to restore normal musculoskeletal function or to reduce pain caused by diseases or injuries.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>mesh:D005081</oboInOwl:hasDbXref>
-    </owl:Axiom>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/EXMO_0000093"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
-        <owl:annotatedTarget>exercise therapy</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>mesh:D005081</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>snomedct:229065009</oboInOwl:hasDbXref>
-    </owl:Axiom>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/EXMO_0000093"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
-        <owl:annotatedTarget>rehabilitation exercise</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>mesh:D005081</oboInOwl:hasDbXref>
-    </owl:Axiom>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/EXMO_0000093"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
-        <owl:annotatedTarget>remedial exercise</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>mesh:D005081</oboInOwl:hasDbXref>
-    </owl:Axiom>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/EXMO_0000093"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
-        <owl:annotatedTarget>therapeutic exercise</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>snomedct:51998003</oboInOwl:hasDbXref>
-    </owl:Axiom>
     
 
 
@@ -14938,34 +14694,10 @@ A chemical with no chiral centers can not have an enantiomer. A chemical with mu
     
 
 
-    <!-- http://purl.obolibrary.org/obo/EXMO_0000100 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EXMO_0000100">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000015"/>
-        <oboInOwl:hasBroadSynonym>fitness assessment</oboInOwl:hasBroadSynonym>
-        <oboInOwl:hasBroadSynonym>fitness test</oboInOwl:hasBroadSynonym>
-        <oboInOwl:hasDbXref>umls:C4279961</oboInOwl:hasDbXref>
-        <rdfs:label xml:lang="en">physical fitness testing</rdfs:label>
-    </owl:Class>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/EXMO_0000100"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym"/>
-        <owl:annotatedTarget>fitness assessment</owl:annotatedTarget>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.verywellfit.com/what-a-fitness-test-can-tell-you-about-your-health-3120283</oboInOwl:hasDbXref>
-    </owl:Axiom>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/EXMO_0000100"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym"/>
-        <owl:annotatedTarget>fitness test</owl:annotatedTarget>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.verywellfit.com/what-a-fitness-test-can-tell-you-about-your-health-3120283</oboInOwl:hasDbXref>
-    </owl:Axiom>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/EXMO_0000101 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EXMO_0000101">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EXMO_0000100"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000015"/>
         <rdfs:label xml:lang="en">general health evaluation</rdfs:label>
     </owl:Class>
     
@@ -14974,7 +14706,7 @@ A chemical with no chiral centers can not have an enantiomer. A chemical with mu
     <!-- http://purl.obolibrary.org/obo/EXMO_0000102 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EXMO_0000102">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EXMO_0000100"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000015"/>
         <rdfs:label xml:lang="en">body composition testing</rdfs:label>
     </owl:Class>
     
@@ -14983,7 +14715,7 @@ A chemical with no chiral centers can not have an enantiomer. A chemical with mu
     <!-- http://purl.obolibrary.org/obo/EXMO_0000103 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EXMO_0000103">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EXMO_0000100"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000015"/>
         <rdfs:label xml:lang="en">cardiovascular endurance testing</rdfs:label>
     </owl:Class>
     
@@ -14992,7 +14724,7 @@ A chemical with no chiral centers can not have an enantiomer. A chemical with mu
     <!-- http://purl.obolibrary.org/obo/EXMO_0000104 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EXMO_0000104">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EXMO_0000100"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000015"/>
         <rdfs:label xml:lang="en">strength and endurance testing</rdfs:label>
     </owl:Class>
     
@@ -15001,7 +14733,7 @@ A chemical with no chiral centers can not have an enantiomer. A chemical with mu
     <!-- http://purl.obolibrary.org/obo/EXMO_0000105 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EXMO_0000105">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EXMO_0000100"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000015"/>
         <rdfs:label xml:lang="en">flexibility testing</rdfs:label>
     </owl:Class>
     
@@ -15150,7 +14882,7 @@ A chemical with no chiral centers can not have an enantiomer. A chemical with mu
     <!-- http://purl.obolibrary.org/obo/EXMO_0000119 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EXMO_0000119">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EXMO_0000014"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000015"/>
         <obo:IAO_0000115>Use of active or passive body movement to maintain or restore joint flexibility</obo:IAO_0000115>
         <oboInOwl:hasDbXref>snomedct:386294003</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>umls:C0419122</oboInOwl:hasDbXref>
@@ -15205,7 +14937,7 @@ A chemical with no chiral centers can not have an enantiomer. A chemical with mu
     <!-- http://purl.obolibrary.org/obo/EXMO_0000125 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EXMO_0000125">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EXMO_0000014"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000015"/>
         <oboInOwl:hasDbXref>umls:C5387952</oboInOwl:hasDbXref>
         <rdfs:label xml:lang="en">jumping exercise</rdfs:label>
     </owl:Class>
@@ -15215,7 +14947,7 @@ A chemical with no chiral centers can not have an enantiomer. A chemical with mu
     <!-- http://purl.obolibrary.org/obo/EXMO_0000126 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EXMO_0000126">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EXMO_0000014"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000015"/>
         <rdfs:label xml:lang="en">running exercise</rdfs:label>
     </owl:Class>
     
@@ -15224,7 +14956,7 @@ A chemical with no chiral centers can not have an enantiomer. A chemical with mu
     <!-- http://purl.obolibrary.org/obo/EXMO_0000128 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EXMO_0000128">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EXMO_0000014"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000015"/>
         <rdfs:label xml:lang="en">cardiopulmonary exercise</rdfs:label>
     </owl:Class>
     
@@ -15233,7 +14965,7 @@ A chemical with no chiral centers can not have an enantiomer. A chemical with mu
     <!-- http://purl.obolibrary.org/obo/EXMO_0000130 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EXMO_0000130">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EXMO_0000014"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000015"/>
         <rdfs:label xml:lang="en">agility exercise</rdfs:label>
     </owl:Class>
     
@@ -15242,7 +14974,7 @@ A chemical with no chiral centers can not have an enantiomer. A chemical with mu
     <!-- http://purl.obolibrary.org/obo/EXMO_0000131 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EXMO_0000131">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EXMO_0000014"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000015"/>
         <rdfs:label xml:lang="en">flexibility exercise</rdfs:label>
     </owl:Class>
     
@@ -15251,7 +14983,7 @@ A chemical with no chiral centers can not have an enantiomer. A chemical with mu
     <!-- http://purl.obolibrary.org/obo/EXMO_0000132 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EXMO_0000132">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EXMO_0000100"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000015"/>
         <oboInOwl:hasDbXref>pubmed:28360142</oboInOwl:hasDbXref>
         <rdfs:label xml:lang="en">functional movement screen</rdfs:label>
     </owl:Class>
@@ -15267,7 +14999,7 @@ A chemical with no chiral centers can not have an enantiomer. A chemical with mu
     <!-- http://purl.obolibrary.org/obo/EXMO_0000134 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EXMO_0000134">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EXMO_0000100"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000015"/>
         <obo:IAO_0000115>The SFMA is a clinical model used to assist diagnosis and treatment of musculoskeletal disorders by identifying dysfunctions in movement patterns.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">selective functional movement assessment</rdfs:label>
     </owl:Class>
@@ -15289,7 +15021,7 @@ A chemical with no chiral centers can not have an enantiomer. A chemical with mu
     <!-- http://purl.obolibrary.org/obo/EXMO_0000135 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EXMO_0000135">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EXMO_0000100"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000015"/>
         <obo:IAO_0000115>a simple, yet reliable, test used to measure dynamic balance</obo:IAO_0000115>
         <oboInOwl:hasDbXref>umls:C5389416</oboInOwl:hasDbXref>
         <rdfs:label xml:lang="en">Y-balance test</rdfs:label>
@@ -15306,7 +15038,7 @@ A chemical with no chiral centers can not have an enantiomer. A chemical with mu
     <!-- http://purl.obolibrary.org/obo/EXMO_0000136 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EXMO_0000136">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EXMO_0000100"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000015"/>
         <oboInOwl:hasExactSynonym>hopping</oboInOwl:hasExactSynonym>
         <rdfs:label xml:lang="en">hop test</rdfs:label>
     </owl:Class>
@@ -15316,7 +15048,7 @@ A chemical with no chiral centers can not have an enantiomer. A chemical with mu
     <!-- http://purl.obolibrary.org/obo/EXMO_0000137 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EXMO_0000137">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EXMO_0000100"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000015"/>
         <rdfs:label xml:lang="en">drop jump landing</rdfs:label>
     </owl:Class>
     
@@ -15343,7 +15075,7 @@ A chemical with no chiral centers can not have an enantiomer. A chemical with mu
     <!-- http://purl.obolibrary.org/obo/EXMO_0000143 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EXMO_0000143">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EXMO_0000014"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000015"/>
         <obo:IAO_0000115>Tummy time is a colloquialism for placing infant children in the prone position while awake and supervised, to encourage development of the neck and trunk muscles and prevent skull deformations.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">tummy time</rdfs:label>
     </owl:Class>
@@ -15412,39 +15144,6 @@ A chemical with no chiral centers can not have an enantiomer. A chemical with mu
     
 
 
-    <!-- http://purl.obolibrary.org/obo/EXMO_0000148 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EXMO_0000148">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EXMO_0000146"/>
-        <obo:IAO_0000115>Deposits of ADIPOSE TISSUE throughout the body. The pattern of fat deposits in the body regions is an indicator of health status. Excess ABDOMINAL FAT increases health risks more than excess fat around the hips or thighs, therefore, WAIST-HIP RATIO is often used to determine health risks.</obo:IAO_0000115>
-        <oboInOwl:hasDbXref>mesh:D050218</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>snomedct:248303006</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>umls:C0424621</oboInOwl:hasDbXref>
-        <oboInOwl:hasExactSynonym>body fat patterning</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym>distribution of body fat</oboInOwl:hasExactSynonym>
-        <rdfs:label xml:lang="en">body fat distribution</rdfs:label>
-    </owl:Class>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/EXMO_0000148"/>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>Deposits of ADIPOSE TISSUE throughout the body. The pattern of fat deposits in the body regions is an indicator of health status. Excess ABDOMINAL FAT increases health risks more than excess fat around the hips or thighs, therefore, WAIST-HIP RATIO is often used to determine health risks.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>mesh:D050218</oboInOwl:hasDbXref>
-    </owl:Axiom>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/EXMO_0000148"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
-        <owl:annotatedTarget>body fat patterning</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>mesh:D050218</oboInOwl:hasDbXref>
-    </owl:Axiom>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/EXMO_0000148"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
-        <owl:annotatedTarget>distribution of body fat</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>snomedct:248303006</oboInOwl:hasDbXref>
-    </owl:Axiom>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/EXMO_0000150 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EXMO_0000150">
@@ -15473,22 +15172,6 @@ A chemical with no chiral centers can not have an enantiomer. A chemical with mu
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>Muscular power is mainly determined by muscular strength, maximum movement velocity, and neuromuscular activation.</owl:annotatedTarget>
         <oboInOwl:hasDbXref>pubmed:19675484</oboInOwl:hasDbXref>
-    </owl:Axiom>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/EXMO_0000152 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EXMO_0000152">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EXMO_0000150"/>
-        <obo:IAO_0000115>Explosive strength, a component of speed strength, refers to acceleration or rate of force development, or &quot;the neuromuscular system&apos;s ability to generate high action velocities .&quot;</obo:IAO_0000115>
-        <rdfs:label xml:lang="en">explosive strength</rdfs:label>
-    </owl:Class>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/EXMO_0000152"/>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>Explosive strength, a component of speed strength, refers to acceleration or rate of force development, or &quot;the neuromuscular system&apos;s ability to generate high action velocities .&quot;</owl:annotatedTarget>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">athletics.fandom.com/wiki/Explosive_Strength</oboInOwl:hasDbXref>
     </owl:Axiom>
     
 
@@ -15526,24 +15209,6 @@ A chemical with no chiral centers can not have an enantiomer. A chemical with mu
         <oboInOwl:hasDbXref>umls:C0178665</oboInOwl:hasDbXref>
         <rdfs:label xml:lang="en">glucose tolerance</rdfs:label>
     </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/EXMO_0000156 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EXMO_0000156">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EXMO_0000154"/>
-        <oboInOwl:hasDbXref>mesh:D050356</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>umls:C0598783</oboInOwl:hasDbXref>
-        <oboInOwl:hasRelatedSynonym>lipid metabolic process</oboInOwl:hasRelatedSynonym>
-        <rdfs:label xml:lang="en">lipid metabolism</rdfs:label>
-    </owl:Class>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/EXMO_0000156"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
-        <owl:annotatedTarget>lipid metabolic process</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>ncit:C19405</oboInOwl:hasDbXref>
-    </owl:Axiom>
     
 
 
@@ -15595,7 +15260,7 @@ A chemical with no chiral centers can not have an enantiomer. A chemical with mu
     <!-- http://purl.obolibrary.org/obo/EXMO_0000166 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EXMO_0000166">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EXMO_0000014"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000015"/>
         <obo:IAO_0000115>Aerobics is a form of physical exercise that combines rhythmic aerobic exercise with stretching and strength training routines with the goal of improving all elements of fitness (flexibility, muscular strength, and cardio-vascular fitness).</obo:IAO_0000115>
         <oboInOwl:hasDbXref>umls:C3842693</oboInOwl:hasDbXref>
         <oboInOwl:hasExactSynonym>aerobic dance</oboInOwl:hasExactSynonym>
@@ -15682,7 +15347,7 @@ A chemical with no chiral centers can not have an enantiomer. A chemical with mu
     <!-- http://purl.obolibrary.org/obo/EXMO_0000169 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EXMO_0000169">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EXMO_0000014"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000015"/>
         <obo:IAO_0000115>A two-person sport in which the fists are skillfully used to attack and defend.</obo:IAO_0000115>
         <oboInOwl:hasDbXref>mesh:D001914</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>umls:C0006080</oboInOwl:hasDbXref>
@@ -15700,7 +15365,7 @@ A chemical with no chiral centers can not have an enantiomer. A chemical with mu
     <!-- http://purl.obolibrary.org/obo/EXMO_0000175 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EXMO_0000175">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EXMO_0000014"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000015"/>
         <oboInOwl:hasExactSynonym>Long-distance running is a form of continuous running over distances of at least 3 km (1.9 mi).</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>endurance running</oboInOwl:hasExactSynonym>
         <rdfs:label xml:lang="en">long-distance running</rdfs:label>
@@ -15736,27 +15401,10 @@ A chemical with no chiral centers can not have an enantiomer. A chemical with mu
     
 
 
-    <!-- http://purl.obolibrary.org/obo/EXMO_0000177 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EXMO_0000177">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EXMO_0000014"/>
-        <obo:IAO_0000115>Hiking is a long, vigorous walk, usually on trails or footpaths in the countryside.</obo:IAO_0000115>
-        <oboInOwl:hasDbXref>umls:C4255280</oboInOwl:hasDbXref>
-        <rdfs:label xml:lang="en">hiking</rdfs:label>
-    </owl:Class>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/EXMO_0000177"/>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>Hiking is a long, vigorous walk, usually on trails or footpaths in the countryside.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://en.wikipedia.org/wiki/Hiking</oboInOwl:hasDbXref>
-    </owl:Axiom>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/EXMO_0000178 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EXMO_0000178">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EXMO_0000177"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000015"/>
         <oboInOwl:hasDbXref>umls:C2030962</oboInOwl:hasDbXref>
         <oboInOwl:hasExactSynonym>hiking uphill</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>uphill hiking</oboInOwl:hasExactSynonym>
@@ -15768,7 +15416,7 @@ A chemical with no chiral centers can not have an enantiomer. A chemical with mu
     <!-- http://purl.obolibrary.org/obo/EXMO_0000179 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EXMO_0000179">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EXMO_0000177"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000015"/>
         <rdfs:label xml:lang="en">hiking on flat ground</rdfs:label>
     </owl:Class>
     
@@ -15777,7 +15425,7 @@ A chemical with no chiral centers can not have an enantiomer. A chemical with mu
     <!-- http://purl.obolibrary.org/obo/EXMO_0000183 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EXMO_0000183">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EXMO_0000014"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000015"/>
         <oboInOwl:hasExactSynonym>moderate walk</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>morderate-intensity walking</oboInOwl:hasExactSynonym>
         <rdfs:label xml:lang="en">morderate walking</rdfs:label>
@@ -15788,7 +15436,7 @@ A chemical with no chiral centers can not have an enantiomer. A chemical with mu
     <!-- http://purl.obolibrary.org/obo/EXMO_0000184 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EXMO_0000184">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EXMO_0000014"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000015"/>
         <obo:IAO_0000115>Brisk walking is a type of exercise where a person walks quickly in order to increase the heart rate and get in shape.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>brisk walk</oboInOwl:hasExactSynonym>
         <oboInOwl:hasRelatedSynonym>speed walking</oboInOwl:hasRelatedSynonym>
@@ -15806,7 +15454,7 @@ A chemical with no chiral centers can not have an enantiomer. A chemical with mu
     <!-- http://purl.obolibrary.org/obo/EXMO_0000186 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EXMO_0000186">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EXMO_0000014"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000015"/>
         <obo:IAO_0000115>Fencing is a group of three related combat sports. The three disciplines in modern fencing are the foil, the épée, and the sabre (also saber); winning points are made through the weapon&apos;s contact with an opponent.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">fencing</rdfs:label>
     </owl:Class>
@@ -15924,7 +15572,7 @@ A chemical with no chiral centers can not have an enantiomer. A chemical with mu
     <!-- http://purl.obolibrary.org/obo/EXMO_0000190 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EXMO_0000190">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EXMO_0000014"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000015"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000057"/>
@@ -16018,7 +15666,7 @@ A chemical with no chiral centers can not have an enantiomer. A chemical with mu
     <!-- http://purl.obolibrary.org/obo/EXMO_0000193 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EXMO_0000193">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EXMO_0000014"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000015"/>
         <obo:IAO_0000115>Taekwondo is a Korean form of martial arts, characterized by punching and kicking techniques, with emphasis on head-height kicks, jumping spinning kicks, and fast kicking techniques.</obo:IAO_0000115>
         <oboInOwl:hasDbXref>umls:C0080204</oboInOwl:hasDbXref>
         <oboInOwl:hasExactSynonym>tae kwon</oboInOwl:hasExactSynonym>
@@ -16168,7 +15816,7 @@ A chemical with no chiral centers can not have an enantiomer. A chemical with mu
     <!-- http://purl.obolibrary.org/obo/EXMO_0000198 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EXMO_0000198">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EXMO_0000014"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000015"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000057"/>
@@ -16219,13 +15867,7 @@ A chemical with no chiral centers can not have an enantiomer. A chemical with mu
     <!-- http://purl.obolibrary.org/obo/EXMO_0000202 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EXMO_0000202">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EXMO_0000014"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000057"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/EXMO_0000273"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000015"/>
         <obo:IAO_0000115>Stair climbing is the climbing of a flight of stairs.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">stair climbing</rdfs:label>
     </owl:Class>
@@ -16282,7 +15924,7 @@ A chemical with no chiral centers can not have an enantiomer. A chemical with mu
     <!-- http://purl.obolibrary.org/obo/EXMO_0000205 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EXMO_0000205">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EXMO_0000014"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000015"/>
         <obo:IAO_0000115>Bodybuilding is the use of progressive resistance exercise to control and develop one&apos;s muscles (muscle building) by muscle hypertrophy for aesthetic purposes.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">bodybuilding</rdfs:label>
     </owl:Class>
@@ -16295,26 +15937,10 @@ A chemical with no chiral centers can not have an enantiomer. A chemical with mu
     
 
 
-    <!-- http://purl.obolibrary.org/obo/EXMO_0000206 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EXMO_0000206">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EXMO_0000350"/>
-        <obo:IAO_0000115>resistance exercise that builds strength</obo:IAO_0000115>
-        <rdfs:label xml:lang="en">strength training</rdfs:label>
-    </owl:Class>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/EXMO_0000206"/>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>resistance exercise that builds strength</owl:annotatedTarget>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.emedicinehealth.com/strength_training/article_em.htm</oboInOwl:hasDbXref>
-    </owl:Axiom>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/EXMO_0000207 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EXMO_0000207">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EXMO_0000209"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EXMO_0000350"/>
         <obo:IAO_0000115>Bodyweight exercises (also called bodyweight workouts) are strength-training exercises that use an individual&apos;s own weight to provide resistance against gravity.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>bodyweight workout</oboInOwl:hasExactSynonym>
         <rdfs:label xml:lang="en">bodyweight exercise</rdfs:label>
@@ -16344,26 +15970,10 @@ A chemical with no chiral centers can not have an enantiomer. A chemical with mu
     
 
 
-    <!-- http://purl.obolibrary.org/obo/EXMO_0000209 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EXMO_0000209">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EXMO_0000206"/>
-        <obo:IAO_0000115>Weight training is a common type of strength training for developing the strength and size of skeletal muscles.[2] It uses the force of gravity in the form of weighted bars, dumbbells or weight stacks in order to oppose the force generated by muscle through concentric or eccentric contraction. Weight training uses a variety of specialized equipment to target specific muscle groups and types of movement.</obo:IAO_0000115>
-        <rdfs:label xml:lang="en">weight training</rdfs:label>
-    </owl:Class>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/EXMO_0000209"/>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>Weight training is a common type of strength training for developing the strength and size of skeletal muscles.[2] It uses the force of gravity in the form of weighted bars, dumbbells or weight stacks in order to oppose the force generated by muscle through concentric or eccentric contraction. Weight training uses a variety of specialized equipment to target specific muscle groups and types of movement.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://en.wikipedia.org/wiki/Weight_training</oboInOwl:hasDbXref>
-    </owl:Axiom>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/EXMO_0000211 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EXMO_0000211">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EXMO_0000014"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000015"/>
         <obo:IAO_0000115>Circuit training is a form of body conditioning that involves endurance training, resistance training, high-intensity aerobics, and exercises performed in a circuit, similar to high-intensity interval training.</obo:IAO_0000115>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">umls:C2712423</oboInOwl:hasDbXref>
         <rdfs:label xml:lang="en">circuit training</rdfs:label>
@@ -16380,7 +15990,7 @@ A chemical with no chiral centers can not have an enantiomer. A chemical with mu
     <!-- http://purl.obolibrary.org/obo/EXMO_0000212 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EXMO_0000212">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EXMO_0000014"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000015"/>
         <obo:IAO_0000115>Cross-training is athletic training in sports other than the athlete&apos;s usual sport. The goal is improving overall performance. It takes advantage of the particular effectiveness of one training method to negate the shortcomings of another.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">cross-training</rdfs:label>
     </owl:Class>
@@ -16396,7 +16006,7 @@ A chemical with no chiral centers can not have an enantiomer. A chemical with mu
     <!-- http://purl.obolibrary.org/obo/EXMO_0000215 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EXMO_0000215">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EXMO_0000014"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000015"/>
         <obo:IAO_0000115>Interval training is a type of training exercise that involves a series of high-intensity workouts interspersed with rest or relief periods.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">interval training</rdfs:label>
     </owl:Class>
@@ -16409,64 +16019,10 @@ A chemical with no chiral centers can not have an enantiomer. A chemical with mu
     
 
 
-    <!-- http://purl.obolibrary.org/obo/EXMO_0000216 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EXMO_0000216">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000015"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000066"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/EXMO_0000217"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002404"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/EXMO_0000014"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <obo:IAO_0000115>The muscle system process that results in enlargement or overgrowth of all or part of a muscle organ due to an increase in the size of its muscle cells. Physiological hypertrophy is a normal process during development (it stops in cardiac muscle after adolescence) and can also be brought on in response to demand. In athletes cardiac and skeletal muscles undergo hypertrophy stimulated by increasing muscle activity on exercise. Smooth muscle cells in the uterus undergo hypertrophy during pregnancy.</obo:IAO_0000115>
-        <oboInOwl:hasDbXref>snomedct:249829006</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>umls:C0236033</oboInOwl:hasDbXref>
-        <rdfs:label xml:lang="en">muscle hypertrophy</rdfs:label>
-    </owl:Class>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/EXMO_0000216"/>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>The muscle system process that results in enlargement or overgrowth of all or part of a muscle organ due to an increase in the size of its muscle cells. Physiological hypertrophy is a normal process during development (it stops in cardiac muscle after adolescence) and can also be brought on in response to demand. In athletes cardiac and skeletal muscles undergo hypertrophy stimulated by increasing muscle activity on exercise. Smooth muscle cells in the uterus undergo hypertrophy during pregnancy.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>umls:C0236033</oboInOwl:hasDbXref>
-    </owl:Axiom>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/EXMO_0000217 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EXMO_0000217">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000030"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000067"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/EXMO_0000216"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <obo:IAO_0000115>Human females who are pregnant, as cultural, psychological, or sociological entities.</obo:IAO_0000115>
-        <oboInOwl:hasDbXref>mesh:D037841</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>umls:C0033011</oboInOwl:hasDbXref>
-        <rdfs:label xml:lang="en">pregnant woman</rdfs:label>
-    </owl:Class>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/EXMO_0000217"/>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>Human females who are pregnant, as cultural, psychological, or sociological entities.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>mesh:D037841</oboInOwl:hasDbXref>
-    </owl:Axiom>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/EXMO_0000218 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EXMO_0000218">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EXMO_0000014"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000015"/>
         <rdfs:label xml:lang="en">outdoor fitness</rdfs:label>
     </owl:Class>
     
@@ -16490,12 +16046,6 @@ A chemical with no chiral centers can not have an enantiomer. A chemical with mu
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EXMO_0000221">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EXMO_0000013"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000056"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/EXMO_0000209"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <obo:IAO_0000115>A barbell is a piece of exercise equipment used in weight training, bodybuilding, weightlifting and powerlifting, consisting of a long bar, usually with weights attached at each end.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">barbell</rdfs:label>
     </owl:Class>
@@ -16556,12 +16106,6 @@ A chemical with no chiral centers can not have an enantiomer. A chemical with mu
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EXMO_0000225">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EXMO_0000013"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000056"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/EXMO_0000209"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <obo:IAO_0000115>The dumbbell, a type of free weight, is a piece of equipment used in weight training. It can be used individually or in pairs, with one in each hand.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">dumbbell</rdfs:label>
     </owl:Class>
@@ -16605,12 +16149,6 @@ A chemical with no chiral centers can not have an enantiomer. A chemical with mu
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EXMO_0000228">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EXMO_0000013"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000056"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/EXMO_0000209"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <obo:IAO_0000115>The kettlebell is a cast iron or cast steel ball with a handle attached to the top (resembling a cannonball with a handle). It is used to perform many types of exercises, including ballistic exercises that combine cardiovascular, strength and flexibility training. They are also the primary equipment used in the weight lifting sport of kettlebell lifting.</obo:IAO_0000115>
         <oboInOwl:hasDbXref>umls:C2721233</oboInOwl:hasDbXref>
         <rdfs:label xml:lang="en">kettlebell</rdfs:label>
@@ -16645,12 +16183,6 @@ A chemical with no chiral centers can not have an enantiomer. A chemical with mu
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EXMO_0000230">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EXMO_0000013"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000056"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/EXMO_0000209"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <obo:IAO_0000115>A medicine ball (also known as an exercise ball, a med ball, or a fitness ball) is a weighted ball whose diameter is about a shoulder-width, (approx. 13.7 inches (350 mm)), often used for rehabilitation and strength training.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>exercise ball</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>fitness ball</oboInOwl:hasExactSynonym>
@@ -16695,7 +16227,7 @@ A chemical with no chiral centers can not have an enantiomer. A chemical with mu
     <!-- http://purl.obolibrary.org/obo/EXMO_0000233 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EXMO_0000233">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EXMO_0000239"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EXMO_0000013"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000056"/>
@@ -16733,12 +16265,6 @@ A chemical with no chiral centers can not have an enantiomer. A chemical with mu
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EXMO_0000235">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EXMO_0000013"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000056"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/EXMO_0000209"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <obo:IAO_0000115>A weight machine is an exercise machine used for weight training that uses gravity as the primary source of resistance and a combination of simple machines to convey that resistance to the person using the machine. Each of the simple machines (pulley, lever, wheel, incline) changes the mechanical advantage of the overall machine relative to the weight.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">weight machine</rdfs:label>
     </owl:Class>
@@ -16788,37 +16314,10 @@ A chemical with no chiral centers can not have an enantiomer. A chemical with mu
     
 
 
-    <!-- http://purl.obolibrary.org/obo/EXMO_0000239 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EXMO_0000239">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EXMO_0000013"/>
-        <obo:IAO_0000115>A ball is a round object (usually spherical, but can sometimes be ovoid) with various uses. It is used in ball games, where the play of the game follows the state of the ball as it is hit, kicked or thrown by players. Balls can also be used for simpler activities, such as catch or juggling. Balls made from hard-wearing materials are used in engineering applications to provide very low friction bearings, known as ball bearings. Black-powder weapons use stone and metal balls as projectiles.</obo:IAO_0000115>
-        <rdfs:label xml:lang="en">ball</rdfs:label>
-    </owl:Class>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/EXMO_0000239"/>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>A ball is a round object (usually spherical, but can sometimes be ovoid) with various uses. It is used in ball games, where the play of the game follows the state of the ball as it is hit, kicked or thrown by players. Balls can also be used for simpler activities, such as catch or juggling. Balls made from hard-wearing materials are used in engineering applications to provide very low friction bearings, known as ball bearings. Black-powder weapons use stone and metal balls as projectiles.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://en.wikipedia.org/wiki/Ball</oboInOwl:hasDbXref>
-    </owl:Axiom>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/EXMO_0000240 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EXMO_0000240">
-        <owl:equivalentClass>
-            <owl:Class>
-                <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/EXMO_0000239"/>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000056"/>
-                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/EXMO_0000167"/>
-                    </owl:Restriction>
-                </owl:intersectionOf>
-            </owl:Class>
-        </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EXMO_0000239"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EXMO_0000013"/>
         <obo:IAO_0000115>A shuttlecock (also called a birdie or shuttle) is a high-drag projectile used in the sport of badminton. It has an open conical shape formed by feathers or plastic (or a synthetic alternative) embedded into a rounded cork (or rubber) base. The shuttlecock&apos;s shape makes it extremely aerodynamically stable. Regardless of initial orientation, it will turn to fly cork first, and remain in the cork-first orientation.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>birdie</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>shuttle</oboInOwl:hasExactSynonym>
@@ -16836,18 +16335,7 @@ A chemical with no chiral centers can not have an enantiomer. A chemical with mu
     <!-- http://purl.obolibrary.org/obo/EXMO_0000241 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EXMO_0000241">
-        <owl:equivalentClass>
-            <owl:Class>
-                <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/EXMO_0000239"/>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000056"/>
-                        <owl:allValuesFrom rdf:resource="http://purl.obolibrary.org/obo/EXMO_0000168"/>
-                    </owl:Restriction>
-                </owl:intersectionOf>
-            </owl:Class>
-        </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EXMO_0000239"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EXMO_0000013"/>
         <obo:IAO_0000115>A basketball is a spherical ball used in basketball games.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">basketball</rdfs:label>
     </owl:Class>
@@ -16860,39 +16348,10 @@ A chemical with no chiral centers can not have an enantiomer. A chemical with mu
     
 
 
-    <!-- http://purl.obolibrary.org/obo/EXMO_0000242 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EXMO_0000242">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EXMO_0000013"/>
-        <obo:IAO_0000115>A bicycle, also called a bike or cycle, is a human-powered or motor-powered, pedal-driven, single-track vehicle, having two wheels attached to a frame, one behind the other.</obo:IAO_0000115>
-        <oboInOwl:hasExactSynonym>bike</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym>cycle</oboInOwl:hasExactSynonym>
-        <rdfs:label xml:lang="en">bicycle</rdfs:label>
-    </owl:Class>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/EXMO_0000242"/>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>A bicycle, also called a bike or cycle, is a human-powered or motor-powered, pedal-driven, single-track vehicle, having two wheels attached to a frame, one behind the other.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://en.wikipedia.org/wiki/Bicycle</oboInOwl:hasDbXref>
-    </owl:Axiom>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/EXMO_0000243 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EXMO_0000243">
-        <owl:equivalentClass>
-            <owl:Class>
-                <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/EXMO_0000239"/>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000056"/>
-                        <owl:allValuesFrom rdf:resource="http://purl.obolibrary.org/obo/EXMO_0000187"/>
-                    </owl:Restriction>
-                </owl:intersectionOf>
-            </owl:Class>
-        </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EXMO_0000239"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EXMO_0000013"/>
         <obo:IAO_0000115>A golf ball is a special ball designed to be used in the game of golf.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">golf ball</rdfs:label>
     </owl:Class>
@@ -16946,7 +16405,7 @@ A chemical with no chiral centers can not have an enantiomer. A chemical with mu
     <!-- http://purl.obolibrary.org/obo/EXMO_0000246 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EXMO_0000246">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EXMO_0000014"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000015"/>
         <obo:IAO_0000115>Ball games (or ballgames), also ball sports, are any form of game or sport which feature a ball as part of play.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>ball sport</oboInOwl:hasExactSynonym>
         <rdfs:label xml:lang="en">ball game</rdfs:label>
@@ -16963,18 +16422,7 @@ A chemical with no chiral centers can not have an enantiomer. A chemical with mu
     <!-- http://purl.obolibrary.org/obo/EXMO_0000247 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EXMO_0000247">
-        <owl:equivalentClass>
-            <owl:Class>
-                <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/EXMO_0000239"/>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000056"/>
-                        <owl:allValuesFrom rdf:resource="http://purl.obolibrary.org/obo/EXMO_0000188"/>
-                    </owl:Restriction>
-                </owl:intersectionOf>
-            </owl:Class>
-        </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EXMO_0000239"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EXMO_0000013"/>
         <rdfs:label xml:lang="en">netball</rdfs:label>
     </owl:Class>
     
@@ -17024,7 +16472,7 @@ A chemical with no chiral centers can not have an enantiomer. A chemical with mu
     <!-- http://purl.obolibrary.org/obo/EXMO_0000250 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EXMO_0000250">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EXMO_0000014"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000015"/>
         <obo:IAO_0000115>The Baduanjin qigong(八段錦) is one of the most common forms of Chinese qigong used as exercise.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">baduanjin</rdfs:label>
     </owl:Class>
@@ -17040,18 +16488,7 @@ A chemical with no chiral centers can not have an enantiomer. A chemical with mu
     <!-- http://purl.obolibrary.org/obo/EXMO_0000251 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EXMO_0000251">
-        <owl:equivalentClass>
-            <owl:Class>
-                <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/EXMO_0000239"/>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000056"/>
-                        <owl:allValuesFrom rdf:resource="http://purl.obolibrary.org/obo/EXMO_0000252"/>
-                    </owl:Restriction>
-                </owl:intersectionOf>
-            </owl:Class>
-        </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EXMO_0000239"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EXMO_0000013"/>
         <rdfs:label xml:lang="en">football</rdfs:label>
     </owl:Class>
     
@@ -17083,17 +16520,6 @@ A chemical with no chiral centers can not have an enantiomer. A chemical with mu
     <!-- http://purl.obolibrary.org/obo/EXMO_0000253 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EXMO_0000253">
-        <owl:equivalentClass>
-            <owl:Class>
-                <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/EXMO_0000239"/>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000056"/>
-                        <owl:allValuesFrom rdf:resource="http://purl.obolibrary.org/obo/EXMO_0000196"/>
-                    </owl:Restriction>
-                </owl:intersectionOf>
-            </owl:Class>
-        </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EXMO_0000251"/>
         <obo:IAO_0000115>A football, soccer ball, football ball, or association football ball is the ball used in the sport of association football.</obo:IAO_0000115>
         <oboInOwl:hasBroadSynonym>football</oboInOwl:hasBroadSynonym>
@@ -17135,17 +16561,6 @@ A chemical with no chiral centers can not have an enantiomer. A chemical with mu
     <!-- http://purl.obolibrary.org/obo/EXMO_0000255 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EXMO_0000255">
-        <owl:equivalentClass>
-            <owl:Class>
-                <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/EXMO_0000239"/>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000056"/>
-                        <owl:allValuesFrom rdf:resource="http://purl.obolibrary.org/obo/EXMO_0000254"/>
-                    </owl:Restriction>
-                </owl:intersectionOf>
-            </owl:Class>
-        </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EXMO_0000251"/>
         <rdfs:label xml:lang="en">rugby ball</rdfs:label>
     </owl:Class>
@@ -17177,17 +16592,6 @@ A chemical with no chiral centers can not have an enantiomer. A chemical with mu
     <!-- http://purl.obolibrary.org/obo/EXMO_0000257 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EXMO_0000257">
-        <owl:equivalentClass>
-            <owl:Class>
-                <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/EXMO_0000239"/>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000056"/>
-                        <owl:allValuesFrom rdf:resource="http://purl.obolibrary.org/obo/EXMO_0000256"/>
-                    </owl:Restriction>
-                </owl:intersectionOf>
-            </owl:Class>
-        </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EXMO_0000251"/>
         <obo:IAO_0000115>In Canada and the United States, a football (also called a pigskin) is a ball, roughly in the form of a prolate spheroid, used in the context of playing gridiron football.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">gridiron football</rdfs:label>
@@ -17237,18 +16641,7 @@ A chemical with no chiral centers can not have an enantiomer. A chemical with mu
     <!-- http://purl.obolibrary.org/obo/EXMO_0000260 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EXMO_0000260">
-        <owl:equivalentClass>
-            <owl:Class>
-                <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/EXMO_0000239"/>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000056"/>
-                        <owl:allValuesFrom rdf:resource="http://purl.obolibrary.org/obo/EXMO_0000195"/>
-                    </owl:Restriction>
-                </owl:intersectionOf>
-            </owl:Class>
-        </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EXMO_0000239"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EXMO_0000013"/>
         <rdfs:label xml:lang="en">softball</rdfs:label>
     </owl:Class>
     
@@ -17258,12 +16651,6 @@ A chemical with no chiral centers can not have an enantiomer. A chemical with mu
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EXMO_0000261">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EXMO_0000269"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000057"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/EXMO_0000262"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000057"/>
@@ -17285,26 +16672,6 @@ A chemical with no chiral centers can not have an enantiomer. A chemical with mu
         <owl:annotatedTarget>Baseball is a bat-and-ball game played between two opposing teams, typically of nine players each, that take turns batting and fielding.</owl:annotatedTarget>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://en.wikipedia.org/wiki/Baseball</oboInOwl:hasDbXref>
     </owl:Axiom>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/EXMO_0000262 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EXMO_0000262">
-        <owl:equivalentClass>
-            <owl:Class>
-                <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/EXMO_0000239"/>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000056"/>
-                        <owl:allValuesFrom rdf:resource="http://purl.obolibrary.org/obo/EXMO_0000261"/>
-                    </owl:Restriction>
-                </owl:intersectionOf>
-            </owl:Class>
-        </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EXMO_0000239"/>
-        <rdfs:label xml:lang="en">baseball</rdfs:label>
-    </owl:Class>
     
 
 
@@ -17372,26 +16739,10 @@ A chemical with no chiral centers can not have an enantiomer. A chemical with mu
     
 
 
-    <!-- http://purl.obolibrary.org/obo/EXMO_0000266 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EXMO_0000266">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EXMO_0000013"/>
-        <obo:IAO_0000115>A glove is a garment covering the hand.</obo:IAO_0000115>
-        <rdfs:label xml:lang="en">glove</rdfs:label>
-    </owl:Class>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/EXMO_0000266"/>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>A glove is a garment covering the hand.</owl:annotatedTarget>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://en.wikipedia.org/wiki/Glove</obo:IAO_0000115>
-    </owl:Axiom>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/EXMO_0000267 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EXMO_0000267">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EXMO_0000266"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EXMO_0000013"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000056"/>
@@ -17414,7 +16765,7 @@ A chemical with no chiral centers can not have an enantiomer. A chemical with mu
     <!-- http://purl.obolibrary.org/obo/EXMO_0000268 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EXMO_0000268">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EXMO_0000266"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EXMO_0000013"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000056"/>
@@ -17459,7 +16810,7 @@ A chemical with no chiral centers can not have an enantiomer. A chemical with mu
     <!-- http://purl.obolibrary.org/obo/EXMO_0000270 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EXMO_0000270">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EXMO_0000266"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EXMO_0000013"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000056"/>
@@ -17508,18 +16859,7 @@ A chemical with no chiral centers can not have an enantiomer. A chemical with mu
     <!-- http://purl.obolibrary.org/obo/EXMO_0000272 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EXMO_0000272">
-        <owl:equivalentClass>
-            <owl:Class>
-                <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/EXMO_0000239"/>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000056"/>
-                        <owl:allValuesFrom rdf:resource="http://purl.obolibrary.org/obo/EXMO_0000197"/>
-                    </owl:Restriction>
-                </owl:intersectionOf>
-            </owl:Class>
-        </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EXMO_0000239"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EXMO_0000013"/>
         <obo:IAO_0000115>Squash balls are between 39.5 and 40.5 mm in diameter, and weigh 23 to 25 grams. They are made with two pieces of rubber compound, glued together to form a hollow sphere and buffed to a matte finish.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">squash ball</rdfs:label>
     </owl:Class>
@@ -17528,28 +16868,6 @@ A chemical with no chiral centers can not have an enantiomer. A chemical with mu
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>Squash balls are between 39.5 and 40.5 mm in diameter, and weigh 23 to 25 grams. They are made with two pieces of rubber compound, glued together to form a hollow sphere and buffed to a matte finish.</owl:annotatedTarget>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://en.wikipedia.org/wiki/Squash_(sport)#Ball</oboInOwl:hasDbXref>
-    </owl:Axiom>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/EXMO_0000273 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EXMO_0000273">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EXMO_0000013"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000056"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/EXMO_0000202"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <obo:IAO_0000115>Stairs is a structure designed to bridge a large vertical distance by dividing it into smaller vertical distances, called steps. Stairs may be straight, round, or may consist of two or more straight pieces connected at angles.</obo:IAO_0000115>
-        <rdfs:label xml:lang="en">stair</rdfs:label>
-    </owl:Class>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/EXMO_0000273"/>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>Stairs is a structure designed to bridge a large vertical distance by dividing it into smaller vertical distances, called steps. Stairs may be straight, round, or may consist of two or more straight pieces connected at angles.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://en.wikipedia.org/wiki/Stairs</oboInOwl:hasDbXref>
     </owl:Axiom>
     
 
@@ -17579,18 +16897,7 @@ A chemical with no chiral centers can not have an enantiomer. A chemical with mu
     <!-- http://purl.obolibrary.org/obo/EXMO_0000275 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EXMO_0000275">
-        <owl:equivalentClass>
-            <owl:Class>
-                <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/EXMO_0000239"/>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000056"/>
-                        <owl:allValuesFrom rdf:resource="http://purl.obolibrary.org/obo/EXMO_0000189"/>
-                    </owl:Restriction>
-                </owl:intersectionOf>
-            </owl:Class>
-        </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EXMO_0000239"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EXMO_0000013"/>
         <obo:IAO_0000115>The international rules specify that the game is played with a sphere having a mass of 2.7 grams (0.095 oz) and a diameter of 40 millimetres (1.57 in).</obo:IAO_0000115>
         <rdfs:label xml:lang="en">table tennis ball</rdfs:label>
     </owl:Class>
@@ -17606,18 +16913,7 @@ A chemical with no chiral centers can not have an enantiomer. A chemical with mu
     <!-- http://purl.obolibrary.org/obo/EXMO_0000276 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EXMO_0000276">
-        <owl:equivalentClass>
-            <owl:Class>
-                <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/EXMO_0000239"/>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000056"/>
-                        <owl:allValuesFrom rdf:resource="http://purl.obolibrary.org/obo/EXMO_0000194"/>
-                    </owl:Restriction>
-                </owl:intersectionOf>
-            </owl:Class>
-        </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EXMO_0000239"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EXMO_0000013"/>
         <obo:IAO_0000115>A tennis ball is a ball designed for the sport of tennis. Tennis balls are fluorescent yellow in organised competitions, but in recreational play can be virtually any color. Tennis balls are covered in a fibrous felt which modifies their aerodynamic properties, and each has a white curvilinear oval covering it.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">tennis ball</rdfs:label>
     </owl:Class>
@@ -17653,18 +16949,7 @@ A chemical with no chiral centers can not have an enantiomer. A chemical with mu
     <!-- http://purl.obolibrary.org/obo/EXMO_0000278 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EXMO_0000278">
-        <owl:equivalentClass>
-            <owl:Class>
-                <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/EXMO_0000239"/>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000056"/>
-                        <owl:allValuesFrom rdf:resource="http://purl.obolibrary.org/obo/EXMO_0000203"/>
-                    </owl:Restriction>
-                </owl:intersectionOf>
-            </owl:Class>
-        </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EXMO_0000239"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EXMO_0000013"/>
         <obo:IAO_0000115>A volleyball is a ball used to play indoor volleyball, beach volleyball, or other less common variations of the sport. Volleyballs are round and traditionally consist of eighteen nearly rectangular panels of synthetic or genuine leather, arranged in six identical sections of three panels each, wrapped around a bladder. A valve permits the internal air pressure to be adjusted.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">volleyball</rdfs:label>
     </owl:Class>
@@ -17673,24 +16958,6 @@ A chemical with no chiral centers can not have an enantiomer. A chemical with mu
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>A volleyball is a ball used to play indoor volleyball, beach volleyball, or other less common variations of the sport. Volleyballs are round and traditionally consist of eighteen nearly rectangular panels of synthetic or genuine leather, arranged in six identical sections of three panels each, wrapped around a bladder. A valve permits the internal air pressure to be adjusted.</owl:annotatedTarget>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://en.wikipedia.org/wiki/Volleyball_(ball)</oboInOwl:hasDbXref>
-    </owl:Axiom>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/EXMO_0000279 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EXMO_0000279">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000030"/>
-        <obo:IAO_0000115>Individuals who have developed skills, physical stamina and strength or participants in SPORTS or other physical activities.</obo:IAO_0000115>
-        <oboInOwl:hasDbXref>mesh:D056352</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>umls:C0238703</oboInOwl:hasDbXref>
-        <rdfs:label xml:lang="en">athlete</rdfs:label>
-    </owl:Class>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/EXMO_0000279"/>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>Individuals who have developed skills, physical stamina and strength or participants in SPORTS or other physical activities.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">mesh:D056352</oboInOwl:hasDbXref>
     </owl:Axiom>
     
 
@@ -17861,22 +17128,6 @@ A chemical with no chiral centers can not have an enantiomer. A chemical with mu
     
 
 
-    <!-- http://purl.obolibrary.org/obo/EXMO_0000300 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EXMO_0000300">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EXMO_0000013"/>
-        <obo:IAO_0000115>A treadmill is a device generally used for walking, running, or climbing while staying in the same place.</obo:IAO_0000115>
-        <rdfs:label xml:lang="en">treadmill</rdfs:label>
-    </owl:Class>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/EXMO_0000300"/>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>A treadmill is a device generally used for walking, running, or climbing while staying in the same place.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://en.wikipedia.org/wiki/Treadmill</oboInOwl:hasDbXref>
-    </owl:Axiom>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/EXMO_0000301 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EXMO_0000301">
@@ -17940,7 +17191,7 @@ A chemical with no chiral centers can not have an enantiomer. A chemical with mu
     <!-- http://purl.obolibrary.org/obo/EXMO_0000310 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EXMO_0000310">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EXMO_0000014"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000015"/>
         <obo:IAO_0000115>Any waking behaviour characterized by an energy expenditure of 1.5 METS or lower while sitting, reclining, or lying. Most desk-based office work, driving a car, and watching television are examples of sedentary behaviours; these can also apply to those unable to stand, such as wheelchair users.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">sedentary behavior</rdfs:label>
     </owl:Class>
@@ -17956,29 +17207,11 @@ A chemical with no chiral centers can not have an enantiomer. A chemical with mu
     <!-- http://purl.obolibrary.org/obo/EXMO_0000311 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EXMO_0000311">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EXMO_0000014"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000015"/>
         <obo:IAO_0000115>exercise performed in water</obo:IAO_0000115>
         <oboInOwl:hasDbXref>umls:C2147841</oboInOwl:hasDbXref>
         <rdfs:label xml:lang="en">aquatic exercise</rdfs:label>
     </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/EXMO_0000312 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EXMO_0000312">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EXMO_0000014"/>
-        <obo:IAO_0000115>Aquatic therapy refers to treatments and exercises performed in water for relaxation, fitness, physical rehabilitation, and other therapeutic benefit.</obo:IAO_0000115>
-        <oboInOwl:hasDbXref>umls:C5544388</oboInOwl:hasDbXref>
-        <oboInOwl:hasExactSynonym>aquatic therapy</oboInOwl:hasExactSynonym>
-        <rdfs:label xml:lang="en">aquatic exercise therapy</rdfs:label>
-    </owl:Class>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/EXMO_0000312"/>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>Aquatic therapy refers to treatments and exercises performed in water for relaxation, fitness, physical rehabilitation, and other therapeutic benefit.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://en.wikipedia.org/wiki/Aquatic_therapy</oboInOwl:hasDbXref>
-    </owl:Axiom>
     
 
 
@@ -18005,34 +17238,6 @@ A chemical with no chiral centers can not have an enantiomer. A chemical with mu
         <oboInOwl:hasDbXref>umls:C0454359</oboInOwl:hasDbXref>
         <oboInOwl:hasExactSynonym>sit-up strength exercise</oboInOwl:hasExactSynonym>
         <rdfs:label xml:lang="en">sit up exercise</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/EXMO_0000320 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EXMO_0000320">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000034"/>
-        <obo:IAO_0000115>Cognitive functioning refers to multiple mental abilities, including learning, thinking, reasoning, remembering, problem solving, decision making, and attention.</obo:IAO_0000115>
-        <oboInOwl:hasDbXref>snomedct:311465003</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>umls:C0392335</oboInOwl:hasDbXref>
-        <rdfs:label xml:lang="en">cognitive function</rdfs:label>
-    </owl:Class>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/EXMO_0000320"/>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>Cognitive functioning refers to multiple mental abilities, including learning, thinking, reasoning, remembering, problem solving, decision making, and attention.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">www.sciencedirect.com/topics/psychology/cognitive-functioning</oboInOwl:hasDbXref>
-    </owl:Axiom>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/EXMO_0000322 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EXMO_0000322">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000019"/>
-        <oboInOwl:hasDbXref>umls:C3714756</oboInOwl:hasDbXref>
-        <rdfs:label xml:lang="en">intellectual disability</rdfs:label>
     </owl:Class>
     
 
@@ -18139,7 +17344,7 @@ A chemical with no chiral centers can not have an enantiomer. A chemical with mu
     <!-- http://purl.obolibrary.org/obo/EXMO_0000330 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EXMO_0000330">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EXMO_0000014"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000015"/>
         <obo:IAO_0000115>Physical activity performed by an individual that is not required as an essential activity of daily living and is performed at the discretion of the individual. Such activities include sports participation, exercise conditioning or training, and recreational activities such as going for a walk, dancing, and gardening.</obo:IAO_0000115>
         <oboInOwl:hasDbXref>umls:C0336910</oboInOwl:hasDbXref>
         <oboInOwl:hasExactSynonym>leisure- domain physical activity</oboInOwl:hasExactSynonym>
@@ -18193,7 +17398,7 @@ A chemical with no chiral centers can not have an enantiomer. A chemical with mu
     <!-- http://purl.obolibrary.org/obo/EXMO_0000333 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EXMO_0000333">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EXMO_0000014"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000015"/>
         <rdfs:label xml:lang="en">moderate-to-vigorous physical activity</rdfs:label>
     </owl:Class>
     <owl:Axiom>
@@ -18205,27 +17410,10 @@ A chemical with no chiral centers can not have an enantiomer. A chemical with mu
     
 
 
-    <!-- http://purl.obolibrary.org/obo/EXMO_0000334 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EXMO_0000334">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000019"/>
-        <obo:IAO_0000115>A physical disability is a limitation on a person&apos;s physical functioning, mobility, dexterity or stamina.</obo:IAO_0000115>
-        <oboInOwl:hasDbXref>umls:C0520817</oboInOwl:hasDbXref>
-        <rdfs:label xml:lang="en">physical disability</rdfs:label>
-    </owl:Class>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/EXMO_0000334"/>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>A physical disability is a limitation on a person&apos;s physical functioning, mobility, dexterity or stamina.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://en.wikipedia.org/wiki/Physical_disability</oboInOwl:hasDbXref>
-    </owl:Axiom>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/EXMO_0000335 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EXMO_0000335">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EXMO_0000014"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000015"/>
         <obo:IAO_0000115>Tapering-off physical activity from vigorous to light, to gradually return the body to pre-exercise condition and metabolic state.</obo:IAO_0000115>
         <oboInOwl:hasDbXref>mesh:D064590</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>umls:C3658227</oboInOwl:hasDbXref>
@@ -18282,32 +17470,6 @@ A chemical with no chiral centers can not have an enantiomer. A chemical with mu
     
 
 
-    <!-- http://purl.obolibrary.org/obo/EXMO_0000337 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EXMO_0000337">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000040"/>
-        <obo:IAO_0000115>Damage to the muscles, bones and their supportive structural attachments.</obo:IAO_0000115>
-        <oboInOwl:hasDbXref>ncit:C110943</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>snomedct:105606008</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>umls:C0272448</oboInOwl:hasDbXref>
-        <oboInOwl:hasExactSynonym>musculoskeletal injury</oboInOwl:hasExactSynonym>
-        <rdfs:label xml:lang="en">injury of musculoskeletal system</rdfs:label>
-    </owl:Class>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/EXMO_0000337"/>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>Damage to the muscles, bones and their supportive structural attachments.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>ncit:C110943</oboInOwl:hasDbXref>
-    </owl:Axiom>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/EXMO_0000337"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
-        <owl:annotatedTarget>musculoskeletal injury</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>snomedct:105606008</oboInOwl:hasDbXref>
-    </owl:Axiom>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/EXMO_0000341 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EXMO_0000341">
@@ -18321,7 +17483,7 @@ A chemical with no chiral centers can not have an enantiomer. A chemical with mu
     <!-- http://purl.obolibrary.org/obo/EXMO_0000344 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EXMO_0000344">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EXMO_0000014"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000015"/>
         <obo:IAO_0000115>Any activity that is intended for refreshment or diversion.</obo:IAO_0000115>
         <oboInOwl:hasDbXref>mesh:D011998</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>ncit:C86586</oboInOwl:hasDbXref>
@@ -18349,7 +17511,7 @@ A chemical with no chiral centers can not have an enantiomer. A chemical with mu
     <!-- http://purl.obolibrary.org/obo/EXMO_0000346 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EXMO_0000346">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EXMO_0000014"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000015"/>
         <obo:IAO_0000115>High-intensity functional training (HIFT) is an exercise modality that emphasizes functional, multi-joint movements that can be modified to any fitness level and elicit greater muscle recruitment than more traditional exercise.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">high-intensity functional training</rdfs:label>
     </owl:Class>
@@ -18387,7 +17549,7 @@ A chemical with no chiral centers can not have an enantiomer. A chemical with mu
     <!-- http://purl.obolibrary.org/obo/EXMO_0000349 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EXMO_0000349">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EXMO_0000014"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000015"/>
         <obo:IAO_0000115>The Six Healing Sounds or Liu Zi Jue is one of the common forms of Chinese qigong, and involves the coordination of movement and breathing patterns with specific sounds.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>Liu Zi Jue</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>Liuzijue Qigong</oboInOwl:hasExactSynonym>
@@ -18413,39 +17575,17 @@ A chemical with no chiral centers can not have an enantiomer. A chemical with mu
     <!-- http://purl.obolibrary.org/obo/EXMO_0000350 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EXMO_0000350">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EXMO_0000014"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000015"/>
         <oboInOwl:hasDbXref>umls:C3841233</oboInOwl:hasDbXref>
         <rdfs:label xml:lang="en">anaerobic exercise</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://purl.obolibrary.org/obo/EXMO_0000351 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EXMO_0000351">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000028"/>
-        <obo:IAO_0000115>Range of motion (or ROM), is the linear or angular distance that a moving object may normally travel while properly attached to another.</obo:IAO_0000115>
-        <rdfs:label>range of motion</rdfs:label>
-    </owl:Class>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/EXMO_0000351"/>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>Range of motion (or ROM), is the linear or angular distance that a moving object may normally travel while properly attached to another.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://en.wikipedia.org/wiki/Range_of_motion</oboInOwl:hasDbXref>
-    </owl:Axiom>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/EXMO_0000351"/>
-        <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#label"/>
-        <owl:annotatedTarget>range of motion</owl:annotatedTarget>
-        <oboInOwl:hasExactSynonym>ROM</oboInOwl:hasExactSynonym>
-    </owl:Axiom>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/EXMO_0000352 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EXMO_0000352">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EXMO_0000014"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000015"/>
         <obo:IAO_0000115>Actions performed to provide the active or passive exercises to maintain joint function</obo:IAO_0000115>
         <oboInOwl:hasDbXref>umls:C0150220</oboInOwl:hasDbXref>
         <rdfs:label xml:lang="en">range of motion exercise</rdfs:label>
@@ -18456,7 +17596,7 @@ A chemical with no chiral centers can not have an enantiomer. A chemical with mu
     <!-- http://purl.obolibrary.org/obo/EXMO_0000353 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EXMO_0000353">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EXMO_0000100"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000015"/>
         <oboInOwl:hasDbXref>snomedct:69212005</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>umls:C0204061</oboInOwl:hasDbXref>
         <rdfs:label xml:lang="en">range of motion testing</rdfs:label>
@@ -18480,38 +17620,10 @@ A chemical with no chiral centers can not have an enantiomer. A chemical with mu
     
 
 
-    <!-- http://purl.obolibrary.org/obo/EXMO_0000358 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EXMO_0000358">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EXMO_0000048"/>
-        <rdfs:label xml:lang="en">heart rhythm</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/EXMO_0000359 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EXMO_0000359">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EXMO_0000337"/>
-        <obo:IAO_0000115>Entrapment of the MEDIAN NERVE in the carpal tunnel, which is formed by the flexor retinaculum and the CARPAL BONES.</obo:IAO_0000115>
-        <oboInOwl:hasDbXref>mesh:D002349</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>snomedct:57406009</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>umls:C0007286</oboInOwl:hasDbXref>
-        <rdfs:label xml:lang="en">carpal tunnel syndrome</rdfs:label>
-    </owl:Class>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/EXMO_0000359"/>
-        <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#label"/>
-        <owl:annotatedTarget xml:lang="en">carpal tunnel syndrome</owl:annotatedTarget>
-        <oboInOwl:hasExactSynonym>CTS</oboInOwl:hasExactSynonym>
-    </owl:Axiom>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/EXMO_0000360 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EXMO_0000360">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EXMO_0000337"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000040"/>
         <rdfs:label xml:lang="en">stenosing tendovaginitis of radial styloid</rdfs:label>
     </owl:Class>
     
@@ -18520,7 +17632,7 @@ A chemical with no chiral centers can not have an enantiomer. A chemical with mu
     <!-- http://purl.obolibrary.org/obo/EXMO_0000361 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EXMO_0000361">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EXMO_0000337"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000040"/>
         <obo:IAO_0000115>Injuries to the ROTATOR CUFF of the shoulder joint.</obo:IAO_0000115>
         <oboInOwl:hasDbXref>mesh:D000070636</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>snomedct:718539004</oboInOwl:hasDbXref>
@@ -18535,29 +17647,10 @@ A chemical with no chiral centers can not have an enantiomer. A chemical with mu
     
 
 
-    <!-- http://purl.obolibrary.org/obo/EXMO_0000362 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EXMO_0000362">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EXMO_0000337"/>
-        <obo:IAO_0000115>A condition characterized by pain in or near the lateral humeral epicondyle or in the forearm extensor muscle mass as a result of unusual strain. It occurs due repetitive stresses on the elbow from activities such as tennis playing.</obo:IAO_0000115>
-        <oboInOwl:hasDbXref>mesh:D013716</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>snomedct:202855006</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>umls:C0039516</oboInOwl:hasDbXref>
-        <rdfs:label xml:lang="en">tennis elbow</rdfs:label>
-    </owl:Class>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/EXMO_0000362"/>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>A condition characterized by pain in or near the lateral humeral epicondyle or in the forearm extensor muscle mass as a result of unusual strain. It occurs due repetitive stresses on the elbow from activities such as tennis playing.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>mesh:D013716</oboInOwl:hasDbXref>
-    </owl:Axiom>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/EXMO_0000363 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EXMO_0000363">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EXMO_0000337"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000040"/>
         <oboInOwl:hasDbXref>umls:C2732289</oboInOwl:hasDbXref>
         <rdfs:label xml:lang="en">injury of cruciate ligament of knee</rdfs:label>
     </owl:Class>
@@ -18567,7 +17660,7 @@ A chemical with no chiral centers can not have an enantiomer. A chemical with mu
     <!-- http://purl.obolibrary.org/obo/EXMO_0000364 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EXMO_0000364">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EXMO_0000337"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000040"/>
         <rdfs:label xml:lang="en">acute sprain of ankle joint</rdfs:label>
     </owl:Class>
     
@@ -18576,7 +17669,7 @@ A chemical with no chiral centers can not have an enantiomer. A chemical with mu
     <!-- http://purl.obolibrary.org/obo/EXMO_0000365 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EXMO_0000365">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EXMO_0000337"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000040"/>
         <rdfs:label xml:lang="en">acute lumbar muscle sprain</rdfs:label>
     </owl:Class>
     
@@ -18585,32 +17678,9 @@ A chemical with no chiral centers can not have an enantiomer. A chemical with mu
     <!-- http://purl.obolibrary.org/obo/EXMO_0000366 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EXMO_0000366">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EXMO_0000337"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000040"/>
         <rdfs:label xml:lang="en">musculi piriformis syndrome</rdfs:label>
     </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/EXMO_0000369 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EXMO_0000369">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000019"/>
-        <obo:IAO_0000115>A change in electrical resistance of the skin, occurring in emotion and in certain other conditions.</obo:IAO_0000115>
-        <oboInOwl:hasDbXref>umls:C0016989</oboInOwl:hasDbXref>
-        <rdfs:label xml:lang="en">galvanic skin response</rdfs:label>
-    </owl:Class>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/EXMO_0000369"/>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>A change in electrical resistance of the skin, occurring in emotion and in certain other conditions.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>umls:C0016989</oboInOwl:hasDbXref>
-    </owl:Axiom>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/EXMO_0000369"/>
-        <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#label"/>
-        <owl:annotatedTarget xml:lang="en">galvanic skin response</owl:annotatedTarget>
-        <oboInOwl:hasExactSynonym>GSR</oboInOwl:hasExactSynonym>
-    </owl:Axiom>
     
 
 
@@ -18619,15 +17689,6 @@ A chemical with no chiral centers can not have an enantiomer. A chemical with mu
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EXMO_0000379">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000031"/>
         <rdfs:label>exercise plan</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/EXMO_0000381 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EXMO_0000381">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000015"/>
-        <rdfs:label xml:lang="en">adjustment</rdfs:label>
     </owl:Class>
     
 
@@ -18644,7 +17705,7 @@ A chemical with no chiral centers can not have an enantiomer. A chemical with mu
     <!-- http://purl.obolibrary.org/obo/EXMO_0000383 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EXMO_0000383">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EXMO_0000014"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000015"/>
         <obo:IAO_0000115>Static and dynamic exercises that are designed to improve an individual’s ability to withstand challenges from postural sway or destabilizing stimuli caused by self-motion, the environment, or other objects.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">balance training</rdfs:label>
     </owl:Class>
@@ -18660,7 +17721,7 @@ A chemical with no chiral centers can not have an enantiomer. A chemical with mu
     <!-- http://purl.obolibrary.org/obo/EXMO_0000384 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EXMO_0000384">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EXMO_0000206"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EXMO_0000204"/>
         <obo:IAO_0000115>Physical activity primarily designed to increase the strength of specific sites in bones that make up the skeletal system. Bone-strengthening activities produce an impact or tension force on the bones that promotes bone growth and strength.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">bone-strengthening activity</rdfs:label>
     </owl:Class>
@@ -18692,7 +17753,7 @@ A chemical with no chiral centers can not have an enantiomer. A chemical with mu
     <!-- http://purl.obolibrary.org/obo/EXMO_0000386 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EXMO_0000386">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EXMO_0000014"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000015"/>
         <obo:IAO_0000115>Exercises that can be embedded into everyday tasks to improve lower-body strength, balance, and motor performance.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">functional exercise</rdfs:label>
     </owl:Class>
@@ -18753,7 +17814,7 @@ A chemical with no chiral centers can not have an enantiomer. A chemical with mu
     <!-- http://purl.obolibrary.org/obo/EXMO_0000392 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EXMO_0000392">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EXMO_0000014"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000015"/>
         <obo:IAO_0000115>Physical activity undertaken in the home for domestic duties (such as cleaning, caring for children, gardening etc.).</obo:IAO_0000115>
         <rdfs:label xml:lang="en">household domain physical activity</rdfs:label>
     </owl:Class>
@@ -18796,7 +17857,7 @@ A chemical with no chiral centers can not have an enantiomer. A chemical with mu
     <!-- http://purl.obolibrary.org/obo/EXMO_0000395 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EXMO_0000395">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EXMO_0000014"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000015"/>
         <obo:IAO_0000115>Light-intensity physical activity is between 1.5 and 3 METs, i.e. activities with energy cost less than 3 times the energy expenditure at rest for that person.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">light-intensity physical activity</rdfs:label>
     </owl:Class>
@@ -18812,7 +17873,7 @@ A chemical with no chiral centers can not have an enantiomer. A chemical with mu
     <!-- http://purl.obolibrary.org/obo/EXMO_0000396 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EXMO_0000396">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EXMO_0000206"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EXMO_0000350"/>
         <obo:IAO_0000115>Physical activity and exercise that increase skeletal muscle strength, power, endurance, and mass (e.g. strength training, resistance training, or muscular strength and endurance exercises).</obo:IAO_0000115>
         <rdfs:label xml:lang="en">muscle-strengthening activity</rdfs:label>
     </owl:Class>
@@ -18828,7 +17889,7 @@ A chemical with no chiral centers can not have an enantiomer. A chemical with mu
     <!-- http://purl.obolibrary.org/obo/EXMO_0000397 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EXMO_0000397">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EXMO_0000014"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000015"/>
         <rdfs:label xml:lang="en">multicomponent physical activity</rdfs:label>
     </owl:Class>
     
@@ -18894,7 +17955,7 @@ A chemical with no chiral centers can not have an enantiomer. A chemical with mu
     <!-- http://purl.obolibrary.org/obo/EXMO_0000402 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EXMO_0000402">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EXMO_0000014"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000015"/>
         <obo:IAO_0000115>Physical activity performed for the purpose of getting to and from places, and refers to walking, cycling and wheeling (the use of non-motorized means of locomotion with wheels, such as scooters, rollerblades, manual wheelchair etc.).</obo:IAO_0000115>
         <rdfs:label xml:lang="en">transport domain physical activity</rdfs:label>
     </owl:Class>
@@ -18910,7 +17971,7 @@ A chemical with no chiral centers can not have an enantiomer. A chemical with mu
     <!-- http://purl.obolibrary.org/obo/EXMO_0000403 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EXMO_0000403">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EXMO_0000014"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000015"/>
         <obo:IAO_0000115>Physical activity undertaken during paid or voluntary work.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>occupation domain physical activity</oboInOwl:hasExactSynonym>
         <rdfs:label xml:lang="en">work domain physical activity</rdfs:label>
@@ -19358,14 +18419,14 @@ binary, and takes no temporal argument.
     </owl:NamedIndividual>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="https://orcid.org/0000-0002-7073-9172"/>
-        <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#label"/>
-        <owl:annotatedTarget>David Osumi-Sutherland</owl:annotatedTarget>
+        <owl:annotatedProperty rdf:resource="http://purl.org/dc/terms/description"/>
+        <owl:annotatedTarget>researcher</owl:annotatedTarget>
         <terms:source rdf:resource="http://www.wikidata.org/entity/Q54303418"/>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="https://orcid.org/0000-0002-7073-9172"/>
-        <owl:annotatedProperty rdf:resource="http://purl.org/dc/terms/description"/>
-        <owl:annotatedTarget>researcher</owl:annotatedTarget>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#label"/>
+        <owl:annotatedTarget>David Osumi-Sutherland</owl:annotatedTarget>
         <terms:source rdf:resource="http://www.wikidata.org/entity/Q54303418"/>
     </owl:Axiom>
     
@@ -20178,509 +19239,6 @@ No imports</obo:IAO_0000115>
     </rdf:Description>
     <rdf:Description rdf:about="urn:swrl:var#u">
         <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Variable"/>
-    </rdf:Description>
-    <rdf:Description>
-        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Imp"/>
-        <swrl:body>
-            <rdf:Description>
-                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
-                <rdf:first>
-                    <rdf:Description>
-                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
-                        <swrl:propertyPredicate rdf:resource="http://purl.obolibrary.org/obo/RO_0002180"/>
-                        <swrl:argument1 rdf:resource="urn:swrl#w"/>
-                        <swrl:argument2 rdf:resource="urn:swrl#p"/>
-                    </rdf:Description>
-                </rdf:first>
-                <rdf:rest>
-                    <rdf:Description>
-                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
-                        <rdf:first>
-                            <rdf:Description>
-                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
-                                <swrl:classPredicate rdf:resource="http://purl.obolibrary.org/obo/BFO_0000015"/>
-                                <swrl:argument1 rdf:resource="urn:swrl#w"/>
-                            </rdf:Description>
-                        </rdf:first>
-                        <rdf:rest>
-                            <rdf:Description>
-                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
-                                <rdf:first>
-                                    <rdf:Description>
-                                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
-                                        <swrl:classPredicate rdf:resource="http://purl.obolibrary.org/obo/BFO_0000015"/>
-                                        <swrl:argument1 rdf:resource="urn:swrl#p"/>
-                                    </rdf:Description>
-                                </rdf:first>
-                                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
-                            </rdf:Description>
-                        </rdf:rest>
-                    </rdf:Description>
-                </rdf:rest>
-            </rdf:Description>
-        </swrl:body>
-        <swrl:head>
-            <rdf:Description>
-                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
-                <rdf:first>
-                    <rdf:Description>
-                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
-                        <swrl:propertyPredicate rdf:resource="http://purl.obolibrary.org/obo/RO_0002018"/>
-                        <swrl:argument1 rdf:resource="urn:swrl#w"/>
-                        <swrl:argument2 rdf:resource="urn:swrl#p"/>
-                    </rdf:Description>
-                </rdf:first>
-                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
-            </rdf:Description>
-        </swrl:head>
-    </rdf:Description>
-    <rdf:Description>
-        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Imp"/>
-        <swrl:body>
-            <rdf:Description>
-                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
-                <rdf:first>
-                    <rdf:Description>
-                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
-                        <swrl:propertyPredicate rdf:resource="http://purl.obolibrary.org/obo/RO_0002180"/>
-                        <swrl:argument1 rdf:resource="urn:swrl:var#w"/>
-                        <swrl:argument2 rdf:resource="urn:swrl:var#p"/>
-                    </rdf:Description>
-                </rdf:first>
-                <rdf:rest>
-                    <rdf:Description>
-                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
-                        <rdf:first>
-                            <rdf:Description>
-                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
-                                <swrl:classPredicate rdf:resource="http://purl.obolibrary.org/obo/BFO_0000015"/>
-                                <swrl:argument1 rdf:resource="urn:swrl:var#w"/>
-                            </rdf:Description>
-                        </rdf:first>
-                        <rdf:rest>
-                            <rdf:Description>
-                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
-                                <rdf:first>
-                                    <rdf:Description>
-                                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
-                                        <swrl:classPredicate rdf:resource="http://purl.obolibrary.org/obo/BFO_0000015"/>
-                                        <swrl:argument1 rdf:resource="urn:swrl:var#p"/>
-                                    </rdf:Description>
-                                </rdf:first>
-                                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
-                            </rdf:Description>
-                        </rdf:rest>
-                    </rdf:Description>
-                </rdf:rest>
-            </rdf:Description>
-        </swrl:body>
-        <swrl:head>
-            <rdf:Description>
-                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
-                <rdf:first>
-                    <rdf:Description>
-                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
-                        <swrl:propertyPredicate rdf:resource="http://purl.obolibrary.org/obo/RO_0002018"/>
-                        <swrl:argument1 rdf:resource="urn:swrl:var#w"/>
-                        <swrl:argument2 rdf:resource="urn:swrl:var#p"/>
-                    </rdf:Description>
-                </rdf:first>
-                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
-            </rdf:Description>
-        </swrl:head>
-    </rdf:Description>
-    <rdf:Description>
-        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Imp"/>
-        <swrl:body>
-            <rdf:Description>
-                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
-                <rdf:first>
-                    <rdf:Description>
-                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
-                        <swrl:propertyPredicate rdf:resource="http://purl.obolibrary.org/obo/RO_0000053"/>
-                        <swrl:argument1 rdf:resource="urn:swrl#e"/>
-                        <swrl:argument2 rdf:resource="urn:swrl#d"/>
-                    </rdf:Description>
-                </rdf:first>
-                <rdf:rest>
-                    <rdf:Description>
-                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
-                        <rdf:first>
-                            <rdf:Description>
-                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
-                                <swrl:classPredicate rdf:resource="http://purl.obolibrary.org/obo/BFO_0000016"/>
-                                <swrl:argument1 rdf:resource="urn:swrl#d"/>
-                            </rdf:Description>
-                        </rdf:first>
-                        <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
-                    </rdf:Description>
-                </rdf:rest>
-            </rdf:Description>
-        </swrl:body>
-        <swrl:head>
-            <rdf:Description>
-                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
-                <rdf:first>
-                    <rdf:Description>
-                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
-                        <swrl:propertyPredicate rdf:resource="http://purl.obolibrary.org/obo/RO_0000091"/>
-                        <swrl:argument1 rdf:resource="urn:swrl#e"/>
-                        <swrl:argument2 rdf:resource="urn:swrl#d"/>
-                    </rdf:Description>
-                </rdf:first>
-                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
-            </rdf:Description>
-        </swrl:head>
-    </rdf:Description>
-    <rdf:Description>
-        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Imp"/>
-        <swrl:body>
-            <rdf:Description>
-                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
-                <rdf:first>
-                    <rdf:Description>
-                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
-                        <swrl:propertyPredicate rdf:resource="http://purl.obolibrary.org/obo/RO_0000053"/>
-                        <swrl:argument1 rdf:resource="urn:swrl#e"/>
-                        <swrl:argument2 rdf:resource="urn:swrl#d"/>
-                    </rdf:Description>
-                </rdf:first>
-                <rdf:rest>
-                    <rdf:Description>
-                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
-                        <rdf:first>
-                            <rdf:Description>
-                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
-                                <swrl:classPredicate rdf:resource="http://purl.obolibrary.org/obo/BFO_0000019"/>
-                                <swrl:argument1 rdf:resource="urn:swrl#d"/>
-                            </rdf:Description>
-                        </rdf:first>
-                        <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
-                    </rdf:Description>
-                </rdf:rest>
-            </rdf:Description>
-        </swrl:body>
-        <swrl:head>
-            <rdf:Description>
-                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
-                <rdf:first>
-                    <rdf:Description>
-                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
-                        <swrl:propertyPredicate rdf:resource="http://purl.obolibrary.org/obo/RO_0000086"/>
-                        <swrl:argument1 rdf:resource="urn:swrl#e"/>
-                        <swrl:argument2 rdf:resource="urn:swrl#d"/>
-                    </rdf:Description>
-                </rdf:first>
-                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
-            </rdf:Description>
-        </swrl:head>
-    </rdf:Description>
-    <rdf:Description>
-        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Imp"/>
-        <swrl:body>
-            <rdf:Description>
-                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
-                <rdf:first>
-                    <rdf:Description>
-                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
-                        <swrl:propertyPredicate rdf:resource="http://purl.obolibrary.org/obo/RO_0000053"/>
-                        <swrl:argument1 rdf:resource="urn:swrl#e"/>
-                        <swrl:argument2 rdf:resource="urn:swrl#d"/>
-                    </rdf:Description>
-                </rdf:first>
-                <rdf:rest>
-                    <rdf:Description>
-                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
-                        <rdf:first>
-                            <rdf:Description>
-                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
-                                <swrl:classPredicate rdf:resource="http://purl.obolibrary.org/obo/BFO_0000023"/>
-                                <swrl:argument1 rdf:resource="urn:swrl#d"/>
-                            </rdf:Description>
-                        </rdf:first>
-                        <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
-                    </rdf:Description>
-                </rdf:rest>
-            </rdf:Description>
-        </swrl:body>
-        <swrl:head>
-            <rdf:Description>
-                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
-                <rdf:first>
-                    <rdf:Description>
-                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
-                        <swrl:propertyPredicate rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
-                        <swrl:argument1 rdf:resource="urn:swrl#e"/>
-                        <swrl:argument2 rdf:resource="urn:swrl#d"/>
-                    </rdf:Description>
-                </rdf:first>
-                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
-            </rdf:Description>
-        </swrl:head>
-    </rdf:Description>
-    <rdf:Description>
-        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Imp"/>
-        <swrl:body>
-            <rdf:Description>
-                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
-                <rdf:first>
-                    <rdf:Description>
-                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
-                        <swrl:propertyPredicate rdf:resource="http://purl.obolibrary.org/obo/RO_0000053"/>
-                        <swrl:argument1 rdf:resource="urn:swrl#e"/>
-                        <swrl:argument2 rdf:resource="urn:swrl#d"/>
-                    </rdf:Description>
-                </rdf:first>
-                <rdf:rest>
-                    <rdf:Description>
-                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
-                        <rdf:first>
-                            <rdf:Description>
-                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
-                                <swrl:classPredicate rdf:resource="http://purl.obolibrary.org/obo/BFO_0000034"/>
-                                <swrl:argument1 rdf:resource="urn:swrl#d"/>
-                            </rdf:Description>
-                        </rdf:first>
-                        <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
-                    </rdf:Description>
-                </rdf:rest>
-            </rdf:Description>
-        </swrl:body>
-        <swrl:head>
-            <rdf:Description>
-                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
-                <rdf:first>
-                    <rdf:Description>
-                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
-                        <swrl:propertyPredicate rdf:resource="http://purl.obolibrary.org/obo/RO_0000085"/>
-                        <swrl:argument1 rdf:resource="urn:swrl#e"/>
-                        <swrl:argument2 rdf:resource="urn:swrl#d"/>
-                    </rdf:Description>
-                </rdf:first>
-                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
-            </rdf:Description>
-        </swrl:head>
-    </rdf:Description>
-    <rdf:Description>
-        <rdfs:comment>This rule is dubious: added as a quick fix for expected inference in GO-CAM.  The problem is most acute for transmembrane proteins, such as receptors or cell adhesion molecules, which have some subfunctions inside the cell (e.g. kinase activity) and some subfunctions outside (e.g. ligand binding).  Correct annotation of where these functions occurs leads to incorrect inference about the location of the whole protein.  This should probably be weakened to &quot;... -&gt; overlaps&quot;</rdfs:comment>
-        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Imp"/>
-        <swrl:body>
-            <rdf:Description>
-                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
-                <rdf:first>
-                    <rdf:Description>
-                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
-                        <swrl:propertyPredicate rdf:resource="http://purl.obolibrary.org/obo/RO_0002327"/>
-                        <swrl:argument1 rdf:resource="urn:swrl#x"/>
-                        <swrl:argument2 rdf:resource="urn:swrl#y"/>
-                    </rdf:Description>
-                </rdf:first>
-                <rdf:rest>
-                    <rdf:Description>
-                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
-                        <rdf:first>
-                            <rdf:Description>
-                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
-                                <swrl:propertyPredicate rdf:resource="http://purl.obolibrary.org/obo/BFO_0000066"/>
-                                <swrl:argument1 rdf:resource="urn:swrl#y"/>
-                                <swrl:argument2 rdf:resource="urn:swrl#z"/>
-                            </rdf:Description>
-                        </rdf:first>
-                        <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
-                    </rdf:Description>
-                </rdf:rest>
-            </rdf:Description>
-        </swrl:body>
-        <swrl:head>
-            <rdf:Description>
-                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
-                <rdf:first>
-                    <rdf:Description>
-                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
-                        <swrl:propertyPredicate rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                        <swrl:argument1 rdf:resource="urn:swrl#x"/>
-                        <swrl:argument2 rdf:resource="urn:swrl#z"/>
-                    </rdf:Description>
-                </rdf:first>
-                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
-            </rdf:Description>
-        </swrl:head>
-    </rdf:Description>
-    <rdf:Description>
-        <rdfs:comment>If a molecular function (X) has a regulatory subfunction, then any gene product which is an input to that subfunction has an activity that directly_regulates X.  Note:  this is intended for cases where the regaultory subfunction is protein binding, so it could be tightened with an additional clause to specify this.</rdfs:comment>
-        <rdfs:label>inferring direct reg edge from input to regulatory subfunction</rdfs:label>
-        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Imp"/>
-        <swrl:body>
-            <rdf:Description>
-                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
-                <rdf:first>
-                    <rdf:Description>
-                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
-                        <swrl:propertyPredicate rdf:resource="http://purl.obolibrary.org/obo/RO_0002352"/>
-                        <swrl:argument1 rdf:resource="urn:swrl#B"/>
-                        <swrl:argument2 rdf:resource="urn:swrl#C"/>
-                    </rdf:Description>
-                </rdf:first>
-                <rdf:rest>
-                    <rdf:Description>
-                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
-                        <rdf:first>
-                            <rdf:Description>
-                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
-                                <swrl:propertyPredicate rdf:resource="http://purl.obolibrary.org/obo/RO_0002333"/>
-                                <swrl:argument1 rdf:resource="urn:swrl#A"/>
-                                <swrl:argument2 rdf:resource="urn:swrl#B"/>
-                            </rdf:Description>
-                        </rdf:first>
-                        <rdf:rest>
-                            <rdf:Description>
-                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
-                                <rdf:first>
-                                    <rdf:Description>
-                                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
-                                        <swrl:propertyPredicate rdf:resource="http://purl.obolibrary.org/obo/RO_0002013"/>
-                                        <swrl:argument1 rdf:resource="urn:swrl#D"/>
-                                        <swrl:argument2 rdf:resource="urn:swrl#C"/>
-                                    </rdf:Description>
-                                </rdf:first>
-                                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
-                            </rdf:Description>
-                        </rdf:rest>
-                    </rdf:Description>
-                </rdf:rest>
-            </rdf:Description>
-        </swrl:body>
-        <swrl:head>
-            <rdf:Description>
-                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
-                <rdf:first>
-                    <rdf:Description>
-                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
-                        <swrl:propertyPredicate rdf:resource="http://purl.obolibrary.org/obo/RO_0002578"/>
-                        <swrl:argument1 rdf:resource="urn:swrl#A"/>
-                        <swrl:argument2 rdf:resource="urn:swrl#D"/>
-                    </rdf:Description>
-                </rdf:first>
-                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
-            </rdf:Description>
-        </swrl:head>
-    </rdf:Description>
-    <rdf:Description>
-        <rdfs:comment>If a molecular function (X) has a regulatory subfunction, then any gene product which is an input to that subfunction has an activity that directly_regulates X.  Note:  this is intended for cases where the regaultory subfunction is protein binding, so it could be tightened with an additional clause to specify this.</rdfs:comment>
-        <rdfs:label>inferring direct reg edge from input to regulatory subfunction</rdfs:label>
-        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Imp"/>
-        <swrl:body>
-            <rdf:Description>
-                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
-                <rdf:first>
-                    <rdf:Description>
-                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
-                        <swrl:propertyPredicate rdf:resource="http://purl.obolibrary.org/obo/RO_0002352"/>
-                        <swrl:argument1 rdf:resource="urn:swrl:var#B"/>
-                        <swrl:argument2 rdf:resource="urn:swrl:var#C"/>
-                    </rdf:Description>
-                </rdf:first>
-                <rdf:rest>
-                    <rdf:Description>
-                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
-                        <rdf:first>
-                            <rdf:Description>
-                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
-                                <swrl:propertyPredicate rdf:resource="http://purl.obolibrary.org/obo/RO_0002333"/>
-                                <swrl:argument1 rdf:resource="urn:swrl:var#A"/>
-                                <swrl:argument2 rdf:resource="urn:swrl:var#B"/>
-                            </rdf:Description>
-                        </rdf:first>
-                        <rdf:rest>
-                            <rdf:Description>
-                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
-                                <rdf:first>
-                                    <rdf:Description>
-                                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
-                                        <swrl:propertyPredicate rdf:resource="http://purl.obolibrary.org/obo/RO_0002013"/>
-                                        <swrl:argument1 rdf:resource="urn:swrl:var#D"/>
-                                        <swrl:argument2 rdf:resource="urn:swrl:var#C"/>
-                                    </rdf:Description>
-                                </rdf:first>
-                                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
-                            </rdf:Description>
-                        </rdf:rest>
-                    </rdf:Description>
-                </rdf:rest>
-            </rdf:Description>
-        </swrl:body>
-        <swrl:head>
-            <rdf:Description>
-                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
-                <rdf:first>
-                    <rdf:Description>
-                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
-                        <swrl:propertyPredicate rdf:resource="http://purl.obolibrary.org/obo/RO_0002578"/>
-                        <swrl:argument1 rdf:resource="urn:swrl:var#A"/>
-                        <swrl:argument2 rdf:resource="urn:swrl:var#D"/>
-                    </rdf:Description>
-                </rdf:first>
-                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
-            </rdf:Description>
-        </swrl:head>
-    </rdf:Description>
-    <rdf:Description>
-        <rdfs:label>inferring direct neg reg edge from input to regulatory subfunction</rdfs:label>
-        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Imp"/>
-        <swrl:body>
-            <rdf:Description>
-                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
-                <rdf:first>
-                    <rdf:Description>
-                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
-                        <swrl:propertyPredicate rdf:resource="http://purl.obolibrary.org/obo/RO_0002352"/>
-                        <swrl:argument1 rdf:resource="urn:swrl#B"/>
-                        <swrl:argument2 rdf:resource="urn:swrl#C"/>
-                    </rdf:Description>
-                </rdf:first>
-                <rdf:rest>
-                    <rdf:Description>
-                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
-                        <rdf:first>
-                            <rdf:Description>
-                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
-                                <swrl:propertyPredicate rdf:resource="http://purl.obolibrary.org/obo/RO_0002333"/>
-                                <swrl:argument1 rdf:resource="urn:swrl#A"/>
-                                <swrl:argument2 rdf:resource="urn:swrl#B"/>
-                            </rdf:Description>
-                        </rdf:first>
-                        <rdf:rest>
-                            <rdf:Description>
-                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
-                                <rdf:first>
-                                    <rdf:Description>
-                                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
-                                        <swrl:propertyPredicate rdf:resource="http://purl.obolibrary.org/obo/RO_0002014"/>
-                                        <swrl:argument1 rdf:resource="urn:swrl#D"/>
-                                        <swrl:argument2 rdf:resource="urn:swrl#C"/>
-                                    </rdf:Description>
-                                </rdf:first>
-                                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
-                            </rdf:Description>
-                        </rdf:rest>
-                    </rdf:Description>
-                </rdf:rest>
-            </rdf:Description>
-        </swrl:body>
-        <swrl:head>
-            <rdf:Description>
-                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
-                <rdf:first>
-                    <rdf:Description>
-                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
-                        <swrl:propertyPredicate rdf:resource="http://purl.obolibrary.org/obo/RO_0002630"/>
-                        <swrl:argument1 rdf:resource="urn:swrl#A"/>
-                        <swrl:argument2 rdf:resource="urn:swrl#D"/>
-                    </rdf:Description>
-                </rdf:first>
-                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
-            </rdf:Description>
-        </swrl:head>
     </rdf:Description>
     <rdf:Description>
         <rdfs:label>inferring direct neg reg edge from input to regulatory subfunction</rdfs:label>
@@ -21652,6 +20210,509 @@ No imports</obo:IAO_0000115>
                         <swrl:propertyPredicate rdf:resource="http://purl.obolibrary.org/obo/RO_0012011"/>
                         <swrl:argument1 rdf:resource="urn:swrl:var#p"/>
                         <swrl:argument2 rdf:resource="urn:swrl:var#u"/>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+            </rdf:Description>
+        </swrl:head>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Imp"/>
+        <swrl:body>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
+                        <swrl:propertyPredicate rdf:resource="http://purl.obolibrary.org/obo/RO_0002180"/>
+                        <swrl:argument1 rdf:resource="urn:swrl#w"/>
+                        <swrl:argument2 rdf:resource="urn:swrl#p"/>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                        <rdf:first>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
+                                <swrl:classPredicate rdf:resource="http://purl.obolibrary.org/obo/BFO_0000015"/>
+                                <swrl:argument1 rdf:resource="urn:swrl#w"/>
+                            </rdf:Description>
+                        </rdf:first>
+                        <rdf:rest>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                                <rdf:first>
+                                    <rdf:Description>
+                                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
+                                        <swrl:classPredicate rdf:resource="http://purl.obolibrary.org/obo/BFO_0000015"/>
+                                        <swrl:argument1 rdf:resource="urn:swrl#p"/>
+                                    </rdf:Description>
+                                </rdf:first>
+                                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                            </rdf:Description>
+                        </rdf:rest>
+                    </rdf:Description>
+                </rdf:rest>
+            </rdf:Description>
+        </swrl:body>
+        <swrl:head>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
+                        <swrl:propertyPredicate rdf:resource="http://purl.obolibrary.org/obo/RO_0002018"/>
+                        <swrl:argument1 rdf:resource="urn:swrl#w"/>
+                        <swrl:argument2 rdf:resource="urn:swrl#p"/>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+            </rdf:Description>
+        </swrl:head>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Imp"/>
+        <swrl:body>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
+                        <swrl:propertyPredicate rdf:resource="http://purl.obolibrary.org/obo/RO_0002180"/>
+                        <swrl:argument1 rdf:resource="urn:swrl:var#w"/>
+                        <swrl:argument2 rdf:resource="urn:swrl:var#p"/>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                        <rdf:first>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
+                                <swrl:classPredicate rdf:resource="http://purl.obolibrary.org/obo/BFO_0000015"/>
+                                <swrl:argument1 rdf:resource="urn:swrl:var#w"/>
+                            </rdf:Description>
+                        </rdf:first>
+                        <rdf:rest>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                                <rdf:first>
+                                    <rdf:Description>
+                                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
+                                        <swrl:classPredicate rdf:resource="http://purl.obolibrary.org/obo/BFO_0000015"/>
+                                        <swrl:argument1 rdf:resource="urn:swrl:var#p"/>
+                                    </rdf:Description>
+                                </rdf:first>
+                                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                            </rdf:Description>
+                        </rdf:rest>
+                    </rdf:Description>
+                </rdf:rest>
+            </rdf:Description>
+        </swrl:body>
+        <swrl:head>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
+                        <swrl:propertyPredicate rdf:resource="http://purl.obolibrary.org/obo/RO_0002018"/>
+                        <swrl:argument1 rdf:resource="urn:swrl:var#w"/>
+                        <swrl:argument2 rdf:resource="urn:swrl:var#p"/>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+            </rdf:Description>
+        </swrl:head>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Imp"/>
+        <swrl:body>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
+                        <swrl:propertyPredicate rdf:resource="http://purl.obolibrary.org/obo/RO_0000053"/>
+                        <swrl:argument1 rdf:resource="urn:swrl#e"/>
+                        <swrl:argument2 rdf:resource="urn:swrl#d"/>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                        <rdf:first>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
+                                <swrl:classPredicate rdf:resource="http://purl.obolibrary.org/obo/BFO_0000016"/>
+                                <swrl:argument1 rdf:resource="urn:swrl#d"/>
+                            </rdf:Description>
+                        </rdf:first>
+                        <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                    </rdf:Description>
+                </rdf:rest>
+            </rdf:Description>
+        </swrl:body>
+        <swrl:head>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
+                        <swrl:propertyPredicate rdf:resource="http://purl.obolibrary.org/obo/RO_0000091"/>
+                        <swrl:argument1 rdf:resource="urn:swrl#e"/>
+                        <swrl:argument2 rdf:resource="urn:swrl#d"/>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+            </rdf:Description>
+        </swrl:head>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Imp"/>
+        <swrl:body>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
+                        <swrl:propertyPredicate rdf:resource="http://purl.obolibrary.org/obo/RO_0000053"/>
+                        <swrl:argument1 rdf:resource="urn:swrl#e"/>
+                        <swrl:argument2 rdf:resource="urn:swrl#d"/>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                        <rdf:first>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
+                                <swrl:classPredicate rdf:resource="http://purl.obolibrary.org/obo/BFO_0000019"/>
+                                <swrl:argument1 rdf:resource="urn:swrl#d"/>
+                            </rdf:Description>
+                        </rdf:first>
+                        <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                    </rdf:Description>
+                </rdf:rest>
+            </rdf:Description>
+        </swrl:body>
+        <swrl:head>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
+                        <swrl:propertyPredicate rdf:resource="http://purl.obolibrary.org/obo/RO_0000086"/>
+                        <swrl:argument1 rdf:resource="urn:swrl#e"/>
+                        <swrl:argument2 rdf:resource="urn:swrl#d"/>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+            </rdf:Description>
+        </swrl:head>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Imp"/>
+        <swrl:body>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
+                        <swrl:propertyPredicate rdf:resource="http://purl.obolibrary.org/obo/RO_0000053"/>
+                        <swrl:argument1 rdf:resource="urn:swrl#e"/>
+                        <swrl:argument2 rdf:resource="urn:swrl#d"/>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                        <rdf:first>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
+                                <swrl:classPredicate rdf:resource="http://purl.obolibrary.org/obo/BFO_0000023"/>
+                                <swrl:argument1 rdf:resource="urn:swrl#d"/>
+                            </rdf:Description>
+                        </rdf:first>
+                        <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                    </rdf:Description>
+                </rdf:rest>
+            </rdf:Description>
+        </swrl:body>
+        <swrl:head>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
+                        <swrl:propertyPredicate rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
+                        <swrl:argument1 rdf:resource="urn:swrl#e"/>
+                        <swrl:argument2 rdf:resource="urn:swrl#d"/>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+            </rdf:Description>
+        </swrl:head>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Imp"/>
+        <swrl:body>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
+                        <swrl:propertyPredicate rdf:resource="http://purl.obolibrary.org/obo/RO_0000053"/>
+                        <swrl:argument1 rdf:resource="urn:swrl#e"/>
+                        <swrl:argument2 rdf:resource="urn:swrl#d"/>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                        <rdf:first>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
+                                <swrl:classPredicate rdf:resource="http://purl.obolibrary.org/obo/BFO_0000034"/>
+                                <swrl:argument1 rdf:resource="urn:swrl#d"/>
+                            </rdf:Description>
+                        </rdf:first>
+                        <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                    </rdf:Description>
+                </rdf:rest>
+            </rdf:Description>
+        </swrl:body>
+        <swrl:head>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
+                        <swrl:propertyPredicate rdf:resource="http://purl.obolibrary.org/obo/RO_0000085"/>
+                        <swrl:argument1 rdf:resource="urn:swrl#e"/>
+                        <swrl:argument2 rdf:resource="urn:swrl#d"/>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+            </rdf:Description>
+        </swrl:head>
+    </rdf:Description>
+    <rdf:Description>
+        <rdfs:comment>This rule is dubious: added as a quick fix for expected inference in GO-CAM.  The problem is most acute for transmembrane proteins, such as receptors or cell adhesion molecules, which have some subfunctions inside the cell (e.g. kinase activity) and some subfunctions outside (e.g. ligand binding).  Correct annotation of where these functions occurs leads to incorrect inference about the location of the whole protein.  This should probably be weakened to &quot;... -&gt; overlaps&quot;</rdfs:comment>
+        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Imp"/>
+        <swrl:body>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
+                        <swrl:propertyPredicate rdf:resource="http://purl.obolibrary.org/obo/RO_0002327"/>
+                        <swrl:argument1 rdf:resource="urn:swrl#x"/>
+                        <swrl:argument2 rdf:resource="urn:swrl#y"/>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                        <rdf:first>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
+                                <swrl:propertyPredicate rdf:resource="http://purl.obolibrary.org/obo/BFO_0000066"/>
+                                <swrl:argument1 rdf:resource="urn:swrl#y"/>
+                                <swrl:argument2 rdf:resource="urn:swrl#z"/>
+                            </rdf:Description>
+                        </rdf:first>
+                        <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                    </rdf:Description>
+                </rdf:rest>
+            </rdf:Description>
+        </swrl:body>
+        <swrl:head>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
+                        <swrl:propertyPredicate rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                        <swrl:argument1 rdf:resource="urn:swrl#x"/>
+                        <swrl:argument2 rdf:resource="urn:swrl#z"/>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+            </rdf:Description>
+        </swrl:head>
+    </rdf:Description>
+    <rdf:Description>
+        <rdfs:comment>If a molecular function (X) has a regulatory subfunction, then any gene product which is an input to that subfunction has an activity that directly_regulates X.  Note:  this is intended for cases where the regaultory subfunction is protein binding, so it could be tightened with an additional clause to specify this.</rdfs:comment>
+        <rdfs:label>inferring direct reg edge from input to regulatory subfunction</rdfs:label>
+        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Imp"/>
+        <swrl:body>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
+                        <swrl:propertyPredicate rdf:resource="http://purl.obolibrary.org/obo/RO_0002352"/>
+                        <swrl:argument1 rdf:resource="urn:swrl#B"/>
+                        <swrl:argument2 rdf:resource="urn:swrl#C"/>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                        <rdf:first>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
+                                <swrl:propertyPredicate rdf:resource="http://purl.obolibrary.org/obo/RO_0002333"/>
+                                <swrl:argument1 rdf:resource="urn:swrl#A"/>
+                                <swrl:argument2 rdf:resource="urn:swrl#B"/>
+                            </rdf:Description>
+                        </rdf:first>
+                        <rdf:rest>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                                <rdf:first>
+                                    <rdf:Description>
+                                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
+                                        <swrl:propertyPredicate rdf:resource="http://purl.obolibrary.org/obo/RO_0002013"/>
+                                        <swrl:argument1 rdf:resource="urn:swrl#D"/>
+                                        <swrl:argument2 rdf:resource="urn:swrl#C"/>
+                                    </rdf:Description>
+                                </rdf:first>
+                                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                            </rdf:Description>
+                        </rdf:rest>
+                    </rdf:Description>
+                </rdf:rest>
+            </rdf:Description>
+        </swrl:body>
+        <swrl:head>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
+                        <swrl:propertyPredicate rdf:resource="http://purl.obolibrary.org/obo/RO_0002578"/>
+                        <swrl:argument1 rdf:resource="urn:swrl#A"/>
+                        <swrl:argument2 rdf:resource="urn:swrl#D"/>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+            </rdf:Description>
+        </swrl:head>
+    </rdf:Description>
+    <rdf:Description>
+        <rdfs:comment>If a molecular function (X) has a regulatory subfunction, then any gene product which is an input to that subfunction has an activity that directly_regulates X.  Note:  this is intended for cases where the regaultory subfunction is protein binding, so it could be tightened with an additional clause to specify this.</rdfs:comment>
+        <rdfs:label>inferring direct reg edge from input to regulatory subfunction</rdfs:label>
+        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Imp"/>
+        <swrl:body>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
+                        <swrl:propertyPredicate rdf:resource="http://purl.obolibrary.org/obo/RO_0002352"/>
+                        <swrl:argument1 rdf:resource="urn:swrl:var#B"/>
+                        <swrl:argument2 rdf:resource="urn:swrl:var#C"/>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                        <rdf:first>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
+                                <swrl:propertyPredicate rdf:resource="http://purl.obolibrary.org/obo/RO_0002333"/>
+                                <swrl:argument1 rdf:resource="urn:swrl:var#A"/>
+                                <swrl:argument2 rdf:resource="urn:swrl:var#B"/>
+                            </rdf:Description>
+                        </rdf:first>
+                        <rdf:rest>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                                <rdf:first>
+                                    <rdf:Description>
+                                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
+                                        <swrl:propertyPredicate rdf:resource="http://purl.obolibrary.org/obo/RO_0002013"/>
+                                        <swrl:argument1 rdf:resource="urn:swrl:var#D"/>
+                                        <swrl:argument2 rdf:resource="urn:swrl:var#C"/>
+                                    </rdf:Description>
+                                </rdf:first>
+                                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                            </rdf:Description>
+                        </rdf:rest>
+                    </rdf:Description>
+                </rdf:rest>
+            </rdf:Description>
+        </swrl:body>
+        <swrl:head>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
+                        <swrl:propertyPredicate rdf:resource="http://purl.obolibrary.org/obo/RO_0002578"/>
+                        <swrl:argument1 rdf:resource="urn:swrl:var#A"/>
+                        <swrl:argument2 rdf:resource="urn:swrl:var#D"/>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+            </rdf:Description>
+        </swrl:head>
+    </rdf:Description>
+    <rdf:Description>
+        <rdfs:label>inferring direct neg reg edge from input to regulatory subfunction</rdfs:label>
+        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Imp"/>
+        <swrl:body>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
+                        <swrl:propertyPredicate rdf:resource="http://purl.obolibrary.org/obo/RO_0002352"/>
+                        <swrl:argument1 rdf:resource="urn:swrl#B"/>
+                        <swrl:argument2 rdf:resource="urn:swrl#C"/>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                        <rdf:first>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
+                                <swrl:propertyPredicate rdf:resource="http://purl.obolibrary.org/obo/RO_0002333"/>
+                                <swrl:argument1 rdf:resource="urn:swrl#A"/>
+                                <swrl:argument2 rdf:resource="urn:swrl#B"/>
+                            </rdf:Description>
+                        </rdf:first>
+                        <rdf:rest>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                                <rdf:first>
+                                    <rdf:Description>
+                                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
+                                        <swrl:propertyPredicate rdf:resource="http://purl.obolibrary.org/obo/RO_0002014"/>
+                                        <swrl:argument1 rdf:resource="urn:swrl#D"/>
+                                        <swrl:argument2 rdf:resource="urn:swrl#C"/>
+                                    </rdf:Description>
+                                </rdf:first>
+                                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                            </rdf:Description>
+                        </rdf:rest>
+                    </rdf:Description>
+                </rdf:rest>
+            </rdf:Description>
+        </swrl:body>
+        <swrl:head>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
+                        <swrl:propertyPredicate rdf:resource="http://purl.obolibrary.org/obo/RO_0002630"/>
+                        <swrl:argument1 rdf:resource="urn:swrl#A"/>
+                        <swrl:argument2 rdf:resource="urn:swrl#D"/>
                     </rdf:Description>
                 </rdf:first>
                 <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>

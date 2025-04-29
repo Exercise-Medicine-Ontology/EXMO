@@ -1,0 +1,29 @@
+[URI of the OWL(RDF/XML) output file]
+
+
+[Source ontology]
+GSSO
+
+[Low level source term URIs]
+http://purl.obolibrary.org/obo/GSSO_010636 #pregnant woman
+http://purl.obolibrary.org/obo/GSSO_005059 #glove
+http://purl.obolibrary.org/obo/GSSO_005898 #athlete
+http://purl.obolibrary.org/obo/GSSO_000924 #cognitive function
+http://purl.obolibrary.org/obo/GSSO_001811 #physical disability
+http://purl.obolibrary.org/obo/GSSO_008521 #person with a physical disability
+
+[Top level source term URIs and target direct superclass URIs]
+http://purl.obolibrary.org/obo/GSSO_010636 #pregnant woman
+http://purl.obolibrary.org/obo/GSSO_005059 #glove
+http://purl.obolibrary.org/obo/GSSO_005898 #athlete
+http://purl.obolibrary.org/obo/GSSO_000924 #cognitive function
+http://purl.obolibrary.org/obo/GSSO_001811 #physical disability
+http://purl.obolibrary.org/obo/GSSO_008521 #person with a physical disability
+
+[Source term retrieval setting]
+includeNoIntermediates
+
+[Source annotation URIs]
+includeAllAnnotationProperties
+
+[Source annotation URIs to be excluded]

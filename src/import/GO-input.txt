@@ -1,0 +1,19 @@
+[URI of the OWL(RDF/XML) output file]
+
+
+[Source ontology]
+GO
+
+[Low level source term URIs]
+http://purl.obolibrary.org/obo/GO_0014896 #explosive strength #muscle hypertrophy
+
+[Top level source term URIs and target direct superclass URIs]
+http://purl.obolibrary.org/obo/GO_0014896 #explosive strength #muscle hypertrophy
+
+[Source term retrieval setting]
+includeNoIntermediates
+
+[Source annotation URIs]
+includeAllAnnotationProperties
+
+[Source annotation URIs to be excluded]

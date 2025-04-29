@@ -45,6 +45,7 @@ http://purl.obolibrary.org/obo/CMO_0000106 #'body height'
 http://purl.obolibrary.org/obo/CMO_0001226 #'bone mineral density'
 http://purl.obolibrary.org/obo/CMO_0000020 #'waist to hip ratio (WHR)'
 http://purl.obolibrary.org/obo/CMO_0000242 #'waist circumference'
+http://purl.obolibrary.org/obo/CMO_0000089 #body fat morphological measurement
 
 [Top level source term URIs and target direct superclass URIs]
 http://purl.obolibrary.org/obo/CMO_0000000 #'clinical measurement'

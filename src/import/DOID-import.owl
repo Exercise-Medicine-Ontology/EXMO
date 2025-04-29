@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
-<rdf:RDF xmlns="http://ontofox.hegroup.org/9v6s9ren.owl#"
-     xml:base="http://ontofox.hegroup.org/9v6s9ren.owl"
+<rdf:RDF xmlns="http://ontofox.hegroup.org/tfyu5s76.owl#"
+     xml:base="http://ontofox.hegroup.org/tfyu5s76.owl"
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
      xmlns:owl="http://www.w3.org/2002/07/owl#"
      xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#"
@@ -8,7 +8,7 @@
      xmlns:skos="http://www.w3.org/2004/02/skos/core#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
      xmlns:obo="http://purl.obolibrary.org/obo/">
-    <owl:Ontology rdf:about="http://ontofox.hegroup.org/9v6s9ren.owl"/>
+    <owl:Ontology rdf:about="http://ontofox.hegroup.org/tfyu5s76.owl"/>
     
 
 
@@ -25,12 +25,15 @@
     </owl:AnnotationProperty>
     <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000115">
         <rdfs:label>definition</rdfs:label>
-        <obo:IAO_0000115>The official definition.</obo:IAO_0000115>
         <obo:IAO_0000115>The official definition, explaining the meaning of a class or property. Shall be Aristotelian, formalized and normalized. Can be augmented with colloquial definitions.</obo:IAO_0000115>
     </owl:AnnotationProperty>
     <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasDbXref">
         <rdfs:label>database_cross_reference</rdfs:label>
         <obo:IAO_0000115>Reference database or publication source.</obo:IAO_0000115>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym">
+        <rdfs:label>has_related_synonym</rdfs:label>
+        <obo:IAO_0000115>Has related synonym.</obo:IAO_0000115>
     </owl:AnnotationProperty>
     <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#id">
         <rdfs:label>id</rdfs:label>
@@ -51,7 +54,6 @@
         <obo:IAO_0000115>Name space of the ontology.</obo:IAO_0000115>
     </owl:AnnotationProperty>
     <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym">
-        <rdfs:label>has exact synonym</rdfs:label>
         <rdfs:label>has_exact_synonym</rdfs:label>
         <obo:IAO_0000115>Exact synonym.</obo:IAO_0000115>
     </owl:AnnotationProperty>
@@ -94,6 +96,50 @@
     ///////////////////////////////////////////////////////////////////////////////////////
      -->
 
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DOID_1059 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_1059">
+        <rdfs:label xml:lang="en">intellectual disability</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_4"/>
+        <oboInOwl:hasDbXref>SNOMEDCT_US_2023_03_01:1855002</oboInOwl:hasDbXref>
+        <obo:IAO_0000115 xml:lang="en">A specific developmental disorder that involves significant limitations both in mental functioning and in adaptive behavior such as communicating, taking care of him or herself, and social skills.</obo:IAO_0000115>
+        <oboInOwl:hasOBONamespace>disease_ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasDbXref>NCI:C84392</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>UMLS_CUI:C0025362</oboInOwl:hasDbXref>
+        <oboInOwl:id>DOID:1059</oboInOwl:id>
+        <rdfs:comment xml:lang="en">OMIM mapping submitted by NeuroDevNet. [LS].</rdfs:comment>
+        <oboInOwl:hasRelatedSynonym xml:lang="en">mental retardation</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/doid#DO_FlyBase_slim"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/doid#NCIthesaurus"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/doid.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DOID_12169 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_12169">
+        <rdfs:label xml:lang="en">carpal tunnel syndrome</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_4"/>
+        <oboInOwl:hasDbXref>ICD10CM:G56.0</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>MESH:D002349</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>SNOMEDCT_US_2023_03_01:193126005</oboInOwl:hasDbXref>
+        <obo:IAO_0000115 xml:lang="en">A nerve compression syndrome characterized by pressure on the median nerve at the wrist resulting in numbness, tingling, pain, and muscle weakness in the hand and forearm.</obo:IAO_0000115>
+        <oboInOwl:id>DOID:12169</oboInOwl:id>
+        <oboInOwl:hasExactSynonym xml:lang="en">Median nerve entrapment</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasDbXref>UMLS_CUI:C0007286</oboInOwl:hasDbXref>
+        <oboInOwl:hasOBONamespace>disease_ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasDbXref>NCI:C34450</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym xml:lang="en">CTS - Carpal tunnel syndrome</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasDbXref>MIM:PS115430</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>ICD9CM:354.0</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym xml:lang="en">carpal tunnel median neuropathy</oboInOwl:hasExactSynonym>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/doid#NCIthesaurus"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/doid.owl"/>
+    </owl:Class>
     
 
 
@@ -140,6 +186,38 @@
         <oboInOwl:hasDbXref>MESH:D019636</oboInOwl:hasDbXref>
         <oboInOwl:hasExactSynonym xml:lang="en">degenerative disease</oboInOwl:hasExactSynonym>
         <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/doid#DO_FlyBase_slim"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/doid#NCIthesaurus"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/doid.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DOID_14087 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_14087">
+        <rdfs:label xml:lang="en">epicondylitis</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_17"/>
+        <oboInOwl:hasDbXref>SNOMEDCT_US_2023_03_01:156659008</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>UMLS_CUI:C0014488</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>NCI:C35067</oboInOwl:hasDbXref>
+        <obo:IAO_0000115 xml:lang="en">A bone inflammation disease that results_in inflammation located_in epicondyle.</obo:IAO_0000115>
+        <oboInOwl:hasDbXref>MESH:D013716</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>NCI:C34589</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>SNOMEDCT_US_2023_03_01:268088003</oboInOwl:hasDbXref>
+        <oboInOwl:id>DOID:14087</oboInOwl:id>
+        <oboInOwl:hasDbXref>UMLS_CUI:C0039516</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>ICD10CM:M77.1</oboInOwl:hasDbXref>
+        <oboInOwl:hasOBONamespace>disease_ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasAlternativeId>DOID:14162</oboInOwl:hasAlternativeId>
+        <oboInOwl:hasDbXref>ICD9CM:726.32</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym xml:lang="en">Lateral epicondylitis</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="en">andrel epicondylitis</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="en">archer&#39;s elbow</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="en">golfer&#39;s elbow</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="en">hockey elbow</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="en">medial epicondylitis</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasRelatedSynonym xml:lang="en">shooter&#39;s elbow</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym xml:lang="en">tennis elbow</oboInOwl:hasRelatedSynonym>
         <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/doid#NCIthesaurus"/>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/doid.owl"/>
     </owl:Class>

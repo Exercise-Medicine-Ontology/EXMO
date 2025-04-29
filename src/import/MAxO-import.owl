@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
-<rdf:RDF xmlns="http://ontofox.hegroup.org/0k6tzag0.owl#"
-     xml:base="http://ontofox.hegroup.org/0k6tzag0.owl"
+<rdf:RDF xmlns="http://ontofox.hegroup.org/e02za5he.owl#"
+     xml:base="http://ontofox.hegroup.org/e02za5he.owl"
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
      xmlns:terms="http://purl.org/dc/terms/"
      xmlns:owl="http://www.w3.org/2002/07/owl#"
@@ -9,7 +9,7 @@
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
      xmlns:obo="http://purl.obolibrary.org/obo/"
      xmlns:dc="http://purl.org/dc/elements/1.1/">
-    <owl:Ontology rdf:about="http://ontofox.hegroup.org/0k6tzag0.owl"/>
+    <owl:Ontology rdf:about="http://ontofox.hegroup.org/e02za5he.owl"/>
     
 
 
@@ -79,6 +79,18 @@
         <obo:IAO_0000115>A clinically prescribed procedure, therapy, intervention, or recommendation.</obo:IAO_0000115>
         <oboInOwl:hasDbXref>OGMS:0000096</oboInOwl:hasDbXref>
         <oboInOwl:hasNarrowSynonym>health care process</oboInOwl:hasNarrowSynonym>
+        <terms:creator rdf:resource="http://orcid.org/0000-0001-7941-2961"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/maxo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MAXO_0000465 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MAXO_0000465">
+        <rdfs:label xml:lang="en">aquatic exercise therapy</rdfs:label>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-01-08T18:07:42Z</dc:date>
+        <obo:IAO_0000115>Therapy occuring in a pool or bath which is a low-impact activity and takes the pressure off your bones, joints, and muscles.</obo:IAO_0000115>
         <terms:creator rdf:resource="http://orcid.org/0000-0001-7941-2961"/>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/maxo.owl"/>
     </owl:Class>

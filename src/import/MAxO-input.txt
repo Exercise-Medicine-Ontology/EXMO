@@ -7,9 +7,11 @@ MAXO
 [Low level source term URIs]
 http://purl.obolibrary.org/obo/MAXO_0000900 #electrocardiogram
 http://purl.obolibrary.org/obo/MAXO_0035091 #'electromyography procedure'
+http://purl.obolibrary.org/obo/MAXO_0000465 #aquatic exercise therapy
 
 [Top level source term URIs and target direct superclass URIs]
 http://purl.obolibrary.org/obo/MAXO_0000001 #'medical action'
+http://purl.obolibrary.org/obo/MAXO_0000465 #aquatic exercise therapy
 
 [Source term retrieval setting]
 includeNoIntermediates
