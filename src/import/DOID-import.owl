@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
-<rdf:RDF xmlns="http://ontofox.hegroup.org/tfyu5s76.owl#"
-     xml:base="http://ontofox.hegroup.org/tfyu5s76.owl"
+<rdf:RDF xmlns="http://ontofox.hegroup.org/hiokcv3o.owl#"
+     xml:base="http://ontofox.hegroup.org/hiokcv3o.owl"
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
      xmlns:owl="http://www.w3.org/2002/07/owl#"
      xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#"
@@ -8,7 +8,7 @@
      xmlns:skos="http://www.w3.org/2004/02/skos/core#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
      xmlns:obo="http://purl.obolibrary.org/obo/">
-    <owl:Ontology rdf:about="http://ontofox.hegroup.org/tfyu5s76.owl"/>
+    <owl:Ontology rdf:about="http://ontofox.hegroup.org/hiokcv3o.owl"/>
     
 
 
@@ -219,6 +219,25 @@
         <oboInOwl:hasRelatedSynonym xml:lang="en">shooter&#39;s elbow</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym xml:lang="en">tennis elbow</oboInOwl:hasRelatedSynonym>
         <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/doid#NCIthesaurus"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/doid.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DOID_14107 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_14107">
+        <rdfs:label xml:lang="en">De Quervain disease</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_17"/>
+        <oboInOwl:hasDbXref>SNOMEDCT_US_2023_03_01:202905002</oboInOwl:hasDbXref>
+        <oboInOwl:id>DOID:14107</oboInOwl:id>
+        <oboInOwl:hasDbXref>MESH:D053684</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>ICD9CM:727.04</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>ICD10CM:M65.4</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym xml:lang="en">Radial styloid tenosynovitis</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>disease_ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasExactSynonym xml:lang="en">Tenosynovitis, de Quervain&#39;s</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasDbXref>UMLS_CUI:C0149870</oboInOwl:hasDbXref>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/doid.owl"/>
     </owl:Class>
     

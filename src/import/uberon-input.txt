@@ -18,7 +18,11 @@ http://purl.obolibrary.org/obo/BFO_0000004 #'independent continuant'
 includeNoIntermediates
 
 [Source annotation URIs]
-includeAllAnnotationProperties
+http://www.w3.org/2000/01/rdf-schema#label
+http://www.geneontology.org/formats/oboInOwl#id
+http://www.geneontology.org/formats/oboInOwl#hasOBONamespace
+http://purl.obolibrary.org/obo/IAO_0000115 #iao:definition
+http://purl.obolibrary.org/obo/UBPROP_0000001 #texternal_definition
 
 [Source annotation URIs to be excluded]
 http://purl.obolibrary.org/obo/IAO_0000232 #curator notes

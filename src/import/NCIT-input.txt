@@ -33,7 +33,6 @@ http://purl.obolibrary.org/obo/NCIT_C139210 #Grip Strength
 http://purl.obolibrary.org/obo/NCIT_C94250 #Overweight
 http://purl.obolibrary.org/obo/NCIT_C3283 #Obesity
 http://purl.obolibrary.org/obo/NCIT_C88164 #Cardiorespiratory Fitness
-http://purl.obolibrary.org/obo/NCIT_C18772 #Personal Medical History
 http://purl.obolibrary.org/obo/NCIT_C17049 #Race
 http://purl.obolibrary.org/obo/NCIT_C19796  #'Smoking Status'
 http://purl.obolibrary.org/obo/NCIT_C150046 #Physical Function
@@ -63,7 +62,6 @@ http://purl.obolibrary.org/obo/NCIT_C21057 #Isometric Exercise
 http://purl.obolibrary.org/obo/NCIT_C21058 #Isotonic Exercise
 http://purl.obolibrary.org/obo/NCIT_C48058 #Energy
 http://purl.obolibrary.org/obo/NCIT_C28220 #Sensor
-http://purl.obolibrary.org/obo/NCIT_C17726 #Family Medical History
 http://purl.obolibrary.org/obo/NCIT_C154225 #Stretching
 http://purl.obolibrary.org/obo/NCIT_C181501 #Muscle Endurance Measurement
 http://purl.obolibrary.org/obo/NCIT_C192423 #Squatting
@@ -81,7 +79,6 @@ http://purl.obolibrary.org/obo/NCIT_C180667 #Hiking
 http://purl.obolibrary.org/obo/NCIT_C154219 #Resistance Training
 http://purl.obolibrary.org/obo/NCIT_C94741 #Weight Lifting
 http://purl.obolibrary.org/obo/NCIT_C49835 #Ball Device
-http://purl.obolibrary.org/obo/NCIT_C94742 #Baseball
 http://purl.obolibrary.org/obo/NCIT_C81011 #Stair
 http://purl.obolibrary.org/obo/NCIT_C88163 #Treadmill
 http://purl.obolibrary.org/obo/NCIT_C110943 #Musculoskeletal Injury
@@ -89,6 +86,8 @@ http://purl.obolibrary.org/obo/NCIT_C63507 #Range of Motion
 http://purl.obolibrary.org/obo/NCIT_C87081 #Heart Rhythm
 http://purl.obolibrary.org/obo/NCIT_C93039 #Galvanic Skin Response
 http://purl.obolibrary.org/obo/NCIT_C49157 #Adjustment
+http://purl.obolibrary.org/obo/NCIT_C92851 #Postpartum
+http://purl.obolibrary.org/obo/NCIT_C124295 #Pregnant
 
 [Top level source term URIs and target direct superclass URIs]
 http://purl.obolibrary.org/obo/NCIT_C25190 #person
@@ -119,7 +118,6 @@ http://purl.obolibrary.org/obo/NCIT_C139210 #Grip Strength
 http://purl.obolibrary.org/obo/NCIT_C94250 #Overweight
 http://purl.obolibrary.org/obo/NCIT_C3283 #Obesity
 http://purl.obolibrary.org/obo/NCIT_C88164 #Cardiorespiratory Fitness
-http://purl.obolibrary.org/obo/NCIT_C18772 #Personal Medical History
 http://purl.obolibrary.org/obo/NCIT_C17049 #Race
 http://purl.obolibrary.org/obo/NCIT_C19796  #'Smoking Status'
 http://purl.obolibrary.org/obo/NCIT_C150046 #Physical Function
@@ -149,7 +147,6 @@ http://purl.obolibrary.org/obo/NCIT_C21057 #Isometric Exercise
 http://purl.obolibrary.org/obo/NCIT_C21058 #Isotonic Exercise
 http://purl.obolibrary.org/obo/NCIT_C48058 #Energy
 http://purl.obolibrary.org/obo/NCIT_C28220 #Sensor
-http://purl.obolibrary.org/obo/NCIT_C17726 #Family Medical History
 http://purl.obolibrary.org/obo/NCIT_C154225 #Stretching
 http://purl.obolibrary.org/obo/NCIT_C181501 #Muscle Endurance Measurement
 http://purl.obolibrary.org/obo/NCIT_C192423 #Squatting
@@ -167,7 +164,6 @@ http://purl.obolibrary.org/obo/NCIT_C180667 #Hiking
 http://purl.obolibrary.org/obo/NCIT_C154219 #Resistance Training
 http://purl.obolibrary.org/obo/NCIT_C94741 #Weight Lifting
 http://purl.obolibrary.org/obo/NCIT_C49835 #Ball Device
-http://purl.obolibrary.org/obo/NCIT_C94742 #Baseball
 http://purl.obolibrary.org/obo/NCIT_C81011 #Stair
 http://purl.obolibrary.org/obo/NCIT_C88163 #Treadmill
 http://purl.obolibrary.org/obo/NCIT_C110943 #Musculoskeletal Injury
@@ -175,6 +171,8 @@ http://purl.obolibrary.org/obo/NCIT_C63507 #Range of Motion
 http://purl.obolibrary.org/obo/NCIT_C87081 #Heart Rhythm
 http://purl.obolibrary.org/obo/NCIT_C93039 #Galvanic Skin Response
 http://purl.obolibrary.org/obo/NCIT_C49157 #Adjustment
+http://purl.obolibrary.org/obo/NCIT_C92851 #Postpartum
+http://purl.obolibrary.org/obo/NCIT_C124295 #Pregnant
 
 [Source term retrieval setting]
 includeNoIntermediates

@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
-<rdf:RDF xmlns="http://ontofox.hegroup.org/dn3c0xrh.owl#"
-     xml:base="http://ontofox.hegroup.org/dn3c0xrh.owl"
+<rdf:RDF xmlns="http://ontofox.hegroup.org/fcfrc82b.owl#"
+     xml:base="http://ontofox.hegroup.org/fcfrc82b.owl"
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
      xmlns:owl="http://www.w3.org/2002/07/owl#"
      xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#"
@@ -8,7 +8,7 @@
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
      xmlns:obo="http://purl.obolibrary.org/obo/">
-    <owl:Ontology rdf:about="http://ontofox.hegroup.org/dn3c0xrh.owl"/>
+    <owl:Ontology rdf:about="http://ontofox.hegroup.org/fcfrc82b.owl"/>
     
 
 
@@ -420,6 +420,34 @@
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Warm-Up</oboInOwl:hasExactSynonym>
         <obo:NCIT_P108 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Warm-Up</obo:NCIT_P108>
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Warm-Up Exercise</oboInOwl:hasExactSynonym>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C124295 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C124295">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pregnant</rdfs:label>
+        <obo:NCIT_P207 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C0549206</obo:NCIT_P207>
+        <obo:NCIT_NHC0 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C124295</obo:NCIT_NHC0>
+        <obo:NCIT_P322 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CDISC</obo:NCIT_P322>
+        <obo:NCIT_P322 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GDC</obo:NCIT_P322>
+        <obo:NCIT_P106 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Intellectual Product</obo:NCIT_P106>
+        <obo:NCIT_P325 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Observed to be or have been pregnant or positive for a pregnancy test.</obo:NCIT_P325>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Observed to be or have been pregnant.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PREGNANT</oboInOwl:hasExactSynonym>
+        <obo:NCIT_P375 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pregnancy in Patient or Partner</obo:NCIT_P375>
+        <obo:NCIT_P108 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pregnant</obo:NCIT_P108>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pregnant</oboInOwl:hasExactSynonym>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C124322"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C124323"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C157711"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C177537"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C197994"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C61410"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C77526"/>
+        <obo:NCIT_A32 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C16457"/>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
     </owl:Class>
     
@@ -976,37 +1004,6 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/NCIT_C17726 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C17726">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Family Medical History</rdfs:label>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A record of a patient&#39;s background regarding health and disease events of blood relatives. A patient&#39;s family medical history may be important in diagnosing existing conditions.</obo:IAO_0000115>
-        <obo:NCIT_P325 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A record of the relationships among family members along with their medical histories. This includes current and past illnesses. A family history may show a pattern of certain diseases in a family.</obo:NCIT_P325>
-        <obo:NCIT_P207 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C0241889</obo:NCIT_P207>
-        <obo:NCIT_NHC0 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C17726</obo:NCIT_NHC0>
-        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Epidemiology, Family Medical History</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FAMILY_HISTORY</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Family History</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Family History of</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Family Medical History</oboInOwl:hasExactSynonym>
-        <obo:NCIT_P108 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Family Medical History</obo:NCIT_P108>
-        <obo:NCIT_P366 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Family_Medical_History</obo:NCIT_P366>
-        <obo:NCIT_P106 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Group Attribute</obo:NCIT_P106>
-        <obo:NCIT_P375 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Other health problems within the family</obo:NCIT_P375>
-        <obo:NCIT_P322 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PCDC</obo:NCIT_P322>
-        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">family history</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">family medical history</oboInOwl:hasExactSynonym>
-        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C186314"/>
-        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C186342"/>
-        <obo:NCIT_A39 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C17998"/>
-        <obo:NCIT_A23 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25162"/>
-        <obo:NCIT_A39 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C49487"/>
-        <obo:NCIT_A39 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C49488"/>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/NCIT_C178017 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C178017">
@@ -1084,107 +1081,6 @@
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">High-Intensity Interval Training</oboInOwl:hasExactSynonym>
         <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C116977"/>
         <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C118169"/>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/NCIT_C18772 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C18772">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Personal Medical History</rdfs:label>
-        <obo:NCIT_P325 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A collection of information about a person&#39;s health. It may include information about allergies, illnesses and surgeries, and dates and results of physical exams, tests, screenings, and immunizations. It may also include information about medicines taken and about diet and exercise.</obo:NCIT_P325>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A record of a patient&#39;s background regarding health and the occurrence of disease events of the individual. In addition, personal medical history may be a variable in epidemiologic studies.</obo:IAO_0000115>
-        <obo:NCIT_P207 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C0262926</obo:NCIT_P207>
-        <obo:NCIT_NHC0 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C18772</obo:NCIT_NHC0>
-        <obo:NCIT_P322 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CPTAC</obo:NCIT_P322>
-        <obo:NCIT_P106 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Finding</obo:NCIT_P106>
-        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">General Medical History</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">History</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MEDICAL_HISTORY</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Medical History</oboInOwl:hasExactSynonym>
-        <obo:NCIT_P322 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NICHD</obo:NCIT_P322>
-        <obo:NCIT_P322 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PCDC</obo:NCIT_P322>
-        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMH</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Past Medical History</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Personal History</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Personal Medical History</oboInOwl:hasExactSynonym>
-        <obo:NCIT_P108 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Personal Medical History</obo:NCIT_P108>
-        <obo:NCIT_P366 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Personal_Medical_History</obo:NCIT_P366>
-        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">personal health record</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">personal history</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">personal medical history</oboInOwl:hasExactSynonym>
-        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C156952"/>
-        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C156953"/>
-        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C156954"/>
-        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C173201"/>
-        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C174018"/>
-        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C174239"/>
-        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C174251"/>
-        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C177384"/>
-        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C177391"/>
-        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C178102"/>
-        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C178117"/>
-        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C186315"/>
-        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C186342"/>
-        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C89506"/>
-        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C90259"/>
-        <obo:NCIT_A39 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C114357"/>
-        <obo:NCIT_A34 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C122805"/>
-        <obo:NCIT_A26 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C142099"/>
-        <obo:NCIT_A34 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C17649"/>
-        <obo:NCIT_A26 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C17649"/>
-        <obo:NCIT_A39 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C17649"/>
-        <obo:NCIT_A34 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C17998"/>
-        <obo:NCIT_A26 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C17998"/>
-        <obo:NCIT_A39 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C17998"/>
-        <obo:NCIT_A36 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C17998"/>
-        <obo:NCIT_A39 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C185318"/>
-        <obo:NCIT_A23 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25162"/>
-        <obo:NCIT_A39 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C26714"/>
-        <obo:NCIT_A39 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C26746"/>
-        <obo:NCIT_A34 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C26900"/>
-        <obo:NCIT_A39 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C26915"/>
-        <obo:NCIT_A39 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C27191"/>
-        <obo:NCIT_A39 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C2892"/>
-        <obo:NCIT_A39 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C2969"/>
-        <obo:NCIT_A39 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C2986"/>
-        <obo:NCIT_A39 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C2993"/>
-        <obo:NCIT_A39 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C3071"/>
-        <obo:NCIT_A39 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C3138"/>
-        <obo:NCIT_A39 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C3201"/>
-        <obo:NCIT_A39 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C3243"/>
-        <obo:NCIT_A39 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C3346"/>
-        <obo:NCIT_A39 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C34415"/>
-        <obo:NCIT_A39 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C3447"/>
-        <obo:NCIT_A39 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C34649"/>
-        <obo:NCIT_A39 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C34666"/>
-        <obo:NCIT_A39 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C34700"/>
-        <obo:NCIT_A34 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C34752"/>
-        <obo:NCIT_A29 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C3476"/>
-        <obo:NCIT_A39 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C3476"/>
-        <obo:NCIT_A39 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C34854"/>
-        <obo:NCIT_A39 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C3718"/>
-        <obo:NCIT_A26 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C43224"/>
-        <obo:NCIT_A36 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C43224"/>
-        <obo:NCIT_A39 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C43234"/>
-        <obo:NCIT_A26 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C43234"/>
-        <obo:NCIT_A36 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C48660"/>
-        <obo:NCIT_A29 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C62505"/>
-        <obo:NCIT_A39 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C84641"/>
-        <obo:NCIT_A39 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C84652"/>
-        <obo:NCIT_A39 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C84668"/>
-        <obo:NCIT_A39 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C84725"/>
-        <obo:NCIT_A39 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C84892"/>
-        <obo:NCIT_A29 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C8493"/>
-        <obo:NCIT_A39 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C8494"/>
-        <obo:NCIT_A29 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C8494"/>
-        <obo:NCIT_A39 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C8495"/>
-        <obo:NCIT_A34 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C85178"/>
-        <obo:NCIT_A39 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C87069"/>
-        <obo:NCIT_A39 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C87175"/>
-        <obo:NCIT_A39 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C88541"/>
-        <obo:NCIT_A39 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C98889"/>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
     </owl:Class>
     
@@ -2124,6 +2020,21 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/NCIT_C92851 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C92851">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Postpartum</rdfs:label>
+        <obo:NCIT_P207 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C0034042</obo:NCIT_P207>
+        <obo:NCIT_NHC0 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C92851</obo:NCIT_NHC0>
+        <obo:NCIT_P108 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Postpartum</obo:NCIT_P108>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Postpartum</oboInOwl:hasExactSynonym>
+        <obo:NCIT_P106 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Temporal Concept</obo:NCIT_P106>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The period of time immediately after labor and delivery.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/NCIT_C93039 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C93039">
@@ -2264,21 +2175,6 @@
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Weight Lifting</oboInOwl:hasExactSynonym>
         <obo:NCIT_P108 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Weight Lifting</obo:NCIT_P108>
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Weight Training</oboInOwl:hasExactSynonym>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/NCIT_C94742 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C94742">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Baseball</rdfs:label>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A team sport played with a bat and ball by 2 teams of 9 players.</obo:IAO_0000115>
-        <obo:NCIT_P108 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Baseball</obo:NCIT_P108>
-        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Baseball</oboInOwl:hasExactSynonym>
-        <obo:NCIT_P207 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C0004795</obo:NCIT_P207>
-        <obo:NCIT_NHC0 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C94742</obo:NCIT_NHC0>
-        <obo:NCIT_P106 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Daily or Recreational Activity</obo:NCIT_P106>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
     </owl:Class>
     

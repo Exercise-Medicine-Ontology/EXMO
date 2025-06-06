@@ -1,0 +1,204 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://ontofox.hegroup.org/b8s8xwvw.owl#"
+     xml:base="http://ontofox.hegroup.org/b8s8xwvw.owl"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:obo="http://purl.obolibrary.org/obo/"
+     xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <owl:Ontology rdf:about="http://ontofox.hegroup.org/b8s8xwvw.owl"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/SCDO_1000288">
+        <rdfs:label>existence in other ontologies</rdfs:label>
+        <obo:IAO_0000115>An indication of whether a term/class already exists in other ontologies. Only used for term (descriptions) that were not taken directly from an existing ontology.</obo:IAO_0000115>
+        <dc:creator>SCDO (Jade Hotchkiss)</dc:creator>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2004/02/skos/core#prefLabel">
+        <rdfs:label>skos:prefLabel</rdfs:label>
+        <obo:SCDO_0000363>yes</obo:SCDO_0000363>
+        <obo:IAO_0000115>A preferred label.</obo:IAO_0000115>
+        <obo:SCDO_0000929>pending vetting by the SCDO developers</obo:SCDO_0000929>
+        <obo:SCDO_0000340 rdf:resource="http://www.w3.org/2004/02/skos/core#prefLabel"/>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000412">
+        <rdfs:label xml:lang="en">imported from</rdfs:label>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000115">
+        <rdfs:label>definition</rdfs:label>
+        <obo:SCDO_0000363>no</obo:SCDO_0000363>
+        <obo:IAO_0000115>The official definition, explaining the meaning of a class or property. Shall be Aristotelian, formalized and normalized. Can be augmented with colloquial definitions.</obo:IAO_0000115>
+        <obo:SCDO_0000340 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasDbXref">
+        <rdfs:label>database cross reference</rdfs:label>
+        <oboInOwl:hasDbXref>SBO:0000554</oboInOwl:hasDbXref>
+        <obo:SCDO_0000929>metadata complete - requires restrictions and relationships</obo:SCDO_0000929>
+        <oboInOwl:hasExactSynonym>database cross-reference</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>db xref</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>DbXref</oboInOwl:hasExactSynonym>
+        <obo:IAO_0000115>A database cross-reference. An annotation which directs one to information contained within a database.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>Xref</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>hasDbXref</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>database_cross_reference</oboInOwl:hasExactSynonym>
+        <obo:SCDO_0000340 rdf:resource="http://www.ebi.ac.uk/sbo/main/SBO:0000554"/>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/SCDO_0000303">
+        <rdfs:label>curator note</rdfs:label>
+        <obo:SCDO_0000929>organizational term</obo:SCDO_0000929>
+        <obo:IAO_0000115>An administrative note of use for a curator but of no use for a user.</obo:IAO_0000115>
+        <oboInOwl:hasDbXref>IAO:0000232</oboInOwl:hasDbXref>
+        <obo:SCDO_0000363>no</obo:SCDO_0000363>
+        <oboInOwl:hasExactSynonym>editor_notes</oboInOwl:hasExactSynonym>
+        <obo:SCDO_0000340 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000232"/>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/SCDO_0000363">
+        <rdfs:label>description adapted from source</rdfs:label>
+        <obo:SCDO_0000303>Requested inclusion of this property into RO. Check details here again after inclusion.</obo:SCDO_0000303>
+        <obo:SCDO_0000929>metadata complete - requires restrictions and relationships</obo:SCDO_0000929>
+        <dc:creator>SCDO</dc:creator>
+        <obo:IAO_0000115>An assertion of whether or not the term/class description is an adaptation of the description in the description source.</obo:IAO_0000115>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/SCDO_0000340">
+        <rdfs:label>definition source</rdfs:label>
+        <obo:SCDO_0000929>metadata complete - requires restrictions and relationships</obo:SCDO_0000929>
+        <obo:SCDO_0000363>yes</obo:SCDO_0000363>
+        <obo:IAO_0000115>A source from where the formal description was derived. This can be in the form of a link to a relevant webpage, the IRI of a term in an existing ontology, a reference to specific literature, etc.</obo:IAO_0000115>
+        <skos:prefLabel>description source</skos:prefLabel>
+        <oboInOwl:hasDbXref>IAO:0000119</oboInOwl:hasDbXref>
+        <obo:SCDO_0000340 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000119"/>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym">
+        <rdfs:label>hasExactSynonym</rdfs:label>
+        <obo:SCDO_0000929>pending vetting by the SCDO developers</obo:SCDO_0000929>
+        <obo:SCDO_0000363>no</obo:SCDO_0000363>
+        <obo:IAO_0000115>An alias in which the alias exhibits true synonymy. Example: ornithine cycle is an exact synonym of urea cycle.</obo:IAO_0000115>
+        <obo:SCDO_0000340 rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+    </owl:AnnotationProperty>
+    <rdf:Description rdf:about="http://www.w3.org/2000/01/rdf-schema#label">
+        <rdfs:label>rdfs:label</rdfs:label>
+        <obo:IAO_0000115>A human-readable name for the class/term.</obo:IAO_0000115>
+        <obo:SCDO_0000363>yes</obo:SCDO_0000363>
+        <obo:SCDO_0000340 rdf:resource="http://www.w3.org/2000/01/rdf-schema#label"/>
+    </rdf:Description>
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/SCDO_0000929">
+        <rdfs:label>property has curation status</rdfs:label>
+        <obo:IAO_0000115>Description inherent in name (not provided by source)</obo:IAO_0000115>
+        <obo:SCDO_0000363>Only label adapted</obo:SCDO_0000363>
+        <obo:SCDO_0000929>organizational term</obo:SCDO_0000929>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/SCDO_1000910">
+        <rdfs:label>previous identifier</rdfs:label>
+        <dc:creator>SCDO (Jade Hotchkiss)</dc:creator>
+        <obo:IAO_0000115>Used to record the identifier that had been used previously but is no longer in use.</obo:IAO_0000115>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/creator">
+        <rdfs:label>dc:creator</rdfs:label>
+        <skos:prefLabel>Creator</skos:prefLabel>
+        <obo:SCDO_0000929>ready for release</obo:SCDO_0000929>
+        <obo:IAO_0000115>An entity primarily responsible for making the resource. (This property is used in the SCDO when a term was created by the SCDO Working Group or a curator.) The SCDO uses this especially to apply to term descriptions.</obo:IAO_0000115>
+        <obo:SCDO_0000363>no</obo:SCDO_0000363>
+        <obo:SCDO_0000340 rdf:resource="http://purl.org/dc/terms/creator"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Datatypes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SCDO_1000755 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SCDO_1000755">
+        <rdfs:label>Oral Temperature</rdfs:label>
+        <obo:SCDO_1000910>SCDO:1000755</obo:SCDO_1000910>
+        <obo:SCDO_1000288>Sufficient</obo:SCDO_1000288>
+        <oboInOwl:hasDbXref>VSO:0000025</oboInOwl:hasDbXref>
+        <obo:IAO_0000115>The temperature of the oral cavity.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>Oral Body Temperature</oboInOwl:hasExactSynonym>
+        <obo:SCDO_0000340 rdf:resource="http://purl.obolibrary.org/obo/VSO_0000025"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/scdo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SCDO_1000756 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SCDO_1000756">
+        <rdfs:label>Tympanic Temperature</rdfs:label>
+        <oboInOwl:hasExactSynonym>Tympanic Body Temperature</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Tympanic (ear) Temperature</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasDbXref>VSO:0000045</oboInOwl:hasDbXref>
+        <obo:SCDO_1000288>Sufficient</obo:SCDO_1000288>
+        <obo:SCDO_1000910>SCDO:1000756</obo:SCDO_1000910>
+        <obo:IAO_0000115>The temperature of the external acoustic tube.</obo:IAO_0000115>
+        <obo:SCDO_0000340 rdf:resource="http://purl.obolibrary.org/obo/VSO_0000045"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/scdo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SCDO_1000757 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SCDO_1000757">
+        <rdfs:label>Rectal Temperature</rdfs:label>
+        <oboInOwl:hasDbXref>VSO:0000033</oboInOwl:hasDbXref>
+        <obo:SCDO_1000288>Sufficient</obo:SCDO_1000288>
+        <obo:SCDO_1000910>SCDO:1000757</obo:SCDO_1000910>
+        <oboInOwl:hasExactSynonym>Rectal Body Temperature</oboInOwl:hasExactSynonym>
+        <obo:IAO_0000115>The temperature of the lumen of the rectum.</obo:IAO_0000115>
+        <obo:SCDO_0000340 rdf:resource="http://purl.obolibrary.org/obo/VSO_0000033"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/scdo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SCDO_1000758 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SCDO_1000758">
+        <rdfs:label>Axillary Temperature</rdfs:label>
+        <oboInOwl:hasExactSynonym>Axillary (armpit) Temperature</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Armpit Temperature</oboInOwl:hasExactSynonym>
+        <obo:SCDO_1000910>SCDO:1000758</obo:SCDO_1000910>
+        <oboInOwl:hasDbXref>VSO:0000003</oboInOwl:hasDbXref>
+        <obo:IAO_0000115>The temperature of the axillary fossa.</obo:IAO_0000115>
+        <obo:SCDO_1000288>Sufficient</obo:SCDO_1000288>
+        <obo:SCDO_0000340 rdf:resource="http://purl.obolibrary.org/obo/VSO_0000003"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/scdo.owl"/>
+    </owl:Class>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 3.2.4.1806) http://owlapi.sourceforge.net -->
+

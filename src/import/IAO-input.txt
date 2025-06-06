@@ -2,21 +2,20 @@
 
 
 [Source ontology]
-OPMI
+IAO
 
 [Low level source term URIs]
-http://purl.obolibrary.org/obo/OPMI_0000161 #'birth weight'
+http://purl.obolibrary.org/obo/IAO_0000109 #measurement datum
+http://purl.obolibrary.org/obo/IAO_0000030 #information content entity
 
 [Top level source term URIs and target direct superclass URIs]
-http://purl.obolibrary.org/obo/OPMI_0000160 #'body weight'
+http://purl.obolibrary.org/obo/BFO_0000031 #generically dependent continuant
 
 [Source term retrieval setting]
 includeNoIntermediates
 
 [Source annotation URIs]
-http://www.w3.org/2000/01/rdf-schema#label
-http://www.geneontology.org/formats/oboInOwl#id
-http://purl.obolibrary.org/obo/IAO_0000115 #texternal_definition
+includeAllAxioms
 
 [Source annotation URIs to be excluded]
 http://purl.obolibrary.org/obo/IAO_0000116 #editor note

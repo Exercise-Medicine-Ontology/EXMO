@@ -1,0 +1,139 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://ontofox.hegroup.org/fiajcqn8.owl#"
+     xml:base="http://ontofox.hegroup.org/fiajcqn8.owl"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:terms="http://purl.org/dc/terms/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:obo="http://purl.obolibrary.org/obo/"
+     xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <owl:Ontology rdf:about="http://ontofox.hegroup.org/fiajcqn8.owl"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym">
+        <rdfs:label>has_exact_synonym</rdfs:label>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/creator"/>
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000412">
+        <rdfs:label xml:lang="en">imported from</rdfs:label>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000115">
+        <rdfs:label>definition</rdfs:label>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasDbXref">
+        <rdfs:label>database_cross_reference</rdfs:label>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym">
+        <rdfs:label>has_related_synonym</rdfs:label>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2000/01/rdf-schema#label"/>
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/date"/>
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#id"/>
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/date"/>
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2000/01/rdf-schema#comment"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Datatypes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0002686 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0002686">
+        <rdfs:label>Pregnancy history</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0032443"/>
+        <obo:IAO_0000115>Medical history of maternal diseases, exposures, or other relevant findings during the pregnancy of which the index person was the product.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>Prenatal maternal abnormality</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasRelatedSynonym>Maternal health problem</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasDbXref>UMLS:C4025690</oboInOwl:hasDbXref>
+        <oboInOwl:id>HP:0002686</oboInOwl:id>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/hp.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0032316 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0032316">
+        <rdfs:label>Family history</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0032443"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-02-14T11:40:50Z</dc:date>
+        <obo:IAO_0000115>Information about close relatives of an individual who is the proband of a study or who is being investigated with the goal of identifying a medical diagnosis. Usually, the family history includes information from three generations of relatives, including children, brothers and sisters, parents, aunts and uncles, nieces and nephews, grandparents, and cousins.</obo:IAO_0000115>
+        <rdfs:comment>This subontology is intended to help record summary information about family members if only a limited amount of information is available or required.</rdfs:comment>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/hp.owl"/>
+        <terms:creator rdf:resource="https://orcid.org/0000-0002-0736-9199"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0032443 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0032443">
+        <rdfs:label>Past medical history</rdfs:label>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-03-03T16:39:26Z</dc:date>
+        <obo:IAO_0000115>In a medical encounter, the physician generally will interview the patient about his or her current problem, and may perform additional testing. The past medical history (PMH) in contrast records information about the patient&#39;s medical, personal and family history that might be relevant to the presenting illness or to provide optimal clinical management. The PMH generally includes (if relevant) other major illnesses, hospitalizations, surgeries, injuries, allergies, gynecologic and obstetric history, family history, personal history including occupational history, alcohol and drug use, etc.</obo:IAO_0000115>
+        <rdfs:comment>This subontology of the HPO is not intended to provide all needed terms to describe the past medical history, but rather to be combined with other ontologies such as MONDO in order to capture information that is often needed to properly assess phenotypic findings related to a presenting medical problem.</rdfs:comment>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/hp.owl"/>
+        <terms:creator rdf:resource="https://orcid.org/0000-0002-0736-9199"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0040406 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0040406">
+        <rdfs:label>Perimenopausal</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0032443"/>
+        <terms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-01-02T13:17:13Z</terms:date>
+        <obo:IAO_0000115>Perimenopause, or the menopausal transition, encompasses that period of time during which physiologic changes mark progression toward a woman&#39;s final menstrual period. This phase begins with the onset of menstrual irregularities and continues until a woman reaches menopause, or one year after amenorrhea has occurred. Perimenopause can last for a variable amount of time, the median of which is four years.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/hp.owl"/>
+        <terms:creator rdf:resource="https://orcid.org/0000-0002-0736-9199"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_4000112 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_4000112">
+        <rdfs:label>Medication history</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0032443"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-01-17T09:25:01Z</dc:date>
+        <obo:IAO_0000115>Information about current or past medications taken by an individual.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/hp.owl"/>
+    </owl:Class>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 3.2.4.1806) http://owlapi.sourceforge.net -->
+

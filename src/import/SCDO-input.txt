@@ -1,0 +1,26 @@
+[URI of the OWL(RDF/XML) output file]
+
+
+[Source ontology]
+SCDO
+
+[Low level source term URIs]
+http://purl.obolibrary.org/obo/SCDO_1000758 #Axillary Temperature
+http://purl.obolibrary.org/obo/SCDO_1000755 #Oral Temperature
+http://purl.obolibrary.org/obo/SCDO_1000757 #Rectal Temperature
+http://purl.obolibrary.org/obo/SCDO_1000756 #Tympanic Temperature
+
+[Top level source term URIs and target direct superclass URIs]
+http://purl.obolibrary.org/obo/SCDO_1000758 #Axillary Temperature
+http://purl.obolibrary.org/obo/SCDO_1000755 #Oral Temperature
+http://purl.obolibrary.org/obo/SCDO_1000757 #Rectal Temperature
+http://purl.obolibrary.org/obo/SCDO_1000756 #Tympanic Temperature
+
+[Source term retrieval setting]
+includeNoIntermediates
+
+[Source annotation URIs]
+includeAllAnnotationProperties
+
+[Source annotation URIs to be excluded]
+http://purl.obolibrary.org/obo/SCDO_1000910 #previous identifier

@@ -1,0 +1,22 @@
+[URI of the OWL(RDF/XML) output file]
+
+
+[Source ontology]
+HP
+
+[Low level source term URIs]
+http://purl.obolibrary.org/obo/HP_0040406 #Perimenopausal
+http://purl.obolibrary.org/obo/HP_0032316 #Family history
+http://purl.obolibrary.org/obo/HP_4000112 #Medication history
+http://purl.obolibrary.org/obo/HP_0002686 #Pregnancy history
+
+[Top level source term URIs and target direct superclass URIs]
+http://purl.obolibrary.org/obo/HP_0032443 #Past medical history
+
+[Source term retrieval setting]
+includeNoIntermediates
+
+[Source annotation URIs]
+includeAllAxioms
+
+[Source annotation URIs to be excluded]
