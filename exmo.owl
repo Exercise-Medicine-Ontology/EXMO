@@ -25,7 +25,7 @@
      xmlns:schema="https://schema.org/"
      xmlns:protege="http://protege.stanford.edu/plugins/owl/protege#"
      xmlns:subsets="http://purl.obolibrary.org/obo/ro/subsets#"
-     xmlns:Property="https://www.wikidata.org/wiki/Property:"
+        xmlns:property="https://www.wikidata.org/wiki/Property:"
      xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#"
      xmlns:owlready_ontology="http://www.lesfleursdunormal.fr/static/_downloads/owlready_ontology.owl#">
     <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/exmo.owl">
@@ -2350,7 +2350,7 @@ Where we have an annotation assertion
         <owlready_ontology:python_name xml:lang="en">library_of_congress_subject_headings</owlready_ontology:python_name>
         <rdfs:label xml:lang="en">Library of Congress Subject Headings</rdfs:label>
         <owl:equivalentProperty rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://purl.org/dc/terms/LCSH</owl:equivalentProperty>
-        <Property:P214 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://viaf.org/viaf/174475040</Property:P214>
+        <property:P214 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://viaf.org/viaf/174475040</property:P214>
     </owl:AnnotationProperty>
     
 
@@ -20208,7 +20208,7 @@ A chemical with no chiral centers can not have an enantiomer. A chemical with mu
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/gsso.owl"/>
         <rdfs:label xml:lang="en">cognitive function</rdfs:label>
         <schema:alternateName xml:lang="en">cognitive functions</schema:alternateName>
-        <Property:P5191 rdf:resource="http://semanticscience.org/resource/SIO_000017"/>
+        <property:P5191 rdf:resource="http://semanticscience.org/resource/SIO_000017"/>
     </owl:Class>
     
 
@@ -20224,9 +20224,9 @@ A chemical with no chiral centers can not have an enantiomer. A chemical with mu
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.wikidata.org/wiki/Q1179623</oboInOwl:hasDbXref>
         <oboInOwl:hasRelatedSynonym xml:lang="en">physical handicap</oboInOwl:hasRelatedSynonym>
         <rdfs:label xml:lang="en">physical disability</rdfs:label>
-        <Property:P3201 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://purl.bioontology.org/ontology/MEDDRA/10048624</Property:P3201>
-        <Property:P5191 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C21007"/>
-        <Property:P5191 xml:lang="en">physical</Property:P5191>
+        <property:P3201 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://purl.bioontology.org/ontology/MEDDRA/10048624</property:P3201>
+        <property:P5191 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C21007"/>
+        <property:P5191 xml:lang="en">physical</property:P5191>
     </owl:Class>
     
 
@@ -20243,11 +20243,11 @@ A chemical with no chiral centers can not have an enantiomer. A chemical with mu
         <rdfs:label xml:lang="en">glove</rdfs:label>
         <schema:alternateName xml:lang="en">gloves</schema:alternateName>
         <wiki:Q1823134 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://id.loc.gov/authorities/subjects/sh85055348</wiki:Q1823134>
-        <Property:P1149>GT2170</Property:P1149>
-        <Property:P1149>TS2160</Property:P1149>
-        <Property:P1149>TT666</Property:P1149>
-        <Property:P5191 xml:lang="ang">glóf</Property:P5191>
-        <Property:P5806 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://purl.bioontology.org/ontology/SNOMEDCT/52291003</Property:P5806>
+        <property:P1149>GT2170</property:P1149>
+        <property:P1149>TS2160</property:P1149>
+        <property:P1149>TT666</property:P1149>
+        <property:P5191 xml:lang="ang">glóf</property:P5191>
+        <property:P5806 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://purl.bioontology.org/ontology/SNOMEDCT/52291003</property:P5806>
     </owl:Class>
     
 
@@ -20261,7 +20261,7 @@ A chemical with no chiral centers can not have an enantiomer. A chemical with mu
         <rdfs:label xml:lang="en">athlete</rdfs:label>
         <schema:alternateName xml:lang="en">athletes</schema:alternateName>
         <wiki:Q1823134 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://id.loc.gov/authorities/subjects/sh85009135</wiki:Q1823134>
-        <Property:P1149>GV697</Property:P1149>
+        <property:P1149>GV697</property:P1149>
     </owl:Class>
     
 
@@ -20275,7 +20275,7 @@ A chemical with no chiral centers can not have an enantiomer. A chemical with mu
         <rdfs:label xml:lang="en">person with a physical disability</rdfs:label>
         <schema:alternateName xml:lang="en">people with physical disabilities</schema:alternateName>
         <schema:alternateName xml:lang="en">persons with physical disabilities</schema:alternateName>
-        <Property:P5191 rdf:resource="http://purl.obolibrary.org/obo/GSSO_001811"/>
+        <property:P5191 rdf:resource="http://purl.obolibrary.org/obo/GSSO_001811"/>
     </owl:Class>
     
 
@@ -20290,8 +20290,8 @@ A chemical with no chiral centers can not have an enantiomer. A chemical with mu
         <rdfs:label xml:lang="en">pregnant woman</rdfs:label>
         <schema:alternateName xml:lang="en">pregnant women</schema:alternateName>
         <wiki:Q1823134 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://id.loc.gov/authorities/subjects/sh85106300</wiki:Q1823134>
-        <Property:P5191 rdf:resource="http://purl.obolibrary.org/obo/GSSO_000369"/>
-        <Property:P5806 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://purl.bioontology.org/ontology/SNOMEDCT/255409004</Property:P5806>
+        <property:P5191 rdf:resource="http://purl.obolibrary.org/obo/GSSO_000369"/>
+        <property:P5806 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://purl.bioontology.org/ontology/SNOMEDCT/255409004</property:P5806>
     </owl:Class>
     
 
@@ -25655,4 +25655,3 @@ No imports</obo:IAO_0000115>
 
 
 <!-- Generated by the OWL API (version 4.5.26.2023-07-17T20:34:13Z) https://github.com/owlcs/owlapi -->
-
